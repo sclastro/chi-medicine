@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro'
 import { QuizCards } from '../../components/react/QuizCards'
-import { foundations } from '../../data'
+import { foundations, getChapter, isChapterReady } from '../../data'
 
 export function getStaticPaths() {
   return foundations.map(t => ({ params: { topic: t.id }, props: { topic: t } }))
@@ -28,11 +28,16 @@ const next = idx < foundations.length - 1 ? foundations[idx + 1] : null
             {s.refs?.length ? (
               <p class="text-xs mt-2 space-x-3">
                 <span class="text-gray-400">原文出處：</span>
-                {s.refs.map(r => (
-                  <a href={`/classics/${r.bookId}/${r.chapterId}`} class="text-amber-700 hover:underline">
-                    {r.label}
-                  </a>
-                ))}
+                {s.refs.map(r => {
+                  const ch = getChapter(r.bookId, r.chapterId)
+                  return ch && isChapterReady(ch) ? (
+                    <a href={`/classics/${r.bookId}/${r.chapterId}`} class="text-amber-700 hover:underline">
+                      {r.label}
+                    </a>
+                  ) : (
+                    <span class="text-gray-400">{r.label}（待補）</span>
+                  )
+                })}
               </p>
             ) : null}
           </section>
