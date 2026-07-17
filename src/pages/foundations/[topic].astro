@@ -24,7 +24,7 @@ const next = idx < foundations.length - 1 ? foundations[idx + 1] : null
         {topic.sections.map(s => (
           <section class="mb-8">
             <h2 class="font-semibold text-amber-900 mb-2">{s.heading}</h2>
-            <div class="text-[15px] text-gray-700 leading-relaxed whitespace-pre-line">{s.body}</div>
+            <div class="text-gray-700 leading-relaxed whitespace-pre-line">{s.body}</div>
             {s.refs?.length ? (
               <p class="text-xs mt-2 space-x-3">
                 <span class="text-gray-400">原文出處：</span>

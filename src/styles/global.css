@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* 閱讀型網站行大字:全站基礎字號加大(rem 基準,Tailwind 各級同步放大) */
+html {
+  font-size: 109.375%; /* 17.5px */
+}
+
 /* 朗讀掣聲波動畫(SpeakButton) */
 @keyframes speakWave {
   0%, 100% { opacity: 0.25; }

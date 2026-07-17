@@ -34,15 +34,15 @@ const path = Astro.url.pathname
   </head>
   <body class="min-h-screen bg-white text-gray-900 flex flex-col">
     <header class="border-b border-gray-200">
-      <div class="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
-        <a href="/" class="font-bold text-amber-900 shrink-0">岐黃入門</a>
-        <nav class="flex items-center gap-1 sm:gap-2 text-sm overflow-x-auto" aria-label="主導覽">
+      <div class="max-w-3xl mx-auto px-3 sm:px-4 h-14 flex items-center justify-between gap-2">
+        <a href="/" class="font-bold text-amber-900 shrink-0 text-[15px] sm:text-base">岐黃入門</a>
+        <nav class="flex items-center gap-0 sm:gap-2 text-[13px] sm:text-sm overflow-x-auto" aria-label="主導覽">
           {
             nav.map(item => (
               <a
                 href={item.href}
                 aria-current={path.startsWith(item.href) ? 'page' : undefined}
-                class={`px-2 py-1.5 rounded-md whitespace-nowrap transition-colors ${
+                class={`px-1.5 sm:px-2 py-1.5 rounded-md whitespace-nowrap transition-colors ${
                   path.startsWith(item.href)
                     ? 'text-amber-900 bg-amber-50 font-semibold'
                     : 'text-gray-600 hover:text-amber-800 hover:bg-amber-50'
