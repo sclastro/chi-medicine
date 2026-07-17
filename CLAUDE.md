@@ -99,7 +99,10 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
 
 ## 進度
 
-- **批次 1（骨架）**：本批 —— Astro scaffold、型別、資料層+測試、TTS 三層鏈、全部頁面、Pagefind、favicon
-- 批次 2：基礎理論 8 篇內容＋quiz（進行中/待做）
-- 批次 3：素問批一 8 篇（原文校對＋白話＋難字註＋導讀＋quiz）
-- 批次 4：素問批二 10 篇；批次 5：辭典＋資源頁充實;批次 6：進度/書籤（lib/progress.ts 型別已備）
+- **批次 1（骨架）完成**：Astro scaffold、型別、資料層+測試、TTS 三層鏈、全部頁面、Pagefind、favicon
+- **批次 2 完成**：基礎理論 8 篇內容＋quiz 43 條＋refs 待補優雅降級；全站字體加大(基準 17.5px、原文 text-xl)
+- **批次 3 完成**：素問批一 8 篇全數入庫(1/2/3/4/5/8/9/11,共 ~8700 字原文、102 段文白對讀+難字註+導讀+quiz)
+  - **原文底本**:中醫笈成(jicheng.tw,顧從德翻刻宋本+今版標點),整頁 HTML 內含全書,以 scratchpad `gen_suwen`/抽取腳本取篇、剔除卷末音釋、規範用字(臟→藏、其谷→穀、云→雲、咸→鹹等,向 ctext 靠齊),曾以 ctext 抽查對照
+  - **內容注入流程**:spec 檔(`scratchpad/spec_NN.cjs`)以「切點標記」切原文(唔重新打字),`apply_suwen.cjs` 逐字校驗(切段串接===底本)+難字在段內檢查後先寫入 suwen.json。**補批二(10/12/14/17/21/25/39/42/43/44)沿用此流程**,底本 HTML 在 scratchpad `jc_index.html`(冇咗可重新 curl)
+- 批次 4：素問批二 10 篇;批次 5：辭典＋資源頁充實;批次 6：進度/書籤（lib/progress.ts 型別已備）
+- 白話/難字註全部 `contentStatus:'draft'`,人審後改 reviewed;UI 不顯示標示
