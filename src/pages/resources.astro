@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro'
+
+// 延伸資源:唔重複造輪 —— 人哋做得世界級嘅嘢,直接導航過去,並講明「幾時用得着」。
+const groups = [
+  {
+    heading: '古籍原文',
+    items: [
+      {
+        name: '中國哲學書電子化計劃（ctext.org）',
+        url: 'https://ctext.org/huangdi-neijing/zh',
+        desc: '《黃帝內經》等歷代典籍全文，逐字可查字典，附底本掃描。本站原文以此校對。',
+        when: '想讀本站未收錄篇章的原文時',
+      },
+      {
+        name: '中醫笈成',
+        url: 'https://jicheng.tw/tcm/',
+        desc: '收錄逾千部中醫古籍的電子文庫，檢索方便。',
+        when: '想查某部冷門醫籍時',
+      },
+      {
+        name: '中大中醫古典文庫（傷寒五書譯釋）',
+        url: 'https://www.scm.cuhk.edu.hk/zh-tw/elearning-platform/',
+        desc: '中大中醫學院將《活人書》《傷寒來蘇集》等五部傷寒學著作譯釋電子化。',
+        when: 'Year 2–3 讀傷寒論時的延伸閱讀',
+      },
+    ],
+  },
+  {
+    heading: '中藥與方劑（Year 2 起用得着）',
+    items: [
+      {
+        name: '浸大中藥材圖像數據庫',
+        url: 'https://library.hkbu.edu.hk/electronic/libdbs/mmd/index.html',
+        desc: '四百餘種常用中藥材高清圖像，附來源、性味功效等資料。',
+        when: '讀「中藥學」認藥材時',
+      },
+      {
+        name: '浸大藥用植物圖像數據庫',
+        url: 'https://sys01.lib.hkbu.edu.hk/cmed/mpid/',
+        desc: '千餘種藥用植物，中英雙語，系統分類。',
+        when: '想追溯藥材的植物來源時',
+      },
+      {
+        name: '浸大中藥方劑圖像數據庫',
+        url: 'https://library.hkbu.edu.hk/electronic/libdbs/cmfid/index.html',
+        desc: '一百八十餘首常用方劑的分類、組成與功效。',
+        when: '讀「方劑學」時',
+      },
+    ],
+  },
+  {
+    heading: '入門與通識',
+    items: [
+      {
+        name: 'CUHK Coursera：Everyday Chinese Medicine',
+        url: 'https://www.coursera.org/learn/everyday-chinese-medicine',
+        desc: '中大醫學院製作的英文中醫入門 MOOC，動畫講解陰陽、臟腑、體質與自我保健。',
+        when: '開學前預熱英文中醫詞彙（BCM 亦有英文教材）',
+      },
+      {
+        name: '香港中文大學中醫學院',
+        url: 'https://www.scm.cuhk.edu.hk/zh-tw/',
+        desc: '課程結構、學科資訊與學院動態。',
+        when: '了解課程安排時',
+      },
+    ],
+  },
+]
+---
+
+<Base title="延伸資源" description="精選中醫學習外部資源：古籍原文、浸大中藥數據庫、中大平台，並說明何時用得着。">
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">延伸資源</h1>
+  <p class="text-gray-600 text-sm leading-relaxed mb-8">
+    坊間已有世界級的資料庫與文庫，本站不重複製作，只做好導航——每項註明「幾時用得着」。
+  </p>
+
+  {
+    groups.map(g => (
+      <section class="mb-8">
+        <h2 class="text-sm font-semibold text-gray-500 mb-3">{g.heading}</h2>
+        <div class="space-y-3">
+          {g.items.map(item => (
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-4"
+            >
+              <h3 class="text-sm font-semibold text-amber-900 mb-1">{item.name} ↗</h3>
+              <p class="text-sm text-gray-600 leading-relaxed mb-1">{item.desc}</p>
+              <p class="text-xs text-amber-700">適用時機：{item.when}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))
+  }
+</Base>

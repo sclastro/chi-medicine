@@ -1,0 +1,494 @@
+{
+  "id": "suwen",
+  "title": "黃帝內經·素問",
+  "order": 1,
+  "intro": "《素問》是《黃帝內經》兩大部分之一,共八十一篇,以黃帝與岐伯等醫家問答的形式,論述陰陽五行、藏象、氣血、經絡、病因病機、診法、治則與養生,是中醫理論的奠基之作,也是中大中醫課程「內經選讀」的核心文本。本站按初學價值精選篇章,提供原文、白話對讀、難字註與粵語朗讀;未選篇章標示「待補」,日後逐批擴充。",
+  "chapters": [
+    {
+      "id": "suwen-01",
+      "number": 1,
+      "title": "上古天真論",
+      "sections": []
+    },
+    {
+      "id": "suwen-02",
+      "number": 2,
+      "title": "四氣調神大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-03",
+      "number": 3,
+      "title": "生氣通天論",
+      "sections": []
+    },
+    {
+      "id": "suwen-04",
+      "number": 4,
+      "title": "金匱真言論",
+      "sections": []
+    },
+    {
+      "id": "suwen-05",
+      "number": 5,
+      "title": "陰陽應象大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-06",
+      "number": 6,
+      "title": "陰陽離合論",
+      "sections": []
+    },
+    {
+      "id": "suwen-07",
+      "number": 7,
+      "title": "陰陽別論",
+      "sections": []
+    },
+    {
+      "id": "suwen-08",
+      "number": 8,
+      "title": "靈蘭秘典論",
+      "sections": []
+    },
+    {
+      "id": "suwen-09",
+      "number": 9,
+      "title": "六節藏象論",
+      "sections": []
+    },
+    {
+      "id": "suwen-10",
+      "number": 10,
+      "title": "五藏生成",
+      "sections": []
+    },
+    {
+      "id": "suwen-11",
+      "number": 11,
+      "title": "五藏別論",
+      "sections": []
+    },
+    {
+      "id": "suwen-12",
+      "number": 12,
+      "title": "異法方宜論",
+      "sections": []
+    },
+    {
+      "id": "suwen-13",
+      "number": 13,
+      "title": "移精變氣論",
+      "sections": []
+    },
+    {
+      "id": "suwen-14",
+      "number": 14,
+      "title": "湯液醪醴論",
+      "sections": []
+    },
+    {
+      "id": "suwen-15",
+      "number": 15,
+      "title": "玉版論要",
+      "sections": []
+    },
+    {
+      "id": "suwen-16",
+      "number": 16,
+      "title": "診要經終論",
+      "sections": []
+    },
+    {
+      "id": "suwen-17",
+      "number": 17,
+      "title": "脈要精微論",
+      "sections": []
+    },
+    {
+      "id": "suwen-18",
+      "number": 18,
+      "title": "平人氣象論",
+      "sections": []
+    },
+    {
+      "id": "suwen-19",
+      "number": 19,
+      "title": "玉機真藏論",
+      "sections": []
+    },
+    {
+      "id": "suwen-20",
+      "number": 20,
+      "title": "三部九候論",
+      "sections": []
+    },
+    {
+      "id": "suwen-21",
+      "number": 21,
+      "title": "經脈別論",
+      "sections": []
+    },
+    {
+      "id": "suwen-22",
+      "number": 22,
+      "title": "藏氣法時論",
+      "sections": []
+    },
+    {
+      "id": "suwen-23",
+      "number": 23,
+      "title": "宣明五氣",
+      "sections": []
+    },
+    {
+      "id": "suwen-24",
+      "number": 24,
+      "title": "血氣形志",
+      "sections": []
+    },
+    {
+      "id": "suwen-25",
+      "number": 25,
+      "title": "寶命全形論",
+      "sections": []
+    },
+    {
+      "id": "suwen-26",
+      "number": 26,
+      "title": "八正神明論",
+      "sections": []
+    },
+    {
+      "id": "suwen-27",
+      "number": 27,
+      "title": "離合真邪論",
+      "sections": []
+    },
+    {
+      "id": "suwen-28",
+      "number": 28,
+      "title": "通評虛實論",
+      "sections": []
+    },
+    {
+      "id": "suwen-29",
+      "number": 29,
+      "title": "太陰陽明論",
+      "sections": []
+    },
+    {
+      "id": "suwen-30",
+      "number": 30,
+      "title": "陽明脈解",
+      "sections": []
+    },
+    {
+      "id": "suwen-31",
+      "number": 31,
+      "title": "熱論",
+      "sections": []
+    },
+    {
+      "id": "suwen-32",
+      "number": 32,
+      "title": "刺熱",
+      "sections": []
+    },
+    {
+      "id": "suwen-33",
+      "number": 33,
+      "title": "評熱病論",
+      "sections": []
+    },
+    {
+      "id": "suwen-34",
+      "number": 34,
+      "title": "逆調論",
+      "sections": []
+    },
+    {
+      "id": "suwen-35",
+      "number": 35,
+      "title": "瘧論",
+      "sections": []
+    },
+    {
+      "id": "suwen-36",
+      "number": 36,
+      "title": "刺瘧",
+      "sections": []
+    },
+    {
+      "id": "suwen-37",
+      "number": 37,
+      "title": "氣厥論",
+      "sections": []
+    },
+    {
+      "id": "suwen-38",
+      "number": 38,
+      "title": "欬論",
+      "sections": []
+    },
+    {
+      "id": "suwen-39",
+      "number": 39,
+      "title": "舉痛論",
+      "sections": []
+    },
+    {
+      "id": "suwen-40",
+      "number": 40,
+      "title": "腹中論",
+      "sections": []
+    },
+    {
+      "id": "suwen-41",
+      "number": 41,
+      "title": "刺腰痛",
+      "sections": []
+    },
+    {
+      "id": "suwen-42",
+      "number": 42,
+      "title": "風論",
+      "sections": []
+    },
+    {
+      "id": "suwen-43",
+      "number": 43,
+      "title": "痺論",
+      "sections": []
+    },
+    {
+      "id": "suwen-44",
+      "number": 44,
+      "title": "痿論",
+      "sections": []
+    },
+    {
+      "id": "suwen-45",
+      "number": 45,
+      "title": "厥論",
+      "sections": []
+    },
+    {
+      "id": "suwen-46",
+      "number": 46,
+      "title": "病能論",
+      "sections": []
+    },
+    {
+      "id": "suwen-47",
+      "number": 47,
+      "title": "奇病論",
+      "sections": []
+    },
+    {
+      "id": "suwen-48",
+      "number": 48,
+      "title": "大奇論",
+      "sections": []
+    },
+    {
+      "id": "suwen-49",
+      "number": 49,
+      "title": "脈解",
+      "sections": []
+    },
+    {
+      "id": "suwen-50",
+      "number": 50,
+      "title": "刺要論",
+      "sections": []
+    },
+    {
+      "id": "suwen-51",
+      "number": 51,
+      "title": "刺齊論",
+      "sections": []
+    },
+    {
+      "id": "suwen-52",
+      "number": 52,
+      "title": "刺禁論",
+      "sections": []
+    },
+    {
+      "id": "suwen-53",
+      "number": 53,
+      "title": "刺志論",
+      "sections": []
+    },
+    {
+      "id": "suwen-54",
+      "number": 54,
+      "title": "鍼解",
+      "sections": []
+    },
+    {
+      "id": "suwen-55",
+      "number": 55,
+      "title": "長刺節論",
+      "sections": []
+    },
+    {
+      "id": "suwen-56",
+      "number": 56,
+      "title": "皮部論",
+      "sections": []
+    },
+    {
+      "id": "suwen-57",
+      "number": 57,
+      "title": "經絡論",
+      "sections": []
+    },
+    {
+      "id": "suwen-58",
+      "number": 58,
+      "title": "氣穴論",
+      "sections": []
+    },
+    {
+      "id": "suwen-59",
+      "number": 59,
+      "title": "氣府論",
+      "sections": []
+    },
+    {
+      "id": "suwen-60",
+      "number": 60,
+      "title": "骨空論",
+      "sections": []
+    },
+    {
+      "id": "suwen-61",
+      "number": 61,
+      "title": "水熱穴論",
+      "sections": []
+    },
+    {
+      "id": "suwen-62",
+      "number": 62,
+      "title": "調經論",
+      "sections": []
+    },
+    {
+      "id": "suwen-63",
+      "number": 63,
+      "title": "繆刺論",
+      "sections": []
+    },
+    {
+      "id": "suwen-64",
+      "number": 64,
+      "title": "四時刺逆從論",
+      "sections": []
+    },
+    {
+      "id": "suwen-65",
+      "number": 65,
+      "title": "標本病傳論",
+      "sections": []
+    },
+    {
+      "id": "suwen-66",
+      "number": 66,
+      "title": "天元紀大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-67",
+      "number": 67,
+      "title": "五運行大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-68",
+      "number": 68,
+      "title": "六微旨大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-69",
+      "number": 69,
+      "title": "氣交變大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-70",
+      "number": 70,
+      "title": "五常政大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-71",
+      "number": 71,
+      "title": "六元正紀大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-72",
+      "number": 72,
+      "title": "刺法論（遺篇）",
+      "sections": []
+    },
+    {
+      "id": "suwen-73",
+      "number": 73,
+      "title": "本病論（遺篇）",
+      "sections": []
+    },
+    {
+      "id": "suwen-74",
+      "number": 74,
+      "title": "至真要大論",
+      "sections": []
+    },
+    {
+      "id": "suwen-75",
+      "number": 75,
+      "title": "著至教論",
+      "sections": []
+    },
+    {
+      "id": "suwen-76",
+      "number": 76,
+      "title": "示從容論",
+      "sections": []
+    },
+    {
+      "id": "suwen-77",
+      "number": 77,
+      "title": "疏五過論",
+      "sections": []
+    },
+    {
+      "id": "suwen-78",
+      "number": 78,
+      "title": "徵四失論",
+      "sections": []
+    },
+    {
+      "id": "suwen-79",
+      "number": 79,
+      "title": "陰陽類論",
+      "sections": []
+    },
+    {
+      "id": "suwen-80",
+      "number": 80,
+      "title": "方盛衰論",
+      "sections": []
+    },
+    {
+      "id": "suwen-81",
+      "number": 81,
+      "title": "解精微論",
+      "sections": []
+    }
+  ]
+}

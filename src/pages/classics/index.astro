@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro'
+import { books, isChapterReady } from '../../data'
+
+// 日後推出嘅經典(未有資料檔,先展示路線)
+const upcoming = [
+  { title: '黃帝內經·靈樞', note: '經絡與針灸之本' },
+  { title: '難經', note: '八十一難，補《內經》所未備' },
+  { title: '傷寒論', note: '辨證論治之祖（Year 2–3 選讀）' },
+  { title: '金匱要略', note: '雜病治療經典（Year 2–3 選讀）' },
+]
+---
+
+<Base title="經典" description="中醫經典原文＋白話對讀＋難字註＋粵語朗讀：黃帝內經素問選讀。">
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">經典</h1>
+  <p class="text-gray-600 text-sm leading-relaxed mb-8">
+    原文據公共領域通行本，逐段白話對讀，配難字註與粵語朗讀。按初學價值精選篇章，逐批擴充。
+  </p>
+
+  <div class="space-y-4 mb-10">
+    {
+      books.map(b => {
+        const ready = b.chapters.filter(isChapterReady).length
+        return (
+          <a
+            href={`/classics/${b.id}`}
+            class="block rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-5"
+          >
+            <div class="flex items-baseline justify-between gap-3 mb-2">
+              <h2 class="font-semibold text-amber-900">{b.title}</h2>
+              <span class="text-xs text-gray-400 shrink-0">{ready}／{b.chapters.length} 篇</span>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">{b.intro}</p>
+          </a>
+        )
+      })
+    }
+  </div>
+
+  <h2 class="text-sm font-semibold text-gray-500 mb-3">日後推出</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    {
+      upcoming.map(u => (
+        <div class="rounded-lg border border-dashed border-gray-200 p-4 text-gray-400">
+          <p class="text-sm font-medium">{u.title}</p>
+          <p class="text-xs mt-1">{u.note}</p>
+        </div>
+      ))
+    }
+  </div>
+</Base>

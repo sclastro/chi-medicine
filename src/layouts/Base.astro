@@ -1,0 +1,82 @@
+---
+import '../styles/global.css'
+import { TtsSettings } from '../components/react/TtsSettings'
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const { title, description } = Astro.props
+const fullTitle = title ? `${title}｜岐黃入門` : '岐黃入門｜中醫經典學習'
+const desc =
+  description ??
+  '為準備入讀中醫課程的初學者而設：中醫基礎理論導覽、《黃帝內經》文白對讀、難字註與粵語朗讀。'
+
+const nav = [
+  { href: '/foundations', label: '基礎' },
+  { href: '/classics', label: '經典' },
+  { href: '/glossary', label: '辭典' },
+  { href: '/resources', label: '資源' },
+  { href: '/progress', label: '進度' },
+]
+const path = Astro.url.pathname
+---
+
+<!doctype html>
+<html lang="zh-Hant-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={desc} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{fullTitle}</title>
+  </head>
+  <body class="min-h-screen bg-white text-gray-900 flex flex-col">
+    <header class="border-b border-gray-200">
+      <div class="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
+        <a href="/" class="font-bold text-amber-900 shrink-0">岐黃入門</a>
+        <nav class="flex items-center gap-1 sm:gap-2 text-sm overflow-x-auto" aria-label="主導覽">
+          {
+            nav.map(item => (
+              <a
+                href={item.href}
+                aria-current={path.startsWith(item.href) ? 'page' : undefined}
+                class={`px-2 py-1.5 rounded-md whitespace-nowrap transition-colors ${
+                  path.startsWith(item.href)
+                    ? 'text-amber-900 bg-amber-50 font-semibold'
+                    : 'text-gray-600 hover:text-amber-800 hover:bg-amber-50'
+                }`}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+          <a
+            href="/search"
+            aria-label="全文搜尋"
+            title="全文搜尋"
+            class={`px-2 py-1.5 rounded-md transition-colors ${
+              path.startsWith('/search')
+                ? 'text-amber-900 bg-amber-50'
+                : 'text-gray-600 hover:text-amber-800 hover:bg-amber-50'
+            }`}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          </a>
+        </nav>
+        <TtsSettings client:load />
+      </div>
+    </header>
+
+    <main class="flex-1 w-full max-w-3xl mx-auto px-4 py-8" data-pagefind-body>
+      <slot />
+    </main>
+
+    <footer class="border-t border-gray-200 mt-8">
+      <div class="max-w-3xl mx-auto px-4 py-6 text-xs text-gray-400 leading-relaxed">
+        <p>原文據公共領域通行本錄入；白話與註釋僅供學習參考，不構成醫療建議。</p>
+      </div>
+    </footer>
+  </body>
+</html>

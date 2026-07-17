@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro'
+---
+
+<Base title="全文搜尋" description="搜尋全站原文、白話與基礎理論內容。">
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">全文搜尋</h1>
+  <p class="text-gray-600 text-sm leading-relaxed mb-6">
+    搜尋範圍涵蓋全站：經典原文、白話對讀與基礎理論。
+  </p>
+
+  <div id="search" class="pagefind-wrap"></div>
+  <p id="search-unavailable" class="hidden text-gray-400 text-sm">
+    搜尋索引尚未建立（本地開發模式不提供全文搜尋；部署版本可用）。
+  </p>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline>
+    // Pagefind 於 build 後生成 /pagefind/*;dev 模式冇索引,優雅降級顯示提示。
+    (function () {
+      var script = document.createElement('script')
+      script.src = '/pagefind/pagefind-ui.js'
+      script.onload = function () {
+        new window.PagefindUI({
+          element: '#search',
+          showSubResults: true,
+          translations: {
+            placeholder: '搜尋原文、白話、術語…',
+            zero_results: '找不到「[SEARCH_TERM]」',
+            clear_search: '清除',
+            load_more: '載入更多',
+            searching: '搜尋中…',
+          },
+        })
+      }
+      script.onerror = function () {
+        document.getElementById('search-unavailable').classList.remove('hidden')
+      }
+      document.head.appendChild(script)
+    })()
+  </script>
+</Base>

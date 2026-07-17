@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro'
+import { GlossarySearch } from '../components/react/GlossarySearch'
+import { glossary } from '../data'
+---
+
+<Base title="術語辭典" description="中醫術語辭典：白話釋義、原文出處，讀經遇到不明白的名詞即查。">
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">術語辭典</h1>
+  <p class="text-gray-600 text-sm leading-relaxed mb-8">
+    讀原文遇到不明白的術語即查。每條附白話釋義，並連到原文出處；中藥材、方劑類名詞另見
+    <a href="/resources" class="text-amber-700 hover:underline">延伸資源</a>。
+  </p>
+  <GlossarySearch client:load terms={glossary} />
+</Base>

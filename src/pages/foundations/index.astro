@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro'
+import { foundations, isTopicReady } from '../../data'
+---
+
+<Base title="基礎理論" description="中醫基礎理論導覽：陰陽五行、臟腑、氣血津液、經絡、病因病機、診法與辨證。">
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">基礎理論</h1>
+  <p class="text-gray-600 text-sm leading-relaxed mb-8">
+    八個主題對應中大 Year 1「中醫基礎理論」與「中醫診斷學」的核心內容，建議按次序閱讀。
+  </p>
+
+  <div class="space-y-4">
+    {
+      foundations.map(t => (
+        <a
+          href={`/foundations/${t.id}`}
+          class="block rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-5"
+        >
+          <div class="flex items-baseline justify-between gap-3 mb-1">
+            <h2 class="font-semibold text-amber-900">
+              <span class="text-amber-700 mr-2">{t.order}</span>
+              {t.title}
+            </h2>
+            {!isTopicReady(t) ? <span class="text-xs text-gray-400 shrink-0">待補</span> : null}
+          </div>
+          <p class="text-xs text-amber-700 mb-2">{t.courseRef}</p>
+          <p class="text-sm text-gray-600 leading-relaxed">{t.intro}</p>
+        </a>
+      ))
+    }
+  </div>
+</Base>

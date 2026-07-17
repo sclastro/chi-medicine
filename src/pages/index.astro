@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro'
+import { foundations, getBook, isChapterReady, isTopicReady } from '../data'
+
+const suwen = getBook('suwen')!
+const readyChapters = suwen.chapters.filter(isChapterReady).length
+const readyTopics = foundations.filter(isTopicReady).length
+
+const steps = [
+  {
+    n: '一',
+    title: '基礎理論',
+    href: '/foundations',
+    course: '對應 Year 1「中醫基礎理論」「中醫診斷學」',
+    desc: '陰陽五行、臟腑、氣血、經絡、病因病機、四診與八綱辨證——用白話打好地基，之後每一科都輕鬆一半。',
+    status: readyTopics ? `${readyTopics}／${foundations.length} 篇` : '整理中',
+  },
+  {
+    n: '二',
+    title: '經典選讀',
+    href: '/classics',
+    course: '對應 Year 1「古文導讀」、Year 2–3「內經選讀」',
+    desc: '《素問》名篇原文＋白話對讀＋難字註＋粵語朗讀。讀通古文，是中醫課程的第一關。',
+    status: readyChapters ? `${readyChapters}／81 篇` : '整理中',
+  },
+  {
+    n: '三',
+    title: '辭典與延伸資源',
+    href: '/glossary',
+    course: '隨時查閱',
+    desc: '讀原文遇到不明白的術語即查；中藥、方劑等 Year 2 內容，直接連到浸大世界級數據庫。',
+    status: null,
+  },
+  {
+    n: '四',
+    title: '自測與進度',
+    href: '/progress',
+    course: '主動回憶',
+    desc: '每篇附問答卡，先想後翻；閱讀進度與書籤幫你逐篇啃完長文。',
+    status: null,
+  },
+]
+---
+
+<Base>
+  <section class="mb-10">
+    <h1 class="text-2xl font-bold text-amber-900 mb-3">岐黃入門</h1>
+    <p class="text-gray-700 leading-relaxed mb-2">
+      為準備入讀中醫課程的初學者而設的打底路線圖——由零開始，先明理，後讀經。
+    </p>
+    <p class="text-sm text-gray-500 leading-relaxed">
+      板塊次序對應香港中文大學中醫學學士（BCM）課程：先修 Year 1
+      的基礎理論與診斷思維，同時鍛煉古文閱讀能力，為 Year 2–3 的「內經選讀」提早鋪路。
+    </p>
+  </section>
+
+  <section class="space-y-4">
+    {
+      steps.map(s => (
+        <a
+          href={s.href}
+          class="block rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-5"
+        >
+          <div class="flex items-baseline justify-between gap-3 mb-1">
+            <h2 class="font-semibold text-amber-900">
+              <span class="inline-block w-6 text-amber-700">{s.n}</span>
+              {s.title}
+            </h2>
+            {s.status ? <span class="text-xs text-gray-400 shrink-0">{s.status}</span> : null}
+          </div>
+          <p class="text-xs text-amber-700 mb-2 ml-6">{s.course}</p>
+          <p class="text-sm text-gray-600 leading-relaxed ml-6">{s.desc}</p>
+        </a>
+      ))
+    }
+  </section>
+</Base>

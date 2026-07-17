@@ -1,0 +1,39 @@
+---
+import Base from '../../../layouts/Base.astro'
+import { getBook, isChapterReady } from '../../../data'
+
+const suwen = getBook('suwen')!
+const ready = suwen.chapters.filter(isChapterReady).length
+---
+
+<Base title={suwen.title} description={suwen.intro}>
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">{suwen.title}</h1>
+  <p class="text-gray-600 text-sm leading-relaxed mb-2">{suwen.intro}</p>
+  <p class="text-xs text-gray-400 mb-8">已收錄 {ready}／81 篇；其餘篇章逐批補充。</p>
+
+  <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+    {
+      suwen.chapters.map(c =>
+        isChapterReady(c) ? (
+          <li>
+            <a
+              href={`/classics/suwen/${c.id}`}
+              class="flex items-baseline gap-2 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors px-3 py-2.5"
+            >
+              <span class="text-xs text-amber-700 w-8 shrink-0">{c.number}</span>
+              <span class="text-sm text-gray-800 font-medium">{c.title}</span>
+            </a>
+          </li>
+        ) : (
+          <li class="flex items-baseline gap-2 rounded-lg border border-dashed border-gray-100 px-3 py-2.5 text-gray-300">
+            <span class="text-xs w-8 shrink-0">{c.number}</span>
+            <span class="text-sm">
+              {c.title}
+              <span class="text-[10px] ml-1">待補</span>
+            </span>
+          </li>
+        ),
+      )
+    }
+  </ol>
+</Base>

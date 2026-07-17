@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* 朗讀掣聲波動畫(SpeakButton) */
+@keyframes speakWave {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 1; }
+}
+.speak-wave { animation: speakWave 1s ease-in-out infinite; }
+.speak-wave-2 { animation-delay: 0.3s; }

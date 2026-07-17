@@ -1,0 +1,43 @@
+---
+// 文白對讀嘅一個閱讀段:原文(+朗讀掣) → 難字註 → 白話(淺色左邊線)。
+// 直排對讀為本站核心版式 —— 手機優先,唔用雙欄左右對照。
+import { SpeakButton } from './react/SpeakButton'
+import type { Section } from '../types/tcm'
+
+interface Props {
+  section: Section
+  /** 朗讀用唯一 id,如 `suwen-01-s3` */
+  speakId: string
+}
+
+const { section, speakId } = Astro.props
+---
+
+<div class="mb-8">
+  <div class="flex items-start gap-2">
+    <p class="flex-1 text-lg leading-loose text-gray-900">{section.original}</p>
+    <SpeakButton client:visible id={speakId} text={section.original} />
+  </div>
+
+  {
+    section.annotations?.length ? (
+      <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500">
+        {section.annotations.map(a => (
+          <span class="inline-flex items-baseline gap-1">
+            <span class="text-amber-800 font-semibold text-sm">{a.char}</span>
+            <span class="text-gray-400">{a.jyutping}</span>
+            <span>{a.meaning}</span>
+          </span>
+        ))}
+      </div>
+    ) : null
+  }
+
+  {
+    section.baihua ? (
+      <p class="mt-3 pl-3 border-l-2 border-amber-100 text-gray-600 leading-relaxed text-[15px]">
+        {section.baihua}
+      </p>
+    ) : null
+  }
+</div>
