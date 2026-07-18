@@ -139,7 +139,8 @@
         "question": "「見肝之病,知肝傳脾,當先實脾」體現了五行學說的哪種臨牀價值?",
         "answer": "預測疾病傳變、治未病:根據木剋土的關係,預計肝病會乘脾,在脾未病時先行鞏固。"
       }
-    ]
+    ],
+    "image": "/images/foundations/wuxing.png"
   },
   {
     "id": "zangfu",
@@ -216,7 +217,8 @@
         "question": "試舉一個臟腑表裏傳變的例子。",
         "answer": "如心與小腸相表裏:心火亢盛可下移小腸,出現小便短赤澀痛;又如肺與大腸相表裏,肺氣不降可致便秘。"
       }
-    ]
+    ],
+    "image": "/images/foundations/zangfu.png"
   },
   {
     "id": "qixuejinye",
@@ -277,7 +279,8 @@
         "question": "中醫治水腫為何常從肺、脾、腎三臟入手?",
         "answer": "津液代謝依賴脾的運化、肺的宣降、腎的蒸騰氣化;三臟任何一環失職都可致水液停聚,故治法有宣肺、健脾、溫腎之分。"
       }
-    ]
+    ],
+    "image": "/images/foundations/qixuejinye.png"
   },
   {
     "id": "jingluo",
@@ -324,7 +327,8 @@
         "question": "偏頭痛(兩側頭痛)按分經辨證屬哪一經?",
         "answer": "兩側屬少陽經(膽經循行部位);前額屬陽明,後枕屬太陽,巔頂屬厥陰。"
       }
-    ]
+    ],
+    "image": "/images/foundations/jingluo.png"
   },
   {
     "id": "bingyinbingji",
@@ -396,7 +400,8 @@
         "question": "瘀血致痛有何特徵,與氣滯之痛如何區分?",
         "answer": "瘀血之痛固定不移、痛如針刺、夜間加重,常伴舌有瘀斑;氣滯之痛則多為脹痛、走竄不定、隨情緒起伏。"
       }
-    ]
+    ],
+    "image": "/images/foundations/bingyinbingji.png"
   },
   {
     "id": "zhenfa",
@@ -458,7 +463,8 @@
         "question": "「同病異治,異病同治」的依據是甚麼?",
         "answer": "辨證論治:治療針對「證」而非「病」。同一病不同證則治法不同;不同病若證相同,治法可以相同。"
       }
-    ]
+    ],
+    "image": "/images/foundations/zhenfa.png"
   },
   {
     "id": "yangsheng",

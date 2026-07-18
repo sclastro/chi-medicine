@@ -17,9 +17,9 @@ import { foundations, isTopicReady } from '../../data'
           class="flex gap-4 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-5"
         >
           {
-            t.thumb || t.image ? (
+            t.thumb ? (
               <img
-                src={t.thumb ?? t.image}
+                src={t.thumb}
                 alt=""
                 loading="lazy"
                 class="w-16 h-16 sm:w-20 sm:h-20 rounded-md object-cover shrink-0"
