@@ -108,7 +108,8 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
 - **批次 4 完成**：素問批二 10 篇(10/12/14/17/21/25/39/42/43/44)全數入庫,共 18/81 篇、~18000 字原文、245 段文白對讀;流程同批一(spec_NN.cjs+apply_suwen.cjs 逐字校驗)
 - **批次 5 完成**：辭典 114 條(七大分類:陰陽五行/藏象/氣血津液/經絡/病因病機/診法辨證/治則養生,refs 連原文,生成腳本 scratchpad/gen_glossary.cjs);資源頁補醫砭+A+醫學百科
 - **批次 6 完成**：進度/書籤 —— `lib/progress.ts`(tcm.progress.v1,含單元測試)、篇末 ReadToggle、每段 BookmarkButton(錨點 `#s<idx>`)、`/progress` 頁 ProgressView(已讀統計+進度條+書籤跳轉)
-- **批次 7 完成**（閱讀體驗）:speak.ts 完成回調(speakItem→ended/interrupted)+ChapterPlayer 全篇連續朗讀(高亮跟蹤);
+- **批次 7 完成**（閱讀體驗）:speak.ts 完成回調(speakItem→ended/interrupted)+ChapterPlayer 全篇連續朗讀(高亮跟蹤;
+  支援暫停/續播記段序+屏幕底浮動控制列;個別朗讀掣打斷序列時自動轉為暫停);
   AnnotationChips 難字點讀;原文自測模式(hide-baihua+逐段展開);字級調節;繼續閱讀入口(lastRead)+返頂浮掣
 - **批次 8 完成**（溫習）:QuizCards「已掌握/未熟」(tcm.quiz.v1,cardId=ownerId:index)+進度頁「待重溫」;
   金句背誦 /recite(quotes.json 43 句,測試逐字校驗係原文子串,生成腳本 scratchpad/gen_quotes.cjs)
