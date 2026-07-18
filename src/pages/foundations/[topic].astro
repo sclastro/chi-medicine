@@ -52,7 +52,7 @@ const next = idx < foundations.length - 1 ? foundations[idx + 1] : null
     topic.quiz?.length ? (
       <section class="mb-8">
         <h2 class="font-semibold text-amber-900 mb-3">自測</h2>
-        <QuizCards client:visible items={topic.quiz} />
+        <QuizCards client:visible items={topic.quiz} ownerId={topic.id} />
       </section>
     ) : null
   }

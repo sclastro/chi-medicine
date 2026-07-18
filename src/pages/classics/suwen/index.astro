@@ -16,6 +16,10 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
 
   <ContinueReading client:load chapters={chapterInfos} />
 
+  <a href="/recite" class="inline-flex items-center gap-1.5 text-sm text-amber-700 hover:underline mb-6">
+    <span>✦</span> 金句背誦（{ready} 篇精選名句）
+  </a>
+
   <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
     {
       suwen.chapters.map(c =>

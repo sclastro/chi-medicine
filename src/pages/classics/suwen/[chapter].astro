@@ -55,7 +55,7 @@ const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
     chapter.quiz?.length ? (
       <section class="mb-8">
         <h2 class="font-semibold text-amber-900 mb-3">自測</h2>
-        <QuizCards client:visible items={chapter.quiz} />
+        <QuizCards client:visible items={chapter.quiz} ownerId={chapter.id} />
       </section>
     ) : null
   }

@@ -1,6 +1,7 @@
 // 資料完整性測試:結構、唯一性、內部連結有效性、粵拼格式。
 import { describe, expect, it } from 'vitest'
 import { books, foundations, getChapter, glossary } from './index'
+import quotes from './quotes.json'
 import type { ClassicRef } from '../types/tcm'
 
 const JYUTPING = /^[a-z]+[1-6]( [a-z]+[1-6])*$/
@@ -79,6 +80,22 @@ describe('基礎理論(foundations)', () => {
         expect(q.question.length).toBeGreaterThan(0)
         expect(q.answer.length).toBeGreaterThan(0)
       }
+    }
+  })
+})
+
+describe('金句(quotes)', () => {
+  it('每句屬有效已收錄篇章、逐字係原文子串、無重複', () => {
+    const seen = new Set<string>()
+    for (const q of quotes as { chapterId: string; text: string }[]) {
+      const ch = getChapter('suwen', q.chapterId)
+      expect(ch, `金句篇章 ${q.chapterId} 不存在`).toBeDefined()
+      expect(ch!.sections.length, `金句篇章 ${q.chapterId} 未收錄`).toBeGreaterThan(0)
+      const full = ch!.sections.map(s => s.original).join('')
+      expect(full.includes(q.text), `金句不在 ${q.chapterId} 原文:「${q.text.slice(0, 15)}…」`).toBe(true)
+      const key = `${q.chapterId}|${q.text}`
+      expect(seen.has(key), `金句重複:${key.slice(0, 30)}`).toBe(false)
+      seen.add(key)
     }
   })
 })

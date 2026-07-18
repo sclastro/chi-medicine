@@ -1,13 +1,32 @@
 ---
 import Base from '../layouts/Base.astro'
 import { ContinueReading } from '../components/react/ContinueReading'
-import { ProgressView } from '../components/react/ProgressView'
-import { getBook, isChapterReady } from '../data'
+import { ProgressView, type ReviewItem } from '../components/react/ProgressView'
+import { foundations, getBook, isChapterReady } from '../data'
 
 const suwen = getBook('suwen')!
-const chapters = suwen.chapters
-  .filter(isChapterReady)
-  .map(c => ({ id: c.id, number: c.number, title: c.title }))
+const readyChapters = suwen.chapters.filter(isChapterReady)
+const chapters = readyChapters.map(c => ({ id: c.id, number: c.number, title: c.title }))
+
+// 全站問答卡(供「待重溫」對照):cardId = ownerId:index,同 QuizCards 一致
+const reviewItems: ReviewItem[] = [
+  ...foundations.flatMap(t =>
+    (t.quiz ?? []).map((q, i) => ({
+      id: `${t.id}:${i}`,
+      source: t.title,
+      question: q.question,
+      answer: q.answer,
+    })),
+  ),
+  ...readyChapters.flatMap(c =>
+    (c.quiz ?? []).map((q, i) => ({
+      id: `${c.id}:${i}`,
+      source: `素問·${c.title}`,
+      question: q.question,
+      answer: q.answer,
+    })),
+  ),
+]
 ---
 
 <Base title="進度" description="閱讀進度與書籤:記下讀到哪裏、標記重點段落。">
@@ -16,5 +35,15 @@ const chapters = suwen.chapters
     進度與書籤只儲存在本機瀏覽器,不會上傳。閱讀時篇末可「標記為已讀」,段落旁可加書籤。
   </p>
   <ContinueReading client:load chapters={chapters} />
-  <ProgressView client:load chapters={chapters} />
+
+  <a
+    href="/recite"
+    class="flex items-center gap-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors px-4 py-3 mb-8"
+  >
+    <span class="text-amber-700">✦</span>
+    <span class="text-sm text-gray-700">金句背誦——每篇必背名句,遮蔽默背+朗讀</span>
+    <span class="ml-auto text-amber-700 text-sm">→</span>
+  </a>
+
+  <ProgressView client:load chapters={chapters} reviewItems={reviewItems} />
 </Base>
