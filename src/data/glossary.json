@@ -1,1 +1,1145 @@
-[]
+[
+  {
+    "term": "陰平陽秘",
+    "category": "陰陽五行",
+    "definition": "陰氣平和、陽氣固密,陰陽協調的健康狀態;「陰平陽秘,精神乃治」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      }
+    ]
+  },
+  {
+    "term": "陰陽互根",
+    "category": "陰陽五行",
+    "definition": "陰陽互為存在的根據,誰也離不開誰——「孤陰不生,獨陽不長」;物質與功能互相依存即其例。"
+  },
+  {
+    "term": "陰陽轉化",
+    "category": "陰陽五行",
+    "definition": "陰陽消長到極點便向對面轉化——「重陰必陽,重陽必陰」,如寒極生熱、熱極生寒。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
+      }
+    ]
+  },
+  {
+    "term": "陽盛則熱",
+    "category": "陰陽五行",
+    "definition": "陽氣偏亢出現實熱證;與陰盛則寒、陽虛則寒、陰虛則熱合為陰陽失調四大基本病理。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
+      }
+    ]
+  },
+  {
+    "term": "陰虛則熱",
+    "category": "陰陽五行",
+    "definition": "陰液不足,不能制陽而生虛熱,見潮熱、盜汗、五心煩熱等;治宜滋陰。"
+  },
+  {
+    "term": "五行相生",
+    "category": "陰陽五行",
+    "definition": "木生火、火生土、土生金、金生水、水生木的資生促進關係;生我者為母,我生者為子。"
+  },
+  {
+    "term": "五行相剋",
+    "category": "陰陽五行",
+    "definition": "木剋土、土剋水、水剋火、火剋金、金剋木的制約關係;維持系統平衡的正常機制。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-25",
+        "label": "素問·寶命全形論"
+      }
+    ]
+  },
+  {
+    "term": "相乘",
+    "category": "陰陽五行",
+    "definition": "剋制太過的病理狀態,如肝氣過旺乘脾土而見胃痛腹瀉;由剋者過強或被剋者過弱引起。"
+  },
+  {
+    "term": "相侮",
+    "category": "陰陽五行",
+    "definition": "反向欺侮:被剋者反剋其所不勝,如肝火過旺反灼肺金(木火刑金),見咳嗽咯血。"
+  },
+  {
+    "term": "取象比類",
+    "category": "陰陽五行",
+    "definition": "按事物的屬性特徵歸類比擬的思維方法;五行歸類(肝屬木、心屬火等)即由此建立。"
+  },
+  {
+    "term": "五志相勝",
+    "category": "陰陽五行",
+    "definition": "按五行相剋以情勝情:悲勝怒、恐勝喜、怒勝思、喜勝憂、思勝恐,情志病可以情志治。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
+      }
+    ]
+  },
+  {
+    "term": "壯火食氣",
+    "category": "陰陽五行",
+    "definition": "亢盛之陽(壯火)耗蝕正氣,平和之陽(少火)滋生正氣——「壯火散氣,少火生氣」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
+      }
+    ]
+  },
+  {
+    "term": "藏象",
+    "category": "藏象",
+    "definition": "臟腑藏於內、徵象見於外;透過外在表現推斷內臟功能狀態,是中醫認識臟腑的方法。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-09",
+        "label": "素問·六節藏象論"
+      }
+    ]
+  },
+  {
+    "term": "心主神明",
+    "category": "藏象",
+    "definition": "心統管精神意識思維活動——「心者,君主之官,神明出焉」;心神清明則臟腑協調。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      }
+    ]
+  },
+  {
+    "term": "心主血脈",
+    "category": "藏象",
+    "definition": "心氣推動血液在脈中運行,面色、脈象是其外候;「心之合脈也,其榮色也」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-10",
+        "label": "素問·五藏生成"
+      }
+    ]
+  },
+  {
+    "term": "肺主宣發肅降",
+    "category": "藏象",
+    "definition": "肺氣向上向外佈散(宣發)、向下向內清肅(肅降),主司呼吸並輸布氣與津液。"
+  },
+  {
+    "term": "肺朝百脈",
+    "category": "藏象",
+    "definition": "全身經脈之氣血朝會於肺,經肺的呼吸與輸布再散佈全身;寸口診脈的理論根據之一。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-21",
+        "label": "素問·經脈別論"
+      }
+    ]
+  },
+  {
+    "term": "通調水道",
+    "category": "藏象",
+    "definition": "肺以宣發肅降調節水液運行輸泄——「脾氣散精,上歸於肺,通調水道,下輸膀胱」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-21",
+        "label": "素問·經脈別論"
+      }
+    ]
+  },
+  {
+    "term": "脾主運化",
+    "category": "藏象",
+    "definition": "脾把飲食化為水穀精微並輸送全身,為「氣血生化之源」「後天之本」。"
+  },
+  {
+    "term": "脾主統血",
+    "category": "藏象",
+    "definition": "脾氣統攝血液行於脈中而不外溢;脾虛失統可見便血、崩漏等出血。"
+  },
+  {
+    "term": "肝主疏泄",
+    "category": "藏象",
+    "definition": "肝調暢全身氣機與情志,助脾胃運化;肝喜條達而惡抑鬱,鬱怒最易傷肝。"
+  },
+  {
+    "term": "肝主藏血",
+    "category": "藏象",
+    "definition": "肝貯藏血液並調節血量——「人臥血歸於肝」,肝受血而目能視、足能步。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-10",
+        "label": "素問·五藏生成"
+      }
+    ]
+  },
+  {
+    "term": "腎藏精",
+    "category": "藏象",
+    "definition": "腎貯藏先天與後天之精,主生長發育生殖,為「先天之本」;腎氣盛衰決定七八節律。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-01",
+        "label": "素問·上古天真論"
+      }
+    ]
+  },
+  {
+    "term": "腎主納氣",
+    "category": "藏象",
+    "definition": "腎攝納肺吸入之清氣,使呼吸深沉;腎不納氣則呼多吸少、動則氣喘。"
+  },
+  {
+    "term": "天癸",
+    "category": "藏象",
+    "definition": "腎精化生、促成生殖機能成熟的物質;女子二七而至、七七而竭,男子二八而至、八八而竭。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-01",
+        "label": "素問·上古天真論"
+      }
+    ]
+  },
+  {
+    "term": "奇恆之府",
+    "category": "藏象",
+    "definition": "腦、髓、骨、脈、膽、女子胞:形似腑而功能似臟,藏精氣而不瀉,異於尋常之府。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-11",
+        "label": "素問·五藏別論"
+      }
+    ]
+  },
+  {
+    "term": "傳化之府",
+    "category": "藏象",
+    "definition": "胃、大腸、小腸、三焦、膀胱:瀉而不藏、實而不能滿,受納轉輸水穀而不久留。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-11",
+        "label": "素問·五藏別論"
+      }
+    ]
+  },
+  {
+    "term": "三焦",
+    "category": "藏象",
+    "definition": "六腑之一,「決瀆之官」,統括上中下三部,是水液與氣運行的通道。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      }
+    ]
+  },
+  {
+    "term": "膻中",
+    "category": "藏象",
+    "definition": "心包絡,心之外衛,「臣使之官,喜樂出焉」;亦指胸中兩乳之間的部位。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      }
+    ]
+  },
+  {
+    "term": "宗筋",
+    "category": "藏象",
+    "definition": "諸筋聚會之處(兼指前陰);主束骨而利關節,賴陽明濡潤——陽明虛則宗筋縱而足痿。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "君主之官",
+    "category": "藏象",
+    "definition": "心的稱號:主宰全身,神明由此而出;「主明則下安,主不明則十二官危」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      }
+    ]
+  },
+  {
+    "term": "倉廩之官",
+    "category": "藏象",
+    "definition": "脾胃的稱號:受納運化水穀,五味由此而出,是氣血生化之源。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      }
+    ]
+  },
+  {
+    "term": "罷極之本",
+    "category": "藏象",
+    "definition": "肝的稱號(罷通疲):耐受疲勞的根本,魂之居所,其華在爪,其充在筋。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-09",
+        "label": "素問·六節藏象論"
+      }
+    ]
+  },
+  {
+    "term": "封藏之本",
+    "category": "藏象",
+    "definition": "腎的稱號:主蟄伏閉藏,精之處也,其華在髮,其充在骨。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-09",
+        "label": "素問·六節藏象論"
+      }
+    ]
+  },
+  {
+    "term": "魄門",
+    "category": "藏象",
+    "definition": "肛門;「魄門亦為五藏使」——其啟閉賴五臟之氣調節,亦反映臟氣盛衰。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-11",
+        "label": "素問·五藏別論"
+      }
+    ]
+  },
+  {
+    "term": "先天之本",
+    "category": "藏象",
+    "definition": "指腎:藏先天之精,主生長發育生殖,稟賦強弱繫於此。"
+  },
+  {
+    "term": "後天之本",
+    "category": "藏象",
+    "definition": "指脾(胃):運化水穀,出生後一切氣血營養皆由此化生。"
+  },
+  {
+    "term": "元氣",
+    "category": "氣血津液",
+    "definition": "根於腎、由先天之精所化的原動力之氣,經三焦佈散全身,推動一切生命活動。"
+  },
+  {
+    "term": "宗氣",
+    "category": "氣血津液",
+    "definition": "積於胸中之氣,由清氣與水穀精氣結合而成;走息道以司呼吸,貫心脈以行氣血。"
+  },
+  {
+    "term": "營氣",
+    "category": "氣血津液",
+    "definition": "行於脈中的水穀精氣,化生血液、營養全身;「營者,水穀之精氣也」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "衛氣",
+    "category": "氣血津液",
+    "definition": "行於脈外的水穀悍氣,慓疾滑利;溫養肌表、抵禦外邪、司汗孔開合。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "氣機",
+    "category": "氣血津液",
+    "definition": "氣的運動,以升降出入概括;氣機失常有氣滯、氣逆、氣陷、氣閉、氣脫等。"
+  },
+  {
+    "term": "氣化",
+    "category": "氣血津液",
+    "definition": "通過氣的運動而產生的各種變化,如精化氣、津化尿——「膀胱……氣化則能出矣」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      }
+    ]
+  },
+  {
+    "term": "津液",
+    "category": "氣血津液",
+    "definition": "人體一切正常水液的總稱:清稀者為津,濡潤肌表孔竅;稠厚者為液,滋養骨節臟腑腦髓。"
+  },
+  {
+    "term": "氣為血之帥",
+    "category": "氣血津液",
+    "definition": "氣能生血、行血、攝血;故血病常治氣,大失血須防氣隨血脫。"
+  },
+  {
+    "term": "血為氣之母",
+    "category": "氣血津液",
+    "definition": "血能載氣、養氣,是氣依附滋養之所;血虛者氣亦易衰。"
+  },
+  {
+    "term": "津血同源",
+    "category": "氣血津液",
+    "definition": "津液與血同源於水穀精微,可互相滲透補充;故「奪血者無汗,奪汗者無血」。"
+  },
+  {
+    "term": "九氣",
+    "category": "氣血津液",
+    "definition": "怒則氣上、喜則氣緩、悲則氣消、恐則氣下、寒則氣收、炅則氣泄、驚則氣亂、勞則氣耗、思則氣結——「百病生於氣」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-39",
+        "label": "素問·舉痛論"
+      }
+    ]
+  },
+  {
+    "term": "經絡",
+    "category": "經絡",
+    "definition": "氣血運行的通路系統:經是縱行主幹,絡是網狀分支,內屬臟腑、外絡肢節。"
+  },
+  {
+    "term": "十二經脈",
+    "category": "經絡",
+    "definition": "手足三陰三陽十二條正經,名稱由「手足+陰陽+臟腑」組成;陰經行內側屬臟,陽經行外側屬腑。"
+  },
+  {
+    "term": "奇經八脈",
+    "category": "經絡",
+    "definition": "督、任、衝、帶、陰陽蹻、陰陽維八脈;不隸屬臟腑,統率調節十二經氣血,如湖泊之於江河。"
+  },
+  {
+    "term": "任脈",
+    "category": "經絡",
+    "definition": "行於腹部正中,總任一身之陰經,稱「陰脈之海」;與女子月經孕育關係密切。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-01",
+        "label": "素問·上古天真論"
+      }
+    ]
+  },
+  {
+    "term": "督脈",
+    "category": "經絡",
+    "definition": "行於背部正中,總督一身之陽經,稱「陽脈之海」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "衝脈",
+    "category": "經絡",
+    "definition": "起於胞中(關元),挾臍上行;為「十二經之海」「血海」,主滲灌溪谷。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-39",
+        "label": "素問·舉痛論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "帶脈",
+    "category": "經絡",
+    "definition": "環腰一周,約束縱行諸經;「帶脈不引」則足痿不用。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "俞穴",
+    "category": "經絡",
+    "definition": "臟腑經氣輸注於體表之處;風寒濕邪亦可中其俞而內傳臟腑。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-04",
+        "label": "素問·金匱真言論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "氣街",
+    "category": "經絡",
+    "definition": "經氣聚集通行的要道;諸經總會於宗筋,會於氣街,而陽明為之長。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "風府",
+    "category": "經絡",
+    "definition": "督脈穴位,在後髮際正中上方;「風氣循風府而上,則為腦風」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      }
+    ]
+  },
+  {
+    "term": "六淫",
+    "category": "病因病機",
+    "definition": "風寒暑濕燥火六種外感病邪的總稱;氣候太過不及或人體正虛時,六氣即成六淫。"
+  },
+  {
+    "term": "風為百病之長",
+    "category": "病因病機",
+    "definition": "風性善行數變,常為諸邪先導,兼夾寒濕熱傷人;「至其變化乃為他病」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      }
+    ]
+  },
+  {
+    "term": "七情內傷",
+    "category": "病因病機",
+    "definition": "喜怒憂思悲恐驚過度直接傷及內臟:怒傷肝、喜傷心、思傷脾、悲傷肺、恐傷腎,核心是擾亂氣機。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-39",
+        "label": "素問·舉痛論"
+      }
+    ]
+  },
+  {
+    "term": "正氣",
+    "category": "病因病機",
+    "definition": "人體的抗病與自我修復能力;「正氣存內,邪不可干;邪之所湊,其氣必虛」。"
+  },
+  {
+    "term": "邪氣",
+    "category": "病因病機",
+    "definition": "一切致病因素的統稱;「邪氣盛則實,精氣奪則虛」是虛實辨證的總綱。"
+  },
+  {
+    "term": "痰飲",
+    "category": "病因病機",
+    "definition": "津液代謝障礙凝聚而成的病理產物,稠者為痰、稀者為飲;成病後又為新的病因。"
+  },
+  {
+    "term": "瘀血",
+    "category": "病因病機",
+    "definition": "血行不暢或離經停積之血;其痛固定如針刺、夜間加重,常見面色黧黑、舌有瘀斑。"
+  },
+  {
+    "term": "不通則痛",
+    "category": "病因病機",
+    "definition": "氣血阻滯不通引起疼痛的病機概括;寒凝、氣滯、瘀血皆可致之。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-39",
+        "label": "素問·舉痛論"
+      }
+    ]
+  },
+  {
+    "term": "熱中",
+    "category": "病因病機",
+    "definition": "熱鬱於內之證;如肥人腠理密,風氣不得外泄,鬱而化熱,「為熱中而目黃」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      }
+    ]
+  },
+  {
+    "term": "寒中",
+    "category": "病因病機",
+    "definition": "寒生於中之證;如瘦人腠理疏,陽氣外泄,「為寒中而泣出」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      }
+    ]
+  },
+  {
+    "term": "煎厥",
+    "category": "病因病機",
+    "definition": "煩勞過度、陽亢陰竭而發的昏厥,多發於夏;見目盲耳閉,勢如壞都。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      }
+    ]
+  },
+  {
+    "term": "薄厥",
+    "category": "病因病機",
+    "definition": "大怒氣血上逆、鬱於頭部而發的昏厥;「陽氣者,大怒則形氣絕,而血菀於上」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      }
+    ]
+  },
+  {
+    "term": "偏枯",
+    "category": "病因病機",
+    "definition": "半身不遂;可由「汗出偏沮」發展而來,亦為風病之一。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      }
+    ]
+  },
+  {
+    "term": "行痹",
+    "category": "病因病機",
+    "definition": "風氣偏勝之痹,痛處遊走不定;風寒濕三氣雜至合而為痹,風勝者為行痹。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "痛痹",
+    "category": "病因病機",
+    "definition": "寒氣偏勝之痹,疼痛劇烈,得溫則減;寒主收引凝滯故痛甚。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "著痹",
+    "category": "病因病機",
+    "definition": "濕氣偏勝之痹,肢體重着、麻木、固定不移;濕性重濁黏滯故纏綿難癒。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "痿躄",
+    "category": "病因病機",
+    "definition": "四肢痿弱、足不能行;「肺熱葉焦」發為痿躄,治痿獨取陽明。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "癘風",
+    "category": "病因病機",
+    "definition": "營氣熱腐、其氣不清所致的惡疾(近似麻風):鼻柱壞、色敗、皮膚瘍潰。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      }
+    ]
+  },
+  {
+    "term": "飧泄",
+    "category": "病因病機",
+    "definition": "大便完穀不化的泄瀉;逆秋氣「冬為飧泄」,久風入中亦為腸風飧泄。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-02",
+        "label": "素問·四氣調神大論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      }
+    ]
+  },
+  {
+    "term": "關格",
+    "category": "病因病機",
+    "definition": "陰陽俱盛極而互相格拒不通的危候;人迎與寸口俱盛四倍以上為關格。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-09",
+        "label": "素問·六節藏象論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "消中",
+    "category": "病因病機",
+    "definition": "消渴病之一,多食善飢而形瘦;「癉成為消中」——熱病久留所變。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "溢飲",
+    "category": "病因病機",
+    "definition": "口渴暴飲,水氣外溢肌膚腸胃之外的水飲病。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "不仁",
+    "category": "病因病機",
+    "definition": "肌膚麻木、感覺遲鈍;衛氣凝滯或營衛行澀、皮膚失養所致。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-42",
+        "label": "素問·風論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-43",
+        "label": "素問·痺論"
+      }
+    ]
+  },
+  {
+    "term": "四診",
+    "category": "診法辨證",
+    "definition": "望聞問切四種收集病情資料的方法;「能合脈色,可以萬全」,強調四診合參。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-10",
+        "label": "素問·五藏生成"
+      }
+    ]
+  },
+  {
+    "term": "望神",
+    "category": "診法辨證",
+    "definition": "觀察目光神采與整體生命力:得神者昌,失神者亡;是望診第一要義。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "五色診",
+    "category": "診法辨證",
+    "definition": "面部五色候五臟寒熱痛:黃赤為熱,白為寒,青黑為痛;色貴明潤含蓄,忌枯槁外露。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-39",
+        "label": "素問·舉痛論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-10",
+        "label": "素問·五藏生成"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "氣口",
+    "category": "診法辨證",
+    "definition": "即寸口,腕部橈動脈診脈處;胃為六腑大源,五臟氣味皆變見於氣口,故「獨為五藏主」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-11",
+        "label": "素問·五藏別論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-21",
+        "label": "素問·經脈別論"
+      }
+    ]
+  },
+  {
+    "term": "人迎",
+    "category": "診法辨證",
+    "definition": "頸旁動脈,候三陽經之氣;與寸口對比盛衰可辨病在何經。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-09",
+        "label": "素問·六節藏象論"
+      }
+    ]
+  },
+  {
+    "term": "平旦診法",
+    "category": "診法辨證",
+    "definition": "清晨診脈:陰氣未動、陽氣未散、飲食未進、氣血未亂,「故乃可診有過之脈」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "三部九候",
+    "category": "診法辨證",
+    "definition": "古代遍診法:上中下三部各分天地人三候;後世多以寸口寸關尺三部代之。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-25",
+        "label": "素問·寶命全形論"
+      }
+    ]
+  },
+  {
+    "term": "浮脈",
+    "category": "診法辨證",
+    "definition": "輕按即得之脈,主表證;秋脈微浮為常。"
+  },
+  {
+    "term": "沉脈",
+    "category": "診法辨證",
+    "definition": "重按始得之脈,主裏證;冬脈沉石為常。"
+  },
+  {
+    "term": "遲脈",
+    "category": "診法辨證",
+    "definition": "一息不足四至的緩慢之脈,主寒證。"
+  },
+  {
+    "term": "數脈",
+    "category": "診法辨證",
+    "definition": "一息五至以上的急速之脈,主熱證;「數則煩心」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "代脈",
+    "category": "診法辨證",
+    "definition": "脈來時有歇止、止有定數之脈;「代則氣衰」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      }
+    ]
+  },
+  {
+    "term": "八綱辨證",
+    "category": "診法辨證",
+    "definition": "以陰陽、表裏、寒熱、虛實八綱歸納病情:陰陽為總綱,表熱實屬陽,裏寒虛屬陰。"
+  },
+  {
+    "term": "表證",
+    "category": "診法辨證",
+    "definition": "外邪初犯肌表之證:惡寒發熱並見、頭身痛、脈浮;治宜解表。"
+  },
+  {
+    "term": "裏證",
+    "category": "診法辨證",
+    "definition": "病位深入臟腑氣血之證;但熱不寒或但寒不熱、脈沉等為其徵。"
+  },
+  {
+    "term": "虛證",
+    "category": "診法辨證",
+    "definition": "正氣不足為主之證——「精氣奪則虛」;神疲、聲低、脈無力;治宜補益。"
+  },
+  {
+    "term": "實證",
+    "category": "診法辨證",
+    "definition": "邪氣亢盛為主之證——「邪氣盛則實」;聲高氣粗、痛而拒按、脈有力;治宜攻瀉。"
+  },
+  {
+    "term": "辨證論治",
+    "category": "診法辨證",
+    "definition": "以四診資料辨明當前的「證」,再據證立法選方;中醫臨牀思維的核心。"
+  },
+  {
+    "term": "同病異治",
+    "category": "診法辨證",
+    "definition": "同一疾病因證不同而治法不同,如風寒感冒辛溫解表、風熱感冒辛涼解表。"
+  },
+  {
+    "term": "異病同治",
+    "category": "診法辨證",
+    "definition": "不同疾病若證相同可用同一治法,如胃下垂與脫肛同屬中氣下陷者皆可補中益氣。"
+  },
+  {
+    "term": "治未病",
+    "category": "治則養生",
+    "definition": "未病先防、既病防變;「聖人不治已病治未病……譬猶渴而穿井,鬥而鑄錐」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-02",
+        "label": "素問·四氣調神大論"
+      }
+    ]
+  },
+  {
+    "term": "治病求本",
+    "category": "治則養生",
+    "definition": "追尋並針對根本病機施治;「陰陽者……治病必求於本」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
+      }
+    ]
+  },
+  {
+    "term": "扶正祛邪",
+    "category": "治則養生",
+    "definition": "虛則扶助正氣,實則祛除邪氣,虛實夾雜則攻補兼施;依正邪消長而定先後輕重。"
+  },
+  {
+    "term": "三因制宜",
+    "category": "治則養生",
+    "definition": "因時、因地、因人制宜:治療隨季節、地域水土、體質年齡而調整,不執一方應萬變。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-12",
+        "label": "素問·異法方宜論"
+      }
+    ]
+  },
+  {
+    "term": "標本",
+    "category": "治則養生",
+    "definition": "病之本質與表象、先病與後病:急則治標,緩則治本;「病為本,工為標」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-14",
+        "label": "素問·湯液醪醴論"
+      }
+    ]
+  },
+  {
+    "term": "陽病治陰",
+    "category": "治則養生",
+    "definition": "陽病可從陰治、陰病可從陽治,如陰虛陽亢者滋陰以潛陽;本於陰陽互根。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
+      }
+    ]
+  },
+  {
+    "term": "春夏養陽秋冬養陰",
+    "category": "治則養生",
+    "definition": "順四時陰陽消長而調攝:春夏助陽氣之生長,秋冬護陰精之收藏,「以從其根」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-02",
+        "label": "素問·四氣調神大論"
+      }
+    ]
+  },
+  {
+    "term": "法於陰陽和於術數",
+    "category": "治則養生",
+    "definition": "養生總綱:取法陰陽規律,恰當運用養生方法,配合食飲有節、起居有常、不妄作勞。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-01",
+        "label": "素問·上古天真論"
+      }
+    ]
+  },
+  {
+    "term": "開鬼門潔淨府",
+    "category": "治則養生",
+    "definition": "發汗(開汗孔)與利小便(潔膀胱)以逐水消腫的治法,配合去宛陳莝治水腫。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-14",
+        "label": "素問·湯液醪醴論"
+      }
+    ]
+  },
+  {
+    "term": "治痿獨取陽明",
+    "category": "治則養生",
+    "definition": "治痿重在調補陽明(胃):陽明為五臟六腑之海、主潤宗筋,陽明虛則宗筋縱而足痿。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-44",
+        "label": "素問·痿論"
+      }
+    ]
+  },
+  {
+    "term": "治神",
+    "category": "治則養生",
+    "definition": "針刺五法之首:醫者凝神定志、病人精神安定,「凡刺之真,必先治神」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-25",
+        "label": "素問·寶命全形論"
+      }
+    ]
+  },
+  {
+    "term": "謹和五味",
+    "category": "治則養生",
+    "definition": "飲食五味調和不偏嗜,則骨正筋柔、氣血以流、腠理以密;偏嗜則各傷其臟其體。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-10",
+        "label": "素問·五藏生成"
+      }
+    ]
+  },
+  {
+    "term": "虛邪賊風避之有時",
+    "category": "治則養生",
+    "definition": "對四時不正之邪風按時迴避,配合「恬惔虛無,真氣從之;精神內守,病安從來」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-01",
+        "label": "素問·上古天真論"
+      }
+    ]
+  }
+]
