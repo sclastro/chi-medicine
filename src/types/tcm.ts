@@ -85,4 +85,5 @@ export interface ProgressStore {
   schemaVersion: 1
   read: Record<string, string> // chapterId → ISO timestamp
   bookmarks: Bookmark[]
+  lastRead?: { chapterId: string; timestamp: string } // 「繼續閱讀」入口
 }

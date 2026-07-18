@@ -77,7 +77,8 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
 - **Tailwind 色系**：主色 amber-800/900、淺底 amber-50；中性 gray-*；卡片
   `rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50`；容器 `max-w-3xl mx-auto px-4`；分段 `mb-8`。
 - **導覽次序**：路線圖(首頁) → 基礎 → 經典 → 辭典 → 資源 → 進度（先明理、後讀經、隨時查）。
-- **localStorage key**：TTS `tcm.tts.v1`；進度（批次 6）`tcm.progress.v1`。
+- **localStorage key**：TTS `tcm.tts.v1`；進度/書籤/lastRead `tcm.progress.v1`；閱讀偏好(字級/白話隱藏) `tcm.reader.v1`
+  （Base.astro head 有防 FOUC inline script,同 `lib/reader.ts` 嘅 html class 名必須同步）；問答卡未熟 `tcm.quiz.v1`。
 
 ## Git 工作流
 

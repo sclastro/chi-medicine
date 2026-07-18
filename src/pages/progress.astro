@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro'
+import { ContinueReading } from '../components/react/ContinueReading'
 import { ProgressView } from '../components/react/ProgressView'
 import { getBook, isChapterReady } from '../data'
 
@@ -14,5 +15,6 @@ const chapters = suwen.chapters
   <p class="text-gray-600 text-sm leading-relaxed mb-8">
     進度與書籤只儲存在本機瀏覽器,不會上傳。閱讀時篇末可「標記為已讀」,段落旁可加書籤。
   </p>
+  <ContinueReading client:load chapters={chapters} />
   <ProgressView client:load chapters={chapters} />
 </Base>

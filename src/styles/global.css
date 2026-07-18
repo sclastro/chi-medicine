@@ -1,8 +1,26 @@
 @import "tailwindcss";
 
-/* 閱讀型網站行大字:全站基礎字號加大(rem 基準,Tailwind 各級同步放大) */
+/* 閱讀型網站行大字:全站基礎字號加大(rem 基準,Tailwind 各級同步放大)。
+   字級偏好(tcm.reader.v1)以 html class 覆寫:font-s 細 / 預設中 / font-l 大 */
 html {
   font-size: 109.375%; /* 17.5px */
+}
+html.font-s { font-size: 100%; }    /* 16px */
+html.font-l { font-size: 120%; }    /* 19.2px */
+
+/* 原文自測模式(hide-baihua):摺埋白話,逐段撳「顯示白話」先開 */
+.baihua-reveal { display: none; }
+html.hide-baihua .baihua-block { display: none; }
+html.hide-baihua .baihua-reveal { display: inline-flex; }
+html.hide-baihua .baihua-wrap.revealed .baihua-block { display: block; }
+html.hide-baihua .baihua-wrap.revealed .baihua-reveal { display: none; }
+
+/* 連續朗讀:讀緊嗰段高亮 */
+.reading-now {
+  background: #fffbeb; /* amber-50 */
+  box-shadow: 0 0 0 8px #fffbeb;
+  border-radius: 4px;
+  transition: background 0.3s;
 }
 
 /* 朗讀掣聲波動畫(SpeakButton) */

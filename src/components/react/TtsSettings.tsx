@@ -10,8 +10,14 @@ import {
 } from '../../lib/tts/prefs'
 import { getAllVoices, isCantoneseVoice, isSpeechSupported } from '../../lib/tts/webspeech'
 import { speak, stop } from '../../lib/tts/speak'
+import { getReaderPrefs, setReaderPrefs, type FontScale } from '../../lib/reader'
 
 const SAMPLE = '陰陽者，天地之道也，萬物之綱紀。'
+const FONT_LABELS: { value: FontScale; label: string }[] = [
+  { value: 's', label: '細' },
+  { value: 'm', label: '標準' },
+  { value: 'l', label: '大' },
+]
 
 /** 朗讀設定:引擎(高質/內建) + 內建語音選擇 + 語速,存 localStorage(tcm.tts.v1)。header 齒輪開合。 */
 export function TtsSettings() {
@@ -21,6 +27,8 @@ export function TtsSettings() {
   const [voiceURI, setVoiceURI] = useState<string | null>(null)
   const [rate, setRate] = useState(0.9)
   const [degraded, setDegraded] = useState(false)
+  const [fontScale, setFontScale] = useState<FontScale>('m')
+  const [hideBaihua, setHideBaihua] = useState(false)
   const panelRef = useRef<HTMLDivElement>(null)
 
   // 開啟時載入語音與現有偏好
@@ -31,6 +39,9 @@ export function TtsSettings() {
     setVoiceURI(prefs.voiceURI)
     setRate(prefs.rate)
     setDegraded(isPoeDegraded())
+    const rp = getReaderPrefs()
+    setFontScale(rp.fontScale)
+    setHideBaihua(rp.hideBaihua)
     let alive = true
     getAllVoices().then(vs => {
       if (alive) setVoices(vs)
@@ -113,7 +124,44 @@ export function TtsSettings() {
           aria-label="朗讀設定"
           className="absolute right-0 mt-2 w-72 p-4 bg-white rounded-lg border border-gray-200 shadow-lg z-20"
         >
-          <h3 className="text-sm font-semibold text-amber-900 mb-3">朗讀設定</h3>
+          <h3 className="text-sm font-semibold text-amber-900 mb-3">顯示</h3>
+
+          <label className="block text-xs text-gray-500 mb-1">字級</label>
+          <div className="flex rounded-md border border-gray-200 overflow-hidden mb-3">
+            {FONT_LABELS.map(f => (
+              <button
+                key={f.value}
+                type="button"
+                onClick={() => {
+                  setFontScale(f.value)
+                  setReaderPrefs({ fontScale: f.value, hideBaihua })
+                }}
+                aria-pressed={fontScale === f.value}
+                className={`flex-1 text-sm py-1.5 transition-colors ${
+                  fontScale === f.value
+                    ? 'bg-amber-800 text-white'
+                    : 'bg-white text-gray-600 hover:bg-amber-50'
+                }`}
+              >
+                {f.label}
+              </button>
+            ))}
+          </div>
+
+          <label className="flex items-center gap-2 text-sm text-gray-700 mb-4">
+            <input
+              type="checkbox"
+              checked={hideBaihua}
+              onChange={e => {
+                setHideBaihua(e.target.checked)
+                setReaderPrefs({ fontScale, hideBaihua: e.target.checked })
+              }}
+              className="accent-amber-700 w-4 h-4"
+            />
+            原文自測模式（暫時隱藏白話）
+          </label>
+
+          <h3 className="text-sm font-semibold text-amber-900 mb-3 pt-3 border-t border-gray-100">朗讀設定</h3>
 
           <label className="block text-xs text-gray-500 mb-1" htmlFor="tts-engine">朗讀引擎</label>
           <select

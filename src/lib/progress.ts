@@ -25,6 +25,9 @@ export function getProgress(): ProgressStore {
       schemaVersion: 1,
       read: parsed.read && typeof parsed.read === 'object' ? parsed.read : {},
       bookmarks: Array.isArray(parsed.bookmarks) ? parsed.bookmarks : [],
+      ...(parsed.lastRead && typeof parsed.lastRead.chapterId === 'string'
+        ? { lastRead: parsed.lastRead }
+        : {}),
     }
   } catch {
     return { ...EMPTY, read: {}, bookmarks: [] }
@@ -83,6 +86,17 @@ export function toggleBookmark(chapterId: string, sectionIndex: number): boolean
 
 export function getBookmarks(): Bookmark[] {
   return getProgress().bookmarks.slice().sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+}
+
+/** 記低最後閱讀嘅篇章(「繼續閱讀」入口用);開篇章頁時呼叫。 */
+export function setLastRead(chapterId: string): void {
+  const store = getProgress()
+  store.lastRead = { chapterId, timestamp: new Date().toISOString() }
+  save(store)
+}
+
+export function getLastRead(): { chapterId: string; timestamp: string } | null {
+  return getProgress().lastRead ?? null
 }
 
 export function removeBookmark(chapterId: string, sectionIndex: number): void {

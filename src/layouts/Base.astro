@@ -31,6 +31,16 @@ const path = Astro.url.pathname
     <meta name="description" content={desc} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>{fullTitle}</title>
+    <script is:inline>
+      // 閱讀偏好防 FOUC:同 lib/reader.ts 嘅 class 名必須一致
+      try {
+        var rp = JSON.parse(localStorage.getItem('tcm.reader.v1') || '{}')
+        var el = document.documentElement
+        if (rp.fontScale === 's') el.classList.add('font-s')
+        if (rp.fontScale === 'l') el.classList.add('font-l')
+        if (rp.hideBaihua === true) el.classList.add('hide-baihua')
+      } catch (e) {}
+    </script>
   </head>
   <body class="min-h-screen bg-white text-gray-900 flex flex-col">
     <header class="border-b border-gray-200">
