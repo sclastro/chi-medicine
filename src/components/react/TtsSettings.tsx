@@ -29,7 +29,7 @@ export function TtsSettings() {
   const [degraded, setDegraded] = useState(false)
   const [fontScale, setFontScale] = useState<FontScale>('m')
   const [hideBaihua, setHideBaihua] = useState(false)
-  const panelRef = useRef<HTMLDivElement>(null)
+  const rootRef = useRef<HTMLDivElement>(null)
 
   // 開啟時載入語音與現有偏好
   useEffect(() => {
@@ -55,7 +55,7 @@ export function TtsSettings() {
   useEffect(() => {
     if (!open) return
     const onPointer = (e: MouseEvent) => {
-      if (panelRef.current && !panelRef.current.contains(e.target as Node)) setOpen(false)
+      if (rootRef.current && !rootRef.current.contains(e.target as Node)) setOpen(false)
     }
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
@@ -103,7 +103,7 @@ export function TtsSettings() {
   const others = voices.filter(v => !isCantoneseVoice(v))
 
   return (
-    <div className="relative">
+    <div className="relative" ref={rootRef}>
       <button
         type="button"
         onClick={() => setOpen(o => !o)}
@@ -119,7 +119,6 @@ export function TtsSettings() {
 
       {open ? (
         <div
-          ref={panelRef}
           role="dialog"
           aria-label="朗讀設定"
           className="absolute right-0 mt-2 w-72 p-4 bg-white rounded-lg border border-gray-200 shadow-lg z-20"
