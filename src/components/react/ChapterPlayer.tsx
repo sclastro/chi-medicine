@@ -30,6 +30,19 @@ export function ChapterPlayer({ chapterId, texts }: Props) {
     [],
   )
 
+  // 「由此段朗讀到尾」:接收 SectionReader 靜態掣經事件代理發出嘅指令
+  const playRef = useRef<(from: number) => Promise<void>>(async () => {})
+  useEffect(() => {
+    const onPlayFrom = (e: Event) => {
+      const index = (e as CustomEvent<{ index: number }>).detail?.index
+      if (Number.isInteger(index) && index >= 0 && index < texts.length) {
+        void playRef.current(index)
+      }
+    }
+    document.addEventListener('tcm:play-from', onPlayFrom)
+    return () => document.removeEventListener('tcm:play-from', onPlayFrom)
+  }, [texts.length])
+
   const highlight = (idx: number | null) => {
     document.querySelectorAll('.reading-now').forEach(el => el.classList.remove('reading-now'))
     if (idx != null) {
@@ -51,6 +64,7 @@ export function ChapterPlayer({ chapterId, texts }: Props) {
 
   const play = async (from: number) => {
     const token = ++runToken.current
+    stop() // 搶佔任何進行中嘅播放(含個別段朗讀)
     setMode('playing')
     setPausedAt(null)
     for (let i = from; i < texts.length; i++) {
@@ -69,6 +83,7 @@ export function ChapterPlayer({ chapterId, texts }: Props) {
     }
     if (runToken.current === token) reset()
   }
+  playRef.current = play
 
   const pause = () => {
     const at = currentRef.current

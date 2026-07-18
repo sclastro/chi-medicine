@@ -84,8 +84,18 @@ const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
 
     // 原文自測模式:逐段「顯示白話」展開(事件代理)
     document.addEventListener('click', e => {
-      const btn = (e.target as Element | null)?.closest?.('.baihua-reveal')
+      const target = e.target as Element | null
+      const btn = target?.closest?.('.baihua-reveal')
       if (btn) btn.closest('.baihua-wrap')?.classList.add('revealed')
+
+      // 「由此段朗讀到尾」:以事件通知 ChapterPlayer island 接手播放
+      const playFrom = target?.closest?.('.play-from')
+      if (playFrom) {
+        const index = Number((playFrom as HTMLElement).dataset.index)
+        if (Number.isInteger(index)) {
+          document.dispatchEvent(new CustomEvent('tcm:play-from', { detail: { index } }))
+        }
+      }
     })
 
     // 長篇返回頂部浮掣

@@ -26,7 +26,18 @@ const speakId = chapterId != null && index != null ? `${chapterId}-s${index}` : 
       <SpeakButton client:visible id={speakId} text={section.original} />
       {
         chapterId != null && index != null ? (
-          <BookmarkButton client:visible chapterId={chapterId} sectionIndex={index} />
+          <>
+            <BookmarkButton client:visible chapterId={chapterId} sectionIndex={index} />
+            <button
+              type="button"
+              class="play-from inline-flex items-center justify-center w-7 h-7 rounded-full shrink-0 text-gray-300 hover:text-amber-700 hover:bg-amber-50 transition-colors"
+              data-index={index}
+              aria-label={`由第 ${index + 1} 段朗讀到尾`}
+              title="由此段朗讀到尾"
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 5v14l8-7z" /><path d="M13 5v14l8-7z" /></svg>
+            </button>
+          </>
         ) : null
       }
     </div>
