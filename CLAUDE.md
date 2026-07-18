@@ -106,5 +106,6 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
   - **內容注入流程**:spec 檔(`scratchpad/spec_NN.cjs`)以「切點標記」切原文(唔重新打字),`apply_suwen.cjs` 逐字校驗(切段串接===底本)+難字在段內檢查後先寫入 suwen.json。**補批二(10/12/14/17/21/25/39/42/43/44)沿用此流程**,底本 HTML 在 scratchpad `jc_index.html`(冇咗可重新 curl)
 - **批次 4 完成**：素問批二 10 篇(10/12/14/17/21/25/39/42/43/44)全數入庫,共 18/81 篇、~18000 字原文、245 段文白對讀;流程同批一(spec_NN.cjs+apply_suwen.cjs 逐字校驗)
 - **批次 5 完成**：辭典 114 條(七大分類:陰陽五行/藏象/氣血津液/經絡/病因病機/診法辨證/治則養生,refs 連原文,生成腳本 scratchpad/gen_glossary.cjs);資源頁補醫砭+A+醫學百科
-- 批次 6：進度/書籤（lib/progress.ts 型別已備）
+- **批次 6 完成**：進度/書籤 —— `lib/progress.ts`(tcm.progress.v1,含單元測試)、篇末 ReadToggle、每段 BookmarkButton(錨點 `#s<idx>`)、`/progress` 頁 ProgressView(已讀統計+進度條+書籤跳轉)
+- **六批全部完成**。日後方向:素問批三擴充、靈樞/傷寒論選讀、臟腑辨證加入基礎理論、辭典隨篇章增補
 - 白話/難字註全部 `contentStatus:'draft'`,人審後改 reviewed;UI 不顯示標示

@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro'
 import SectionReader from '../../../components/SectionReader.astro'
 import { QuizCards } from '../../../components/react/QuizCards'
+import { ReadToggle } from '../../../components/react/ReadToggle'
 import { getBook, isChapterReady } from '../../../data'
 
 export function getStaticPaths() {
@@ -37,8 +38,12 @@ const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
 
   <div class="mb-8">
     {chapter.sections.map((s, i) => (
-      <SectionReader section={s} speakId={`${chapter.id}-s${i}`} />
+      <SectionReader section={s} chapterId={chapter.id} index={i} />
     ))}
+  </div>
+
+  <div class="mb-8 flex justify-center">
+    <ReadToggle client:visible chapterId={chapter.id} />
   </div>
 
   {

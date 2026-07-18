@@ -1,10 +1,18 @@
 ---
 import Base from '../layouts/Base.astro'
+import { ProgressView } from '../components/react/ProgressView'
+import { getBook, isChapterReady } from '../data'
+
+const suwen = getBook('suwen')!
+const chapters = suwen.chapters
+  .filter(isChapterReady)
+  .map(c => ({ id: c.id, number: c.number, title: c.title }))
 ---
 
-<Base title="進度" description="閱讀進度與書籤。">
+<Base title="進度" description="閱讀進度與書籤:記下讀到哪裏、標記重點段落。">
   <h1 class="text-2xl font-bold text-amber-900 mb-3">進度</h1>
-  <p class="text-gray-400 text-sm leading-relaxed">
-    閱讀進度與書籤功能即將推出——記低讀到哪裏、標記重點段落，逐篇啃完長文。
+  <p class="text-gray-600 text-sm leading-relaxed mb-8">
+    進度與書籤只儲存在本機瀏覽器,不會上傳。閱讀時篇末可「標記為已讀」,段落旁可加書籤。
   </p>
+  <ProgressView client:load chapters={chapters} />
 </Base>

@@ -1,22 +1,33 @@
 ---
-// 文白對讀嘅一個閱讀段:原文(+朗讀掣) → 難字註 → 白話(淺色左邊線)。
+// 文白對讀嘅一個閱讀段:原文(+朗讀掣+書籤掣) → 難字註 → 白話(淺色左邊線)。
 // 直排對讀為本站核心版式 —— 手機優先,唔用雙欄左右對照。
+import { BookmarkButton } from './react/BookmarkButton'
 import { SpeakButton } from './react/SpeakButton'
 import type { Section } from '../types/tcm'
 
 interface Props {
   section: Section
-  /** 朗讀用唯一 id,如 `suwen-01-s3` */
-  speakId: string
+  /** 所屬篇章 id(書籤用);未提供則不顯示書籤掣 */
+  chapterId?: string
+  /** 段序(0 起,書籤與錨點用) */
+  index?: number
 }
 
-const { section, speakId } = Astro.props
+const { section, chapterId, index } = Astro.props
+const speakId = chapterId != null && index != null ? `${chapterId}-s${index}` : `s-${section.original.slice(0, 8)}`
 ---
 
-<div class="mb-8">
-  <div class="flex items-start gap-2">
+<div class="mb-8 scroll-mt-20" id={index != null ? `s${index}` : undefined}>
+  <div class="flex items-start gap-1.5">
     <p class="flex-1 text-xl leading-loose text-gray-900">{section.original}</p>
-    <SpeakButton client:visible id={speakId} text={section.original} />
+    <div class="flex flex-col gap-1 items-center">
+      <SpeakButton client:visible id={speakId} text={section.original} />
+      {
+        chapterId != null && index != null ? (
+          <BookmarkButton client:visible chapterId={chapterId} sectionIndex={index} />
+        ) : null
+      }
+    </div>
   </div>
 
   {
