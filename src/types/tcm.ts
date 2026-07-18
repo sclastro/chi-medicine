@@ -56,6 +56,8 @@ export interface FoundationTopic {
   order: number
   courseRef: string // 對應科目,如「中醫基礎理論(Year 1)」
   intro: string
+  image?: string    // 詳情頁橫向 banner,如 /images/foundations/yinyang.png
+  thumb?: string    // 總覽頁卡片方圖(縮圖)
   sections: {
     heading: string
     body: string

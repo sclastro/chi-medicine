@@ -14,17 +14,29 @@ import { foundations, isTopicReady } from '../../data'
       foundations.map(t => (
         <a
           href={`/foundations/${t.id}`}
-          class="block rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-5"
+          class="flex gap-4 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors p-5"
         >
-          <div class="flex items-baseline justify-between gap-3 mb-1">
-            <h2 class="font-semibold text-amber-900">
-              <span class="text-amber-700 mr-2">{t.order}</span>
-              {t.title}
-            </h2>
-            {!isTopicReady(t) ? <span class="text-xs text-gray-400 shrink-0">待補</span> : null}
+          {
+            t.thumb || t.image ? (
+              <img
+                src={t.thumb ?? t.image}
+                alt=""
+                loading="lazy"
+                class="w-16 h-16 sm:w-20 sm:h-20 rounded-md object-cover shrink-0"
+              />
+            ) : null
+          }
+          <div class="min-w-0">
+            <div class="flex items-baseline justify-between gap-3 mb-1">
+              <h2 class="font-semibold text-amber-900">
+                <span class="text-amber-700 mr-2">{t.order}</span>
+                {t.title}
+              </h2>
+              {!isTopicReady(t) ? <span class="text-xs text-gray-400 shrink-0">待補</span> : null}
+            </div>
+            <p class="text-xs text-amber-700 mb-2">{t.courseRef}</p>
+            <p class="text-sm text-gray-600 leading-relaxed">{t.intro}</p>
           </div>
-          <p class="text-xs text-amber-700 mb-2">{t.courseRef}</p>
-          <p class="text-sm text-gray-600 leading-relaxed">{t.intro}</p>
         </a>
       ))
     }
