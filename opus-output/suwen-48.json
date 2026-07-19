@@ -1,0 +1,756 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "大奇論",
+    "number": 48,
+    "originalVerified": true,
+    "sections": 34,
+    "usage": {
+      "completion_tokens": 8896,
+      "prompt_tokens": 1701,
+      "total_tokens": 10597,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:32:58.848Z"
+  },
+  "id": "suwen-48",
+  "intro": "《大奇論》是《素問》第四十八篇,專門論述各種特殊而奇異的病脈與危重病證。本篇以「奇」為名,重點討論當肝、腎、肺等臟氣壅滿或臟脈異常時所出現的腫、疝、瘕、癇、腸澼(痢疾)、偏枯等病證,並詳細列舉了二十多種「真臟脈」與死候脈象,推斷病人的死亡時令。對初學者而言,本篇的價值在於認識中醫「以脈測病、以脈斷生死」的思路,體會脈象與臟腑、四時之間的密切關係,同時也能初步了解古人對危重病預後判斷的智慧。閱讀時不必逐一背誦死候,重點在理解「脈為臟氣外在表現」這一核心觀念。",
+  "sections": [
+    {
+      "original": "肝滿腎滿肺滿皆實，即為腫。",
+      "baihua": "肝、腎、肺三臟的脈氣都充滿而呈現實證，就會發生腫脹的病變。",
+      "annotations": [
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "充滿、脹滿"
+        },
+        {
+          "char": "實",
+          "jyutping": "sat6",
+          "meaning": "邪氣盛實"
+        },
+        {
+          "char": "腫",
+          "jyutping": "zung2",
+          "meaning": "浮腫、腫脹"
+        }
+      ]
+    },
+    {
+      "original": "肺之雍，喘而兩胠滿。",
+      "baihua": "肺氣壅滯不通時,病人會氣喘,並且兩側脅肋部位脹滿。",
+      "annotations": [
+        {
+          "char": "雍",
+          "jyutping": "jung1",
+          "meaning": "同「壅」,氣機壅塞"
+        },
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "呼吸急促"
+        },
+        {
+          "char": "胠",
+          "jyutping": "keoi1",
+          "meaning": "腋下脅肋部位"
+        }
+      ]
+    },
+    {
+      "original": "肝雍，兩胠滿，臥則驚，不得小便。",
+      "baihua": "肝氣壅滯時,兩脅脹滿,躺臥時容易受驚,並且小便不通暢。",
+      "annotations": [
+        {
+          "char": "臥",
+          "jyutping": "ngo6",
+          "meaning": "躺臥"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚恐、心神不安"
+        },
+        {
+          "char": "溲",
+          "jyutping": "sau1",
+          "meaning": "此處指小便(見下文)"
+        }
+      ]
+    },
+    {
+      "original": "腎雍，腳下至少腹滿，脛有大小，髀䯒大跛，易偏枯。",
+      "baihua": "腎氣壅滯時,從腳到小腹都脹滿,兩腿小腿粗細不一,大腿與小腿腫大而行走跛拐,容易發生半身不遂。",
+      "annotations": [
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "髀",
+          "jyutping": "bei2",
+          "meaning": "大腿"
+        },
+        {
+          "char": "跛",
+          "jyutping": "bo2",
+          "meaning": "跛行、行走不便"
+        },
+        {
+          "char": "偏枯",
+          "jyutping": "pin1 fu1",
+          "meaning": "半身不遂"
+        }
+      ]
+    },
+    {
+      "original": "心脈滿大，癇瘛筋攣。",
+      "baihua": "心脈充滿而洪大時,會出現癲癇、手足抽搐、筋脈拘攣的症狀。",
+      "annotations": [
+        {
+          "char": "癇",
+          "jyutping": "haan4",
+          "meaning": "癲癇病"
+        },
+        {
+          "char": "瘛",
+          "jyutping": "cai3",
+          "meaning": "筋脈抽搐"
+        },
+        {
+          "char": "攣",
+          "jyutping": "lyun4",
+          "meaning": "拘攣、抽緊"
+        }
+      ]
+    },
+    {
+      "original": "肝脈小急，癇瘛筋攣。",
+      "baihua": "肝脈細小而急促時,也會出現癲癇、抽搐、筋脈拘攣的症狀。",
+      "annotations": [
+        {
+          "char": "小",
+          "jyutping": "siu2",
+          "meaning": "脈細小"
+        },
+        {
+          "char": "急",
+          "jyutping": "gap1",
+          "meaning": "脈來急緊"
+        }
+      ]
+    },
+    {
+      "original": "肝脈騖暴，有所驚駭，脈不至若喑，不治自已。",
+      "baihua": "肝脈急疾如奔馬般突然而至,是因受到驚嚇所致;若脈搏暫時摸不到、或聲音一時發不出,不必治療也會自行痊癒。",
+      "annotations": [
+        {
+          "char": "騖",
+          "jyutping": "mou6",
+          "meaning": "奔馳,形容脈急疾"
+        },
+        {
+          "char": "駭",
+          "jyutping": "haai5",
+          "meaning": "驚駭、恐懼"
+        },
+        {
+          "char": "喑",
+          "jyutping": "am1",
+          "meaning": "失音、發不出聲"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "痊癒、停止"
+        }
+      ]
+    },
+    {
+      "original": "腎脈小急，肝脈小急，心脈小急，不鼓皆為瘕。",
+      "baihua": "腎脈、肝脈、心脈都細小而急促,而且搏動無力不鼓指,這些都是腹中結成瘕塊的表現。",
+      "annotations": [
+        {
+          "char": "鼓",
+          "jyutping": "gu2",
+          "meaning": "脈搏有力鼓動指下"
+        },
+        {
+          "char": "瘕",
+          "jyutping": "gaa2",
+          "meaning": "腹中積聚成塊之病"
+        }
+      ]
+    },
+    {
+      "original": "腎肝並沉為石水，並浮為風水，並虛為死，並小弦欲驚。",
+      "baihua": "腎脈與肝脈同時沉,是石水病;同時浮,是風水病;同時虛,主死候;同時細小而弦,將要發生驚證。",
+      "annotations": [
+        {
+          "char": "沉",
+          "jyutping": "cam4",
+          "meaning": "脈位深沉"
+        },
+        {
+          "char": "浮",
+          "jyutping": "fau4",
+          "meaning": "脈位浮淺"
+        },
+        {
+          "char": "弦",
+          "jyutping": "jin4",
+          "meaning": "脈如按琴弦"
+        },
+        {
+          "char": "石水",
+          "jyutping": "sek6 seoi2",
+          "meaning": "水腫病之一,水停下焦堅硬如石"
+        }
+      ]
+    },
+    {
+      "original": "腎脈大急沉，肝脈大急沉，皆為疝。",
+      "baihua": "腎脈與肝脈都出現大、急、沉的脈象,都是疝病的表現。",
+      "annotations": [
+        {
+          "char": "大",
+          "jyutping": "daai6",
+          "meaning": "脈形寬大"
+        },
+        {
+          "char": "疝",
+          "jyutping": "saan3",
+          "meaning": "疝氣,少腹睪丸疼痛之病"
+        }
+      ]
+    },
+    {
+      "original": "心脈搏滑急為心疝，肺脈沉搏為肺疝。",
+      "baihua": "心脈搏動有力、滑利而急,是心疝;肺脈沉而搏動有力,是肺疝。",
+      "annotations": [
+        {
+          "char": "搏",
+          "jyutping": "bok3",
+          "meaning": "脈搏動有力"
+        },
+        {
+          "char": "滑",
+          "jyutping": "waat6",
+          "meaning": "脈往來流利如珠"
+        }
+      ]
+    },
+    {
+      "original": "三陽急為瘕，三陰急為疝，二陰急為癇厥，二陽急為驚。",
+      "baihua": "太陽脈急是瘕病,太陰脈急是疝病,少陰脈急是癇厥,陽明脈急是驚證。",
+      "annotations": [
+        {
+          "char": "三陽",
+          "jyutping": "saam1 joeng4",
+          "meaning": "指太陽經"
+        },
+        {
+          "char": "三陰",
+          "jyutping": "saam1 jam1",
+          "meaning": "指太陰經"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "氣血逆亂、昏厥"
+        }
+      ]
+    },
+    {
+      "original": "脾脈外鼓，沉為腸澼，久自已。",
+      "baihua": "脾脈向外鼓動而按之沉,是腸澼(痢疾),病程雖久也能自行痊癒。",
+      "annotations": [
+        {
+          "char": "澼",
+          "jyutping": "pik1",
+          "meaning": "腸中積水或膿血,指痢疾"
+        },
+        {
+          "char": "腸澼",
+          "jyutping": "coeng4 pik1",
+          "meaning": "痢疾類病證"
+        }
+      ]
+    },
+    {
+      "original": "肝脈小緩為腸澼，易治。",
+      "baihua": "肝脈細小而和緩,也是腸澼,這種較容易治療。",
+      "annotations": [
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "脈來和緩"
+        },
+        {
+          "char": "易",
+          "jyutping": "ji6",
+          "meaning": "容易"
+        }
+      ]
+    },
+    {
+      "original": "腎脈小搏沉，為腸澼下血，血溫身熱者死。",
+      "baihua": "腎脈細小、搏動而沉,是腸澼並且下血;若血色溫熱、身體發熱的,屬死候。",
+      "annotations": [
+        {
+          "char": "下血",
+          "jyutping": "haa6 hyut3",
+          "meaning": "大便下血"
+        },
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫熱"
+        },
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "發熱"
+        }
+      ]
+    },
+    {
+      "original": "心肝澼亦下血，二藏同病者可治，其脈小沉澀為腸澼，其身熱者死，熱見七日死。",
+      "baihua": "心與肝的腸澼也會下血,兩臟同時患病的還可以治療;若脈象細小、沉而澀是腸澼,身體發熱的主死,發熱到第七日便死。",
+      "annotations": [
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "同「臟」,指臟器"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "脈往來艱澀不流利"
+        },
+        {
+          "char": "見",
+          "jyutping": "gin3",
+          "meaning": "出現"
+        }
+      ]
+    },
+    {
+      "original": "胃脈沉鼓澀，胃外鼓大，心脈小堅急，皆膈偏枯，男子發左，女子發右，不喑舌轉，可治，三十日起，其從者喑，三歲起，年不滿二十者，三歲死。",
+      "baihua": "胃脈沉、鼓而澀,或胃脈向外鼓大,心脈細小、堅硬而急,都屬膈證與半身不遂;男子病發左側,女子病發右側,若不失音而舌能轉動的可以治療,約三十日康復;若病與常規相順而失音的,約三年康復;年齡不滿二十歲的,三年內死亡。",
+      "annotations": [
+        {
+          "char": "膈",
+          "jyutping": "gaak3",
+          "meaning": "膈證,胸膈間病變"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順、順從"
+        },
+        {
+          "char": "起",
+          "jyutping": "hei2",
+          "meaning": "病癒、康復"
+        }
+      ]
+    },
+    {
+      "original": "脈至而搏，血衄身熱者死，脈來懸鉤浮為常脈。",
+      "baihua": "脈來搏動有力,同時鼻出血、身體發熱的主死;若脈來懸浮如鉤而浮,則是正常的夏脈。",
+      "annotations": [
+        {
+          "char": "衄",
+          "jyutping": "nuk6",
+          "meaning": "鼻出血"
+        },
+        {
+          "char": "懸",
+          "jyutping": "jyun4",
+          "meaning": "如懸掛,浮而應指"
+        },
+        {
+          "char": "鉤",
+          "jyutping": "au1",
+          "meaning": "脈來如鉤,指夏令心脈"
+        }
+      ]
+    },
+    {
+      "original": "脈至如喘，名曰暴厥，暴厥者不知與人言。",
+      "baihua": "脈來急促如喘息一般,叫做暴厥;患暴厥的人會突然神志不清,不能與人交談。",
+      "annotations": [
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "突然、急劇"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "昏厥、神昏"
+        }
+      ]
+    },
+    {
+      "original": "脈至如數，使人暴驚，三四日自已。",
+      "baihua": "脈來急速如數脈一樣,使人突然驚恐,大約三四日便能自行痊癒。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sok3",
+          "meaning": "脈來快速,一息六至以上"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚恐"
+        }
+      ]
+    },
+    {
+      "original": "脈至浮合，浮合如數，一息十至以上，是經氣予不足也。微見九十日死。",
+      "baihua": "脈來浮取相合而快速如數,一次呼吸間脈搏跳動十次以上,這是經氣將要衰竭不足的表現。這種脈象稍一出現,約九十日內死亡。",
+      "annotations": [
+        {
+          "char": "合",
+          "jyutping": "hap6",
+          "meaning": "相合、密接"
+        },
+        {
+          "char": "一息",
+          "jyutping": "jat1 sik1",
+          "meaning": "一次呼吸"
+        },
+        {
+          "char": "予",
+          "jyutping": "jyu4",
+          "meaning": "將要、給予"
+        }
+      ]
+    },
+    {
+      "original": "脈至如火薪然，是心精之予奪也，草乾而死。",
+      "baihua": "脈來如柴火燃燒般散亂躍動,這是心的精氣將要被奪盡的表現,到草木枯乾的時節便死。",
+      "annotations": [
+        {
+          "char": "薪",
+          "jyutping": "san1",
+          "meaning": "柴火"
+        },
+        {
+          "char": "然",
+          "jyutping": "jin4",
+          "meaning": "同「燃」,燃燒"
+        },
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "喪失、被奪去"
+        }
+      ]
+    },
+    {
+      "original": "脈至如散葉，是肝氣予虛也，木葉落而死。",
+      "baihua": "脈來輕浮無根如飄散的落葉,這是肝氣將要虛竭的表現,到樹葉凋落的時節便死。",
+      "annotations": [
+        {
+          "char": "散",
+          "jyutping": "saan3",
+          "meaning": "散亂、無根"
+        },
+        {
+          "char": "葉",
+          "jyutping": "jip6",
+          "meaning": "樹葉"
+        },
+        {
+          "char": "落",
+          "jyutping": "lok6",
+          "meaning": "凋落"
+        }
+      ]
+    },
+    {
+      "original": "脈至如省客，省客者脈塞而鼓，是腎氣予不足也，懸去棗華而死。",
+      "baihua": "脈來如探望客人般時有時無,所謂「省客」就是脈時而閉塞、時而鼓動,這是腎氣將要不足的表現,到棗樹落花的時節便死。",
+      "annotations": [
+        {
+          "char": "省",
+          "jyutping": "sing2",
+          "meaning": "探望、省視"
+        },
+        {
+          "char": "塞",
+          "jyutping": "sak1",
+          "meaning": "閉塞不通"
+        },
+        {
+          "char": "棗",
+          "jyutping": "zou2",
+          "meaning": "棗樹"
+        },
+        {
+          "char": "華",
+          "jyutping": "faa1",
+          "meaning": "同「花」,開花"
+        }
+      ]
+    },
+    {
+      "original": "脈至如丸泥，是胃精予不足也，榆莢落而死。",
+      "baihua": "脈來短小滑動如泥丸,這是胃的精氣將要不足的表現,到榆樹果莢掉落的時節便死。",
+      "annotations": [
+        {
+          "char": "丸",
+          "jyutping": "jyun2",
+          "meaning": "圓球狀"
+        },
+        {
+          "char": "泥",
+          "jyutping": "nai4",
+          "meaning": "泥土,此指泥丸"
+        },
+        {
+          "char": "榆",
+          "jyutping": "jyu4",
+          "meaning": "榆樹"
+        },
+        {
+          "char": "莢",
+          "jyutping": "gaap3",
+          "meaning": "豆莢狀果實"
+        }
+      ]
+    },
+    {
+      "original": "脈至如橫格，是膽氣予不足也，禾熟而死。",
+      "baihua": "脈來長硬如橫木格擋,這是膽氣將要不足的表現,到穀物成熟的時節便死。",
+      "annotations": [
+        {
+          "char": "橫",
+          "jyutping": "waang4",
+          "meaning": "橫向"
+        },
+        {
+          "char": "格",
+          "jyutping": "gaak3",
+          "meaning": "橫木、木杆"
+        },
+        {
+          "char": "禾",
+          "jyutping": "wo4",
+          "meaning": "穀物、莊稼"
+        }
+      ]
+    },
+    {
+      "original": "脈至如弦縷，是胞精予不足也，病善言，下霜而死，不言，可治。",
+      "baihua": "脈來細硬如絲弦絲縷,這是胞宮精氣將要不足的表現;若病人多言,到降霜的時節便死;若不多言,尚可醫治。",
+      "annotations": [
+        {
+          "char": "縷",
+          "jyutping": "leoi5",
+          "meaning": "細絲"
+        },
+        {
+          "char": "胞",
+          "jyutping": "baau1",
+          "meaning": "胞宮,一說膀胱"
+        },
+        {
+          "char": "霜",
+          "jyutping": "soeng1",
+          "meaning": "降霜、霜降時節"
+        }
+      ]
+    },
+    {
+      "original": "脈至如交漆，交漆者左右旁至也，微見三十日死。",
+      "baihua": "脈來如傾倒的漆汁般交錯淋漓,所謂「交漆」就是脈氣從左右旁側而來,這種脈象稍一出現,約三十日內死亡。",
+      "annotations": [
+        {
+          "char": "交",
+          "jyutping": "gaau1",
+          "meaning": "交錯"
+        },
+        {
+          "char": "漆",
+          "jyutping": "cat1",
+          "meaning": "漆汁,黏稠之液"
+        },
+        {
+          "char": "旁",
+          "jyutping": "pong4",
+          "meaning": "旁側、兩側"
+        }
+      ]
+    },
+    {
+      "original": "脈至如湧泉，浮鼓肌中，太陽氣予不足也，少氣味，韭英而死。",
+      "baihua": "脈來如泉水湧出般浮動,鼓動於肌肉之中,這是太陽經氣將要不足的表現;病人少氣、味覺減退,到韭菜開花的時節便死。",
+      "annotations": [
+        {
+          "char": "湧",
+          "jyutping": "jung2",
+          "meaning": "湧出、噴湧"
+        },
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "泉水"
+        },
+        {
+          "char": "韭",
+          "jyutping": "gau2",
+          "meaning": "韭菜"
+        },
+        {
+          "char": "英",
+          "jyutping": "jing1",
+          "meaning": "花、開花"
+        }
+      ]
+    },
+    {
+      "original": "脈至如頹土之狀，按之不得，是肌氣予不足也，五色先見黑白，壘發死。",
+      "baihua": "脈來如崩塌的泥土般虛軟,重按便摸不到,這是肌肉之氣將要不足的表現;面部五色中先見黑白二色,到築牆壘土的時節便死。",
+      "annotations": [
+        {
+          "char": "頹",
+          "jyutping": "teoi4",
+          "meaning": "崩塌、坍塌"
+        },
+        {
+          "char": "得",
+          "jyutping": "dak1",
+          "meaning": "得到、摸到"
+        },
+        {
+          "char": "壘",
+          "jyutping": "leoi5",
+          "meaning": "壘土築牆"
+        }
+      ]
+    },
+    {
+      "original": "脈至如懸雍，懸雍者浮揣切之益大，是十二俞之予不足也，水凝而死。",
+      "baihua": "脈來如懸雍垂般,所謂「懸雍」就是浮取按切時反而愈按愈大,這是十二經腧穴之氣將要不足的表現,到冬季水結冰的時節便死。",
+      "annotations": [
+        {
+          "char": "揣",
+          "jyutping": "cyun2",
+          "meaning": "揣摩、按觸"
+        },
+        {
+          "char": "俞",
+          "jyutping": "syu6",
+          "meaning": "腧穴、輸穴"
+        },
+        {
+          "char": "凝",
+          "jyutping": "jing4",
+          "meaning": "凝結、結冰"
+        }
+      ]
+    },
+    {
+      "original": "脈至如偃刀，偃刀者浮之小急，按之堅大急，五藏菀熟，寒熱獨並於腎也，如此其人不得坐，立春而死。",
+      "baihua": "脈來如仰放的刀刃,所謂「偃刀」就是輕取時細小而急、重按時堅硬大而急,這是五臟熱邪積蘊,寒熱之邪都聚結於腎的表現;如此病人不能安坐,到立春時節便死。",
+      "annotations": [
+        {
+          "char": "偃",
+          "jyutping": "jin2",
+          "meaning": "仰臥、仰放"
+        },
+        {
+          "char": "菀",
+          "jyutping": "wat1",
+          "meaning": "同「鬱」,積聚鬱結"
+        },
+        {
+          "char": "熟",
+          "jyutping": "suk6",
+          "meaning": "同「熱」,熱邪"
+        }
+      ]
+    },
+    {
+      "original": "脈至如丸滑不直手，不直手者按之不可得也，是大腸氣予不足也，棗葉生而死。",
+      "baihua": "脈來如彈丸般滑動而不應手指,所謂「不直手」就是按下去摸不到,這是大腸之氣將要不足的表現,到棗樹生葉的時節便死。",
+      "annotations": [
+        {
+          "char": "直",
+          "jyutping": "zik6",
+          "meaning": "應、當;不直手即不應指"
+        },
+        {
+          "char": "丸",
+          "jyutping": "jyun2",
+          "meaning": "彈丸、圓球"
+        },
+        {
+          "char": "生",
+          "jyutping": "saang1",
+          "meaning": "生長、長出"
+        }
+      ]
+    },
+    {
+      "original": "脈至如華者，令人善恐，不欲坐臥，行立常聽，是小腸氣予不足也，季秋而死。",
+      "baihua": "脈來輕浮虛弱如花瓣一般,使人容易恐懼,不想坐臥,行走站立時常想側耳細聽,這是小腸之氣將要不足的表現,到深秋時節便死。",
+      "annotations": [
+        {
+          "char": "華",
+          "jyutping": "faa1",
+          "meaning": "花,喻脈浮虛"
+        },
+        {
+          "char": "恐",
+          "jyutping": "hung2",
+          "meaning": "恐懼"
+        },
+        {
+          "char": "聽",
+          "jyutping": "ting1",
+          "meaning": "側耳細聽"
+        },
+        {
+          "char": "季秋",
+          "jyutping": "gwai3 cau1",
+          "meaning": "秋季最後一月,深秋"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇為何名為「大奇論」?主要討論甚麼內容?",
+      "answer": "「大奇論」取「奇異」之意,專門討論各種特殊、奇異的病脈與危重病證,包括臟氣壅滿所致的腫、疝、瘕、癇、腸澼、偏枯等病,並詳細列舉了多種預示死亡的真臟脈象及其應驗時令。"
+    },
+    {
+      "question": "文中提到腎肝兩脈同時出現不同脈象時各主甚麼病?",
+      "answer": "腎脈與肝脈同時沉主石水病,同時浮主風水病,同時虛主死候,同時細小而弦則將發驚證。"
+    },
+    {
+      "question": "「脈至浮合，一息十至以上」說明了甚麼?",
+      "answer": "說明脈搏極快,一次呼吸間跳動十次以上,是經氣將要衰竭不足的表現,此脈稍一出現,約九十日內死亡。"
+    },
+    {
+      "question": "本篇多處以自然物候(如草乾、木葉落、水凝、立春)推斷死期,反映了甚麼中醫思想?",
+      "answer": "反映了中醫「天人相應」的思想,認為人體臟氣與四時陰陽變化相通,當某臟精氣衰竭時,便會在與該臟相應或相剋的時令應驗死候,體現脈象、臟腑與自然節律的密切聯繫。"
+    },
+    {
+      "question": "胃脈、心脈異常導致的膈證與偏枯,男女發病部位有何不同?預後如何判斷?",
+      "answer": "男子病發於左側,女子病發於右側;若不失音而舌能轉動的可治,約三十日康復;若失音者約三年康復;而年齡不滿二十歲的患者,三年內死亡。"
+    }
+  ]
+}

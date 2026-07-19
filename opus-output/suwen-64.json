@@ -1,0 +1,590 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "四時刺逆從論",
+    "number": 64,
+    "originalVerified": true,
+    "sections": 28,
+    "usage": {
+      "completion_tokens": 6827,
+      "prompt_tokens": 1645,
+      "total_tokens": 8472,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T09:06:07.267Z"
+  },
+  "id": "suwen-64",
+  "intro": "《四時刺逆從論》是《素問》第六十四篇,主要討論三陰三陽經氣有餘、不足以及脈象滑澀所引起的各種病症,並闡明四時之氣分別藏於經脈、孫絡、肌肉、皮膚、骨髓的規律。本篇最重要的意義,在於教導針刺必須順應四時之氣的深淺變化:若違逆四時而妄刺,就會擾亂人體氣血,產生種種病變。文末更列舉針刺誤傷五臟所致死亡的日數與徵候,警示醫者用針必須謹慎審察。對於初學者而言,本篇是理解「天人相應」與「因時制宜」針法原則的重要篇章,能建立順應自然、審慎施治的基本觀念。",
+  "sections": [
+    {
+      "original": "厥陰有餘病陰痹，不足病生熱痹，滑則病狐疝風，澀則病少腹積氣。",
+      "baihua": "厥陰經氣偏盛，就會患陰痹（寒性痹症）；厥陰經氣不足，就會生熱痹；脈象滑利，就會患狐疝風（陰囊時上時下的疝氣兼有風症）；脈象澀滯，就會在小腹形成積聚之氣。",
+      "annotations": [
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "氣血閉阻不通的病症"
+        },
+        {
+          "char": "疝",
+          "jyutping": "saan3",
+          "meaning": "少腹及陰部墜脹疼痛的疾病"
+        },
+        {
+          "char": "澀",
+          "jyutping": "gwaan3",
+          "meaning": "脈來艱澀不流暢"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "此指厥陰經"
+        }
+      ]
+    },
+    {
+      "original": "少陰有餘病皮痹隱軫，不足病肺痹，滑則病肺風疝，澀則病積溲血。",
+      "baihua": "少陰經氣偏盛，就會患皮痹並生隱疹；少陰經氣不足，就會患肺痹；脈象滑利，就會患肺風疝；脈象澀滯，就會形成積聚並有小便帶血。",
+      "annotations": [
+        {
+          "char": "軫",
+          "jyutping": "can2",
+          "meaning": "同「疹」，皮膚小疹"
+        },
+        {
+          "char": "隱",
+          "jyutping": "jan2",
+          "meaning": "隱約隱伏，此指隱疹"
+        },
+        {
+          "char": "溲",
+          "jyutping": "sau1",
+          "meaning": "小便"
+        },
+        {
+          "char": "積",
+          "jyutping": "zik1",
+          "meaning": "腹內積聚的病邪"
+        }
+      ]
+    },
+    {
+      "original": "太陰有餘病肉痹寒中，不足病脾痹，滑則病脾風疝，澀則病積心腹時滿。",
+      "baihua": "太陰經氣偏盛，就會患肉痹並見中焦虛寒；太陰經氣不足，就會患脾痹；脈象滑利，就會患脾風疝；脈象澀滯，就會形成積聚並時常胸腹脹滿。",
+      "annotations": [
+        {
+          "char": "寒中",
+          "jyutping": "hon4 zung1",
+          "meaning": "中焦脾胃虛寒"
+        },
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "脹滿"
+        },
+        {
+          "char": "滑",
+          "jyutping": "waat6",
+          "meaning": "脈來流利圓滑"
+        }
+      ]
+    },
+    {
+      "original": "陽明有餘病脈痹身時熱，不足病心痹，滑則病心風疝，澀則病積時善驚。",
+      "baihua": "陽明經氣偏盛，就會患脈痹並身體時常發熱；陽明經氣不足，就會患心痹；脈象滑利，就會患心風疝；脈象澀滯，就會形成積聚並時常易受驚嚇。",
+      "annotations": [
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "容易、常常"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚恐"
+        },
+        {
+          "char": "時",
+          "jyutping": "si4",
+          "meaning": "時常"
+        }
+      ]
+    },
+    {
+      "original": "太陽有餘病骨痹身重，不足病腎痹，滑則病腎風疝，澀則病積善時巔疾。",
+      "baihua": "太陽經氣偏盛，就會患骨痹並感身體沉重；太陽經氣不足，就會患腎痹；脈象滑利，就會患腎風疝；脈象澀滯，就會形成積聚並時常患頭部疾病。",
+      "annotations": [
+        {
+          "char": "巔",
+          "jyutping": "din1",
+          "meaning": "頭頂，此指頭部疾患"
+        },
+        {
+          "char": "重",
+          "jyutping": "cung5",
+          "meaning": "沉重"
+        }
+      ]
+    },
+    {
+      "original": "少陽有餘病筋痹脅滿，不足病肝痹，滑則病肝風疝，澀則病積時筋急目痛。",
+      "baihua": "少陽經氣偏盛，就會患筋痹並脅部脹滿；少陽經氣不足，就會患肝痹；脈象滑利，就會患肝風疝；脈象澀滯，就會形成積聚並時常筋脈拘急、眼睛疼痛。",
+      "annotations": [
+        {
+          "char": "脅",
+          "jyutping": "hip3",
+          "meaning": "胸部兩側肋骨部位"
+        },
+        {
+          "char": "急",
+          "jyutping": "gap1",
+          "meaning": "拘緊攣急"
+        },
+        {
+          "char": "目",
+          "jyutping": "muk6",
+          "meaning": "眼睛"
+        }
+      ]
+    },
+    {
+      "original": "是故春氣在經脈，夏氣在孫絡，長夏氣在肌肉，秋氣在皮膚，冬氣在骨髓中。",
+      "baihua": "因此，春天的人氣運行於經脈，夏天的人氣運行於孫絡，長夏的人氣運行於肌肉，秋天的人氣運行於皮膚，冬天的人氣則深藏於骨髓之中。",
+      "annotations": [
+        {
+          "char": "孫絡",
+          "jyutping": "syun1 lok3",
+          "meaning": "從絡脈分出的細小絡脈"
+        },
+        {
+          "char": "長夏",
+          "jyutping": "coeng4 haa6",
+          "meaning": "夏末秋初、屬脾土的季節"
+        },
+        {
+          "char": "髓",
+          "jyutping": "seoi5",
+          "meaning": "骨中的髓質"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：余願聞其故。",
+      "baihua": "黃帝說：我想聽聽其中的道理。",
+      "annotations": [
+        {
+          "char": "余",
+          "jyutping": "jyu4",
+          "meaning": "我，帝王自稱"
+        },
+        {
+          "char": "故",
+          "jyutping": "gu3",
+          "meaning": "緣由、道理"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：春者，天氣始開，地氣始泄，凍解冰釋，水行經通，故人氣在脈。",
+      "baihua": "岐伯說：春天，天之陽氣開始舒發，地之陰氣開始上泄，冰凍消融，河水流動、經脈暢通，所以人體之氣運行在經脈。",
+      "annotations": [
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "發散、宣泄"
+        },
+        {
+          "char": "釋",
+          "jyutping": "sik1",
+          "meaning": "消融、化開"
+        },
+        {
+          "char": "凍",
+          "jyutping": "dung3",
+          "meaning": "冰凍"
+        }
+      ]
+    },
+    {
+      "original": "夏者，經滿氣溢，入孫絡受血，皮膚充實。",
+      "baihua": "夏天，經脈氣血充盈滿溢，流入孫絡而受納血液，使皮膚充實飽滿。",
+      "annotations": [
+        {
+          "char": "溢",
+          "jyutping": "jat6",
+          "meaning": "充滿而外溢"
+        },
+        {
+          "char": "充",
+          "jyutping": "cung1",
+          "meaning": "充盈飽滿"
+        }
+      ]
+    },
+    {
+      "original": "長夏者，經絡皆盛，內溢肌中。",
+      "baihua": "長夏時節，經脈和絡脈都很旺盛，氣血向內充溢於肌肉之中。",
+      "annotations": [
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "旺盛充盛"
+        },
+        {
+          "char": "肌",
+          "jyutping": "gei1",
+          "meaning": "肌肉"
+        }
+      ]
+    },
+    {
+      "original": "秋者，天氣始收，腠理閉塞，皮膚引急。",
+      "baihua": "秋天，天之陽氣開始收斂，腠理閉合，皮膚變得緊縮拘急。",
+      "annotations": [
+        {
+          "char": "腠理",
+          "jyutping": "cau3 lei5",
+          "meaning": "皮膚肌肉的紋理與間隙"
+        },
+        {
+          "char": "引急",
+          "jyutping": "jan5 gap1",
+          "meaning": "收緊繃急"
+        }
+      ]
+    },
+    {
+      "original": "冬者蓋藏，血氣在中，內著骨髓，通於五藏。",
+      "baihua": "冬天萬物閉藏，人的血氣潛藏於內，深附於骨髓，並與五臟相通。",
+      "annotations": [
+        {
+          "char": "蓋藏",
+          "jyutping": "koi3 cong4",
+          "meaning": "閉藏收斂"
+        },
+        {
+          "char": "著",
+          "jyutping": "zoek6",
+          "meaning": "附著、貼附"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "通「臟」，指五臟"
+        }
+      ]
+    },
+    {
+      "original": "是故邪氣者，常隨四時之氣血而入客也，至其變化不可為度，然必從其經氣，闢除其邪，除其邪則亂氣不生。",
+      "baihua": "因此，邪氣常常隨著四時氣血所在的部位而侵入人體，其變化難以完全預測；但治療必須順應各時當旺的經氣所在，去除邪氣，邪氣一除，紊亂之氣就不會產生。",
+      "annotations": [
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "侵入停留（如客居）"
+        },
+        {
+          "char": "度",
+          "jyutping": "dok6",
+          "meaning": "揣度、預測"
+        },
+        {
+          "char": "闢",
+          "jyutping": "pik1",
+          "meaning": "排除、驅除"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：逆四時而生亂氣奈何？",
+      "baihua": "黃帝問：違逆四時而產生紊亂之氣，情況是怎樣的呢？",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "違背、逆反"
+        },
+        {
+          "char": "奈何",
+          "jyutping": "noi6 ho4",
+          "meaning": "怎麼樣、如何"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：春刺絡脈，血氣外溢，令人少氣；春刺肌肉，血氣環逆，令人上氣；春刺筋骨，血氣內著，令人腹脹。",
+      "baihua": "岐伯說：春天本應刺經脈，若誤刺絡脈，會使血氣向外溢散，令人氣短；若誤刺肌肉，會使血氣迴環逆亂，令人氣逆上喘；若誤刺筋骨，會使血氣內滯，令人腹部脹滿。",
+      "annotations": [
+        {
+          "char": "少氣",
+          "jyutping": "siu2 hei3",
+          "meaning": "氣不足、氣短"
+        },
+        {
+          "char": "環逆",
+          "jyutping": "waan4 jik6",
+          "meaning": "氣血迴旋逆亂"
+        },
+        {
+          "char": "上氣",
+          "jyutping": "soeng5 hei3",
+          "meaning": "氣逆上衝、喘促"
+        }
+      ]
+    },
+    {
+      "original": "夏刺經脈，血氣乃竭，令人解㑊；夏刺肌肉，血氣內卻，令人善恐；夏刺筋骨，血氣上逆，令人善怒。",
+      "baihua": "夏天本應刺孫絡，若誤刺經脈，會使血氣耗竭，令人倦怠疲乏；若誤刺肌肉，會使血氣向內退卻，令人容易恐懼；若誤刺筋骨，會使血氣上逆，令人容易發怒。",
+      "annotations": [
+        {
+          "char": "竭",
+          "jyutping": "kit3",
+          "meaning": "耗盡、枯竭"
+        },
+        {
+          "char": "解㑊",
+          "jyutping": "gaai3 jik6",
+          "meaning": "周身困倦懈怠無力"
+        },
+        {
+          "char": "卻",
+          "jyutping": "koek3",
+          "meaning": "退卻、退縮"
+        }
+      ]
+    },
+    {
+      "original": "秋刺經脈，血氣上逆，令人善忘；秋刺絡脈，氣不外行，令人臥不欲動；秋刺筋骨，血氣內散，令人寒慄。",
+      "baihua": "秋天本應刺皮膚，若誤刺經脈，會使血氣上逆，令人健忘；若誤刺絡脈，會使氣不能外行，令人只想臥床不願活動；若誤刺筋骨，會使血氣向內耗散，令人寒冷發抖。",
+      "annotations": [
+        {
+          "char": "忘",
+          "jyutping": "mong4",
+          "meaning": "遺忘、健忘"
+        },
+        {
+          "char": "慄",
+          "jyutping": "leot6",
+          "meaning": "寒冷發抖"
+        },
+        {
+          "char": "臥",
+          "jyutping": "ngo6",
+          "meaning": "躺臥"
+        }
+      ]
+    },
+    {
+      "original": "冬刺經脈，血氣皆脫，令人目不明；冬刺絡脈，內氣外泄，留為大痹；冬刺肌肉，陽氣竭絕，令人善忘。",
+      "baihua": "冬天本應刺骨髓，若誤刺經脈，會使血氣都脫失，令人視物不清；若誤刺絡脈，會使內藏之氣外泄，滯留而形成嚴重的痹症；若誤刺肌肉，會使陽氣耗竭殆盡，令人健忘。",
+      "annotations": [
+        {
+          "char": "脫",
+          "jyutping": "tyut3",
+          "meaning": "脫失、流失"
+        },
+        {
+          "char": "大痹",
+          "jyutping": "daai6 bei3",
+          "meaning": "嚴重的痹症"
+        },
+        {
+          "char": "竭絕",
+          "jyutping": "kit3 zyut6",
+          "meaning": "耗盡斷絕"
+        }
+      ]
+    },
+    {
+      "original": "凡此四時刺者，大逆之病，不可不從也，反之，則生亂氣相淫病焉。",
+      "baihua": "以上這些四時刺法，都是違逆時令而致病的例子，所以針刺不能不順應四時；若違反這原則，就會產生紊亂之氣，互相侵擾而生病。",
+      "annotations": [
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順從、遵循"
+        },
+        {
+          "char": "淫",
+          "jyutping": "jam4",
+          "meaning": "浸淫、侵擾蔓延"
+        },
+        {
+          "char": "焉",
+          "jyutping": "jin1",
+          "meaning": "語氣助詞，於是、了"
+        }
+      ]
+    },
+    {
+      "original": "故刺不知四時之經，病之所生，以從為逆，正氣內亂，與精相薄，必審九候，正氣不亂，精氣不轉。",
+      "baihua": "所以針刺若不懂四時各經氣所在，以及疾病的產生規律，把順應當作違逆，就會使正氣在內紊亂，並與精氣相互搏擊；必須詳審九候脈象，才能使正氣不亂、精氣不致耗損轉移。",
+      "annotations": [
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "迫近、搏擊"
+        },
+        {
+          "char": "審",
+          "jyutping": "sam2",
+          "meaning": "詳細審察"
+        },
+        {
+          "char": "九候",
+          "jyutping": "gau2 hau6",
+          "meaning": "三部九候的診脈之法"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。",
+      "baihua": "黃帝說：講得好。",
+      "annotations": [
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "好，表贊同"
+        }
+      ]
+    },
+    {
+      "original": "刺五藏，中心一日死，其動為噫。",
+      "baihua": "針刺誤傷五臟：刺中心臟的，一天內就會死亡，其發病的徵象是噯氣。",
+      "annotations": [
+        {
+          "char": "中",
+          "jyutping": "zung3",
+          "meaning": "刺中、擊中"
+        },
+        {
+          "char": "噫",
+          "jyutping": "aai3",
+          "meaning": "噯氣、打嗝"
+        },
+        {
+          "char": "動",
+          "jyutping": "dung6",
+          "meaning": "發作、表現的徵象"
+        }
+      ]
+    },
+    {
+      "original": "中肝五日死，其動為語。",
+      "baihua": "刺中肝臟的，五天內就會死亡，其發病的徵象是多言不止。",
+      "annotations": [
+        {
+          "char": "語",
+          "jyutping": "jyu5",
+          "meaning": "言語，此指多言"
+        },
+        {
+          "char": "肝",
+          "jyutping": "gon1",
+          "meaning": "肝臟"
+        }
+      ]
+    },
+    {
+      "original": "中肺三日死，其動為咳。",
+      "baihua": "刺中肺臟的，三天內就會死亡，其發病的徵象是咳嗽。",
+      "annotations": [
+        {
+          "char": "咳",
+          "jyutping": "kat1",
+          "meaning": "咳嗽"
+        },
+        {
+          "char": "肺",
+          "jyutping": "fai3",
+          "meaning": "肺臟"
+        }
+      ]
+    },
+    {
+      "original": "中腎六日死，其動為嚏欠。",
+      "baihua": "刺中腎臟的，六天內就會死亡，其發病的徵象是打噴嚏和呵欠。",
+      "annotations": [
+        {
+          "char": "嚏",
+          "jyutping": "tai3",
+          "meaning": "打噴嚏"
+        },
+        {
+          "char": "欠",
+          "jyutping": "him3",
+          "meaning": "呵欠"
+        },
+        {
+          "char": "腎",
+          "jyutping": "san6",
+          "meaning": "腎臟"
+        }
+      ]
+    },
+    {
+      "original": "中脾十日死，其動為吞。",
+      "baihua": "刺中脾臟的，十天內就會死亡，其發病的徵象是吞嚥動作。",
+      "annotations": [
+        {
+          "char": "吞",
+          "jyutping": "tan1",
+          "meaning": "吞嚥"
+        },
+        {
+          "char": "脾",
+          "jyutping": "pei4",
+          "meaning": "脾臟"
+        }
+      ]
+    },
+    {
+      "original": "刺傷人五藏必死，其動，則依其藏之所變候知其死也。",
+      "baihua": "針刺誤傷人的五臟必然導致死亡，其發病的徵象，就可以根據所傷臟腑相應的變化徵候，來判斷病人的死亡。",
+      "annotations": [
+        {
+          "char": "傷",
+          "jyutping": "soeng1",
+          "meaning": "損傷"
+        },
+        {
+          "char": "變",
+          "jyutping": "bin3",
+          "meaning": "變化"
+        },
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "徵候、症候"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "根據本篇，春、夏、長夏、秋、冬五個時節，人體之氣分別運行或潛藏於哪些部位？",
+      "answer": "春氣在經脈，夏氣在孫絡，長夏氣在肌肉，秋氣在皮膚，冬氣在骨髓之中。這反映人氣隨四時由淺入深、由外向內的變化規律。"
+    },
+    {
+      "question": "本篇為何強調針刺必須順應四時？違逆四時會有甚麼後果？",
+      "answer": "因為邪氣常隨四時氣血所在部位而入侵，治療要順應當旺經氣以去除邪氣。若違逆四時而妄刺，例如春刺絡脈令人少氣、夏刺經脈令人解㑊等，都會擾亂血氣，產生種種病變（亂氣相淫病）。"
+    },
+    {
+      "question": "厥陰經氣有餘、不足、脈滑、脈澀分別會導致甚麼病症？",
+      "answer": "厥陰有餘會患陰痹，不足會生熱痹，脈滑會患狐疝風，脈澀則在少腹形成積氣。"
+    },
+    {
+      "question": "針刺誤傷五臟後,各臟的死亡日數和發病徵象分別是甚麼？",
+      "answer": "刺中心一日死，其動為噫；中肝五日死，其動為語；中肺三日死，其動為咳；中腎六日死，其動為嚏欠；中脾十日死，其動為吞。可依所傷臟腑的變化徵候判斷死期。"
+    },
+    {
+      "question": "本篇提到針刺時醫者「必審九候」有何意義？",
+      "answer": "若不懂四時經氣與疾病所生，把順當作逆，會使正氣內亂、與精氣相搏。必須詳審三部九候的脈象，才能使正氣不亂、精氣不致耗損轉移，避免誤治。"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "刺禁論",
+    "number": 52,
+    "originalVerified": true,
+    "sections": 21,
+    "usage": {
+      "completion_tokens": 6934,
+      "prompt_tokens": 1325,
+      "total_tokens": 8259,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:38:36.520Z"
+  },
+  "id": "suwen-52",
+  "intro": "《刺禁論》是《素問》第五十二篇,專門論述針刺的禁忌。全篇先講述五臟六腑在體內的部位與功能要害,說明針刺前必須熟知臟腑所在,方能「從之有福,逆之有咎」。接著詳列若誤刺心、肝、腎、肺、脾、膽等臟腑,以及誤刺各處重要血脈、經絡、關節時所引致的嚴重後果,甚至死亡。此外亦提出「五奪」「五禁」等情況——如大醉、大怒、大勞、新飽、大飢、大渴、大驚時不可施針。對初學者而言,本篇是理解古代針灸安全觀念的重要文獻,提醒行針者必須明辨部位、審察病人狀態,體現中醫「治病先求無過」的謹慎精神。",
+  "sections": [
+    {
+      "original": "黃帝問曰：願聞禁數。岐伯對曰；藏有要害，不可不察，",
+      "baihua": "黃帝發問說:我希望聽聽針刺禁忌的道理。岐伯回答說:人體臟腑各有要害之處,不能不仔細審察清楚。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sou3",
+          "meaning": "道理、法則"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "同「臟」,指五臟"
+        },
+        {
+          "char": "察",
+          "jyutping": "caat3",
+          "meaning": "審察、明辨"
+        }
+      ]
+    },
+    {
+      "original": "肝生於左，肺藏於右，心部於表，腎治於裡，脾為之使，胃為之市。",
+      "baihua": "肝氣升發於左,肺氣肅降於右,心主陽而外達於表,腎主陰而內守於裡,脾負責運化輸布如同使者,胃受納水穀如同集散的市集。",
+      "annotations": [
+        {
+          "char": "部",
+          "jyutping": "bou6",
+          "meaning": "主管、分布"
+        },
+        {
+          "char": "裡",
+          "jyutping": "lei5",
+          "meaning": "內部"
+        },
+        {
+          "char": "使",
+          "jyutping": "si3",
+          "meaning": "使者,指運送輸布"
+        },
+        {
+          "char": "市",
+          "jyutping": "si5",
+          "meaning": "市集,喻聚納水穀之處"
+        }
+      ]
+    },
+    {
+      "original": "膈肓之上，中有父母，七節之旁，中有小心，從之有福，逆之有咎。",
+      "baihua": "橫膈與肓膜之上,中間有心肺(如同父母般重要);第七椎節旁邊,中間有相火(小心，即命門或膈膜之處)。順從這些部位規律施針就有益處,違逆它們則會招致災禍。",
+      "annotations": [
+        {
+          "char": "膈",
+          "jyutping": "gaak3",
+          "meaning": "橫膈膜"
+        },
+        {
+          "char": "肓",
+          "jyutping": "fong1",
+          "meaning": "心下膈上的膜狀組織"
+        },
+        {
+          "char": "咎",
+          "jyutping": "gau3",
+          "meaning": "災禍、過失"
+        }
+      ]
+    },
+    {
+      "original": "刺中心，一日死，其動為噫。刺中肝，五日死，其動為語。",
+      "baihua": "針刺誤傷心臟,一天內就會死亡,發病時的變動表現為噯氣;針刺誤傷肝臟,五天內死亡,發病時的變動表現為多語。",
+      "annotations": [
+        {
+          "char": "中",
+          "jyutping": "zung3",
+          "meaning": "刺中、傷及"
+        },
+        {
+          "char": "噫",
+          "jyutping": "aai3",
+          "meaning": "噯氣、打嗝"
+        },
+        {
+          "char": "語",
+          "jyutping": "jyu5",
+          "meaning": "多言、亂語"
+        }
+      ]
+    },
+    {
+      "original": "刺中腎，六日死，其動為嚏。刺中肺，三日死，其動為咳。",
+      "baihua": "針刺誤傷腎臟,六天內死亡,發病時的變動表現為打噴嚏;針刺誤傷肺臟,三天內死亡,發病時的變動表現為咳嗽。",
+      "annotations": [
+        {
+          "char": "嚏",
+          "jyutping": "tai3",
+          "meaning": "打噴嚏"
+        },
+        {
+          "char": "咳",
+          "jyutping": "kat1",
+          "meaning": "咳嗽"
+        }
+      ]
+    },
+    {
+      "original": "刺中脾，十日死，其動為吞。刺中膽，一日半死，其動為嘔。",
+      "baihua": "針刺誤傷脾臟,十天內死亡,發病時的變動表現為吞嚥動作;針刺誤傷膽腑,一天半內死亡,發病時的變動表現為嘔吐。",
+      "annotations": [
+        {
+          "char": "吞",
+          "jyutping": "tan1",
+          "meaning": "吞嚥"
+        },
+        {
+          "char": "膽",
+          "jyutping": "daam2",
+          "meaning": "膽腑"
+        },
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        }
+      ]
+    },
+    {
+      "original": "刺跗上中大脈，血出不止死。刺面中溜脈，不幸為盲。",
+      "baihua": "針刺足背而刺中大血脈,血流不止就會死亡;針刺面部而刺中流動的血脈,不幸的話會導致失明。",
+      "annotations": [
+        {
+          "char": "跗",
+          "jyutping": "fu1",
+          "meaning": "足背"
+        },
+        {
+          "char": "溜",
+          "jyutping": "lau4",
+          "meaning": "流動的脈"
+        },
+        {
+          "char": "盲",
+          "jyutping": "maang4",
+          "meaning": "失明"
+        }
+      ]
+    },
+    {
+      "original": "刺頭中腦戶，入腦立死。刺舌下中脈太過，血出不止為喑。",
+      "baihua": "針刺頭部而刺中腦戶穴,針入腦中立即死亡;針刺舌下而刺中血脈過深,血流不止就會導致失音不能言語。",
+      "annotations": [
+        {
+          "char": "腦戶",
+          "jyutping": "nou5 wu6",
+          "meaning": "後腦部的穴位名"
+        },
+        {
+          "char": "喑",
+          "jyutping": "am1",
+          "meaning": "失音、不能發聲"
+        }
+      ]
+    },
+    {
+      "original": "刺足下布絡中脈，血不出為腫。刺郄中大脈，令人僕脫色。",
+      "baihua": "針刺足底散布的絡脈而刺中血脈,若瘀血不能排出就會腫脹;針刺膝後郄窩處的大血脈,會使人昏倒而面色蒼白。",
+      "annotations": [
+        {
+          "char": "布絡",
+          "jyutping": "bou3 lok3",
+          "meaning": "散布的細小絡脈"
+        },
+        {
+          "char": "郄",
+          "jyutping": "kwik1",
+          "meaning": "膝膕窩,指委中處"
+        },
+        {
+          "char": "僕",
+          "jyutping": "puk1",
+          "meaning": "跌倒、昏仆"
+        }
+      ]
+    },
+    {
+      "original": "刺氣街中脈，血不出，為腫鼠僕。刺脊間中髓，為傴。",
+      "baihua": "針刺氣街(氣衝穴處)而刺中血脈,若血不能排出,就會在鼠蹊部形成腫塊;針刺脊椎之間而刺中脊髓,會使人成為佝僂駝背。",
+      "annotations": [
+        {
+          "char": "氣街",
+          "jyutping": "hei3 gaai1",
+          "meaning": "氣衝穴,在鼠蹊部"
+        },
+        {
+          "char": "鼠僕",
+          "jyutping": "syu2 puk6",
+          "meaning": "鼠蹊部的腫塊,即鼠鼷"
+        },
+        {
+          "char": "傴",
+          "jyutping": "jyu2",
+          "meaning": "駝背、彎腰"
+        }
+      ]
+    },
+    {
+      "original": "刺乳上，中乳房，為腫根蝕。刺缺盆中內陷，氣泄，令人喘咳逆。",
+      "baihua": "針刺乳房上部而刺中乳房組織,會化膿腫脹並向內潰蝕;針刺缺盆穴而過深內陷,使肺氣外泄,令人氣喘咳嗽而氣上逆。",
+      "annotations": [
+        {
+          "char": "蝕",
+          "jyutping": "sik6",
+          "meaning": "潰爛、侵蝕"
+        },
+        {
+          "char": "缺盆",
+          "jyutping": "kyut3 pun4",
+          "meaning": "鎖骨上窩處的穴位"
+        },
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "氣喘"
+        }
+      ]
+    },
+    {
+      "original": "刺手魚腹內陷，為腫。",
+      "baihua": "針刺手掌大魚際部位而過深內陷,就會腫脹。",
+      "annotations": [
+        {
+          "char": "魚腹",
+          "jyutping": "jyu4 fuk1",
+          "meaning": "手掌大魚際,肌肉隆起如魚腹"
+        },
+        {
+          "char": "陷",
+          "jyutping": "haam6",
+          "meaning": "刺入過深"
+        }
+      ]
+    },
+    {
+      "original": "無刺大醉，令人氣亂。無刺大怒，令人氣逆。",
+      "baihua": "不要在人大醉時針刺,那會使氣機紊亂;不要在人大怒時針刺,那會使氣機上逆。",
+      "annotations": [
+        {
+          "char": "無",
+          "jyutping": "mou4",
+          "meaning": "不要、勿"
+        },
+        {
+          "char": "亂",
+          "jyutping": "lyun6",
+          "meaning": "紊亂"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "上逆、逆亂"
+        }
+      ]
+    },
+    {
+      "original": "無刺大勞人，無刺新飽人，無刺大飢人，無刺大渴人，無刺大驚人。",
+      "baihua": "不要針刺過度勞累的人,不要針刺剛吃飽的人,不要針刺極度飢餓的人,不要針刺極度口渴的人,不要針刺受到大驚嚇的人。",
+      "annotations": [
+        {
+          "char": "勞",
+          "jyutping": "lou4",
+          "meaning": "勞累、疲勞"
+        },
+        {
+          "char": "飽",
+          "jyutping": "baau2",
+          "meaning": "飽食"
+        },
+        {
+          "char": "飢",
+          "jyutping": "gei1",
+          "meaning": "飢餓"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚嚇"
+        }
+      ]
+    },
+    {
+      "original": "刺陰股中大脈，血出不止死。刺客主人內陷中脈，為內漏為聾。",
+      "baihua": "針刺大腿內側而刺中大血脈,血流不止就會死亡;針刺客主人穴(上關穴)而過深刺中血脈,會造成耳內出血流膿,並導致耳聾。",
+      "annotations": [
+        {
+          "char": "陰股",
+          "jyutping": "jam1 gu2",
+          "meaning": "大腿內側"
+        },
+        {
+          "char": "客主人",
+          "jyutping": "haak3 zyu2 jan4",
+          "meaning": "上關穴,在耳前"
+        },
+        {
+          "char": "聾",
+          "jyutping": "lung4",
+          "meaning": "耳聾"
+        }
+      ]
+    },
+    {
+      "original": "刺膝髕出液，為跛。刺臂太陰脈，出血多立死。",
+      "baihua": "針刺膝蓋骨而使關節液流出,會造成跛行;針刺手臂的手太陰肺經血脈,出血過多會立即死亡。",
+      "annotations": [
+        {
+          "char": "髕",
+          "jyutping": "ban6",
+          "meaning": "膝蓋骨"
+        },
+        {
+          "char": "跛",
+          "jyutping": "bo2",
+          "meaning": "跛行、行走不便"
+        },
+        {
+          "char": "臂",
+          "jyutping": "bei3",
+          "meaning": "手臂"
+        }
+      ]
+    },
+    {
+      "original": "刺足少陰脈，重虛出血，為舌難以言。",
+      "baihua": "針刺足少陰腎經血脈,若在正虛的情況下再出血而更加虛損,會使舌頭活動不利,難以言語。",
+      "annotations": [
+        {
+          "char": "重虛",
+          "jyutping": "cung4 heoi1",
+          "meaning": "虛上加虛,更加虛損"
+        },
+        {
+          "char": "舌",
+          "jyutping": "sit6",
+          "meaning": "舌頭"
+        },
+        {
+          "char": "言",
+          "jyutping": "jin4",
+          "meaning": "說話"
+        }
+      ]
+    },
+    {
+      "original": "刺膺中陷中肺，為喘逆仰息。刺肘中內陷，氣歸之，為不屈伸。",
+      "baihua": "針刺胸膺部而過深刺中肺臟,會造成氣喘上逆、須仰頭呼吸;針刺肘窩而過深內陷,使氣血滯留於此,會造成肘部不能屈伸。",
+      "annotations": [
+        {
+          "char": "膺",
+          "jyutping": "jing1",
+          "meaning": "胸部"
+        },
+        {
+          "char": "仰息",
+          "jyutping": "joeng5 sik1",
+          "meaning": "仰頭呼吸,氣促之狀"
+        },
+        {
+          "char": "屈伸",
+          "jyutping": "wat1 san1",
+          "meaning": "彎曲和伸展"
+        }
+      ]
+    },
+    {
+      "original": "刺陰股下三寸內陷，令人遺溺。刺掖下脅間內陷，令人咳。",
+      "baihua": "針刺大腿內側下三寸處而過深內陷,會使人小便失禁;針刺腋下脅肋之間而過深內陷,會使人咳嗽。",
+      "annotations": [
+        {
+          "char": "遺溺",
+          "jyutping": "wai4 niu6",
+          "meaning": "小便失禁"
+        },
+        {
+          "char": "掖",
+          "jyutping": "jik6",
+          "meaning": "同「腋」,腋下"
+        },
+        {
+          "char": "脅",
+          "jyutping": "hip3",
+          "meaning": "肋部、脅肋"
+        }
+      ]
+    },
+    {
+      "original": "刺少腹中膀胱溺出，令人少腹滿。刺踹腸內陷，為腫。",
+      "baihua": "針刺小腹而刺中膀胱使尿液滲出,會使人小腹脹滿;針刺小腿腓腸肌而過深內陷,會造成腫脹。",
+      "annotations": [
+        {
+          "char": "少腹",
+          "jyutping": "siu2 fuk1",
+          "meaning": "小腹、下腹"
+        },
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便、尿液"
+        },
+        {
+          "char": "踹腸",
+          "jyutping": "cyun2 coeng4",
+          "meaning": "小腿腓腸肌,即小腿肚"
+        }
+      ]
+    },
+    {
+      "original": "刺匡上陷骨中脈，為漏為盲。刺關節中液出，不得屈伸。",
+      "baihua": "針刺眼眶上方骨陷處而刺中血脈,會造成眼漏出血並導致失明;針刺關節而使關節液流出,就會不能屈伸活動。",
+      "annotations": [
+        {
+          "char": "匡",
+          "jyutping": "hong1",
+          "meaning": "同「眶」,眼眶"
+        },
+        {
+          "char": "漏",
+          "jyutping": "lau6",
+          "meaning": "滲漏、流血流膿"
+        },
+        {
+          "char": "液",
+          "jyutping": "jik6",
+          "meaning": "關節腔的津液"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇開首提到臟腑分布,「肝生於左,肺藏於右」是指甚麼?",
+      "answer": "這是指肝與肺的氣機運行方向:肝氣主升發,故言「生於左」;肺氣主肅降,故言「藏於右」。並非指肝肺實際的解剖位置,而是說明其功能與氣機的特性。"
+    },
+    {
+      "question": "誤刺五臟後死亡的日數各是多少?",
+      "answer": "刺中心一日死,刺中肝五日死,刺中腎六日死,刺中肺三日死,刺中脾十日死;此外刺中膽則一日半死。"
+    },
+    {
+      "question": "本篇提出哪幾種身體或情緒狀態下不宜針刺?",
+      "answer": "共列出七種禁刺情況:大醉、大怒、大勞、新飽、大飢、大渴、大驚。因為這些狀態下氣血紊亂或正氣不安,施針容易造成氣亂、氣逆等傷害。"
+    },
+    {
+      "question": "誤刺頭部與眼眶部位分別有甚麼嚴重後果?",
+      "answer": "針刺頭部而刺入腦戶穴傷及腦部,會立即死亡;針刺眼眶上方骨陷處而傷及血脈,則會造成眼部滲漏出血並導致失明。"
+    },
+    {
+      "question": "「從之有福,逆之有咎」這句話對針刺有何啟示?",
+      "answer": "它強調針刺必須順從臟腑經脈的部位規律與禁忌:順應規律施針就有益處,違逆規律則招致災禍。這體現中醫行針時審慎明辨、避免誤傷要害的安全原則。"
+    }
+  ]
+}

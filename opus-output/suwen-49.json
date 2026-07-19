@@ -1,0 +1,905 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "脈解",
+    "number": 49,
+    "originalVerified": true,
+    "sections": 33,
+    "usage": {
+      "completion_tokens": 12822,
+      "prompt_tokens": 2200,
+      "total_tokens": 15022,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:35:45.072Z"
+  },
+  "id": "suwen-49",
+  "intro": "《脈解》是《素問》第四十九篇，是一篇用「時令陰陽消長」的角度來解釋各經脈病症成因的專篇。全篇分別討論太陽、少陽、陽明、太陰、少陰、厥陰六經，把每一經配上一個月份（如正月配太陽、九月配少陽等），再依當月陽氣、陰氣的盛衰情況，去說明該經所出現症狀（如腰痛、耳鳴、胸痛、腰痛、㿗疝等）背後的道理。本篇的學習價值在於：讓初學者體會中醫「天人相應」的核心思想──人體氣血的變化與四時陰陽升降密切相關，同一症狀在不同季節、不同經脈可有不同解釋。透過本篇，讀者能初步理解經脈病症與時令陰陽的對應邏輯，為日後學習經絡辨證打下基礎。",
+  "sections": [
+    {
+      "original": "太陽所謂腫腰脽痛者，正月太陽寅，寅太陽也，正月陽氣出在上而陰氣盛，陽未得自次也，故腫腰脽痛也。",
+      "baihua": "太陽經所說的腰部及臀部腫脹疼痛，是因為正月與太陽相配，在地支上屬寅，寅就代表太陽。正月時陽氣剛升發到上部，而陰氣仍然旺盛，陽氣還未能依次序充分佈散，所以出現腰部和臀部腫脹疼痛。",
+      "annotations": [
+        {
+          "char": "脽",
+          "jyutping": "seoi4",
+          "meaning": "臀部、尻部"
+        },
+        {
+          "char": "寅",
+          "jyutping": "jan4",
+          "meaning": "地支之一，配正月"
+        },
+        {
+          "char": "次",
+          "jyutping": "ci3",
+          "meaning": "次序、依次佈散"
+        },
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "旺盛"
+        }
+      ]
+    },
+    {
+      "original": "病偏虛為跛者，正月陽氣凍解地氣而出也，所謂偏虛者，冬寒頗有不足者，故偏虛為跛也。",
+      "baihua": "患病時一側偏虛而成為跛足，是因為正月陽氣使凍結的地氣消解而升發出來；所謂「偏虛」，是指經過整個冬天的寒冷，陽氣已有所不足，所以一側偏虛而形成跛足。",
+      "annotations": [
+        {
+          "char": "跛",
+          "jyutping": "bo2",
+          "meaning": "腳跛、行走不便"
+        },
+        {
+          "char": "凍",
+          "jyutping": "dung3",
+          "meaning": "凍結"
+        },
+        {
+          "char": "解",
+          "jyutping": "gaai2",
+          "meaning": "消解、化開"
+        },
+        {
+          "char": "頗",
+          "jyutping": "po2",
+          "meaning": "頗為、相當地"
+        }
+      ]
+    },
+    {
+      "original": "所謂強上引背者，陽氣大上而爭，故強上也。所謂耳鳴者，陽氣萬物盛上而躍，故耳鳴也。",
+      "baihua": "所說的頸項強直、牽引到背部，是因為陽氣大量上升而與陰氣相爭，所以頸項強硬。所說的耳鳴，是因為陽氣像萬物一樣旺盛地向上湧動跳躍，所以出現耳鳴。",
+      "annotations": [
+        {
+          "char": "強",
+          "jyutping": "koeng4",
+          "meaning": "強直、僵硬"
+        },
+        {
+          "char": "引",
+          "jyutping": "jan5",
+          "meaning": "牽引、牽連"
+        },
+        {
+          "char": "躍",
+          "jyutping": "joek6",
+          "meaning": "跳動、湧動"
+        },
+        {
+          "char": "鳴",
+          "jyutping": "ming4",
+          "meaning": "作響"
+        }
+      ]
+    },
+    {
+      "original": "所謂甚則狂顛疾者，陽盡在上而陰氣從下，下虛上實，故狂顛疾也。",
+      "baihua": "所說的病情嚴重時出現狂亂癲疾，是因為陽氣全都聚在上部，而陰氣退居下部，形成下虛上實的局面，所以發為狂亂癲疾。",
+      "annotations": [
+        {
+          "char": "狂",
+          "jyutping": "kwong4",
+          "meaning": "狂亂、精神錯亂"
+        },
+        {
+          "char": "顛",
+          "jyutping": "din1",
+          "meaning": "同「癲」，癲狂病"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "全部、都"
+        },
+        {
+          "char": "實",
+          "jyutping": "sat6",
+          "meaning": "邪氣盛實"
+        }
+      ]
+    },
+    {
+      "original": "所謂浮為聾者，皆在氣也。所謂入中為喑者，陽盛已衰，故為喑也。",
+      "baihua": "所說的邪氣浮於上部而致耳聾，都是由於氣機失調的緣故。所說的邪氣深入體內而致失音，是因為原本亢盛的陽氣已經衰退，所以出現失音。",
+      "annotations": [
+        {
+          "char": "浮",
+          "jyutping": "fau4",
+          "meaning": "浮於表淺、上部"
+        },
+        {
+          "char": "聾",
+          "jyutping": "lung4",
+          "meaning": "耳聾"
+        },
+        {
+          "char": "喑",
+          "jyutping": "jam1",
+          "meaning": "失音、不能出聲"
+        },
+        {
+          "char": "衰",
+          "jyutping": "seoi1",
+          "meaning": "衰退、減弱"
+        }
+      ]
+    },
+    {
+      "original": "內奪而厥，則為喑俳，此腎虛也，少陰不至者，厥也。",
+      "baihua": "體內精氣被劫奪而發生厥逆，就會形成失音兼肢體痿廢，這是腎虛所致；若少陰經之氣不能到達，便會出現厥逆。",
+      "annotations": [
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "劫奪、耗損"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥逆，氣血逆亂"
+        },
+        {
+          "char": "俳",
+          "jyutping": "pui4",
+          "meaning": "肢體痿廢不能動"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "虛弱、不足"
+        }
+      ]
+    },
+    {
+      "original": "少陽所謂心脅痛者，言少陽盛也，盛者心之所表也，九月陽氣盡而陰氣盛，故心脅痛也。",
+      "baihua": "少陽經所說的心脅疼痛，是講少陽之氣過盛；少陽的盛實在心的部位表現出來。九月時陽氣將盡而陰氣轉盛，所以出現心脅疼痛。",
+      "annotations": [
+        {
+          "char": "脅",
+          "jyutping": "hip3",
+          "meaning": "脅肋，胸腔兩側"
+        },
+        {
+          "char": "表",
+          "jyutping": "biu2",
+          "meaning": "表現、顯露"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "將盡、衰退"
+        },
+        {
+          "char": "痛",
+          "jyutping": "tung3",
+          "meaning": "疼痛"
+        }
+      ]
+    },
+    {
+      "original": "所謂不可反側者，陰氣藏物也，物藏則不動，故不可反側也。",
+      "baihua": "所說的不能翻身側臥，是因為陰氣主收藏萬物；萬物一旦收藏起來便不再活動，所以人也不能翻身轉側。",
+      "annotations": [
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "翻轉"
+        },
+        {
+          "char": "側",
+          "jyutping": "zak1",
+          "meaning": "側身、側臥"
+        },
+        {
+          "char": "藏",
+          "jyutping": "cong4",
+          "meaning": "收藏、閉藏"
+        },
+        {
+          "char": "動",
+          "jyutping": "dung6",
+          "meaning": "活動"
+        }
+      ]
+    },
+    {
+      "original": "所謂甚則躍者，九月萬物盡衰，草木畢落而墮，則氣去陽而之陰，氣盛而陽之下長，故謂躍。",
+      "baihua": "所說的病重時身體躍動不安，是因為九月萬物盡皆衰落，草木都凋謝墜落，此時氣機由陽轉向陰，陰氣旺盛而陽氣潛降於下、蓄勢待長，所以稱為躍動。",
+      "annotations": [
+        {
+          "char": "躍",
+          "jyutping": "joek6",
+          "meaning": "跳動、躍動不安"
+        },
+        {
+          "char": "畢",
+          "jyutping": "bat1",
+          "meaning": "全部、完全"
+        },
+        {
+          "char": "墮",
+          "jyutping": "do6",
+          "meaning": "墜落、掉下"
+        },
+        {
+          "char": "長",
+          "jyutping": "zoeng2",
+          "meaning": "生長、增長"
+        }
+      ]
+    },
+    {
+      "original": "陽明所謂洒洒振寒者，陽明者午也，五月盛陽之陰也，陽盛而陰氣加之，故洒洒振寒也。",
+      "baihua": "陽明經所說的畏寒發抖，是因為陽明配地支之午，屬五月，是盛陽之中初生的陰氣；此時陽氣旺盛而陰氣又加臨其上，所以出現寒慄發抖。",
+      "annotations": [
+        {
+          "char": "洒",
+          "jyutping": "sai2",
+          "meaning": "洒洒，寒慄之貌"
+        },
+        {
+          "char": "振",
+          "jyutping": "zan3",
+          "meaning": "顫抖、發抖"
+        },
+        {
+          "char": "午",
+          "jyutping": "ng5",
+          "meaning": "地支之一，配五月"
+        },
+        {
+          "char": "加",
+          "jyutping": "gaa1",
+          "meaning": "加臨、施加"
+        }
+      ]
+    },
+    {
+      "original": "所謂脛腫而股不收者，是五月盛陽之陰也，陽者衰於五月，而一陰氣上，與陽始爭，故脛腫而股不收也。",
+      "baihua": "所說的小腿腫脹而大腿不能收攏，也是五月盛陽中初生陰氣的緣故；陽氣在五月開始衰退，而一分陰氣上升，開始與陽氣相爭，所以小腿腫脹、大腿收放不能自如。",
+      "annotations": [
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "股",
+          "jyutping": "gu2",
+          "meaning": "大腿"
+        },
+        {
+          "char": "收",
+          "jyutping": "sau1",
+          "meaning": "收攏、屈曲收合"
+        },
+        {
+          "char": "爭",
+          "jyutping": "zang1",
+          "meaning": "爭持、相爭"
+        }
+      ]
+    },
+    {
+      "original": "所謂上喘而為水者，陰氣下而復上，上則邪客於藏腑間，故為水也。",
+      "baihua": "所說的向上氣喘而形成水腫，是因為陰氣本應下降卻反而上逆，上逆後邪氣停留於臟腑之間，所以形成水腫之病。",
+      "annotations": [
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "氣喘、呼吸急促"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "反而、又"
+        },
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "邪氣客居、停留"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟，內臟"
+        }
+      ]
+    },
+    {
+      "original": "所謂胸痛少氣者，水氣在藏腑也，水者陰氣也，陰氣在中，故胸痛少氣也。",
+      "baihua": "所說的胸痛、氣短，是因為水氣停留在臟腑之間；水屬陰氣，陰氣停滯於體內，所以出現胸痛和氣短。",
+      "annotations": [
+        {
+          "char": "胸",
+          "jyutping": "hung1",
+          "meaning": "胸部"
+        },
+        {
+          "char": "少",
+          "jyutping": "siu2",
+          "meaning": "少氣，氣短乏力"
+        },
+        {
+          "char": "腑",
+          "jyutping": "fu2",
+          "meaning": "六腑"
+        },
+        {
+          "char": "中",
+          "jyutping": "zung1",
+          "meaning": "體內、中焦"
+        }
+      ]
+    },
+    {
+      "original": "所謂甚則厥，惡人與火，聞木音則惕然而驚者，陽氣與陰氣相薄，水火相惡，故惕然而驚也。",
+      "baihua": "所說的病重時出現厥逆，厭惡見人和火光，聽到木器的聲音便驚恐不安，是因為陽氣與陰氣相互搏擊，水與火彼此相剋，所以會惕然而驚。",
+      "annotations": [
+        {
+          "char": "惡",
+          "jyutping": "wu3",
+          "meaning": "厭惡、憎惡"
+        },
+        {
+          "char": "惕",
+          "jyutping": "tik1",
+          "meaning": "驚懼、心中不安"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "搏擊、相迫"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚恐"
+        }
+      ]
+    },
+    {
+      "original": "所謂欲獨閉戶牖而處者，陰陽相薄也，陽盡而陰盛，故欲獨閉戶牖而居。",
+      "baihua": "所說的想要獨自關上門窗待著，是因為陰陽二氣相互搏擊，陽氣衰盡而陰氣旺盛，所以病人想獨自關閉門窗而居處。",
+      "annotations": [
+        {
+          "char": "獨",
+          "jyutping": "duk6",
+          "meaning": "獨自"
+        },
+        {
+          "char": "戶",
+          "jyutping": "wu6",
+          "meaning": "門"
+        },
+        {
+          "char": "牖",
+          "jyutping": "jau5",
+          "meaning": "窗戶"
+        },
+        {
+          "char": "處",
+          "jyutping": "cyu2",
+          "meaning": "居處、待著"
+        }
+      ]
+    },
+    {
+      "original": "所謂病至則欲乘高而歌，棄衣而走者，陰陽復爭，而外並於陽，故使之棄衣而走也。",
+      "baihua": "所說的病發時想要登上高處歌唱、脫掉衣服奔跑，是因為陰陽二氣再度相爭，而邪氣向外合併於陽分，所以使病人脫衣狂奔。",
+      "annotations": [
+        {
+          "char": "乘",
+          "jyutping": "sing4",
+          "meaning": "登上、乘駕"
+        },
+        {
+          "char": "歌",
+          "jyutping": "go1",
+          "meaning": "歌唱"
+        },
+        {
+          "char": "棄",
+          "jyutping": "hei3",
+          "meaning": "拋棄、脫去"
+        },
+        {
+          "char": "並",
+          "jyutping": "bing6",
+          "meaning": "合併、聚集"
+        }
+      ]
+    },
+    {
+      "original": "所謂客孫脈則頭痛鼻鼽腹腫者，陽明並於上，上者則其孫絡太陰也，故頭痛鼻鼽腹腫也。",
+      "baihua": "所說的邪氣客居於孫脈就引起頭痛、鼻塞流涕、腹部脹腫，是因為陽明之氣合聚於上部，向上便牽連到太陰的孫絡，所以出現頭痛、鼻鼽和腹脹。",
+      "annotations": [
+        {
+          "char": "孫",
+          "jyutping": "syun1",
+          "meaning": "孫脈、孫絡，最細小的絡脈"
+        },
+        {
+          "char": "鼽",
+          "jyutping": "kau4",
+          "meaning": "鼻塞、鼻流清涕"
+        },
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "邪氣停留"
+        },
+        {
+          "char": "絡",
+          "jyutping": "lok3",
+          "meaning": "絡脈"
+        }
+      ]
+    },
+    {
+      "original": "太陰所謂病脹者，太陰子也，十一月萬物氣皆藏於中，故曰病脹。",
+      "baihua": "太陰經所說的腹脹病，是因為太陰配地支之子，屬十一月；此時萬物之氣都收藏於內，氣機閉藏不通，所以稱為腹脹之病。",
+      "annotations": [
+        {
+          "char": "脹",
+          "jyutping": "zoeng3",
+          "meaning": "脹滿"
+        },
+        {
+          "char": "子",
+          "jyutping": "zi2",
+          "meaning": "地支之一，配十一月"
+        },
+        {
+          "char": "藏",
+          "jyutping": "cong4",
+          "meaning": "收藏、閉藏"
+        },
+        {
+          "char": "中",
+          "jyutping": "zung1",
+          "meaning": "體內"
+        }
+      ]
+    },
+    {
+      "original": "所謂上走心為噫者，陰盛而上走於陽明，陽明絡屬心，故曰上走心為噫也。",
+      "baihua": "所說的氣向上衝到心而發為噯氣，是因為陰氣旺盛而上行到陽明經，陽明的絡脈連屬於心，所以說是氣上衝於心而形成噯氣。",
+      "annotations": [
+        {
+          "char": "噫",
+          "jyutping": "aai3",
+          "meaning": "噯氣、打嗝"
+        },
+        {
+          "char": "走",
+          "jyutping": "zau2",
+          "meaning": "行走、上衝"
+        },
+        {
+          "char": "屬",
+          "jyutping": "suk6",
+          "meaning": "連屬、隸屬"
+        },
+        {
+          "char": "絡",
+          "jyutping": "lok3",
+          "meaning": "絡脈"
+        }
+      ]
+    },
+    {
+      "original": "所謂食則嘔者，物盛滿而上溢，故嘔也。",
+      "baihua": "所說的進食後就嘔吐，是因為食物過多而充滿於胃中，向上溢出，所以引起嘔吐。",
+      "annotations": [
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        },
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "盛滿、過多"
+        },
+        {
+          "char": "溢",
+          "jyutping": "jat6",
+          "meaning": "滿出、溢出"
+        },
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "充滿"
+        }
+      ]
+    },
+    {
+      "original": "所謂得後與氣則快然如衰者，十二月陰氣下衰，而陽氣且出，故曰得後與氣則快然如衰也。",
+      "baihua": "所說的解了大便、排出矢氣後就覺得舒暢、病情好像減輕了，是因為十二月陰氣向下衰退，而陽氣將要升發，所以說大便通、矢氣出後便覺舒爽而病似減輕。",
+      "annotations": [
+        {
+          "char": "後",
+          "jyutping": "hau6",
+          "meaning": "此指大便"
+        },
+        {
+          "char": "氣",
+          "jyutping": "hei3",
+          "meaning": "此指矢氣、放屁"
+        },
+        {
+          "char": "快",
+          "jyutping": "faai3",
+          "meaning": "舒暢、暢快"
+        },
+        {
+          "char": "衰",
+          "jyutping": "seoi1",
+          "meaning": "減退、減輕"
+        }
+      ]
+    },
+    {
+      "original": "少陰所謂腰痛者，少陰者腎也，十月萬物陽氣皆傷，故腰痛也。",
+      "baihua": "少陰經所說的腰痛，是因為少陰屬腎；十月時萬物的陽氣都受到損傷，腎主腰，陽氣受損所以出現腰痛。",
+      "annotations": [
+        {
+          "char": "腰",
+          "jyutping": "jiu1",
+          "meaning": "腰部"
+        },
+        {
+          "char": "腎",
+          "jyutping": "san6",
+          "meaning": "腎臟"
+        },
+        {
+          "char": "傷",
+          "jyutping": "soeng1",
+          "meaning": "損傷、受損"
+        },
+        {
+          "char": "痛",
+          "jyutping": "tung3",
+          "meaning": "疼痛"
+        }
+      ]
+    },
+    {
+      "original": "所謂嘔咳上氣喘者，陰氣在下，陽氣在上，諸陽氣浮，無所依從，故嘔咳上氣喘也。",
+      "baihua": "所說的嘔吐、咳嗽、氣逆上衝、喘促，是因為陰氣居於下部，陽氣浮居於上部，各種陽氣浮越於上而無所依附，所以出現嘔吐、咳嗽和喘逆。",
+      "annotations": [
+        {
+          "char": "咳",
+          "jyutping": "kat1",
+          "meaning": "咳嗽"
+        },
+        {
+          "char": "浮",
+          "jyutping": "fau4",
+          "meaning": "浮越、浮散於上"
+        },
+        {
+          "char": "依",
+          "jyutping": "ji1",
+          "meaning": "依附、依靠"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "跟從、依附"
+        }
+      ]
+    },
+    {
+      "original": "所謂色色不能久立，久坐起則目䀮䀮無所見者，萬物陰陽不定未有主也，秋氣始至，微霜始下，而方殺萬物，陰陽內奪，故目䀮䀮無所見也。",
+      "baihua": "所說的驚懼不安、不能久站，久坐後起身時兩眼昏花看不清東西，是因為此時萬物陰陽尚未安定、未有定主；秋氣剛到，薄霜初降，正在肅殺萬物，人體陰陽在內被劫奪，所以兩眼昏花、視物不明。",
+      "annotations": [
+        {
+          "char": "色",
+          "jyutping": "sik1",
+          "meaning": "色色，驚懼不安之貌"
+        },
+        {
+          "char": "䀮",
+          "jyutping": "mong5",
+          "meaning": "目視昏花不明"
+        },
+        {
+          "char": "霜",
+          "jyutping": "soeng1",
+          "meaning": "霜、寒霜"
+        },
+        {
+          "char": "殺",
+          "jyutping": "saat3",
+          "meaning": "肅殺、凋殺"
+        }
+      ]
+    },
+    {
+      "original": "所謂少氣善怒者，陽氣不治，陽氣不治則陽氣不得出，肝氣當治而未得，故善怒，善怒者名曰煎厥。",
+      "baihua": "所說的氣短而容易發怒，是因為陽氣不能正常運行；陽氣不能運行,便不能升發外達，肝氣本應舒暢卻不得舒暢，所以容易發怒；這種善怒的病症名叫「煎厥」。",
+      "annotations": [
+        {
+          "char": "治",
+          "jyutping": "zi6",
+          "meaning": "調理、正常運行"
+        },
+        {
+          "char": "怒",
+          "jyutping": "nou6",
+          "meaning": "發怒、憤怒"
+        },
+        {
+          "char": "煎",
+          "jyutping": "zin1",
+          "meaning": "煎熬、煎迫"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥逆之病"
+        }
+      ]
+    },
+    {
+      "original": "所謂恐如人將捕之者，秋氣萬物未有畢去，陰氣少，陽氣入，陰陽相薄，故恐也。",
+      "baihua": "所說的驚恐得好像有人要來捉拿自己，是因為秋天萬物尚未完全凋落,陰氣還少,陽氣開始內收,陰陽二氣相互搏擊，所以產生恐懼。",
+      "annotations": [
+        {
+          "char": "恐",
+          "jyutping": "hung2",
+          "meaning": "恐懼、害怕"
+        },
+        {
+          "char": "捕",
+          "jyutping": "bou6",
+          "meaning": "捉拿、逮捕"
+        },
+        {
+          "char": "畢",
+          "jyutping": "bat1",
+          "meaning": "完全、全部"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "搏擊、相迫"
+        }
+      ]
+    },
+    {
+      "original": "所謂惡聞食臭者，胃無氣，故惡聞食臭也。",
+      "baihua": "所說的厭惡聞到食物的氣味，是因為胃氣虛弱不足，所以聞到食物氣味便覺得厭惡。",
+      "annotations": [
+        {
+          "char": "惡",
+          "jyutping": "wu3",
+          "meaning": "厭惡"
+        },
+        {
+          "char": "臭",
+          "jyutping": "cau3",
+          "meaning": "氣味"
+        },
+        {
+          "char": "胃",
+          "jyutping": "wai6",
+          "meaning": "胃"
+        },
+        {
+          "char": "聞",
+          "jyutping": "man4",
+          "meaning": "嗅到、聞到"
+        }
+      ]
+    },
+    {
+      "original": "所謂面黑如地色者，秋氣內奪，故變於色也。",
+      "baihua": "所說的面色發黑像泥土的顏色，是因為秋氣使體內精氣被劫奪，所以面色改變而變得晦暗。",
+      "annotations": [
+        {
+          "char": "黑",
+          "jyutping": "hak1",
+          "meaning": "黑色、晦暗"
+        },
+        {
+          "char": "地",
+          "jyutping": "dei6",
+          "meaning": "泥土、大地"
+        },
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "劫奪、耗損"
+        },
+        {
+          "char": "變",
+          "jyutping": "bin3",
+          "meaning": "改變"
+        }
+      ]
+    },
+    {
+      "original": "所謂咳則有血者，陽脈傷也，陽氣未盛於上而脈滿，滿則咳，故血見於鼻也。",
+      "baihua": "所說的咳嗽時帶血，是因為陽經脈道受損；陽氣尚未在上部旺盛而脈中卻已充滿，脈滿就會引起咳嗽，所以出血見於鼻中。",
+      "annotations": [
+        {
+          "char": "咳",
+          "jyutping": "kat1",
+          "meaning": "咳嗽"
+        },
+        {
+          "char": "血",
+          "jyutping": "hyut3",
+          "meaning": "血、出血"
+        },
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "充滿、脈氣充盈"
+        },
+        {
+          "char": "鼻",
+          "jyutping": "bei6",
+          "meaning": "鼻"
+        }
+      ]
+    },
+    {
+      "original": "厥陰所謂㿗疝，婦人少腹腫者，厥陰者辰也，三月陽中之陰，邪在中，故曰㿗疝少腹腫也。",
+      "baihua": "厥陰經所說的㿗疝，以及婦人小腹腫脹，是因為厥陰配地支之辰，屬三月，是陽氣之中所含的陰氣；邪氣停留於內，所以說出現㿗疝和小腹腫脹。",
+      "annotations": [
+        {
+          "char": "㿗",
+          "jyutping": "teoi4",
+          "meaning": "㿗疝，陰囊腫大之病"
+        },
+        {
+          "char": "疝",
+          "jyutping": "saan3",
+          "meaning": "疝氣、少腹睪丸病"
+        },
+        {
+          "char": "辰",
+          "jyutping": "san4",
+          "meaning": "地支之一，配三月"
+        },
+        {
+          "char": "腫",
+          "jyutping": "zung2",
+          "meaning": "腫脹"
+        }
+      ]
+    },
+    {
+      "original": "所謂腰脊痛不可以俯仰者，三月一振榮華，萬物一俯而不仰也。",
+      "baihua": "所說的腰脊疼痛、不能前俯後仰，是因為三月間草木一同萌發繁茂，萬物都低垂生長而不昂起，人的腰脊病狀正與此相應。",
+      "annotations": [
+        {
+          "char": "脊",
+          "jyutping": "zek3",
+          "meaning": "脊背、脊柱"
+        },
+        {
+          "char": "俯",
+          "jyutping": "fu2",
+          "meaning": "低頭、前俯"
+        },
+        {
+          "char": "仰",
+          "jyutping": "joeng5",
+          "meaning": "抬頭、後仰"
+        },
+        {
+          "char": "榮",
+          "jyutping": "wing4",
+          "meaning": "草木繁茂、榮盛"
+        }
+      ]
+    },
+    {
+      "original": "所謂㿗癃疝膚脹者，曰陰亦盛而脈脹不通，故曰㿗癃疝也。",
+      "baihua": "所說的㿗疝、小便不通及皮膚脹滿，是說陰氣過盛而脈道脹滿不通，所以稱為㿗癃疝。",
+      "annotations": [
+        {
+          "char": "癃",
+          "jyutping": "lung4",
+          "meaning": "小便不通、淋瀝"
+        },
+        {
+          "char": "膚",
+          "jyutping": "fu1",
+          "meaning": "皮膚"
+        },
+        {
+          "char": "脹",
+          "jyutping": "zoeng3",
+          "meaning": "脹滿"
+        },
+        {
+          "char": "通",
+          "jyutping": "tung1",
+          "meaning": "通暢"
+        }
+      ]
+    },
+    {
+      "original": "所謂甚則嗌乾熱中者，陰陽相薄而熱，故嗌乾也。",
+      "baihua": "所說的病重時咽喉乾燥、內中發熱，是因為陰陽二氣相互搏擊而生熱，所以咽喉乾燥。",
+      "annotations": [
+        {
+          "char": "嗌",
+          "jyutping": "aai3",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "乾",
+          "jyutping": "gon1",
+          "meaning": "乾燥"
+        },
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "發熱"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "搏擊、相迫"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇《脈解》以甚麼方法來解釋六經的病症成因？",
+      "answer": "本篇把六經分別配上一個月份（如正月配太陽、九月配少陽、五月配陽明、十一月配太陰、十月配少陰、三月配厥陰），再根據該月陰氣、陽氣的盛衰消長，來說明各經所出現症狀的道理，體現「天人相應」的思想。"
+    },
+    {
+      "question": "太陽經「腫腰脽痛」為何會發生？",
+      "answer": "正月配太陽，此時陽氣剛升發到上部，而陰氣仍然旺盛，陽氣未能依次序充分佈散，氣機失調，所以出現腰部和臀部的腫脹疼痛。"
+    },
+    {
+      "question": "少陰經所說的「善怒」病症名叫甚麼？其機理如何？",
+      "answer": "名叫「煎厥」。其機理是陽氣不能正常運行升發，肝氣本應舒暢而不得舒暢，鬱而化怒，所以容易發怒。"
+    },
+    {
+      "question": "太陰經病人「得後與氣則快然如衰」是甚麼意思？",
+      "answer": "意思是病人解了大便、排出矢氣（放屁）之後,便覺得舒暢、病情好像減輕。因為十二月陰氣下衰、陽氣將出，氣機得以疏通，所以排便排氣後感覺爽快。"
+    },
+    {
+      "question": "陽明經病人為何會「惡人與火，聞木音則惕然而驚」？",
+      "answer": "因為此時陽氣與陰氣相互搏擊，水與火彼此相剋，臟氣不安，所以病人厭惡見人與火光，聽到木器聲音便驚恐不安。"
+    }
+  ]
+}

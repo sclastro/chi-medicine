@@ -1,0 +1,5510 @@
+{
+  "_meta": {
+    "mode": "new-chunked",
+    "model": "Claude-Opus-4.8",
+    "title": "至真要大論",
+    "number": 74,
+    "originalVerified": true,
+    "sections": 286,
+    "chunks": 6,
+    "totalTokens": 86209,
+    "at": "2026-07-19T12:18:25.260Z"
+  },
+  "id": "suwen-74",
+  "intro": "《至真要大論》是《素問》運氣七篇中的壓卷之作，篇名「至真至要」意謂本篇所論皆為醫道中最真切、最緊要的道理。全篇以黃帝與岐伯問答的方式，系統論述六氣(風、熱、濕、火、燥、寒)如何司天在泉、主歲間氣，並闡明六氣的勝氣、復氣與客主加臨如何令人致病，以及對應的治療用藥法則。\n\n本篇對初學者有三大學習價值：第一，它把「六氣分治」與人體臟腑疾病緊密掛鈎，讓人明白外在氣候變化如何影響身體健康；第二，篇中提出大量治則治法，如「寒者熱之，熱者寒之」「正者正治，反者反治」以及塞因塞用、通因通用等反治法，是後世方劑學與臨床立法的根基；第三，最為著名的是篇末「病機十九條」(諸風掉眩皆屬於肝、諸痛癢瘡皆屬於心等)，這是中醫辨證審機的綱領性口訣，歷代醫家奉為圭臬。\n\n對零基礎的香港讀者而言，本篇文字較長、術語較多，建議不必一次讀通全文，可先抓住三條主線來理解：一是六氣與臟腑病症的對應，二是「謹守病機，各司其屬」的辨證思路，三是五味補瀉、方劑君臣的用藥原則。掌握這些綱要，便能領略中醫「審察病機，無失氣宜」的核心智慧。",
+  "sections": [
+    {
+      "original": "黃帝問曰：五氣交合，盈虛更作，余知之矣。",
+      "baihua": "黃帝問道：五運之氣交互會合，盈滿與虧虛交替發生，這些我已經明白了。",
+      "annotations": [
+        {
+          "char": "盈",
+          "jyutping": "jing4",
+          "meaning": "充滿、盈滿"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "空虛、虧虛"
+        },
+        {
+          "char": "更",
+          "jyutping": "gang1",
+          "meaning": "交替、更替"
+        },
+        {
+          "char": "余",
+          "jyutping": "jyu4",
+          "meaning": "我"
+        }
+      ]
+    },
+    {
+      "original": "六氣分治，司天地者，其至何如？",
+      "baihua": "六氣分別主治,掌管天地的六氣,它們到來的情況是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "掌管、主管"
+        },
+        {
+          "char": "至",
+          "jyutping": "zi3",
+          "meaning": "到來"
+        }
+      ]
+    },
+    {
+      "original": "岐伯再拜對曰：明乎哉問也！天地之大紀，人神之通應也。",
+      "baihua": "岐伯再次行禮回答說:問得真是高明啊!這是天地運行的重大綱紀,也是人與神明相通相應的道理。",
+      "annotations": [
+        {
+          "char": "再",
+          "jyutping": "zoi3",
+          "meaning": "兩次、再次"
+        },
+        {
+          "char": "拜",
+          "jyutping": "baai3",
+          "meaning": "行禮、跪拜"
+        },
+        {
+          "char": "紀",
+          "jyutping": "gei2",
+          "meaning": "綱紀、法則"
+        },
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "相應、對應"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願聞上合昭昭，下合冥冥奈何？",
+      "baihua": "黃帝說:我希望聽聽上與明顯可見的天象相合,下與幽深難測的地理相合,是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "昭",
+          "jyutping": "ziu1",
+          "meaning": "明亮、顯著"
+        },
+        {
+          "char": "冥",
+          "jyutping": "ming4",
+          "meaning": "幽深、昏暗"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：此道之所主，工之所疑也。",
+      "baihua": "岐伯說:這是醫道的主要內容,也是醫工們常感疑惑的地方。",
+      "annotations": [
+        {
+          "char": "主",
+          "jyutping": "zyu2",
+          "meaning": "主宰、關鍵"
+        },
+        {
+          "char": "工",
+          "jyutping": "gung1",
+          "meaning": "醫工、醫生"
+        },
+        {
+          "char": "疑",
+          "jyutping": "ji4",
+          "meaning": "疑惑、困惑"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願聞其道也。",
+      "baihua": "黃帝說:我希望聽聽其中的道理。",
+      "annotations": [
+        {
+          "char": "願",
+          "jyutping": "jyun6",
+          "meaning": "希望、願意"
+        },
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "道理、法則"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：厥陰司天，其化以風；少陰司天，其化以熱；太陰司天，其化以濕；少陽司天，其化以火；陽明司天，其化以燥；太陽司天，其化以寒。",
+      "baihua": "岐伯說:厥陰主司天氣時,它的氣化表現為風;少陰主司天氣時,它的氣化表現為熱;太陰主司天氣時,它的氣化表現為濕;少陽主司天氣時,它的氣化表現為火;陽明主司天氣時,它的氣化表現為燥;太陽主司天氣時,它的氣化表現為寒。",
+      "annotations": [
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥陰,六氣之一"
+        },
+        {
+          "char": "化",
+          "jyutping": "faa3",
+          "meaning": "氣化、變化"
+        },
+        {
+          "char": "濕",
+          "jyutping": "sap1",
+          "meaning": "濕氣、潮濕"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "乾燥"
+        }
+      ]
+    },
+    {
+      "original": "以所臨藏位，命其病者也。",
+      "baihua": "根據它所臨居的臟腑部位,來確定所發生的疾病。",
+      "annotations": [
+        {
+          "char": "臨",
+          "jyutping": "lam4",
+          "meaning": "臨居、當值"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟腑"
+        },
+        {
+          "char": "命",
+          "jyutping": "ming6",
+          "meaning": "命名、確定"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：地化奈何？",
+      "baihua": "黃帝說:在泉之氣的氣化又是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "地",
+          "jyutping": "dei6",
+          "meaning": "地氣、在泉之氣"
+        },
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何、怎樣"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：司天同候，間氣皆然。",
+      "baihua": "岐伯說:與司天之氣的徵候相同,間氣的情況也都是這樣。",
+      "annotations": [
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "徵候、氣候"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "間隔、間氣"
+        },
+        {
+          "char": "皆",
+          "jyutping": "gaai1",
+          "meaning": "都、全部"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：間氣何謂？",
+      "baihua": "黃帝說:間氣是指什麼呢?",
+      "annotations": [
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "間氣"
+        },
+        {
+          "char": "謂",
+          "jyutping": "wai6",
+          "meaning": "稱謂、意思"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：司左右者，是謂間氣也。",
+      "baihua": "岐伯說:主管左右四間的氣,就叫做間氣。",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "主管"
+        },
+        {
+          "char": "左",
+          "jyutping": "zo2",
+          "meaning": "左邊"
+        },
+        {
+          "char": "右",
+          "jyutping": "jau6",
+          "meaning": "右邊"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何以異之？",
+      "baihua": "黃帝說:怎樣區別它們呢?",
+      "annotations": [
+        {
+          "char": "異",
+          "jyutping": "ji6",
+          "meaning": "區別、不同"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：主歲者紀歲，間氣者紀步也。",
+      "baihua": "岐伯說:主管一年的司天在泉之氣,以整年來計算;間氣則以每一步(六分之一年)來計算。",
+      "annotations": [
+        {
+          "char": "紀",
+          "jyutping": "gei2",
+          "meaning": "計算、記述"
+        },
+        {
+          "char": "歲",
+          "jyutping": "seoi3",
+          "meaning": "年、歲月"
+        },
+        {
+          "char": "步",
+          "jyutping": "bou6",
+          "meaning": "步,節氣單位"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。歲主奈何？",
+      "baihua": "黃帝說:好。每年主管的氣化是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "好、對"
+        },
+        {
+          "char": "主",
+          "jyutping": "zyu2",
+          "meaning": "主管"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：厥陰司天為風化，在泉為酸化，司氣為蒼化，間氣為動化。",
+      "baihua": "岐伯說:厥陰主司天氣時為風的氣化,在泉時為酸味的氣化,主司運氣時為青色的氣化,作為間氣時為動的氣化。",
+      "annotations": [
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "在泉之氣"
+        },
+        {
+          "char": "酸",
+          "jyutping": "syun1",
+          "meaning": "酸味"
+        },
+        {
+          "char": "蒼",
+          "jyutping": "cong1",
+          "meaning": "青色"
+        },
+        {
+          "char": "動",
+          "jyutping": "dung6",
+          "meaning": "動、變動"
+        }
+      ]
+    },
+    {
+      "original": "少陰司天為熱化，在泉為苦化，不司氣化，居氣為灼化。",
+      "baihua": "少陰主司天氣時為熱的氣化,在泉時為苦味的氣化,不主司運氣的氣化,作為間氣時為灼熱的氣化。",
+      "annotations": [
+        {
+          "char": "苦",
+          "jyutping": "fu2",
+          "meaning": "苦味"
+        },
+        {
+          "char": "居",
+          "jyutping": "geoi1",
+          "meaning": "居處、間居"
+        },
+        {
+          "char": "灼",
+          "jyutping": "zoek3",
+          "meaning": "灼熱、燒灼"
+        }
+      ]
+    },
+    {
+      "original": "太陰司天為濕化，在泉為甘化，司氣為黅化，間氣為柔化。",
+      "baihua": "太陰主司天氣時為濕的氣化,在泉時為甘味的氣化,主司運氣時為黃色的氣化,作為間氣時為柔和的氣化。",
+      "annotations": [
+        {
+          "char": "甘",
+          "jyutping": "gam1",
+          "meaning": "甘味、甜"
+        },
+        {
+          "char": "黅",
+          "jyutping": "gam1",
+          "meaning": "黃色"
+        },
+        {
+          "char": "柔",
+          "jyutping": "jau4",
+          "meaning": "柔和"
+        }
+      ]
+    },
+    {
+      "original": "少陽司天為火化，在泉為苦化，司氣為丹化，間氣為明化。",
+      "baihua": "少陽主司天氣時為火的氣化,在泉時為苦味的氣化,主司運氣時為紅色的氣化,作為間氣時為明亮的氣化。",
+      "annotations": [
+        {
+          "char": "丹",
+          "jyutping": "daan1",
+          "meaning": "紅色"
+        },
+        {
+          "char": "明",
+          "jyutping": "ming4",
+          "meaning": "明亮"
+        }
+      ]
+    },
+    {
+      "original": "陽明司天為燥化，在泉為辛化，司氣為素化，間氣為清化。",
+      "baihua": "陽明主司天氣時為燥的氣化,在泉時為辛味的氣化,主司運氣時為白色的氣化,作為間氣時為清涼的氣化。",
+      "annotations": [
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味、辣"
+        },
+        {
+          "char": "素",
+          "jyutping": "sou3",
+          "meaning": "白色、素白"
+        },
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清涼、清淨"
+        }
+      ]
+    },
+    {
+      "original": "太陽司天為寒化，在泉為咸化，司氣為玄化，間氣為藏化。",
+      "baihua": "太陽主司天氣時為寒的氣化,在泉時為鹹味的氣化,主司運氣時為黑色的氣化,作為間氣時為閉藏的氣化。",
+      "annotations": [
+        {
+          "char": "咸",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        },
+        {
+          "char": "玄",
+          "jyutping": "jyun4",
+          "meaning": "黑色、深黑"
+        },
+        {
+          "char": "藏",
+          "jyutping": "cong4",
+          "meaning": "閉藏、收藏"
+        }
+      ]
+    },
+    {
+      "original": "故治病者，必明六化分治，五味五色所生，五藏所宜，乃可以言盈虛病生之緒也。",
+      "baihua": "所以治病的人,必須明白六氣氣化的分別主治,以及五味五色所滋生的,五臟所適宜的,才可以談論盈虛和疾病產生的頭緒。",
+      "annotations": [
+        {
+          "char": "宜",
+          "jyutping": "ji4",
+          "meaning": "適宜、相宜"
+        },
+        {
+          "char": "緒",
+          "jyutping": "seoi5",
+          "meaning": "頭緒、端緒"
+        },
+        {
+          "char": "乃",
+          "jyutping": "naai5",
+          "meaning": "才、於是"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：厥陰在泉而酸化先，余知之矣。",
+      "baihua": "黃帝說:厥陰主管在泉之氣時酸味的氣化最先出現,這些我已經明白了。",
+      "annotations": [
+        {
+          "char": "先",
+          "jyutping": "sin1",
+          "meaning": "首先、最先"
+        },
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "在泉之氣"
+        }
+      ]
+    },
+    {
+      "original": "風化之行也何如？",
+      "baihua": "風的氣化運行的情況是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "行",
+          "jyutping": "hang4",
+          "meaning": "運行、流行"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：風行於地，所謂本也，餘氣同法。",
+      "baihua": "岐伯說:風氣運行於地面,這就是所謂的本氣,其餘的氣也遵循同樣的法則。",
+      "annotations": [
+        {
+          "char": "本",
+          "jyutping": "bun2",
+          "meaning": "本源、根本"
+        },
+        {
+          "char": "餘",
+          "jyutping": "jyu4",
+          "meaning": "其餘"
+        }
+      ]
+    },
+    {
+      "original": "本乎天者，天之氣也，本乎地者，地之氣也，天地合氣，六節分而萬物化生矣。",
+      "baihua": "以天為本源的,是天之氣;以地為本源的,是地之氣;天氣地氣相合,六個節氣分明有序,萬物就化育生長了。",
+      "annotations": [
+        {
+          "char": "乎",
+          "jyutping": "fu4",
+          "meaning": "於、在"
+        },
+        {
+          "char": "合",
+          "jyutping": "hap6",
+          "meaning": "會合、結合"
+        },
+        {
+          "char": "節",
+          "jyutping": "zit3",
+          "meaning": "節氣、時節"
+        }
+      ]
+    },
+    {
+      "original": "故曰：謹候氣宜，無失病機。此之謂也。",
+      "baihua": "所以說:謹慎地觀察氣候的相宜,不要錯失疾病的機要。說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "謹",
+          "jyutping": "gan2",
+          "meaning": "謹慎、慎重"
+        },
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "觀察、察候"
+        },
+        {
+          "char": "機",
+          "jyutping": "gei1",
+          "meaning": "機要、關鍵"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其主病何如？",
+      "baihua": "黃帝說:它們主治疾病的情況是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "主",
+          "jyutping": "zyu2",
+          "meaning": "主治、主管"
+        },
+        {
+          "char": "病",
+          "jyutping": "beng6",
+          "meaning": "疾病"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：司歲備物，則無遺主矣。",
+      "baihua": "岐伯說:根據主歲之氣來備辦藥物,就不會遺漏它們的主治功效了。",
+      "annotations": [
+        {
+          "char": "備",
+          "jyutping": "bei6",
+          "meaning": "備辦、準備"
+        },
+        {
+          "char": "遺",
+          "jyutping": "wai4",
+          "meaning": "遺漏、遺失"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：先歲物何也？",
+      "baihua": "黃帝說:預先按主歲之氣採備的藥物有什麼特點呢?",
+      "annotations": [
+        {
+          "char": "先",
+          "jyutping": "sin1",
+          "meaning": "預先、事先"
+        },
+        {
+          "char": "物",
+          "jyutping": "mat6",
+          "meaning": "藥物"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：天地之專精也。",
+      "baihua": "岐伯說:這是稟受了天地專一純正精氣的藥物。",
+      "annotations": [
+        {
+          "char": "專",
+          "jyutping": "zyun1",
+          "meaning": "專一、專純"
+        },
+        {
+          "char": "精",
+          "jyutping": "zing1",
+          "meaning": "精華、精氣"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：司氣者何如？",
+      "baihua": "黃帝說:主司運氣的藥物又是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "主司、掌管"
+        },
+        {
+          "char": "氣",
+          "jyutping": "hei3",
+          "meaning": "運氣"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：司氣者主歲同，然有餘不足也。",
+      "baihua": "岐伯說:主司運氣的藥物與主歲的藥物相同,但有有餘和不足的差異。",
+      "annotations": [
+        {
+          "char": "然",
+          "jyutping": "jin4",
+          "meaning": "然而、但是"
+        },
+        {
+          "char": "餘",
+          "jyutping": "jyu4",
+          "meaning": "有餘"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：非司歲物何謂也？",
+      "baihua": "黃帝說:不是按主歲之氣採備的藥物又是指什麼呢?",
+      "annotations": [
+        {
+          "char": "非",
+          "jyutping": "fei1",
+          "meaning": "不是、非"
+        },
+        {
+          "char": "謂",
+          "jyutping": "wai6",
+          "meaning": "指、意思"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：散也，故質同而異等也，氣味有薄厚，性用有躁靜，治保有多少，力化有淺深，此之謂也。",
+      "baihua": "岐伯說:這是散雜之氣所生的藥物,所以質地相同但等級有別,氣味有淡薄和濃厚的分別,性能作用有躁動和安靜的區別,治療效力和保養功能有多有少,藥力氣化有淺有深,說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "散",
+          "jyutping": "saan3",
+          "meaning": "散雜、分散"
+        },
+        {
+          "char": "質",
+          "jyutping": "zat1",
+          "meaning": "質地、本質"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "淡薄、稀薄"
+        },
+        {
+          "char": "躁",
+          "jyutping": "cou3",
+          "meaning": "躁動、急躁"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：歲主藏害何謂？",
+      "baihua": "黃帝說:主歲之氣對臟腑造成損害是指什麼呢?",
+      "annotations": [
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟腑"
+        },
+        {
+          "char": "害",
+          "jyutping": "hoi6",
+          "meaning": "損害、傷害"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：以所不勝命之，則其要也。",
+      "baihua": "岐伯說:根據它所不能勝過的來確定,這就是要領所在。",
+      "annotations": [
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "勝過、克制"
+        },
+        {
+          "char": "命",
+          "jyutping": "ming6",
+          "meaning": "確定、命名"
+        },
+        {
+          "char": "要",
+          "jyutping": "jiu3",
+          "meaning": "要領、關鍵"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：治之奈何？",
+      "baihua": "黃帝說:治療它們該怎麼辦呢?",
+      "annotations": [
+        {
+          "char": "治",
+          "jyutping": "zi6",
+          "meaning": "治療"
+        },
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何、怎樣"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：上淫於下，所勝平之，外淫於內，所勝治之。",
+      "baihua": "岐伯說:司天之氣過度侵淫於下,就用能勝過它的來平抑;在外之氣過度侵淫於內,就用能勝過它的來治理。",
+      "annotations": [
+        {
+          "char": "淫",
+          "jyutping": "jam4",
+          "meaning": "過度、侵淫"
+        },
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "平抑、調平"
+        },
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "勝過、克制"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。平氣何如？",
+      "baihua": "黃帝說:好。使氣調和該怎麼做呢?",
+      "annotations": [
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "平調、和平"
+        },
+        {
+          "char": "氣",
+          "jyutping": "hei3",
+          "meaning": "氣、氣機"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：謹察陰陽所在而調之，以平為期，正者正治，反者反治。",
+      "baihua": "岐伯說:謹慎地觀察陰陽所在的部位而加以調治,以達到平和為目標,病情與脈象相符的用正治法,相反的用反治法。",
+      "annotations": [
+        {
+          "char": "察",
+          "jyutping": "caat3",
+          "meaning": "觀察、審察"
+        },
+        {
+          "char": "調",
+          "jyutping": "tiu4",
+          "meaning": "調理、調治"
+        },
+        {
+          "char": "期",
+          "jyutping": "kei4",
+          "meaning": "目標、期限"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：夫子言察陰陽所在而調之，論言人迎與寸口相應，若引繩小大齊等，命曰平，陰之所在寸口何如？",
+      "baihua": "黃帝說:先生說要觀察陰陽所在的部位而加以調治,醫論上又說人迎脈與寸口脈相應,就像拉直的繩子一樣大小齊等,叫做平和;那麼陰氣所在時寸口脈的情況是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "迎",
+          "jyutping": "jing4",
+          "meaning": "人迎脈"
+        },
+        {
+          "char": "引",
+          "jyutping": "jan5",
+          "meaning": "拉、牽引"
+        },
+        {
+          "char": "繩",
+          "jyutping": "sing4",
+          "meaning": "繩子"
+        },
+        {
+          "char": "齊",
+          "jyutping": "cai4",
+          "meaning": "齊等、整齊"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：視歲南北，可知之矣。",
+      "baihua": "岐伯說:觀察歲運的南政北政,就可以知道了。",
+      "annotations": [
+        {
+          "char": "視",
+          "jyutping": "si6",
+          "meaning": "觀察、看"
+        },
+        {
+          "char": "南",
+          "jyutping": "naam4",
+          "meaning": "南政"
+        },
+        {
+          "char": "北",
+          "jyutping": "bak1",
+          "meaning": "北政"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願卒聞之。",
+      "baihua": "黃帝說:我希望完整地聽聽這些內容。",
+      "annotations": [
+        {
+          "char": "卒",
+          "jyutping": "zeot1",
+          "meaning": "完全、盡"
+        },
+        {
+          "char": "聞",
+          "jyutping": "man4",
+          "meaning": "聽聞、聽取"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：北政之歲，少陰在泉，則寸口不應；厥陰在泉，則右不應；太陰在泉，則左不應。",
+      "baihua": "岐伯說:北政的年份,少陰主管在泉之氣,那麼兩手寸口脈就不應;厥陰在泉,那麼右手寸口不應;太陰在泉,那麼左手寸口不應。",
+      "annotations": [
+        {
+          "char": "政",
+          "jyutping": "zing3",
+          "meaning": "政令、歲政"
+        },
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "相應、顯現"
+        },
+        {
+          "char": "寸",
+          "jyutping": "cyun3",
+          "meaning": "寸口脈位"
+        }
+      ]
+    },
+    {
+      "original": "南政之歲，少陰司天，則寸口不應；厥陰司天，則右不應；太陰司天，則左不應。",
+      "baihua": "南政的年份,少陰主司天氣,那麼兩手寸口脈就不應;厥陰司天,那麼右手寸口不應;太陰司天,那麼左手寸口不應。",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "主司、掌管"
+        },
+        {
+          "char": "天",
+          "jyutping": "tin1",
+          "meaning": "司天之氣"
+        }
+      ]
+    },
+    {
+      "original": "諸不應者，反其診則見矣。",
+      "baihua": "各種脈象不應的情況,把診脈的手反過來察看就能發現了。",
+      "annotations": [
+        {
+          "char": "諸",
+          "jyutping": "zyu1",
+          "meaning": "各種、眾"
+        },
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "反轉、翻轉"
+        },
+        {
+          "char": "診",
+          "jyutping": "can2",
+          "meaning": "診脈、診察"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：尺候何如？",
+      "baihua": "黃帝說:尺部脈的徵候又是怎樣的呢?",
+      "annotations": [
+        {
+          "char": "尺",
+          "jyutping": "cek3",
+          "meaning": "尺脈脈位"
+        },
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "徵候、脈候"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：北政之歲，三陰在下，則寸不應；三陰在上，則尺不應。",
+      "baihua": "岐伯說:北政的年份,三陰之氣在下(在泉),那麼寸部脈不應;三陰之氣在上(司天),那麼尺部脈不應。",
+      "annotations": [
+        {
+          "char": "下",
+          "jyutping": "haa6",
+          "meaning": "下位、在泉"
+        },
+        {
+          "char": "上",
+          "jyutping": "soeng6",
+          "meaning": "上位、司天"
+        },
+        {
+          "char": "尺",
+          "jyutping": "cek3",
+          "meaning": "尺脈"
+        }
+      ]
+    },
+    {
+      "original": "南政之歲，三陰在天，則寸不應；三陰在泉，則尺不應。左右同。",
+      "baihua": "南政的年份,三陰之氣在天(司天),那麼寸部脈不應;三陰之氣在泉,那麼尺部脈不應。左右手的道理相同。",
+      "annotations": [
+        {
+          "char": "天",
+          "jyutping": "tin1",
+          "meaning": "司天"
+        },
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "在泉"
+        },
+        {
+          "char": "同",
+          "jyutping": "tung4",
+          "meaning": "相同"
+        }
+      ]
+    },
+    {
+      "original": "故曰：知其要者，一言而終，不知其要，流散無窮。此之謂也。",
+      "baihua": "所以說:懂得其中要領的人,一句話就能講清楚;不懂得要領的人,則會漫無邊際地散說不完。說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "要",
+          "jyutping": "jiu3",
+          "meaning": "要領、關鍵"
+        },
+        {
+          "char": "終",
+          "jyutping": "zung1",
+          "meaning": "結束、了結"
+        },
+        {
+          "char": "流",
+          "jyutping": "lau4",
+          "meaning": "流散、漫延"
+        },
+        {
+          "char": "窮",
+          "jyutping": "kung4",
+          "meaning": "盡頭、窮盡"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。天地之氣，內淫而病何如？",
+      "baihua": "黃帝說：好。天地之氣過度侵淫於人體之內而致病，情況如何呢？",
+      "annotations": [
+        {
+          "char": "淫",
+          "jyutping": "jam4",
+          "meaning": "過度、浸淫"
+        },
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "好"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：歲厥陰在泉，風淫所勝，則地氣不明，平野昧，草乃早秀。",
+      "baihua": "岐伯說：這一年厥陰之氣主司在泉，風氣過盛而佔上風，於是地氣不明朗，平野昏暗,草木便提早開花抽穗。",
+      "annotations": [
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "在泉,司地之氣"
+        },
+        {
+          "char": "昧",
+          "jyutping": "mui6",
+          "meaning": "昏暗不明"
+        },
+        {
+          "char": "秀",
+          "jyutping": "sau3",
+          "meaning": "開花抽穗"
+        }
+      ]
+    },
+    {
+      "original": "民病洒洒振寒，善伸數欠，心痛支滿，兩脅裡急，飲食不下，膈咽不通，食則嘔，腹脹善噫，得後與氣，則快然如衰，身體皆重。",
+      "baihua": "人們患病表現為畏寒發抖、常想伸展身體並頻頻打呵欠、心痛胸脅脹滿、兩脅內部拘急、飲食難以下嚥、膈咽不通、進食便嘔吐、腹脹常噯氣;若能排便或放屁,便覺舒暢像病減輕,全身沉重。",
+      "annotations": [
+        {
+          "char": "洒",
+          "jyutping": "sai2",
+          "meaning": "洒洒,寒慄貌"
+        },
+        {
+          "char": "欠",
+          "jyutping": "him3",
+          "meaning": "打呵欠"
+        },
+        {
+          "char": "噫",
+          "jyutping": "aai3",
+          "meaning": "噯氣"
+        },
+        {
+          "char": "後",
+          "jyutping": "hau6",
+          "meaning": "大便"
+        }
+      ]
+    },
+    {
+      "original": "歲少陰在泉，熱淫所勝，則焰浮川澤，陰處反明。",
+      "baihua": "這一年少陰之氣主司在泉,熱氣過盛而佔上風,於是熱焰浮動於江河湖澤之上,原本陰暗之處反而顯得明亮。",
+      "annotations": [
+        {
+          "char": "焰",
+          "jyutping": "jim6",
+          "meaning": "火焰、熱氣"
+        },
+        {
+          "char": "澤",
+          "jyutping": "zaak6",
+          "meaning": "湖澤"
+        }
+      ]
+    },
+    {
+      "original": "民病腹中常鳴，氣上衝胸，喘不能久立，寒熱皮膚痛，目瞑齒痛䪼腫，惡寒發熱如瘧，少腹中痛腹大，蟄蟲不藏。",
+      "baihua": "人們患病表現為腹中常鳴響、氣上衝胸、氣喘不能久站、寒熱交作皮膚疼痛、目昏齒痛顴骨腫、惡寒發熱像瘧疾、小腹疼痛而腹部脹大;蟄伏的蟲類也不入蟄潛藏。",
+      "annotations": [
+        {
+          "char": "瞑",
+          "jyutping": "ming4",
+          "meaning": "目昏閉"
+        },
+        {
+          "char": "䪼",
+          "jyutping": "zyut3",
+          "meaning": "顴骨"
+        },
+        {
+          "char": "瘧",
+          "jyutping": "joek6",
+          "meaning": "瘧疾"
+        },
+        {
+          "char": "蟄",
+          "jyutping": "zaap6",
+          "meaning": "藏伏"
+        }
+      ]
+    },
+    {
+      "original": "歲太陰在泉，草乃早榮，濕淫所勝，則埃昏岩谷，黃反見黑，至陰之交。",
+      "baihua": "這一年太陰之氣主司在泉,草木提早繁茂;濕氣過盛而佔上風,於是塵埃昏暗籠罩山谷,本應現黃色的地方反而顯黑色,這是至陰之氣相交之時。",
+      "annotations": [
+        {
+          "char": "榮",
+          "jyutping": "wing4",
+          "meaning": "茂盛開花"
+        },
+        {
+          "char": "埃",
+          "jyutping": "oi1",
+          "meaning": "塵埃"
+        },
+        {
+          "char": "岩",
+          "jyutping": "ngaam4",
+          "meaning": "山岩"
+        }
+      ]
+    },
+    {
+      "original": "民病飲積，心痛，耳聾渾渾焞焞，嗌腫喉痹，陰病血見，少腹痛腫，不得小便，病沖頭痛，目似脫，項似拔，腰似折，髀不可以回，膕如結，腨如別。",
+      "baihua": "人們患病表現為水飲積聚、心痛、耳聾聽覺昏昧不清、咽喉腫痛閉塞、陰部有病而見出血、小腹疼痛腫脹、小便不通、病氣上衝致頭痛、眼睛像要脫出、頸項像被拔、腰像折斷、大腿不能轉動、膕窩像打結、小腿肚像要裂開。",
+      "annotations": [
+        {
+          "char": "焞",
+          "jyutping": "teon1",
+          "meaning": "聽覺昏昧貌"
+        },
+        {
+          "char": "嗌",
+          "jyutping": "aai3",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "髀",
+          "jyutping": "bei2",
+          "meaning": "大腿"
+        },
+        {
+          "char": "膕",
+          "jyutping": "gwik1",
+          "meaning": "膝後窩"
+        },
+        {
+          "char": "腨",
+          "jyutping": "syun5",
+          "meaning": "小腿肚"
+        }
+      ]
+    },
+    {
+      "original": "歲少陽在泉，火淫所勝，則焰明郊野，寒熱更至。",
+      "baihua": "這一年少陽之氣主司在泉,火氣過盛而佔上風,於是火焰照明郊野,寒熱交替而至。",
+      "annotations": [
+        {
+          "char": "焰",
+          "jyutping": "jim6",
+          "meaning": "火焰"
+        },
+        {
+          "char": "更",
+          "jyutping": "gang1",
+          "meaning": "交替"
+        }
+      ]
+    },
+    {
+      "original": "民病注泄赤白，少腹痛溺赤，甚則血便。少陰同候。",
+      "baihua": "人們患病表現為瀉下赤白之物、小腹疼痛小便色赤,嚴重時便中帶血。少陰在泉的病候與此相同。",
+      "annotations": [
+        {
+          "char": "注",
+          "jyutping": "zyu3",
+          "meaning": "傾瀉"
+        },
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便"
+        },
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "病候徵象"
+        }
+      ]
+    },
+    {
+      "original": "歲陽明在泉，燥淫所勝，則霿霧清暝。",
+      "baihua": "這一年陽明之氣主司在泉,燥氣過盛而佔上風,於是天空霧氣濛濛、清冷昏暗。",
+      "annotations": [
+        {
+          "char": "霿",
+          "jyutping": "mung4",
+          "meaning": "霧氣濛濛"
+        },
+        {
+          "char": "暝",
+          "jyutping": "ming4",
+          "meaning": "昏暗"
+        }
+      ]
+    },
+    {
+      "original": "民病喜嘔，嘔有苦，善大息，心脅痛不能反側，甚則嗌乾面塵，身無膏澤，足外反熱。",
+      "baihua": "人們患病表現為常嘔吐,嘔吐物有苦味、常嘆息、心脅疼痛不能翻身,嚴重時咽喉乾燥、面色如蒙塵垢、身體皮膚缺乏潤澤、足外側反而發熱。",
+      "annotations": [
+        {
+          "char": "喜",
+          "jyutping": "hei2",
+          "meaning": "容易、常"
+        },
+        {
+          "char": "大息",
+          "jyutping": "taai3",
+          "meaning": "歎息"
+        },
+        {
+          "char": "膏",
+          "jyutping": "gou1",
+          "meaning": "油脂潤澤"
+        }
+      ]
+    },
+    {
+      "original": "歲太陽在泉，寒淫所勝，則凝肅慘慄。",
+      "baihua": "這一年太陽之氣主司在泉,寒氣過盛而佔上風,於是天地凝結肅殺、淒慘寒慄。",
+      "annotations": [
+        {
+          "char": "肅",
+          "jyutping": "suk1",
+          "meaning": "肅殺"
+        },
+        {
+          "char": "慘",
+          "jyutping": "caam2",
+          "meaning": "淒慘"
+        },
+        {
+          "char": "慄",
+          "jyutping": "leot6",
+          "meaning": "寒戰"
+        }
+      ]
+    },
+    {
+      "original": "民病少腹控睪，引腰脊，上衝心痛，血見，嗌痛頷腫。",
+      "baihua": "人們患病表現為小腹牽引睪丸,牽連腰脊,病氣上衝致心痛、出血、咽喉痛、頷部腫。",
+      "annotations": [
+        {
+          "char": "控",
+          "jyutping": "hung3",
+          "meaning": "牽引"
+        },
+        {
+          "char": "睪",
+          "jyutping": "gou1",
+          "meaning": "睪丸"
+        },
+        {
+          "char": "頷",
+          "jyutping": "ham5",
+          "meaning": "下巴"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。治之奈何？",
+      "baihua": "黃帝說:好。應如何治療呢？",
+      "annotations": [
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：諸氣在泉，風淫於內，治以辛涼，佐以苦，以甘緩之，以辛散之。",
+      "baihua": "岐伯說:凡是各氣在泉之時,風氣過度侵淫於內,用辛涼藥治療,以苦味藥輔佐,用甘味緩和它,用辛味發散它。",
+      "annotations": [
+        {
+          "char": "佐",
+          "jyutping": "zo3",
+          "meaning": "輔助"
+        },
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "緩和"
+        },
+        {
+          "char": "散",
+          "jyutping": "saan3",
+          "meaning": "發散"
+        }
+      ]
+    },
+    {
+      "original": "熱淫於內，治以鹹寒，佐以甘苦，以酸收之，以苦發之。",
+      "baihua": "熱氣過度侵淫於內,用鹹寒藥治療,以甘苦味藥輔佐,用酸味收斂它,用苦味發泄它。",
+      "annotations": [
+        {
+          "char": "鹹",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        },
+        {
+          "char": "收",
+          "jyutping": "sau1",
+          "meaning": "收斂"
+        },
+        {
+          "char": "發",
+          "jyutping": "faat3",
+          "meaning": "發泄"
+        }
+      ]
+    },
+    {
+      "original": "濕淫於內，治以苦熱，佐以酸淡，以苦燥之，以淡泄之。",
+      "baihua": "濕氣過度侵淫於內,用苦熱藥治療,以酸味淡味藥輔佐,用苦味燥化它,用淡味滲泄它。",
+      "annotations": [
+        {
+          "char": "淡",
+          "jyutping": "taam5",
+          "meaning": "淡味"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "燥化"
+        },
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "滲泄"
+        }
+      ]
+    },
+    {
+      "original": "火淫於內，治以鹹冷，佐以苦辛，以酸收之，以苦發之。",
+      "baihua": "火氣過度侵淫於內,用鹹冷藥治療,以苦辛味藥輔佐,用酸味收斂它,用苦味發泄它。",
+      "annotations": [
+        {
+          "char": "冷",
+          "jyutping": "laang5",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味"
+        }
+      ]
+    },
+    {
+      "original": "燥淫於內，治以苦溫，佐以甘辛，以苦下之。",
+      "baihua": "燥氣過度侵淫於內,用苦溫藥治療,以甘辛味藥輔佐,用苦味通下它。",
+      "annotations": [
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫性"
+        },
+        {
+          "char": "下",
+          "jyutping": "haa6",
+          "meaning": "瀉下"
+        }
+      ]
+    },
+    {
+      "original": "寒淫於內，治以甘熱，佐以苦辛，以咸瀉之，以辛潤之，以苦堅之。",
+      "baihua": "寒氣過度侵淫於內,用甘熱藥治療,以苦辛味藥輔佐,用鹹味瀉除它,用辛味潤養它,用苦味堅固它。",
+      "annotations": [
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "瀉除"
+        },
+        {
+          "char": "潤",
+          "jyutping": "jeon6",
+          "meaning": "滋潤"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "堅固"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。天氣之變何如？",
+      "baihua": "黃帝說:好。天氣的變化情況如何呢？",
+      "annotations": [
+        {
+          "char": "變",
+          "jyutping": "bin3",
+          "meaning": "變化"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：厥陰司天，風淫所勝，則太虛埃昏，雲物以擾，寒生春氣，流水不冰。",
+      "baihua": "岐伯說:厥陰之氣主司在天,風氣過盛而佔上風,於是天空塵埃昏暗、雲氣物象紛擾、寒氣生於春時、流動之水不結冰。",
+      "annotations": [
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "太虛,天空"
+        },
+        {
+          "char": "擾",
+          "jyutping": "jiu5",
+          "meaning": "紛擾"
+        },
+        {
+          "char": "冰",
+          "jyutping": "bing1",
+          "meaning": "結冰"
+        }
+      ]
+    },
+    {
+      "original": "民病胃脘當心而痛，上支兩脅，膈咽不通，飲食不下，舌本強，食則嘔，冷泄腹脹，溏泄瘕水閉，蟄蟲不去，病本於脾。",
+      "baihua": "人們患病表現為胃脘正對心口而痛、向上牽引兩脅、膈咽不通、飲食難下、舌根僵硬、進食便嘔、瀉下清冷腹脹、大便溏泄或有癥瘕水閉,蟄蟲不入蟄,病根在脾。",
+      "annotations": [
+        {
+          "char": "脘",
+          "jyutping": "wun2",
+          "meaning": "胃脘"
+        },
+        {
+          "char": "溏",
+          "jyutping": "tong4",
+          "meaning": "大便稀薄"
+        },
+        {
+          "char": "瘕",
+          "jyutping": "gaa2",
+          "meaning": "腹中結塊"
+        }
+      ]
+    },
+    {
+      "original": "衝陽絕，死不治。",
+      "baihua": "若衝陽脈(足陽明胃經)之氣斷絕,則屬死症無法救治。",
+      "annotations": [
+        {
+          "char": "衝",
+          "jyutping": "cung1",
+          "meaning": "衝陽穴脈"
+        },
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "斷絕"
+        }
+      ]
+    },
+    {
+      "original": "少陰司天，熱淫所勝，怫熱至，火行其政。",
+      "baihua": "少陰之氣主司在天,熱氣過盛而佔上風,鬱熱到來,火氣施行其政令。",
+      "annotations": [
+        {
+          "char": "怫",
+          "jyutping": "fat6",
+          "meaning": "鬱悶、鬱熱"
+        },
+        {
+          "char": "政",
+          "jyutping": "zing3",
+          "meaning": "政令、主導"
+        }
+      ]
+    },
+    {
+      "original": "民病胸中煩熱，嗌乾，右胠滿，皮膚痛，寒熱咳喘，大雨且至，唾血血泄，鼽衄嚏嘔，溺色變，甚則瘡瘍胕腫，肩背臂臑及缺盆中痛，心痛肺䐜，腹大滿，膨膨而喘咳病本於肺。",
+      "baihua": "人們患病表現為胸中煩熱、咽喉乾、右脅脹滿、皮膚痛、寒熱咳喘;大雨將至,又有唾血下血、鼻塞流涕流鼻血打噴嚏嘔吐、小便顏色改變,嚴重時瘡瘍浮腫、肩背手臂上臂及缺盆中疼痛、心痛肺脹、腹部脹滿、膨膨而喘咳,病根在肺。",
+      "annotations": [
+        {
+          "char": "胠",
+          "jyutping": "heoi1",
+          "meaning": "腋下脅部"
+        },
+        {
+          "char": "鼽",
+          "jyutping": "kau4",
+          "meaning": "鼻塞流涕"
+        },
+        {
+          "char": "衄",
+          "jyutping": "nuk6",
+          "meaning": "鼻出血"
+        },
+        {
+          "char": "臑",
+          "jyutping": "nou6",
+          "meaning": "上臂"
+        },
+        {
+          "char": "䐜",
+          "jyutping": "can1",
+          "meaning": "脹滿"
+        }
+      ]
+    },
+    {
+      "original": "尺澤絕，死不治。",
+      "baihua": "若尺澤脈(手太陰肺經)之氣斷絕,則屬死症無法救治。",
+      "annotations": [
+        {
+          "char": "尺",
+          "jyutping": "cek3",
+          "meaning": "尺澤穴"
+        },
+        {
+          "char": "澤",
+          "jyutping": "zaak6",
+          "meaning": "尺澤穴脈"
+        }
+      ]
+    },
+    {
+      "original": "太陰司天，濕淫所勝，則沉陰且布，雨變枯槁，胕腫骨痛陰痹，陰痹者按之不得，腰脊頭項痛，時眩，大便難，陰氣不用，飢不欲食，咳唾則有血，心如懸，病本干腎。",
+      "baihua": "太陰之氣主司在天,濕氣過盛而佔上風,於是陰霾沉沉密布、雨水使枯槁之物改變。人們患病表現為浮腫骨痛陰痹,陰痹者按之不能得其處,腰脊頭項痛、時常眩暈、大便困難、陰氣不能發揮作用、飢餓卻不想進食、咳唾帶血、心中如懸吊,病根在腎。",
+      "annotations": [
+        {
+          "char": "槁",
+          "jyutping": "gou2",
+          "meaning": "乾枯"
+        },
+        {
+          "char": "胕",
+          "jyutping": "fu4",
+          "meaning": "浮腫"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "痹阻不通"
+        },
+        {
+          "char": "眩",
+          "jyutping": "jyun4",
+          "meaning": "頭暈"
+        }
+      ]
+    },
+    {
+      "original": "太谿絕，死不治。",
+      "baihua": "若太谿脈(足少陰腎經)之氣斷絕,則屬死症無法救治。",
+      "annotations": [
+        {
+          "char": "谿",
+          "jyutping": "kai1",
+          "meaning": "太谿穴"
+        },
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "斷絕"
+        }
+      ]
+    },
+    {
+      "original": "少陽司天，火淫所勝，則溫氣流行，金政不平。",
+      "baihua": "少陽之氣主司在天,火氣過盛而佔上風,於是溫熱之氣流行,金氣的政令不能正常施行。",
+      "annotations": [
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫熱"
+        },
+        {
+          "char": "金",
+          "jyutping": "gam1",
+          "meaning": "金氣,肺、燥"
+        },
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "正常、平和"
+        }
+      ]
+    },
+    {
+      "original": "民病頭痛，發熱惡寒而瘧，熱上皮膚痛，色變黃赤，傳而為水，身面胕腫，腹滿仰息，泄注赤白，瘡瘍咳唾血，煩心胸中熱，甚則鼽衄，病本於肺。",
+      "baihua": "人們患病表現為頭痛、發熱惡寒像瘧疾、熱上蒸使皮膚痛、面色變黃赤、病傳而成水腫、身面浮腫、腹滿仰面而喘、瀉下赤白之物、瘡瘍咳唾帶血、心煩胸中熱,嚴重時鼻塞流血,病根在肺。",
+      "annotations": [
+        {
+          "char": "仰",
+          "jyutping": "joeng5",
+          "meaning": "仰面"
+        },
+        {
+          "char": "息",
+          "jyutping": "sik1",
+          "meaning": "呼吸"
+        },
+        {
+          "char": "瘍",
+          "jyutping": "joeng4",
+          "meaning": "瘡瘍"
+        }
+      ]
+    },
+    {
+      "original": "天府絕，死不治。",
+      "baihua": "若天府脈(手太陰肺經)之氣斷絕,則屬死症無法救治。",
+      "annotations": [
+        {
+          "char": "府",
+          "jyutping": "fu2",
+          "meaning": "天府穴"
+        },
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "斷絕"
+        }
+      ]
+    },
+    {
+      "original": "陽明司天，燥淫所勝，則木乃晚榮，草乃晚生，筋骨內變，民病左胠脅痛，寒清於中，感而瘧，大涼革候，咳，腹中鳴，注泄鶩溏，名木斂，生菀於下，草焦上首，心脅暴痛，不可反側，嗌乾面塵腰痛，丈夫㿗疝，婦人少腹痛，目眛眥，瘍瘡痤癰，蟄蟲來見，病本於肝。",
+      "baihua": "陽明之氣主司在天,燥氣過盛而佔上風,於是樹木遲遲才繁茂、草遲遲才生長、筋骨在內發生變異。人們患病表現為左脅肋痛、腹中寒清、感受寒氣而成瘧、大涼之氣改變時候、咳嗽、腹中鳴響、瀉下如鴨糞般溏泄;有名的樹木收斂,生機鬱積於下,草木從頂端焦枯;心脅劇痛、不能翻身、咽乾面塵腰痛、男子患㿗疝、婦人小腹痛、眼目視物昏花眼角病、瘡瘍痤瘡癰腫、蟄蟲反出現,病根在肝。",
+      "annotations": [
+        {
+          "char": "鶩",
+          "jyutping": "muk6",
+          "meaning": "鴨,鶩溏指便如鴨糞"
+        },
+        {
+          "char": "菀",
+          "jyutping": "wat1",
+          "meaning": "鬱結"
+        },
+        {
+          "char": "㿗",
+          "jyutping": "teoi4",
+          "meaning": "陰囊腫大之疝"
+        },
+        {
+          "char": "眥",
+          "jyutping": "zaai6",
+          "meaning": "眼角"
+        },
+        {
+          "char": "痤",
+          "jyutping": "co4",
+          "meaning": "痤瘡"
+        }
+      ]
+    },
+    {
+      "original": "太衝絕，死不治。",
+      "baihua": "若太衝脈(足厥陰肝經)之氣斷絕,則屬死症無法救治。",
+      "annotations": [
+        {
+          "char": "衝",
+          "jyutping": "cung1",
+          "meaning": "太衝穴"
+        },
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "斷絕"
+        }
+      ]
+    },
+    {
+      "original": "太陽司天，寒淫所勝，則寒氣反至，水且冰，血變於中，發為癰瘍，民病厥心痛，嘔血血泄鼽衄，善悲時眩僕。",
+      "baihua": "太陽之氣主司在天,寒氣過盛而佔上風,於是寒氣反常到來、水將結冰、血在體內發生變異、發為癰瘡。人們患病表現為厥逆心痛、嘔血下血鼻塞流血、常悲傷時常眩暈跌倒。",
+      "annotations": [
+        {
+          "char": "癰",
+          "jyutping": "jung1",
+          "meaning": "癰腫"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "逆冷、厥逆"
+        },
+        {
+          "char": "僕",
+          "jyutping": "buk6",
+          "meaning": "跌倒"
+        }
+      ]
+    },
+    {
+      "original": "運火炎烈，雨暴乃雹，胸腹滿，手熱肘攣掖腫，心澹澹大動，胸脅胃脘不安，面赤目黃，善噫嗌乾，甚則色炲，渴而欲飲，病本於心。",
+      "baihua": "若運氣屬火炎烈,則暴雨並降冰雹。患者胸腹脹滿、手熱肘部拘攣腋窩腫、心臟怦怦大動、胸脅胃脘不安、面赤目黃、常噯氣咽乾,嚴重時面色黑如煤炱、口渴想喝水,病根在心。",
+      "annotations": [
+        {
+          "char": "雹",
+          "jyutping": "bok6",
+          "meaning": "冰雹"
+        },
+        {
+          "char": "攣",
+          "jyutping": "lyun4",
+          "meaning": "拘攣"
+        },
+        {
+          "char": "掖",
+          "jyutping": "jik6",
+          "meaning": "腋窩"
+        },
+        {
+          "char": "澹",
+          "jyutping": "daam6",
+          "meaning": "澹澹,心跳動貌"
+        },
+        {
+          "char": "炲",
+          "jyutping": "toi4",
+          "meaning": "煙煤,喻面黑"
+        }
+      ]
+    },
+    {
+      "original": "神門絕，死不治。所謂動氣，知其藏也。",
+      "baihua": "若神門脈(手少陰心經)之氣斷絕,則屬死症無法救治。所謂察動脈之氣,是為了知曉所主的臟腑。",
+      "annotations": [
+        {
+          "char": "門",
+          "jyutping": "mun4",
+          "meaning": "神門穴"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟腑"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。治之奈何？",
+      "baihua": "黃帝說:好。應如何治療呢？",
+      "annotations": [
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：司天之氣，風淫所勝，平以辛涼，佐以苦甘，以甘緩之，以酸瀉之。",
+      "baihua": "岐伯說:司天之氣,風氣過盛而佔上風,用辛涼藥平調,以苦甘味藥輔佐,用甘味緩和它,用酸味瀉除它。",
+      "annotations": [
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "平調"
+        },
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "緩和"
+        },
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "瀉除"
+        }
+      ]
+    },
+    {
+      "original": "熱淫所勝，平以鹹寒，佐以苦甘，以酸收之。",
+      "baihua": "熱氣過盛而佔上風,用鹹寒藥平調,以苦甘味藥輔佐,用酸味收斂它。",
+      "annotations": [
+        {
+          "char": "鹹",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        },
+        {
+          "char": "收",
+          "jyutping": "sau1",
+          "meaning": "收斂"
+        }
+      ]
+    },
+    {
+      "original": "濕淫所勝，平以苦熱，佐以酸辛，以苦燥之，以淡泄之。",
+      "baihua": "濕氣過盛而佔上風,用苦熱藥平調,以酸辛味藥輔佐,用苦味燥化它,用淡味滲泄它。",
+      "annotations": [
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "燥化"
+        },
+        {
+          "char": "淡",
+          "jyutping": "taam5",
+          "meaning": "淡味"
+        }
+      ]
+    },
+    {
+      "original": "濕上甚而熱，治以苦溫，佐以甘辛，以汗為故而止。",
+      "baihua": "若濕邪在上盛極而化熱,用苦溫藥治療,以甘辛味藥輔佐,以發汗為原則,汗出便可停止。",
+      "annotations": [
+        {
+          "char": "甚",
+          "jyutping": "sam6",
+          "meaning": "盛極"
+        },
+        {
+          "char": "汗",
+          "jyutping": "hon6",
+          "meaning": "發汗"
+        },
+        {
+          "char": "故",
+          "jyutping": "gu3",
+          "meaning": "常法、原則"
+        }
+      ]
+    },
+    {
+      "original": "火淫所勝，平以酸冷，佐以苦甘，以酸收之，以苦發之，以酸復之，熱淫同。",
+      "baihua": "火氣過盛而佔上風,用酸冷藥平調,以苦甘味藥輔佐,用酸味收斂它,用苦味發泄它,用酸味恢復正氣;熱氣過盛的治法與此相同。",
+      "annotations": [
+        {
+          "char": "冷",
+          "jyutping": "laang5",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "恢復"
+        },
+        {
+          "char": "發",
+          "jyutping": "faat3",
+          "meaning": "發泄"
+        }
+      ]
+    },
+    {
+      "original": "燥淫所勝，平以苦濕，佐以酸辛，以苦下之。",
+      "baihua": "燥氣過盛而佔上風,用苦溫(濕)藥平調,以酸辛味藥輔佐,用苦味通下它。",
+      "annotations": [
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "燥氣"
+        },
+        {
+          "char": "下",
+          "jyutping": "haa6",
+          "meaning": "瀉下"
+        }
+      ]
+    },
+    {
+      "original": "寒淫所勝，平以辛熱，佐以甘苦，以咸瀉之。",
+      "baihua": "寒氣過盛而佔上風,用辛熱藥平調,以甘苦味藥輔佐,用鹹味瀉除它。",
+      "annotations": [
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味"
+        },
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "瀉除"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。邪氣反勝，治之奈何？",
+      "baihua": "黃帝說:好。若邪氣反而佔了上風,應如何治療呢？",
+      "annotations": [
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "反而"
+        },
+        {
+          "char": "勝",
+          "jyutping": "sing3",
+          "meaning": "佔上風"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：風司於地，清反勝之，治以酸溫，佐以苦甘，以辛平之。",
+      "baihua": "岐伯說:風氣司於地(在泉),清涼之氣反而勝過它,用酸溫藥治療,以苦甘味藥輔佐,用辛味平調它。",
+      "annotations": [
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清涼之氣"
+        },
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "平調"
+        }
+      ]
+    },
+    {
+      "original": "熱司於地，寒反勝之，治以甘熱，佐以苦辛，以鹹平之。",
+      "baihua": "熱氣司於地,寒氣反而勝過它,用甘熱藥治療,以苦辛味藥輔佐,用鹹味平調它。",
+      "annotations": [
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒氣"
+        },
+        {
+          "char": "鹹",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        }
+      ]
+    },
+    {
+      "original": "濕司於地，熱反勝之，治以苦冷，佐以鹹甘，以苦平之。",
+      "baihua": "濕氣司於地,熱氣反而勝過它,用苦冷藥治療,以鹹甘味藥輔佐,用苦味平調它。",
+      "annotations": [
+        {
+          "char": "冷",
+          "jyutping": "laang5",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "甘",
+          "jyutping": "gam1",
+          "meaning": "甘味"
+        }
+      ]
+    },
+    {
+      "original": "火司於地，寒反勝之，治以甘熱，佐以苦辛，以鹹平之。",
+      "baihua": "火氣司於地,寒氣反而勝過它,用甘熱藥治療,以苦辛味藥輔佐,用鹹味平調它。",
+      "annotations": [
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味"
+        },
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "平調"
+        }
+      ]
+    },
+    {
+      "original": "燥司於地，熱反勝之，治以平寒，佐以苦甘，以酸平之，以和為利。",
+      "baihua": "燥氣司於地,熱氣反而勝過它,用性平偏寒的藥治療,以苦甘味藥輔佐,用酸味平調它,以調和為要旨。",
+      "annotations": [
+        {
+          "char": "利",
+          "jyutping": "lei6",
+          "meaning": "利益、要旨"
+        },
+        {
+          "char": "和",
+          "jyutping": "wo4",
+          "meaning": "調和"
+        }
+      ]
+    },
+    {
+      "original": "寒司於地，熱反勝之，治以鹹冷，佐以甘辛，以苦平之。",
+      "baihua": "寒氣司於地,熱氣反而勝過它,用鹹冷藥治療,以甘辛味藥輔佐,用苦味平調它。",
+      "annotations": [
+        {
+          "char": "鹹",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        },
+        {
+          "char": "冷",
+          "jyutping": "laang5",
+          "meaning": "寒冷"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其司天邪勝何如？",
+      "baihua": "黃帝說:那司天之氣被邪氣勝過時又如何治療呢？",
+      "annotations": [
+        {
+          "char": "其",
+          "jyutping": "kei4",
+          "meaning": "那"
+        },
+        {
+          "char": "勝",
+          "jyutping": "sing3",
+          "meaning": "勝過"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：風化於天，清反勝之，治以酸溫，佐以甘苦。",
+      "baihua": "岐伯說:風氣化生於天,清涼之氣反而勝過它,用酸溫藥治療,以甘苦味藥輔佐。",
+      "annotations": [
+        {
+          "char": "化",
+          "jyutping": "faa3",
+          "meaning": "化生"
+        },
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清涼之氣"
+        }
+      ]
+    },
+    {
+      "original": "熱化於天，寒反勝之，治以甘溫，佐以苦酸辛。",
+      "baihua": "熱氣化生於天,寒氣反而勝過它,用甘溫藥治療,以苦酸辛味藥輔佐。",
+      "annotations": [
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒氣"
+        },
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫性"
+        }
+      ]
+    },
+    {
+      "original": "濕化於天，熱反勝之，治以苦寒，佐以苦酸。",
+      "baihua": "濕氣化生於天,熱氣反而勝過它,用苦寒藥治療,以苦酸味藥輔佐。",
+      "annotations": [
+        {
+          "char": "濕",
+          "jyutping": "sap1",
+          "meaning": "濕氣"
+        },
+        {
+          "char": "酸",
+          "jyutping": "syun1",
+          "meaning": "酸味"
+        }
+      ]
+    },
+    {
+      "original": "火化於天，寒反勝之，治以甘熱，佐以苦辛。",
+      "baihua": "火氣化生於天,寒氣反而勝過它,用甘熱藥治療,以苦辛味藥輔佐。",
+      "annotations": [
+        {
+          "char": "火",
+          "jyutping": "fo2",
+          "meaning": "火氣"
+        },
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味"
+        }
+      ]
+    },
+    {
+      "original": "燥化於天，熱反勝之，治以辛寒，佐以苦甘。",
+      "baihua": "燥氣化生於天,熱氣反而勝過它,用辛寒藥治療,以苦甘味藥輔佐。",
+      "annotations": [
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "燥氣"
+        },
+        {
+          "char": "甘",
+          "jyutping": "gam1",
+          "meaning": "甘味"
+        }
+      ]
+    },
+    {
+      "original": "寒化於天，熱反勝之，治以鹹冷，佐以苦辛。",
+      "baihua": "寒氣化生於天,熱氣反而勝過它,用鹹冷藥治療,以苦辛味藥輔佐。",
+      "annotations": [
+        {
+          "char": "鹹",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        },
+        {
+          "char": "冷",
+          "jyutping": "laang5",
+          "meaning": "寒冷"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：六氣相勝奈何？岐伯曰：厥陰之勝，耳鳴頭眩，憒憒欲吐，胃膈如寒，大風數舉，倮蟲不滋，胠脅氣並，化而為熱，小便黃赤，胃脘當心而痛，上支兩脅，腸鳴飧泄，少腹痛，注下赤白，甚則嘔吐，膈咽不通。",
+      "baihua": "黃帝問：六氣互相偏勝的情況是怎樣的？岐伯回答：厥陰風氣偏勝時，出現耳鳴、頭暈眼花，心中煩亂想嘔吐，胃與膈間感覺如同受寒，大風頻頻興起，無毛的蟲類不能繁殖，脅肋部氣機壅聚，鬱久化熱，小便黃赤，胃脘正對心口處疼痛，向上牽引兩脅，腸鳴而瀉下未消化的食物，小腹疼痛，泄下赤白黏物，嚴重時嘔吐，膈與咽喉阻塞不通。",
+      "annotations": [
+        {
+          "char": "眩",
+          "jyutping": "jyun4",
+          "meaning": "頭暈眼花"
+        },
+        {
+          "char": "憒",
+          "jyutping": "kui2",
+          "meaning": "心中煩亂昏昧"
+        },
+        {
+          "char": "倮",
+          "jyutping": "lo2",
+          "meaning": "無毛,同「裸」"
+        },
+        {
+          "char": "胠",
+          "jyutping": "keoi1",
+          "meaning": "腋下脅部"
+        },
+        {
+          "char": "飧",
+          "jyutping": "syun1",
+          "meaning": "未消化食物,飧泄即完穀不化之瀉"
+        }
+      ]
+    },
+    {
+      "original": "少陰之勝，心下熱善飢，臍下反動，氣遊三焦，炎暑至，木乃津，草乃萎，嘔逆躁煩，腹滿痛溏泄，傳為赤沃。",
+      "baihua": "少陰熱氣偏勝時，心下發熱、容易感到飢餓，臍下反而躁動不安，熱氣遊走於三焦，炎熱暑氣到來，樹木被熱蒸而滲出津液，青草因而枯萎，出現嘔逆、煩躁不安，腹部脹滿疼痛、大便溏瀉，傳變則成赤白痢下。",
+      "annotations": [
+        {
+          "char": "萎",
+          "jyutping": "wai1",
+          "meaning": "枯萎"
+        },
+        {
+          "char": "溏",
+          "jyutping": "tong4",
+          "meaning": "大便稀薄不成形"
+        },
+        {
+          "char": "沃",
+          "jyutping": "juk1",
+          "meaning": "泄下黏液,此指痢下"
+        },
+        {
+          "char": "津",
+          "jyutping": "zeon1",
+          "meaning": "滲出津液"
+        }
+      ]
+    },
+    {
+      "original": "太陰之勝，火氣內郁，瘡瘍於中，流散於外，病在胠脅，甚則心痛熱格，頭痛喉痹項強，獨勝則濕氣內郁，寒迫下焦，痛留頂，互引眉間，胃滿，雨數至，燥化乃見，少腹滿，腰脽重強，內不便，善注泄，足下溫，頭重足脛胕腫，飲發於中，胕腫於上。",
+      "baihua": "太陰濕氣偏勝時，火氣被鬱閉於內，瘡瘍生於體內，流散到體表，病在脅肋部，嚴重時心痛而熱氣格拒，頭痛、咽喉腫痹、頸項僵硬；若濕氣單獨偏勝，則濕鬱於內，寒氣逼迫下焦，疼痛留滯於頭頂，互相牽引到眉間，胃部脹滿，雨水頻頻降下，隨後又見燥化，出現小腹脹滿，腰臀部沉重僵硬，大小便不利，容易瀉泄，足底發熱，頭部沉重，足脛浮腫，水飲停聚於中焦，上部又見浮腫。",
+      "annotations": [
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "閉阻不通"
+        },
+        {
+          "char": "脽",
+          "jyutping": "seoi4",
+          "meaning": "臀部"
+        },
+        {
+          "char": "胕",
+          "jyutping": "fu4",
+          "meaning": "浮腫,同「跗」處腫"
+        },
+        {
+          "char": "格",
+          "jyutping": "gaak3",
+          "meaning": "格拒阻隔"
+        },
+        {
+          "char": "脛",
+          "jyutping": "ging6",
+          "meaning": "小腿"
+        }
+      ]
+    },
+    {
+      "original": "少陽之勝，熱客於胃，煩心心痛，目赤欲嘔，嘔酸善飢，耳痛溺赤，善驚譫妄，暴熱消爍，草萎水涸，介蟲乃屈，少腹痛，下沃赤白。",
+      "baihua": "少陽相火偏勝時，熱邪客於胃，出現心煩、心痛，眼睛發紅想嘔吐，嘔吐酸水、容易飢餓，耳痛、小便赤，容易驚恐、譫語妄言，暴熱使物消爍，青草枯萎、水源乾涸，帶甲的蟲類蜷伏不動，小腹疼痛，泄下赤白黏物。",
+      "annotations": [
+        {
+          "char": "譫",
+          "jyutping": "zim1",
+          "meaning": "胡言亂語"
+        },
+        {
+          "char": "爍",
+          "jyutping": "soek3",
+          "meaning": "熔化銷損"
+        },
+        {
+          "char": "涸",
+          "jyutping": "kok3",
+          "meaning": "乾枯"
+        },
+        {
+          "char": "介",
+          "jyutping": "gaai3",
+          "meaning": "有甲殼的蟲類"
+        },
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便"
+        }
+      ]
+    },
+    {
+      "original": "陽明之勝，清發於中，左胠脅痛溏泄，內為嗌塞，外發㿗疝，大涼肅殺，華英改容，毛蟲乃殃，胸中不便，嗌塞而咳。",
+      "baihua": "陽明燥金偏勝時，清涼之氣發於中焦，左脅肋疼痛、大便溏瀉，在內則咽喉阻塞，在外則發為㿗疝，大涼之氣肅殺萬物，花朵改變顏色姿容，有毛的蟲類遭受災殃，胸中不舒，咽喉阻塞而咳嗽。",
+      "annotations": [
+        {
+          "char": "嗌",
+          "jyutping": "aai3",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "㿗",
+          "jyutping": "teoi4",
+          "meaning": "陰囊腫大之疝"
+        },
+        {
+          "char": "疝",
+          "jyutping": "saan3",
+          "meaning": "腹部或陰部之疝病"
+        },
+        {
+          "char": "殃",
+          "jyutping": "joeng1",
+          "meaning": "災禍"
+        },
+        {
+          "char": "英",
+          "jyutping": "jing1",
+          "meaning": "花"
+        }
+      ]
+    },
+    {
+      "original": "太陽之勝，凝凓且至，非時水冰，羽乃後化，痔瘧發，寒厥入胃，則內生心痛，陰中乃瘍，隱曲不利，互引陰股，筋肉拘苛，血脈凝泣，絡滿色變，或為血泄，皮膚痞腫，腹滿食減，熱反上行，頭項囟頂腦戶中痛，目如脫，寒入下焦，傳為濡瀉。",
+      "baihua": "太陽寒水偏勝時，凝寒之氣將要到來，不合時令的水結成冰，羽類生物延後生育化育，痔瘡與瘧疾發作，寒厥之氣入胃，則體內生心痛，陰部生瘡瘍，二便不通利，互相牽引陰股，筋肉拘急麻木，血脈凝澀，脈絡壅滿而顏色改變，或見便血，皮膚痞塞腫脹，腹脹滿而飲食減少，熱氣反而上行，頭項、囟門、頭頂、腦戶處疼痛，眼睛脹痛如要脫出，寒氣入於下焦，傳變成濡瀉。",
+      "annotations": [
+        {
+          "char": "凓",
+          "jyutping": "leot6",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "苛",
+          "jyutping": "ho1",
+          "meaning": "麻木,肌膚麻痹"
+        },
+        {
+          "char": "泣",
+          "jyutping": "saap3",
+          "meaning": "澀滯不流,同「澀」"
+        },
+        {
+          "char": "囟",
+          "jyutping": "seon3",
+          "meaning": "囟門,頭頂骨縫"
+        },
+        {
+          "char": "濡",
+          "jyutping": "jyu4",
+          "meaning": "濕,濡瀉即濕泄"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：治之奈何？岐伯曰：厥陰之勝，治以甘清，佐以苦辛，以酸瀉之。少陰之勝，治以辛寒，佐以苦鹹，以甘瀉之。太陰之勝，治以咸熱，佐以辛甘，以苦瀉之。少陽之勝，治以辛寒，佐以甘鹹，以甘瀉之。陽明之勝，治以酸溫，佐以辛甘，以苦泄之。太陽之勝，治以甘熱，佐以辛酸，以咸瀉之。",
+      "baihua": "黃帝問：怎樣治療呢？岐伯回答：厥陰偏勝，用甘涼藥治療，以苦辛藥為輔佐，用酸味來瀉它。少陰偏勝，用辛寒藥治療，以苦鹹藥為輔佐，用甘味來瀉它。太陰偏勝，用鹹熱藥治療，以辛甘藥為輔佐，用苦味來瀉它。少陽偏勝，用辛寒藥治療，以甘鹹藥為輔佐，用甘味來瀉它。陽明偏勝，用酸溫藥治療，以辛甘藥為輔佐，用苦味來泄它。太陽偏勝，用甘熱藥治療，以辛酸藥為輔佐，用鹹味來瀉它。",
+      "annotations": [
+        {
+          "char": "佐",
+          "jyutping": "zo3",
+          "meaning": "輔助"
+        },
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "以藥味祛除病邪"
+        },
+        {
+          "char": "酸",
+          "jyutping": "syun1",
+          "meaning": "酸味"
+        },
+        {
+          "char": "鹹",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：六氣之復何如？岐伯曰：悉乎哉問也！厥陰之復，少腹堅滿，裡急暴痛，偃木飛沙，倮蟲不榮，厥心痛，汗發嘔吐，飲食不入，入而復出，筋骨掉眩清厥，甚則入脾，食痹而吐。衝陽絕，死不治。",
+      "baihua": "黃帝問：六氣的復氣情況如何？岐伯回答：問得真詳盡啊！厥陰的復氣，出現小腹堅硬脹滿，腹內拘急暴痛，狂風吹倒樹木、飛揚沙塵，無毛的蟲類不能繁榮，厥逆而心痛，發汗、嘔吐，飲食不能進，進食後又吐出，筋骨動搖、頭暈、四肢清冷厥逆，嚴重時病邪入脾，食後脘痹而嘔吐。若衝陽脈氣絕，則死不可治。",
+      "annotations": [
+        {
+          "char": "偃",
+          "jyutping": "jin2",
+          "meaning": "仰倒,吹倒"
+        },
+        {
+          "char": "掉",
+          "jyutping": "diu6",
+          "meaning": "搖動"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "氣逆,四肢冷"
+        },
+        {
+          "char": "衝陽",
+          "jyutping": "cung1 joeng4",
+          "meaning": "足陽明胃經穴,診胃氣"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "閉阻不通"
+        }
+      ]
+    },
+    {
+      "original": "少陰之復，燠熱內作，煩躁鼽嚏，少腹絞痛，火見燔焫，嗌燥，分注時止，氣動於左，上行於右，咳，皮膚痛，暴喑心痛，鬱冒不知人，乃灑淅惡寒，振慄譫妄，寒已而熱，渴而欲飲，少氣骨痿，隔腸不便，外為浮腫噦噫，赤氣後化，流水不冰，熱氣大行，介蟲不復，病疿胗瘡瘍，癰疽痤痔，甚則入肺，咳而鼻淵。天府絕，死不治。",
+      "baihua": "少陰的復氣，暖熱之氣內生，煩躁、鼻塞打噴嚏，小腹絞痛，火勢如燃燒烤灼，咽喉乾燥，泄瀉時發時止，氣動於左側而上行於右側，咳嗽，皮膚疼痛，突然失音、心痛，昏悶不省人事，接著寒慄惡寒，戰慄、譫語妄言，寒過後發熱，口渴想喝水，氣短、骨萎軟弱，腸道阻隔而大便不通，在外則浮腫、乾嘔噯氣，赤熱之氣延後化育，流水不結冰，熱氣大行，帶甲的蟲類不能復生，患痱疹瘡瘍、癰疽痤瘡痔瘡，嚴重時病邪入肺，咳嗽而鼻淵流涕。若天府脈氣絕，則死不可治。",
+      "annotations": [
+        {
+          "char": "燠",
+          "jyutping": "juk1",
+          "meaning": "暖熱"
+        },
+        {
+          "char": "鼽",
+          "jyutping": "kau4",
+          "meaning": "鼻塞流涕"
+        },
+        {
+          "char": "焫",
+          "jyutping": "jyut6",
+          "meaning": "燒灼"
+        },
+        {
+          "char": "喑",
+          "jyutping": "jam1",
+          "meaning": "失音不能言"
+        },
+        {
+          "char": "疿",
+          "jyutping": "fei3",
+          "meaning": "痱子,汗疹"
+        }
+      ]
+    },
+    {
+      "original": "太陰之復，濕變乃舉，體重中滿，食飲不化，陰氣上厥，胸中不便，飲發於中，咳喘有聲，大雨時行，鱗見於陸，頭頂痛重，而掉瘛尤甚，嘔而密默，唾吐清液，甚則入腎，竅瀉無度。太谿絕，死不治。",
+      "baihua": "太陰的復氣，濕氣變化興起，身體沉重、中焦脹滿，飲食不消化，陰寒之氣上逆，胸中不舒，水飲停於中焦，咳喘有聲，大雨時常降下，魚類出現於陸地，頭頂沉重疼痛，動搖抽搐尤其嚴重，嘔吐而沉默寡言，吐出清稀涎液，嚴重時病邪入腎，二便下泄無度。若太谿脈氣絕，則死不可治。",
+      "annotations": [
+        {
+          "char": "瘛",
+          "jyutping": "cai3",
+          "meaning": "筋脈抽搐"
+        },
+        {
+          "char": "竅",
+          "jyutping": "hiu3",
+          "meaning": "孔竅,此指前後二陰"
+        },
+        {
+          "char": "谿",
+          "jyutping": "kai1",
+          "meaning": "同「溪」,穴名太谿"
+        },
+        {
+          "char": "鱗",
+          "jyutping": "leon4",
+          "meaning": "有鱗的魚類"
+        },
+        {
+          "char": "密默",
+          "jyutping": "mat6 mak6",
+          "meaning": "沉默不語"
+        }
+      ]
+    },
+    {
+      "original": "少陽之復，大熱將至，枯燥燔爇，介蟲乃耗，驚瘛咳衄，心熱煩躁，便數憎風，厥氣上行，面如浮埃，目乃瞤瘛，火氣內發，上為口糜嘔逆，血溢血泄，發而為瘧，惡寒鼓慄，寒極反熱，嗌絡焦槁，渴引水漿，色變黃赤，少氣脈萎，化而為水，傳為胕腫，甚則入肺，咳而血泄。尺澤絕，死不治。",
+      "baihua": "少陽的復氣，大熱將要到來，乾枯燥熱如焚燒，帶甲的蟲類耗損，出現驚惕抽搐、咳嗽、衄血，心熱煩躁，小便頻數、怕風，厥逆之氣上行，面色如蒙浮塵，眼皮跳動抽搐，火氣從內發出，上為口舌糜爛、嘔逆，血上溢或下泄，發作成瘧疾，惡寒戰慄，寒到極點反而發熱，咽喉脈絡焦枯乾槁，口渴而引飲水漿，面色變黃赤，氣短、脈萎弱，津液化為水濕，傳變成浮腫，嚴重時病邪入肺，咳嗽而下血。若尺澤脈氣絕，則死不可治。",
+      "annotations": [
+        {
+          "char": "爇",
+          "jyutping": "jyut6",
+          "meaning": "焚燒"
+        },
+        {
+          "char": "衄",
+          "jyutping": "nuk6",
+          "meaning": "鼻出血"
+        },
+        {
+          "char": "瞤",
+          "jyutping": "seon4",
+          "meaning": "肌肉眼皮跳動"
+        },
+        {
+          "char": "糜",
+          "jyutping": "mei4",
+          "meaning": "潰爛"
+        },
+        {
+          "char": "槁",
+          "jyutping": "gou2",
+          "meaning": "乾枯"
+        }
+      ]
+    },
+    {
+      "original": "陽明之復，清氣大舉，森木蒼干，毛蟲乃厲，病生胠脅，氣歸於左，善太息，甚則心痛痞滿，腹脹而泄，嘔苦咳噦煩心，病在膈中頭痛，甚則入肝，驚駭筋攣。太衝絕，死不治。",
+      "baihua": "陽明的復氣，清涼之氣大盛，繁茂的樹木變得蒼老乾枯，有毛的蟲類遭受災害，病生於脅肋，氣機歸聚於左側，時常長歎氣，嚴重時心痛、痞滿，腹脹而泄瀉，嘔吐苦水、咳嗽、乾嘔、心煩，病在膈中並頭痛，嚴重時病邪入肝，驚恐、筋脈拘攣。若太衝脈氣絕，則死不可治。",
+      "annotations": [
+        {
+          "char": "森",
+          "jyutping": "sam1",
+          "meaning": "樹木繁茂"
+        },
+        {
+          "char": "厲",
+          "jyutping": "lai6",
+          "meaning": "受害,遭殃"
+        },
+        {
+          "char": "痞",
+          "jyutping": "pei2",
+          "meaning": "胸腹脹悶不通"
+        },
+        {
+          "char": "噦",
+          "jyutping": "jyut3",
+          "meaning": "乾嘔,呃逆"
+        },
+        {
+          "char": "駭",
+          "jyutping": "haai5",
+          "meaning": "驚恐"
+        }
+      ]
+    },
+    {
+      "original": "太陽之復，厥氣上行，水凝雨冰，羽蟲乃死，心胃生寒，胸膈不利，心痛痞滿，頭痛善悲，時眩僕，食減，腰脽反痛，屈伸不便，地裂冰堅，陽光不治，少腹控睪，引腰脊，上衝心，唾出清水，及為噦噫，甚則入心，善忘善悲。神門絕，死不治。",
+      "baihua": "太陽的復氣，厥逆之氣上行，水凝結、雨變成冰，羽類生物死亡，心胃生寒，胸膈不通利，心痛、痞滿，頭痛、常悲傷，時常頭暈跌倒，飲食減少，腰臀部反而疼痛，屈伸不便利，大地凍裂、冰凍堅硬，陽氣不能施化，小腹牽引睪丸，牽連腰脊，上衝心胸，吐出清水，甚至乾嘔噯氣，嚴重時病邪入心，健忘、常悲傷。若神門脈氣絕，則死不可治。",
+      "annotations": [
+        {
+          "char": "僕",
+          "jyutping": "puk6",
+          "meaning": "跌倒"
+        },
+        {
+          "char": "控",
+          "jyutping": "hung3",
+          "meaning": "牽引"
+        },
+        {
+          "char": "睪",
+          "jyutping": "gou1",
+          "meaning": "睪丸"
+        },
+        {
+          "char": "噫",
+          "jyutping": "aai3",
+          "meaning": "噯氣"
+        },
+        {
+          "char": "神門",
+          "jyutping": "san4 mun4",
+          "meaning": "手少陰心經穴,診心氣"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。治之奈何？岐伯曰：厥陰之復，治以酸寒，佐以甘辛，以酸瀉之，以甘緩之。少陰之復，治以鹹寒，佐以苦辛，以甘瀉之，以酸收之，辛苦發之，以咸耎之。太陰之復，治以苦熱，佐以酸辛，以苦瀉之，燥之，泄之。",
+      "baihua": "黃帝說：好。怎樣治療呢？岐伯回答：厥陰的復氣，用酸寒藥治療，以甘辛藥為輔佐，用酸味來瀉它，用甘味來緩解它。少陰的復氣，用鹹寒藥治療，以苦辛藥為輔佐，用甘味來瀉它，用酸味來收斂它，用辛苦味來發散它，用鹹味來軟堅它。太陰的復氣，用苦熱藥治療，以酸辛藥為輔佐，用苦味來瀉它，並用燥法、泄法。",
+      "annotations": [
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "和緩,舒緩"
+        },
+        {
+          "char": "收",
+          "jyutping": "sau1",
+          "meaning": "收斂固澀"
+        },
+        {
+          "char": "耎",
+          "jyutping": "jyun5",
+          "meaning": "軟堅,同「軟」"
+        },
+        {
+          "char": "發",
+          "jyutping": "faat3",
+          "meaning": "發散"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "以燥法祛濕"
+        }
+      ]
+    },
+    {
+      "original": "少陽之復，治以鹹冷，佐以苦辛，以咸耎之，以酸收之，辛苦發之。發不遠熱，無犯溫涼，少陰同法。陽明之復，治以辛溫，佐以苦甘，以苦泄之，以苦下之，以酸補之。太陽之復，治以咸熱，佐以甘辛，以苦堅之。",
+      "baihua": "少陽的復氣，用鹹冷藥治療，以苦辛藥為輔佐，用鹹味來軟堅，用酸味來收斂，用辛苦味來發散。發散之法不避忌用熱藥，但不可觸犯溫涼之戒，少陰復氣的治法與此相同。陽明的復氣，用辛溫藥治療，以苦甘藥為輔佐，用苦味來泄它，用苦味來瀉下，用酸味來補它。太陽的復氣，用鹹熱藥治療，以甘辛藥為輔佐，用苦味來堅固它。",
+      "annotations": [
+        {
+          "char": "遠",
+          "jyutping": "jyun5",
+          "meaning": "避忌,遠離"
+        },
+        {
+          "char": "犯",
+          "jyutping": "faan6",
+          "meaning": "觸犯冒犯"
+        },
+        {
+          "char": "下",
+          "jyutping": "haa6",
+          "meaning": "瀉下通便"
+        },
+        {
+          "char": "補",
+          "jyutping": "bou2",
+          "meaning": "補養"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "堅固,鞏固"
+        }
+      ]
+    },
+    {
+      "original": "治諸勝復，寒者熱之，熱者寒之，溫者清之，清者溫之，散者收之，抑者散之，燥者潤之，急者緩之，堅者耎之，脆者堅之，衰者補之，強者瀉之，各安其氣，必清必靜，則病氣衰去，歸其所宗，此治之大體也。",
+      "baihua": "治療各種勝氣復氣的原則是：寒的用熱法，熱的用寒法，溫的用清法，涼的用溫法，耗散的用收斂法，鬱抑的用發散法，乾燥的用滋潤法，拘急的用緩和法，堅硬的用軟化法，脆弱的用堅固法，虛衰的用補益法，強盛的用瀉法，使各自的氣機得以安定，務必使身心清淨安寧，那麼病氣就會衰退消去，各歸其本原，這就是治療的大原則。",
+      "annotations": [
+        {
+          "char": "抑",
+          "jyutping": "jik1",
+          "meaning": "鬱抑,壓抑"
+        },
+        {
+          "char": "潤",
+          "jyutping": "jeon6",
+          "meaning": "滋潤"
+        },
+        {
+          "char": "脆",
+          "jyutping": "ceoi3",
+          "meaning": "脆弱不堅"
+        },
+        {
+          "char": "宗",
+          "jyutping": "zung1",
+          "meaning": "本原,根本"
+        },
+        {
+          "char": "體",
+          "jyutping": "tai2",
+          "meaning": "綱領,原則"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。氣之上下何謂也？",
+      "baihua": "黃帝說：好。天地之氣的上下劃分是什麼意思呢？",
+      "annotations": [
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "好"
+        },
+        {
+          "char": "謂",
+          "jyutping": "wai6",
+          "meaning": "說、意指"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：身半以上，其氣三矣，天之分也，天氣主之。",
+      "baihua": "岐伯說：人身半以上，屬於三氣所在，是天的部分，由天氣主持。",
+      "annotations": [
+        {
+          "char": "分",
+          "jyutping": "fan6",
+          "meaning": "部分、範圍"
+        },
+        {
+          "char": "主",
+          "jyutping": "zyu2",
+          "meaning": "主持、主宰"
+        },
+        {
+          "char": "矣",
+          "jyutping": "ji5",
+          "meaning": "語氣助詞"
+        }
+      ]
+    },
+    {
+      "original": "身半以下，其氣三矣，地之分也，地氣主之。",
+      "baihua": "人身半以下，屬於三氣所在，是地的部分，由地氣主持。",
+      "annotations": [
+        {
+          "char": "半",
+          "jyutping": "bun3",
+          "meaning": "一半"
+        },
+        {
+          "char": "地",
+          "jyutping": "dei6",
+          "meaning": "地部"
+        }
+      ]
+    },
+    {
+      "original": "以名命氣，以氣命處，而言其病。",
+      "baihua": "用名稱來確定氣，用氣來確定所處部位，從而說明疾病所在。",
+      "annotations": [
+        {
+          "char": "命",
+          "jyutping": "ming6",
+          "meaning": "命名、確定"
+        },
+        {
+          "char": "處",
+          "jyutping": "cyu3",
+          "meaning": "部位、地方"
+        }
+      ]
+    },
+    {
+      "original": "半，所謂天樞也。",
+      "baihua": "所謂身半，就是天樞這個部位。",
+      "annotations": [
+        {
+          "char": "樞",
+          "jyutping": "syu1",
+          "meaning": "樞紐、中軸"
+        }
+      ]
+    },
+    {
+      "original": "故上勝而下俱病者，以地名之。下勝而上俱病者，以天名之。",
+      "baihua": "所以上部氣勝而上下都發病的，用地來命名它；下部氣勝而上下都發病的，用天來命名它。",
+      "annotations": [
+        {
+          "char": "勝",
+          "jyutping": "sing3",
+          "meaning": "偏盛、勝過"
+        },
+        {
+          "char": "俱",
+          "jyutping": "keoi1",
+          "meaning": "都、皆"
+        }
+      ]
+    },
+    {
+      "original": "所謂勝至，報氣屈伏而未發也。",
+      "baihua": "所謂勝氣到來，是指報復之氣受到壓制潛伏而尚未發作。",
+      "annotations": [
+        {
+          "char": "報",
+          "jyutping": "bou3",
+          "meaning": "報復"
+        },
+        {
+          "char": "屈",
+          "jyutping": "wat1",
+          "meaning": "屈服、壓制"
+        },
+        {
+          "char": "伏",
+          "jyutping": "fuk6",
+          "meaning": "潛伏"
+        }
+      ]
+    },
+    {
+      "original": "復至則不以天地異名，皆如復氣為法也。",
+      "baihua": "復氣到來時就不再以天地來分別命名，都按照復氣來作為判斷的準則。",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "報復之氣"
+        },
+        {
+          "char": "法",
+          "jyutping": "faat3",
+          "meaning": "準則、法度"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：勝復之動，時有常乎？氣有必乎？",
+      "baihua": "黃帝說：勝氣和復氣的變動，時間上有固定規律嗎？氣的到來有必然性嗎？",
+      "annotations": [
+        {
+          "char": "動",
+          "jyutping": "dung6",
+          "meaning": "變動"
+        },
+        {
+          "char": "常",
+          "jyutping": "soeng4",
+          "meaning": "固定規律"
+        },
+        {
+          "char": "必",
+          "jyutping": "bit1",
+          "meaning": "必然"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：時有常位，而氣無必也。",
+      "baihua": "岐伯說：時間有固定的位置，但氣的到來卻沒有必然性。",
+      "annotations": [
+        {
+          "char": "位",
+          "jyutping": "wai6",
+          "meaning": "位置"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願聞其道也。",
+      "baihua": "黃帝說：希望聽聽其中的道理。",
+      "annotations": [
+        {
+          "char": "願",
+          "jyutping": "jyun6",
+          "meaning": "希望"
+        },
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "道理"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：初氣終三氣，天氣主之，勝之常也。",
+      "baihua": "岐伯說：從初氣到第三氣結束，由天氣主持，這是勝氣出現的常規時段。",
+      "annotations": [
+        {
+          "char": "初",
+          "jyutping": "co1",
+          "meaning": "開始"
+        },
+        {
+          "char": "終",
+          "jyutping": "zung1",
+          "meaning": "到終、結束"
+        }
+      ]
+    },
+    {
+      "original": "四氣盡終氣，地氣主之，復之常也。",
+      "baihua": "從四氣到終氣完結，由地氣主持，這是復氣出現的常規時段。",
+      "annotations": [
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "完結"
+        }
+      ]
+    },
+    {
+      "original": "有勝則復，無勝則否。",
+      "baihua": "有勝氣就會有復氣，沒有勝氣就不會有復氣。",
+      "annotations": [
+        {
+          "char": "否",
+          "jyutping": "fau2",
+          "meaning": "不、沒有"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。復已而勝何如？",
+      "baihua": "黃帝說：好。復氣結束後又出現勝氣會怎樣呢？",
+      "annotations": [
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "完畢、結束"
+        },
+        {
+          "char": "如",
+          "jyutping": "jyu4",
+          "meaning": "怎樣"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：勝至則復，無常數也，衰乃止耳。",
+      "baihua": "岐伯說：勝氣到來就有復氣,沒有固定的次數,直到勝氣衰減才停止。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sou3",
+          "meaning": "次數"
+        },
+        {
+          "char": "衰",
+          "jyutping": "seoi1",
+          "meaning": "衰減"
+        }
+      ]
+    },
+    {
+      "original": "復已而勝，不復則害，此傷生也。",
+      "baihua": "復氣結束後又出現勝氣，如果不再有復氣就會造成禍害，這會傷害生命。",
+      "annotations": [
+        {
+          "char": "害",
+          "jyutping": "hoi6",
+          "meaning": "禍害"
+        },
+        {
+          "char": "傷",
+          "jyutping": "soeng1",
+          "meaning": "傷害"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：復而反病何也？",
+      "baihua": "黃帝說：復氣出現後反而發病是什麼原因呢？",
+      "annotations": [
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "反而"
+        },
+        {
+          "char": "病",
+          "jyutping": "beng6",
+          "meaning": "發病"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：居非其位，不相得也。",
+      "baihua": "岐伯說：因為復氣處在不屬於它的位置上，與時令不相協調。",
+      "annotations": [
+        {
+          "char": "居",
+          "jyutping": "geoi1",
+          "meaning": "處於"
+        },
+        {
+          "char": "得",
+          "jyutping": "dak1",
+          "meaning": "相合、協調"
+        }
+      ]
+    },
+    {
+      "original": "大復其勝則主勝之，故反病也。",
+      "baihua": "大力復報勝氣,則反被主氣所勝,所以反而發病。",
+      "annotations": [
+        {
+          "char": "大",
+          "jyutping": "daai6",
+          "meaning": "大力、過度"
+        }
+      ]
+    },
+    {
+      "original": "所謂火燥熱也。",
+      "baihua": "這裡所說的就是火、燥、熱這類氣。",
+      "annotations": [
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "乾燥之氣"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：治之何如？",
+      "baihua": "黃帝說：治療它應該怎樣做呢？",
+      "annotations": [
+        {
+          "char": "治",
+          "jyutping": "zi6",
+          "meaning": "治療"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：夫氣之勝也，微者隨之，甚者制之。",
+      "baihua": "岐伯說：對於氣的偏勝，輕微的就順應它，嚴重的就制約它。",
+      "annotations": [
+        {
+          "char": "微",
+          "jyutping": "mei4",
+          "meaning": "輕微"
+        },
+        {
+          "char": "隨",
+          "jyutping": "ceoi4",
+          "meaning": "順應"
+        },
+        {
+          "char": "制",
+          "jyutping": "zai3",
+          "meaning": "制約"
+        }
+      ]
+    },
+    {
+      "original": "氣之復也，和者平之，暴者奪之。",
+      "baihua": "對於氣的復報，和緩的就平調它，暴烈的就削奪它。",
+      "annotations": [
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "暴烈"
+        },
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "削奪、去除"
+        }
+      ]
+    },
+    {
+      "original": "皆隨勝氣，安其屈伏，無問其數，以平為期，此其道也。",
+      "baihua": "都要順應勝氣，安定那潛伏之氣，不問其次數多少，以達到平和為目標，這就是治療的原則。",
+      "annotations": [
+        {
+          "char": "安",
+          "jyutping": "on1",
+          "meaning": "安定"
+        },
+        {
+          "char": "期",
+          "jyutping": "kei4",
+          "meaning": "目標、期限"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。客主之勝復奈何？",
+      "baihua": "黃帝說：好。客氣與主氣的勝復情況是怎樣的呢？",
+      "annotations": [
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "客氣"
+        },
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：客主之氣，勝而無復也。",
+      "baihua": "岐伯說：客氣與主氣，只有偏勝而沒有復報。",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "復報"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其逆從何如？",
+      "baihua": "黃帝說：它們的逆順情況是怎樣的呢？",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆、違反"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順、順從"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：主勝逆，客勝從，天之道也。",
+      "baihua": "岐伯說：主氣勝為逆，客氣勝為順，這是自然的規律。",
+      "annotations": [
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "規律"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其生病何如？",
+      "baihua": "黃帝說：它們所引起的疾病是怎樣的呢？",
+      "annotations": [
+        {
+          "char": "生",
+          "jyutping": "sang1",
+          "meaning": "引起、產生"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：厥陰司天，客勝則耳鳴掉眩，甚則咳；主勝則胸脅痛，舌難以言。",
+      "baihua": "岐伯說：厥陰司天時，客氣勝就會耳鳴、頭部搖動眩暈，嚴重的就咳嗽；主氣勝就會胸脅疼痛，舌頭難以說話。",
+      "annotations": [
+        {
+          "char": "掉",
+          "jyutping": "diu6",
+          "meaning": "搖動"
+        },
+        {
+          "char": "眩",
+          "jyutping": "jyun4",
+          "meaning": "眩暈"
+        },
+        {
+          "char": "脅",
+          "jyutping": "hip3",
+          "meaning": "胸側、肋部"
+        }
+      ]
+    },
+    {
+      "original": "少陰司天，客勝則鼽嚏頸項強，肩背瞀熱，頭痛少氣，發熱耳聾目瞑，甚則胕腫血溢，瘡瘍咳喘；主勝則心熱煩躁，甚則脅痛支滿。",
+      "baihua": "少陰司天時，客氣勝就會鼻塞打噴嚏、頸項強直，肩背悶熱，頭痛氣短，發熱耳聾眼睛昏暗，嚴重的就浮腫出血，瘡瘍咳嗽氣喘；主氣勝就會心中發熱煩躁，嚴重的就脅痛脹滿。",
+      "annotations": [
+        {
+          "char": "鼽",
+          "jyutping": "kau4",
+          "meaning": "鼻塞流涕"
+        },
+        {
+          "char": "嚏",
+          "jyutping": "tai3",
+          "meaning": "打噴嚏"
+        },
+        {
+          "char": "瞀",
+          "jyutping": "mau6",
+          "meaning": "昏悶"
+        },
+        {
+          "char": "瞑",
+          "jyutping": "ming4",
+          "meaning": "眼閉、昏暗"
+        },
+        {
+          "char": "胕",
+          "jyutping": "fu4",
+          "meaning": "浮腫"
+        }
+      ]
+    },
+    {
+      "original": "太陰司天，客勝則首面胕腫，呼吸氣喘；主勝則胸腹滿，食已而瞀。",
+      "baihua": "太陰司天時，客氣勝就會頭面浮腫，呼吸氣喘；主氣勝就會胸腹脹滿，進食後即感昏悶。",
+      "annotations": [
+        {
+          "char": "首",
+          "jyutping": "sau2",
+          "meaning": "頭部"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "完畢"
+        },
+        {
+          "char": "瞀",
+          "jyutping": "mau6",
+          "meaning": "昏悶"
+        }
+      ]
+    },
+    {
+      "original": "少陽司天，客勝則丹胗外發，及為丹熛瘡瘍，嘔逆喉痹，頭痛嗌腫，耳聾血溢，內為瘛瘲；主勝則胸滿咳仰息，甚而有血，手熱。",
+      "baihua": "少陽司天時，客氣勝就會皮膚出現紅疹，並發為紅腫瘡瘍，嘔吐氣逆咽喉閉塞，頭痛咽腫，耳聾出血，體內出現手足抽搐；主氣勝就會胸滿咳嗽而仰面喘息，嚴重的就咳血，兩手發熱。",
+      "annotations": [
+        {
+          "char": "胗",
+          "jyutping": "can2",
+          "meaning": "疹、皮疹"
+        },
+        {
+          "char": "熛",
+          "jyutping": "biu1",
+          "meaning": "火焰、紅腫如火"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "閉阻不通"
+        },
+        {
+          "char": "嗌",
+          "jyutping": "aai3",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "瘛瘲",
+          "jyutping": "cai3 zung3",
+          "meaning": "手足抽搐"
+        }
+      ]
+    },
+    {
+      "original": "陽明司天，清復內余，則咳衄嗌塞，心膈中熱，咳不止而白血出者死。",
+      "baihua": "陽明司天時，清氣復報而內部有餘，就會咳嗽鼻出血咽喉堵塞，心膈之間發熱，咳嗽不止而咳出淡血的人會死亡。",
+      "annotations": [
+        {
+          "char": "衄",
+          "jyutping": "nuk6",
+          "meaning": "鼻出血"
+        },
+        {
+          "char": "膈",
+          "jyutping": "gaak3",
+          "meaning": "膈膜、胸腹之間"
+        },
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清冷之氣"
+        }
+      ]
+    },
+    {
+      "original": "太陽司天，客勝則胸中不利，出清涕，感寒則咳；主勝則喉嗌中鳴。",
+      "baihua": "太陽司天時，客氣勝就會胸中不舒暢，流清鼻涕，感受寒邪就咳嗽；主氣勝就會咽喉中有鳴響。",
+      "annotations": [
+        {
+          "char": "涕",
+          "jyutping": "tai3",
+          "meaning": "鼻涕"
+        },
+        {
+          "char": "鳴",
+          "jyutping": "ming4",
+          "meaning": "鳴響"
+        }
+      ]
+    },
+    {
+      "original": "厥陰在泉，客勝則大關節不利，內為痙強拘瘛，外為不便；主勝則筋骨繇並，腰腹時痛。",
+      "baihua": "厥陰在泉時，客氣勝就會大關節活動不利，體內出現痙攣強直拘急抽搐，外部出現行動不便；主氣勝就會筋骨動搖並攣，腰腹時常疼痛。",
+      "annotations": [
+        {
+          "char": "痙",
+          "jyutping": "ging6",
+          "meaning": "抽搐強直"
+        },
+        {
+          "char": "拘",
+          "jyutping": "keoi1",
+          "meaning": "拘急"
+        },
+        {
+          "char": "繇",
+          "jyutping": "jiu4",
+          "meaning": "動搖"
+        }
+      ]
+    },
+    {
+      "original": "少陰在泉，客勝則腰痛，尻股膝髀腨䯒足病，瞀熱以酸，胕腫不能久立，溲便變；主勝則厥氣上行，心痛發熱，膈中，眾痹皆作，發於胠脅，魄汗不藏，四逆而起。",
+      "baihua": "少陰在泉時，客氣勝就會腰痛，尾骨、大腿、膝、髀、小腿、脛骨、足等部位發病，昏悶發熱而酸楚，浮腫不能久站，大小便異常；主氣勝就會厥氣上行，心痛發熱，膈中不適，各種痹症都發作，發於腋下脅部，汗液外泄不能收藏，四肢厥冷而發病。",
+      "annotations": [
+        {
+          "char": "尻",
+          "jyutping": "haau1",
+          "meaning": "尾骨、臀部"
+        },
+        {
+          "char": "髀",
+          "jyutping": "bei2",
+          "meaning": "大腿"
+        },
+        {
+          "char": "腨",
+          "jyutping": "syun2",
+          "meaning": "小腿肚"
+        },
+        {
+          "char": "溲",
+          "jyutping": "sau1",
+          "meaning": "小便"
+        },
+        {
+          "char": "胠",
+          "jyutping": "keoi1",
+          "meaning": "腋下脅部"
+        }
+      ]
+    },
+    {
+      "original": "太陰在泉，客勝則足痿下重，便溲不時，濕客下焦，發而濡瀉，及為腫隱曲之疾；主勝則寒氣逆滿，食飲不下，甚則為疝。",
+      "baihua": "太陰在泉時，客氣勝就會足部痿弱下部沉重，大小便不按時，濕氣侵入下焦，發作而為水瀉，並成為浮腫及前陰隱處的疾病；主氣勝就會寒氣上逆脹滿，飲食不能下嚥，嚴重的就成為疝病。",
+      "annotations": [
+        {
+          "char": "痿",
+          "jyutping": "wai2",
+          "meaning": "痿弱無力"
+        },
+        {
+          "char": "濡",
+          "jyutping": "jyu4",
+          "meaning": "濕潤"
+        },
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "腹瀉"
+        },
+        {
+          "char": "疝",
+          "jyutping": "saan3",
+          "meaning": "疝氣"
+        }
+      ]
+    },
+    {
+      "original": "少陽在泉，客勝則腰腹痛而反惡寒，甚則下白溺白；主勝則熱反上行而客於心，心痛發熱，格中而嘔。",
+      "baihua": "少陽在泉時，客氣勝就會腰腹疼痛而反覺惡寒，嚴重的就大便下白、小便色白；主氣勝就會熱氣反而上行客居於心，心痛發熱，格拒於中而嘔吐。",
+      "annotations": [
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便"
+        },
+        {
+          "char": "格",
+          "jyutping": "gaak3",
+          "meaning": "格拒、阻隔"
+        },
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        }
+      ]
+    },
+    {
+      "original": "少陰同候。",
+      "baihua": "少陰在泉的情況與此相同。",
+      "annotations": [
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "徵候、情況"
+        }
+      ]
+    },
+    {
+      "original": "陽明在泉，客勝則清氣動下，少腹堅滿而數便瀉；主勝則腰重腹痛，少腹生寒，下為鶩溏，則寒厥於腸，上衝胸中，甚則喘不能久立。",
+      "baihua": "陽明在泉時，客氣勝就會清冷之氣動於下部，小腹堅硬脹滿而頻頻便瀉；主氣勝就會腰部沉重腹部疼痛，小腹生寒，下為鴨糞樣稀便，寒氣厥逆於腸，上衝胸中，嚴重的就氣喘不能久站。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sok3",
+          "meaning": "頻繁"
+        },
+        {
+          "char": "鶩",
+          "jyutping": "mou6",
+          "meaning": "鴨；鴨糞樣稀便"
+        },
+        {
+          "char": "溏",
+          "jyutping": "tong4",
+          "meaning": "稀薄的糞便"
+        },
+        {
+          "char": "衝",
+          "jyutping": "cung1",
+          "meaning": "上衝"
+        }
+      ]
+    },
+    {
+      "original": "太陽在泉，寒復內余，則腰尻痛；屈伸不利，股脛足膝中痛。",
+      "baihua": "太陽在泉時，寒氣復報而內部有餘，就會腰部尾骨疼痛；屈伸不便，大腿、脛骨、足、膝之中疼痛。",
+      "annotations": [
+        {
+          "char": "尻",
+          "jyutping": "haau1",
+          "meaning": "尾骨、臀部"
+        },
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿骨"
+        },
+        {
+          "char": "屈",
+          "jyutping": "wat1",
+          "meaning": "彎曲"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。治之奈何？",
+      "baihua": "黃帝說：好。治療它們應當怎樣做呢？",
+      "annotations": [
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：高者抑之，下者舉之，有餘折之，不足補之，佐以所利，和以所宜，必安其主客，適其寒溫，同者逆之，異者從之。",
+      "baihua": "岐伯說：亢盛在上的就抑制它，虛陷在下的就提舉它，有餘的就折減它，不足的就補益它，用有利之物來輔佐，用相宜之物來調和，必須安定主客之氣，調適寒溫，寒熱相同的就用逆治法，寒熱相異的就用從治法。",
+      "annotations": [
+        {
+          "char": "抑",
+          "jyutping": "jik1",
+          "meaning": "抑制"
+        },
+        {
+          "char": "舉",
+          "jyutping": "geoi2",
+          "meaning": "提舉、升提"
+        },
+        {
+          "char": "折",
+          "jyutping": "zit3",
+          "meaning": "折減、削弱"
+        },
+        {
+          "char": "佐",
+          "jyutping": "zo3",
+          "meaning": "輔佐"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：治寒以熱，治熱以寒，氣相得者逆之，不相得者從之，余以知之矣。其於正味何如？",
+      "baihua": "黃帝說：治療寒證用熱藥，治療熱證用寒藥，氣性相合的用逆治法，氣性不相合的用從治法，我已經明白了。那麼對於藥物的正味應該怎樣呢？",
+      "annotations": [
+        {
+          "char": "味",
+          "jyutping": "mei6",
+          "meaning": "藥味"
+        },
+        {
+          "char": "余",
+          "jyutping": "jyu4",
+          "meaning": "我（帝自稱）"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：木位之主，其瀉以酸，其補以辛。",
+      "baihua": "岐伯說：木位主氣時令，瀉用酸味，補用辛味。",
+      "annotations": [
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "瀉法"
+        },
+        {
+          "char": "補",
+          "jyutping": "bou2",
+          "meaning": "補法"
+        },
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味"
+        }
+      ]
+    },
+    {
+      "original": "火位之主，其瀉以甘，其補以咸。",
+      "baihua": "火位主氣時令，瀉用甘味，補用鹹味。",
+      "annotations": [
+        {
+          "char": "甘",
+          "jyutping": "gam1",
+          "meaning": "甘味"
+        },
+        {
+          "char": "咸",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        }
+      ]
+    },
+    {
+      "original": "土位之主，其瀉以苦，其補以甘。",
+      "baihua": "土位主氣時令，瀉用苦味，補用甘味。",
+      "annotations": [
+        {
+          "char": "苦",
+          "jyutping": "fu2",
+          "meaning": "苦味"
+        }
+      ]
+    },
+    {
+      "original": "金位之主，其瀉以辛，其補以酸。",
+      "baihua": "金位主氣時令，瀉用辛味，補用酸味。",
+      "annotations": [
+        {
+          "char": "酸",
+          "jyutping": "syun1",
+          "meaning": "酸味"
+        }
+      ]
+    },
+    {
+      "original": "水位之主，其瀉以咸，其補以苦。",
+      "baihua": "水位主氣時令，瀉用鹹味，補用苦味。",
+      "annotations": [
+        {
+          "char": "咸",
+          "jyutping": "haam4",
+          "meaning": "鹹味"
+        }
+      ]
+    },
+    {
+      "original": "厥陰之客，以辛補之，以酸瀉之，以甘緩之。",
+      "baihua": "厥陰客氣所主時，用辛味補益，用酸味瀉泄，用甘味緩和。",
+      "annotations": [
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "緩和、舒緩"
+        }
+      ]
+    },
+    {
+      "original": "少陰之客，以咸補之，以甘瀉之，以咸收之。",
+      "baihua": "少陰客氣所主時，用鹹味補益，用甘味瀉泄，用鹹味收斂。",
+      "annotations": [
+        {
+          "char": "收",
+          "jyutping": "sau1",
+          "meaning": "收斂"
+        }
+      ]
+    },
+    {
+      "original": "太陰之客，以甘補之，以苦瀉之，以甘緩之。",
+      "baihua": "太陰客氣所主時，用甘味補益，用苦味瀉泄，用甘味緩和。",
+      "annotations": [
+        {
+          "char": "甘",
+          "jyutping": "gam1",
+          "meaning": "甘味"
+        }
+      ]
+    },
+    {
+      "original": "少陽之客，以咸補之，以甘瀉之，以咸耎之。",
+      "baihua": "少陽客氣所主時，用鹹味補益，用甘味瀉泄，用鹹味軟化。",
+      "annotations": [
+        {
+          "char": "耎",
+          "jyutping": "jyun5",
+          "meaning": "軟化，同軟"
+        }
+      ]
+    },
+    {
+      "original": "陽明之客，以酸補之，以辛瀉之，以苦泄之。",
+      "baihua": "陽明客氣所主時，用酸味補益，用辛味瀉泄，用苦味通泄。",
+      "annotations": [
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "通泄、疏泄"
+        }
+      ]
+    },
+    {
+      "original": "太陽之客，以苦補之，以咸瀉之，以苦堅之，以辛潤之。",
+      "baihua": "太陽客氣所主時，用苦味補益，用鹹味瀉泄，用苦味堅固，用辛味滋潤。",
+      "annotations": [
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "堅固、固澀"
+        },
+        {
+          "char": "潤",
+          "jyutping": "jeon6",
+          "meaning": "滋潤"
+        }
+      ]
+    },
+    {
+      "original": "開發腠理，致津液通氣也。",
+      "baihua": "用以開通腠理，使津液暢達而氣機通行。",
+      "annotations": [
+        {
+          "char": "腠",
+          "jyutping": "cau3",
+          "meaning": "肌肉的紋理"
+        },
+        {
+          "char": "津",
+          "jyutping": "zeon1",
+          "meaning": "津液"
+        },
+        {
+          "char": "致",
+          "jyutping": "zi3",
+          "meaning": "使達到"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。願聞陰陽之三也何謂？",
+      "baihua": "黃帝說：好。希望聽聽陰陽各分為三是什麼意思？",
+      "annotations": [
+        {
+          "char": "願",
+          "jyutping": "jyun6",
+          "meaning": "希望"
+        },
+        {
+          "char": "三",
+          "jyutping": "saam1",
+          "meaning": "三分"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：氣有多少，異用也。",
+      "baihua": "岐伯說：陰陽之氣有多有少，作用各不相同。",
+      "annotations": [
+        {
+          "char": "異",
+          "jyutping": "ji6",
+          "meaning": "不同"
+        },
+        {
+          "char": "用",
+          "jyutping": "jung6",
+          "meaning": "作用、功用"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：陽明何謂也？岐伯曰：兩陽合明也。",
+      "baihua": "黃帝說：陽明是什麼意思呢？岐伯說：是兩陽合併而光明盛大。",
+      "annotations": [
+        {
+          "char": "合",
+          "jyutping": "hap6",
+          "meaning": "合併"
+        },
+        {
+          "char": "明",
+          "jyutping": "ming4",
+          "meaning": "光明"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：厥陰何也？岐伯曰：兩陰交盡也。",
+      "baihua": "黃帝說：厥陰又是什麼意思呢？岐伯說：是兩陰交會而陰氣至極將盡。",
+      "annotations": [
+        {
+          "char": "交",
+          "jyutping": "gaau1",
+          "meaning": "交會"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "窮盡、至極"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：氣有多少，病有盛衰，治有緩急，方有大小，願聞其約奈何？",
+      "baihua": "黃帝說：邪氣有多有少，病情有盛有衰，治療有緩有急，方劑有大有小，我想聽聽其中的準則是怎樣的？",
+      "annotations": [
+        {
+          "char": "衰",
+          "jyutping": "seoi1",
+          "meaning": "衰弱、減退"
+        },
+        {
+          "char": "約",
+          "jyutping": "joek3",
+          "meaning": "準則、要領"
+        },
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何、怎麼"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：氣有高下，病有遠近，證有中外，治有輕重，適其至所為故也。",
+      "baihua": "岐伯說：氣有高低之分，病有遠近之別，證候有在內在外之異，治療有輕重之殊，總以藥力能到達病所為原則。",
+      "annotations": [
+        {
+          "char": "證",
+          "jyutping": "zing3",
+          "meaning": "病證、症候"
+        },
+        {
+          "char": "適",
+          "jyutping": "sik1",
+          "meaning": "使到達、切合"
+        },
+        {
+          "char": "故",
+          "jyutping": "gu3",
+          "meaning": "原則、目的"
+        }
+      ]
+    },
+    {
+      "original": "大要曰：君一臣二，奇之制也；君二臣四，偶之制也；君二臣三，奇之制也；君二臣六，偶之制也。",
+      "baihua": "《大要》說：君藥一味臣藥二味，這是奇方的配製法；君藥二味臣藥四味，這是偶方的配製法；君藥二味臣藥三味，這是奇方的配製法；君藥二味臣藥六味，這是偶方的配製法。",
+      "annotations": [
+        {
+          "char": "君",
+          "jyutping": "gwan1",
+          "meaning": "主藥"
+        },
+        {
+          "char": "臣",
+          "jyutping": "san4",
+          "meaning": "輔藥"
+        },
+        {
+          "char": "奇",
+          "jyutping": "gei1",
+          "meaning": "單數方"
+        },
+        {
+          "char": "偶",
+          "jyutping": "ngau5",
+          "meaning": "雙數方"
+        }
+      ]
+    },
+    {
+      "original": "故曰：近者奇之，遠者偶之，汗者不以奇，下者不以偶，補上治上制以緩，補下治下制以急，急則氣味厚，緩則氣味薄，適其至所，此之謂也。",
+      "baihua": "所以說：病位近的用奇方，病位遠的用偶方，發汗不用奇方，攻下不用偶方，補上治上的方劑配製宜緩，補下治下的方劑配製宜急，急方藥的氣味濃厚，緩方藥的氣味淡薄，總以藥力能到達病所為原則，說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "汗",
+          "jyutping": "hon6",
+          "meaning": "發汗"
+        },
+        {
+          "char": "厚",
+          "jyutping": "hau5",
+          "meaning": "濃厚"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "淡薄"
+        }
+      ]
+    },
+    {
+      "original": "病所遠而中道氣味之者，食而過之，無越其制度也。",
+      "baihua": "病位深遠而藥的氣味在中途就被消耗盡的，可在服藥前後配合飲食，使藥力越過中途而達病所，但不可違背製方的法度。",
+      "annotations": [
+        {
+          "char": "中",
+          "jyutping": "zung1",
+          "meaning": "中途、半途"
+        },
+        {
+          "char": "越",
+          "jyutping": "jyut6",
+          "meaning": "越過、違背"
+        },
+        {
+          "char": "度",
+          "jyutping": "dou6",
+          "meaning": "法度"
+        }
+      ]
+    },
+    {
+      "original": "是故平氣之道，近而奇偶，制小其服也。遠而奇偶，制大其服也。",
+      "baihua": "因此調和病氣的方法：病位近而用奇方或偶方,配製時藥味與服量宜小;病位遠而用奇方或偶方,配製時藥味與服量宜大。",
+      "annotations": [
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "調和、平定"
+        },
+        {
+          "char": "服",
+          "jyutping": "fuk6",
+          "meaning": "服藥、劑量"
+        }
+      ]
+    },
+    {
+      "original": "大則數少，小則數多。多則九之，少則二之。",
+      "baihua": "大方藥味數少,小方藥味數多。多的可達九味,少的可為二味。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sou3",
+          "meaning": "藥味數目"
+        },
+        {
+          "char": "九",
+          "jyutping": "gau2",
+          "meaning": "九味"
+        }
+      ]
+    },
+    {
+      "original": "奇之不去則偶之，是謂重方。偶之不去，則反佐以取之，所謂寒熱溫涼，反從其病也。",
+      "baihua": "用奇方病不除就改用偶方,這叫做重方。偶方病仍不除,就用反佐法來治療,即所謂寒熱溫涼之藥,反而順從病性而用。",
+      "annotations": [
+        {
+          "char": "重",
+          "jyutping": "cung4",
+          "meaning": "重複、疊用"
+        },
+        {
+          "char": "佐",
+          "jyutping": "zo3",
+          "meaning": "輔助、反佐"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順從"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。病生於本，余知之矣。生於標者，治之奈何？",
+      "baihua": "黃帝說：好。病從本氣所生,我已明白了。若病從標氣所生,又該怎樣治療呢？",
+      "annotations": [
+        {
+          "char": "本",
+          "jyutping": "bun2",
+          "meaning": "根本之氣"
+        },
+        {
+          "char": "標",
+          "jyutping": "biu1",
+          "meaning": "標象之氣"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：病反其本，得標之病，治反其本，得標之方。",
+      "baihua": "岐伯說：病情與本氣相反,便是標氣所生的病;治療也與治本之法相反,就得到治標的方法。",
+      "annotations": [
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "相反"
+        },
+        {
+          "char": "得",
+          "jyutping": "dak1",
+          "meaning": "得到、便是"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。六氣之勝，何以候之？",
+      "baihua": "黃帝說：好。六氣的偏勝,用甚麼方法來觀測呢？",
+      "annotations": [
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "偏勝、亢盛"
+        },
+        {
+          "char": "候",
+          "jyutping": "hau6",
+          "meaning": "觀測、診察"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：乘其至也，清氣大來，燥之勝也，風木受邪，肝病生焉。",
+      "baihua": "岐伯說：趁六氣到來之時觀測:清涼之氣大來,是燥氣偏勝,風木受邪,於是肝病發生。",
+      "annotations": [
+        {
+          "char": "乘",
+          "jyutping": "sing4",
+          "meaning": "趁著"
+        },
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清涼之氣"
+        },
+        {
+          "char": "焉",
+          "jyutping": "jin1",
+          "meaning": "語末助詞,於是"
+        }
+      ]
+    },
+    {
+      "original": "熱氣大來，火之勝也，金燥受邪，肺病生焉。",
+      "baihua": "熱氣大來,是火氣偏勝,金燥受邪,於是肺病發生。",
+      "annotations": [
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "熱氣"
+        },
+        {
+          "char": "金",
+          "jyutping": "gam1",
+          "meaning": "屬金,指肺"
+        }
+      ]
+    },
+    {
+      "original": "寒氣大來，水之勝也，火熱受邪，心病生焉。",
+      "baihua": "寒氣大來,是水氣偏勝,火熱受邪,於是心病發生。",
+      "annotations": [
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒氣"
+        },
+        {
+          "char": "心",
+          "jyutping": "sam1",
+          "meaning": "屬火之心"
+        }
+      ]
+    },
+    {
+      "original": "濕氣大來，土之勝也，寒水受邪，腎病生焉。",
+      "baihua": "濕氣大來,是土氣偏勝,寒水受邪,於是腎病發生。",
+      "annotations": [
+        {
+          "char": "濕",
+          "jyutping": "sap1",
+          "meaning": "濕氣"
+        },
+        {
+          "char": "腎",
+          "jyutping": "san6",
+          "meaning": "屬水之腎"
+        }
+      ]
+    },
+    {
+      "original": "風氣大來，木之勝也，土濕受邪，脾病生焉。",
+      "baihua": "風氣大來,是木氣偏勝,土濕受邪,於是脾病發生。",
+      "annotations": [
+        {
+          "char": "風",
+          "jyutping": "fung1",
+          "meaning": "風氣"
+        },
+        {
+          "char": "脾",
+          "jyutping": "pei4",
+          "meaning": "屬土之脾"
+        }
+      ]
+    },
+    {
+      "original": "所謂感邪而生病也。乘年之虛，則邪甚也。",
+      "baihua": "這就是所說的感受邪氣而發病。若正逢年運不足之虛,則邪氣更盛。",
+      "annotations": [
+        {
+          "char": "感",
+          "jyutping": "gam2",
+          "meaning": "感受"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "歲運不足"
+        }
+      ]
+    },
+    {
+      "original": "失時之和，亦邪甚也。遇月之空，亦邪甚也。重感於邪，則病危矣。",
+      "baihua": "失去時令的平和,邪氣也會加重;遇上月缺氣衰之時,邪氣也會加重;若重複感受邪氣,病就危險了。",
+      "annotations": [
+        {
+          "char": "和",
+          "jyutping": "wo4",
+          "meaning": "平和"
+        },
+        {
+          "char": "空",
+          "jyutping": "hung1",
+          "meaning": "虧空、月缺"
+        },
+        {
+          "char": "重",
+          "jyutping": "cung4",
+          "meaning": "重複"
+        }
+      ]
+    },
+    {
+      "original": "有勝之氣，其必來復也。",
+      "baihua": "凡有偏勝之氣,必定會有報復之氣隨後而來。",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "報復、反復"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其脈至何如？岐伯曰：厥陰之至其脈弦，少陰之至其脈鉤，太陰之至其脈沉，少陽之至大而浮，陽明之至短而澀，太陽之至大而長。",
+      "baihua": "黃帝說:六氣到來時脈象怎樣?岐伯說:厥陰之氣到來脈象弦,少陰之氣到來脈象鉤,太陰之氣到來脈象沉,少陽之氣到來脈象大而浮,陽明之氣到來脈象短而澀,太陽之氣到來脈象大而長。",
+      "annotations": [
+        {
+          "char": "弦",
+          "jyutping": "jin4",
+          "meaning": "弦脈,如按琴弦"
+        },
+        {
+          "char": "鉤",
+          "jyutping": "ngau1",
+          "meaning": "鉤脈,來盛去衰"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "澀脈,往來艱澀"
+        }
+      ]
+    },
+    {
+      "original": "至而和則平，至而甚則病，至而反者病，至而不至者病，未至而至者病，陰陽易者危。",
+      "baihua": "氣至而脈象平和是正常,氣至而脈象太甚是病,氣至而脈象相反是病,時令已至而氣脈未至是病,時令未至而氣脈先至是病,陰陽脈象互相交易是危險。",
+      "annotations": [
+        {
+          "char": "甚",
+          "jyutping": "sam6",
+          "meaning": "太過"
+        },
+        {
+          "char": "易",
+          "jyutping": "jik6",
+          "meaning": "交易、互換"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：六氣標本，所從不同奈何？岐伯曰：氣有從本者，有從標本者，有不從標本者也。",
+      "baihua": "黃帝說:六氣的標與本,其從化不同是怎樣的?岐伯說:有的從本氣化,有的從標本兼化,有的不從標本而從中氣化。",
+      "annotations": [
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "從化、順從"
+        },
+        {
+          "char": "標",
+          "jyutping": "biu1",
+          "meaning": "標氣"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願卒聞之。岐伯曰：少陽太陰從本，少陰太陽從本從標，陽明厥陰，不從標本從乎中也。",
+      "baihua": "黃帝說:希望全部聽聞其詳。岐伯說:少陽太陰從本氣化,少陰太陽從本氣又從標氣化,陽明厥陰不從標本而從中氣化。",
+      "annotations": [
+        {
+          "char": "卒",
+          "jyutping": "zeot1",
+          "meaning": "盡、全部"
+        },
+        {
+          "char": "乎",
+          "jyutping": "fu4",
+          "meaning": "於"
+        }
+      ]
+    },
+    {
+      "original": "故從本者化生於本，從標本者有標本之化，從中者以中氣為化也。",
+      "baihua": "所以從本的其化生於本氣,從標本的其化兼有標本兩者,從中氣的則以中見之氣為化。",
+      "annotations": [
+        {
+          "char": "化",
+          "jyutping": "faa3",
+          "meaning": "變化、從化"
+        },
+        {
+          "char": "中",
+          "jyutping": "zung1",
+          "meaning": "中見之氣"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：脈從而病反者，其診何如？岐伯曰：脈至而從，按之不鼓，諸陽皆然。",
+      "baihua": "黃帝說:脈象順從病而病情卻相反的,診斷該怎樣?岐伯說:脈象雖來得順從,但重按時卻不搏動有力,凡屬陽證的假象都是這樣。",
+      "annotations": [
+        {
+          "char": "鼓",
+          "jyutping": "gu2",
+          "meaning": "搏動有力"
+        },
+        {
+          "char": "診",
+          "jyutping": "can2",
+          "meaning": "診斷"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：諸陰之反，其脈何如？岐伯曰：脈至而從，按之鼓甚而盛也。",
+      "baihua": "黃帝說:凡屬陰證的假象,其脈象怎樣?岐伯說:脈象雖來得順從,但重按時卻搏動極甚而盛實。",
+      "annotations": [
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "盛實有力"
+        }
+      ]
+    },
+    {
+      "original": "是故百病之起，有生於本者，有生於標者，有生於中氣者，有取本而得者，有取標而得者，有取中氣而得者，有取標本而得者，有逆取而得者，有從取而得者。",
+      "baihua": "因此百病的發生,有生於本氣的,有生於標氣的,有生於中氣的;治療上有取治本氣而得效的,有取治標氣而得效的,有取治中氣而得效的,有取治標本而得效的,有用逆治而得效的,有用從治而得效的。",
+      "annotations": [
+        {
+          "char": "取",
+          "jyutping": "ceoi2",
+          "meaning": "取治"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆治,反其性"
+        }
+      ]
+    },
+    {
+      "original": "逆，正順也。若順，逆也。",
+      "baihua": "所謂逆治,實是正治的順從之法;而所謂順治,反是逆治之法。",
+      "annotations": [
+        {
+          "char": "正",
+          "jyutping": "zing3",
+          "meaning": "正治"
+        },
+        {
+          "char": "順",
+          "jyutping": "seon6",
+          "meaning": "順從"
+        }
+      ]
+    },
+    {
+      "original": "故曰：知標與本，用之不殆，明知逆順，正行無問。此之謂也。",
+      "baihua": "所以說:懂得標與本,運用就不會有危險;明白逆治順治的道理,施治正確而無須疑問。說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "殆",
+          "jyutping": "toi5",
+          "meaning": "危險"
+        },
+        {
+          "char": "問",
+          "jyutping": "man6",
+          "meaning": "疑問"
+        }
+      ]
+    },
+    {
+      "original": "不知是者，不足以言診，足以亂經。",
+      "baihua": "不懂得這些道理的人,不夠資格談論診斷,反而足以擾亂醫理常規。",
+      "annotations": [
+        {
+          "char": "亂",
+          "jyutping": "lyun6",
+          "meaning": "擾亂"
+        },
+        {
+          "char": "經",
+          "jyutping": "ging1",
+          "meaning": "醫理常規"
+        }
+      ]
+    },
+    {
+      "original": "故《大要》曰：粗工嘻嘻，以為可知，言熱未已，寒病復始，同氣異形，迷診亂經。此之謂也。",
+      "baihua": "所以《大要》說:醫術粗淺的人洋洋自得,自以為都懂了,說是熱證話還未完,寒證又已開始;同一種氣卻表現出不同的形證,便迷惑於診斷而擾亂醫理。說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "粗",
+          "jyutping": "cou1",
+          "meaning": "粗淺、拙劣"
+        },
+        {
+          "char": "嘻",
+          "jyutping": "hei1",
+          "meaning": "得意自滿貌"
+        },
+        {
+          "char": "迷",
+          "jyutping": "mai4",
+          "meaning": "迷惑"
+        }
+      ]
+    },
+    {
+      "original": "夫標本之道，要而博，小而大，可以言一而知百病之害，言標與本，易而勿損，察本與標，氣可令調，明知勝復，為萬民式，天之道畢矣。",
+      "baihua": "標本的道理,簡要而廣博,細小而宏大,可以由此言其一而知百病的害處;講明標與本,道理平易而不會失誤;審察本與標,病氣就能得到調和;明白勝復之理,便可作為天下萬民的法則,自然之道也就完備了。",
+      "annotations": [
+        {
+          "char": "博",
+          "jyutping": "bok3",
+          "meaning": "廣博"
+        },
+        {
+          "char": "式",
+          "jyutping": "sik1",
+          "meaning": "法則、模範"
+        },
+        {
+          "char": "畢",
+          "jyutping": "bat1",
+          "meaning": "完備、盡"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：勝復之變，早晏何如？岐伯曰：夫所勝者，勝至已病，病已慍慍，而復已萌也。",
+      "baihua": "黃帝說:勝復之氣的變化,早晚遲速是怎樣的?岐伯說:所謂勝氣,勝氣到來就已致病,病既已鬱積蘊釀,而復氣也已在萌動了。",
+      "annotations": [
+        {
+          "char": "晏",
+          "jyutping": "aan3",
+          "meaning": "遲、晚"
+        },
+        {
+          "char": "慍",
+          "jyutping": "wan3",
+          "meaning": "鬱積蘊蓄"
+        },
+        {
+          "char": "萌",
+          "jyutping": "mang4",
+          "meaning": "萌動、初生"
+        }
+      ]
+    },
+    {
+      "original": "夫所復者，勝盡而起，得位而甚，勝有微甚，復有少多，勝和而和，勝虛而虛，天之常也。",
+      "baihua": "所謂復氣,是在勝氣終盡時興起,到得其時位時便亢甚;勝氣有輕微和嚴重之分,復氣有少和多之別;勝氣平和則復氣也平和,勝氣虛弱則復氣也虛弱,這是自然的常規。",
+      "annotations": [
+        {
+          "char": "位",
+          "jyutping": "wai6",
+          "meaning": "時位、當令之時"
+        },
+        {
+          "char": "微",
+          "jyutping": "mei4",
+          "meaning": "輕微"
+        },
+        {
+          "char": "常",
+          "jyutping": "soeng4",
+          "meaning": "常規、規律"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：勝復之作，動不當位，或後時而至，其故何也？",
+      "baihua": "黃帝說:勝復之氣的發作,有時發動不在應當之時位,有時遲於時令才到來,這是甚麼緣故呢?",
+      "annotations": [
+        {
+          "char": "作",
+          "jyutping": "zok3",
+          "meaning": "發作"
+        },
+        {
+          "char": "當",
+          "jyutping": "dong1",
+          "meaning": "合當、正值"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：夫氣之生，與其化衰盛異也。寒暑溫涼盛衰之用，其在四維。",
+      "baihua": "岐伯說:氣的初生與其變化的盛衰是有差異的。寒暑溫涼盛衰的作用,關鍵在四季交接的四隅之時。",
+      "annotations": [
+        {
+          "char": "生",
+          "jyutping": "sang1",
+          "meaning": "初生、發生"
+        },
+        {
+          "char": "維",
+          "jyutping": "wai4",
+          "meaning": "四維,四季交接之隅"
+        }
+      ]
+    },
+    {
+      "original": "故陽之動，始於溫，盛於暑；陰之動，始於清，盛於寒。春夏秋冬，各差其分。",
+      "baihua": "所以陽氣的活動,起始於溫暖,旺盛於暑熱;陰氣的活動,起始於清涼,旺盛於寒冷。春夏秋冬各有其時分上的差異。",
+      "annotations": [
+        {
+          "char": "暑",
+          "jyutping": "syu2",
+          "meaning": "暑熱"
+        },
+        {
+          "char": "差",
+          "jyutping": "caa1",
+          "meaning": "差別、參差"
+        },
+        {
+          "char": "分",
+          "jyutping": "fan6",
+          "meaning": "時分、界分"
+        }
+      ]
+    },
+    {
+      "original": "故《大要》曰：彼春之暖，為夏之暑，彼秋之忿，為冬之怒，謹按四維，斥候皆歸，其終可見，其始可知。此之謂也。",
+      "baihua": "所以《大要》說:那春天的溫暖,發展成夏天的暑熱;那秋天的肅殺之忿,發展成冬天的凜冽之怒。謹慎按察四季交接之時,細加偵察觀測,一切都可歸納,氣的終結可以看見,氣的開始可以預知。說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "忿",
+          "jyutping": "fan5",
+          "meaning": "肅殺之氣"
+        },
+        {
+          "char": "怒",
+          "jyutping": "nou6",
+          "meaning": "凜冽嚴厲之氣"
+        },
+        {
+          "char": "斥候",
+          "jyutping": "cik3 hau6",
+          "meaning": "偵察、觀測"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：差有數乎？岐伯曰：又凡三十度也。",
+      "baihua": "黃帝說:氣候的差異有一定的度數嗎?岐伯說:大凡都在三十度左右。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sou3",
+          "meaning": "度數、定數"
+        },
+        {
+          "char": "度",
+          "jyutping": "dou6",
+          "meaning": "日數、度數"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其脈應皆何如？岐伯曰：差同正法，待時而去也。",
+      "baihua": "黃帝說:與此相應的脈象都怎樣?岐伯說:氣候有差時的脈象與正常法度相同,只是要等到相應的時令才會消退。",
+      "annotations": [
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "相應"
+        },
+        {
+          "char": "去",
+          "jyutping": "heoi3",
+          "meaning": "消退、離去"
+        }
+      ]
+    },
+    {
+      "original": "脈要曰：春不沉，夏不弦，冬不澀，秋不數，是謂四塞。",
+      "baihua": "《脈要》說:春脈不見沉,夏脈不見弦,冬脈不見澀,秋脈不見數,這叫做四時之氣通暢無阻。",
+      "annotations": [
+        {
+          "char": "塞",
+          "jyutping": "sak1",
+          "meaning": "閉塞;四塞指四時脈氣通暢"
+        },
+        {
+          "char": "沉",
+          "jyutping": "cam4",
+          "meaning": "沉脈"
+        }
+      ]
+    },
+    {
+      "original": "沉甚曰病，弦甚曰病，澀甚曰病，數甚曰病，參見曰病，復見曰病，未去而去曰病，去而不去曰病，反者死。",
+      "baihua": "沉脈太甚是病,弦脈太甚是病,澀脈太甚是病,數脈太甚是病,他季脈象夾雜出現是病,前季脈象重複出現是病,脈氣未該退卻而退卻是病,該退卻而不退卻是病,脈與時令相反的則死。",
+      "annotations": [
+        {
+          "char": "參",
+          "jyutping": "caam1",
+          "meaning": "夾雜、參雜"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "重複再現"
+        }
+      ]
+    },
+    {
+      "original": "故曰：氣之相守司也，如權衡之不得相失也。",
+      "baihua": "所以說:各氣之間互相守持、各司其職,就像秤桿與秤錘,不能彼此失去平衡。",
+      "annotations": [
+        {
+          "char": "守",
+          "jyutping": "sau2",
+          "meaning": "守持"
+        },
+        {
+          "char": "權",
+          "jyutping": "kyun4",
+          "meaning": "秤錘"
+        },
+        {
+          "char": "衡",
+          "jyutping": "hang4",
+          "meaning": "秤桿"
+        }
+      ]
+    },
+    {
+      "original": "夫陰陽之氣，清靜則生化治，動則苛疾起，此之謂也。",
+      "baihua": "陰陽之氣,清和寧靜則生化正常安定,躁動失常則苛虐的疾病就會發生,說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清和"
+        },
+        {
+          "char": "苛",
+          "jyutping": "ho1",
+          "meaning": "苛虐、嚴重"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：幽明何如？岐伯曰：兩陰交盡故曰幽，兩陽合明故曰明，幽明之配，寒暑之異也。",
+      "baihua": "黃帝說:幽和明是怎樣的?岐伯說:兩陰交會而盡所以叫幽,兩陽會合而明所以叫明;幽與明的配合,就是寒與暑的差異。",
+      "annotations": [
+        {
+          "char": "幽",
+          "jyutping": "jau1",
+          "meaning": "幽暗,陰盡之處"
+        },
+        {
+          "char": "配",
+          "jyutping": "pui3",
+          "meaning": "配合"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：分至何如？岐伯曰：氣至之謂至，氣分之謂分，至則氣同，分則氣異，所謂天地之正紀也。",
+      "baihua": "黃帝說:分和至是怎樣的?岐伯說:氣到達極盛叫至,氣平分交界叫分;至的時候陰陽之氣趨於一致,分的時候陰陽之氣彼此相異,這就是天地運行的正常綱紀。",
+      "annotations": [
+        {
+          "char": "至",
+          "jyutping": "zi3",
+          "meaning": "至,冬至夏至"
+        },
+        {
+          "char": "分",
+          "jyutping": "fan1",
+          "meaning": "分,春分秋分"
+        },
+        {
+          "char": "紀",
+          "jyutping": "gei2",
+          "meaning": "綱紀、法度"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：夫子言春秋氣始於前，冬夏氣始於後，余已知之矣。然六氣往復，主歲不常也，其補瀉奈何？",
+      "baihua": "黃帝說:先生說春秋之氣始於節前,冬夏之氣始於節後,我已明白了。然而六氣循環往復,主管歲運並不固定,其補瀉之法該怎樣?",
+      "annotations": [
+        {
+          "char": "往",
+          "jyutping": "wong5",
+          "meaning": "往來、循環"
+        },
+        {
+          "char": "歲",
+          "jyutping": "seoi3",
+          "meaning": "歲運、年份"
+        },
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "瀉法"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：上下所主，隨其攸利，正其味，則其要也，左右同法。",
+      "baihua": "岐伯說:司天在泉所主之氣,依照其所適宜的,調正藥物的氣味,這就是要領;左右間氣也是同樣的方法。",
+      "annotations": [
+        {
+          "char": "攸",
+          "jyutping": "jau4",
+          "meaning": "所"
+        },
+        {
+          "char": "利",
+          "jyutping": "lei6",
+          "meaning": "適宜、有利"
+        },
+        {
+          "char": "正",
+          "jyutping": "zing3",
+          "meaning": "調正、匡正"
+        }
+      ]
+    },
+    {
+      "original": "大要曰：少陽之主，先甘後咸；陽明之主，先辛後酸；太陽之主，先咸後苦；厥陰之主，先酸后辛；少陰之主，先甘後咸；太陰之主，先苦後甘。",
+      "baihua": "《大要》說:少陽當令,先用甘味後用咸味;陽明當令,先用辛味後用酸味;太陽當令,先用咸味後用苦味;厥陰當令,先用酸味後用辛味;少陰當令,先用甘味後用咸味;太陰當令,先用苦味後用甘味。",
+      "annotations": [
+        {
+          "char": "甘",
+          "jyutping": "gam1",
+          "meaning": "甘味"
+        },
+        {
+          "char": "咸",
+          "jyutping": "haam4",
+          "meaning": "咸味"
+        },
+        {
+          "char": "酸",
+          "jyutping": "syun1",
+          "meaning": "酸味"
+        }
+      ]
+    },
+    {
+      "original": "佐以所利，資以所生，是謂得氣。",
+      "baihua": "再用適宜的藥味加以輔佐,用能資生的藥味加以扶助,這就叫做順得其氣。",
+      "annotations": [
+        {
+          "char": "佐",
+          "jyutping": "zo3",
+          "meaning": "輔佐"
+        },
+        {
+          "char": "資",
+          "jyutping": "zi1",
+          "meaning": "資助、扶助"
+        },
+        {
+          "char": "生",
+          "jyutping": "sang1",
+          "meaning": "資生、化生"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。夫百病之生也，皆生於風寒暑濕燥火，以之化之變也。",
+      "baihua": "黃帝說：講得好。凡是各種疾病的產生，都源於風、寒、暑、濕、燥、火這六氣，是由於它們的正常變化或反常變化所致。",
+      "annotations": [
+        {
+          "char": "暑",
+          "jyutping": "syu2",
+          "meaning": "暑熱之氣"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "乾燥之氣"
+        },
+        {
+          "char": "變",
+          "jyutping": "bin3",
+          "meaning": "反常變化"
+        }
+      ]
+    },
+    {
+      "original": "經言盛者瀉之，虛者補之，余錫以方士，而方士用之尚未能十全，",
+      "baihua": "醫經上說：邪氣盛實的用瀉法，正氣虛弱的用補法，我把這些道理傳授給醫者，但醫者運用起來還未能達到十全十美。",
+      "annotations": [
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "用瀉法祛邪"
+        },
+        {
+          "char": "錫",
+          "jyutping": "sik3",
+          "meaning": "賜予、給予"
+        },
+        {
+          "char": "方士",
+          "jyutping": "fong1 si6",
+          "meaning": "醫者、行醫之人"
+        }
+      ]
+    },
+    {
+      "original": "余欲令要道必行，桴鼓相應，猶拔刺雪汙，工巧神聖，可得聞乎？",
+      "baihua": "我想使這切要的醫道必能施行，像鼓槌敲鼓一樣立即見效，如同拔去芒刺、洗去污垢那樣快捷，達到工巧神聖的境界，可以講給我聽嗎？",
+      "annotations": [
+        {
+          "char": "桴",
+          "jyutping": "fu4",
+          "meaning": "鼓槌"
+        },
+        {
+          "char": "刺",
+          "jyutping": "ci3",
+          "meaning": "芒刺、扎入之物"
+        },
+        {
+          "char": "雪",
+          "jyutping": "syut3",
+          "meaning": "洗去、清除"
+        },
+        {
+          "char": "汙",
+          "jyutping": "wu1",
+          "meaning": "污垢"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：審察病機，無失氣宜，此之謂也。",
+      "baihua": "岐伯說：仔細審察病變的機理，不違背六氣所宜的規律，說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "審",
+          "jyutping": "sam2",
+          "meaning": "仔細察看"
+        },
+        {
+          "char": "機",
+          "jyutping": "gei1",
+          "meaning": "樞機、關鍵"
+        },
+        {
+          "char": "宜",
+          "jyutping": "ji4",
+          "meaning": "適宜、規律"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願聞病機何如？岐伯曰：諸風掉眩，皆屬於肝。",
+      "baihua": "黃帝說：希望聽聽病機是怎樣的？岐伯說：凡是風氣所致的震顫、眩暈，都屬於肝。",
+      "annotations": [
+        {
+          "char": "掉",
+          "jyutping": "diu6",
+          "meaning": "搖動、震顫"
+        },
+        {
+          "char": "眩",
+          "jyutping": "jyun4",
+          "meaning": "頭暈目眩"
+        }
+      ]
+    },
+    {
+      "original": "諸寒收引，皆屬於腎。",
+      "baihua": "凡是寒氣所致的筋脈收縮拘急，都屬於腎。",
+      "annotations": [
+        {
+          "char": "收",
+          "jyutping": "sau1",
+          "meaning": "收縮"
+        },
+        {
+          "char": "引",
+          "jyutping": "jan5",
+          "meaning": "拘急牽引"
+        }
+      ]
+    },
+    {
+      "original": "諸氣膹郁，皆屬於肺。",
+      "baihua": "凡是氣機喘急、鬱悶的病症，都屬於肺。",
+      "annotations": [
+        {
+          "char": "膹",
+          "jyutping": "fan5",
+          "meaning": "喘急氣促"
+        },
+        {
+          "char": "郁",
+          "jyutping": "wat1",
+          "meaning": "鬱悶不舒"
+        }
+      ]
+    },
+    {
+      "original": "諸濕腫滿，皆屬於脾。",
+      "baihua": "凡是濕氣所致的浮腫脹滿，都屬於脾。",
+      "annotations": [
+        {
+          "char": "腫",
+          "jyutping": "zung2",
+          "meaning": "浮腫"
+        },
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "脹滿"
+        }
+      ]
+    },
+    {
+      "original": "諸熱瞀瘛，皆屬於火。",
+      "baihua": "凡是熱邪所致的神志昏悶、抽搐，都屬於火。",
+      "annotations": [
+        {
+          "char": "瞀",
+          "jyutping": "mau6",
+          "meaning": "視物昏花、神志昏悶"
+        },
+        {
+          "char": "瘛",
+          "jyutping": "cai3",
+          "meaning": "筋脈抽搐"
+        }
+      ]
+    },
+    {
+      "original": "諸痛癢瘡，皆屬於心。",
+      "baihua": "凡是疼痛、瘙癢、瘡瘍的病症，都屬於心。",
+      "annotations": [
+        {
+          "char": "癢",
+          "jyutping": "joeng5",
+          "meaning": "瘙癢"
+        },
+        {
+          "char": "瘡",
+          "jyutping": "cong1",
+          "meaning": "瘡瘍腫毒"
+        }
+      ]
+    },
+    {
+      "original": "諸厥固泄，皆屬於下。",
+      "baihua": "凡是厥逆、大小便不通或泄瀉的病症，都屬於下焦。",
+      "annotations": [
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥逆、氣血逆亂"
+        },
+        {
+          "char": "固",
+          "jyutping": "gu3",
+          "meaning": "閉塞不通"
+        },
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "泄瀉"
+        }
+      ]
+    },
+    {
+      "original": "諸痿喘嘔，皆屬於上。",
+      "baihua": "凡是痿弱、喘息、嘔吐的病症，都屬於上焦。",
+      "annotations": [
+        {
+          "char": "痿",
+          "jyutping": "wai2",
+          "meaning": "肢體痿弱無力"
+        },
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "呼吸急促"
+        },
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        }
+      ]
+    },
+    {
+      "original": "諸禁鼓慄，如喪神守，皆屬於火。",
+      "baihua": "凡是牙關緊閉、鼓頷戰慄，好像失去神志主宰一樣的病症，都屬於火。",
+      "annotations": [
+        {
+          "char": "禁",
+          "jyutping": "gam1",
+          "meaning": "口噤、牙關緊閉"
+        },
+        {
+          "char": "鼓",
+          "jyutping": "gu2",
+          "meaning": "鼓動、顫動"
+        },
+        {
+          "char": "慄",
+          "jyutping": "leot6",
+          "meaning": "戰慄發抖"
+        }
+      ]
+    },
+    {
+      "original": "諸痙項強，皆屬於濕。",
+      "baihua": "凡是痙攣、頸項強直的病症，都屬於濕。",
+      "annotations": [
+        {
+          "char": "痙",
+          "jyutping": "ging6",
+          "meaning": "筋脈痙攣強直"
+        },
+        {
+          "char": "項",
+          "jyutping": "hong6",
+          "meaning": "頸後部"
+        },
+        {
+          "char": "強",
+          "jyutping": "koeng6",
+          "meaning": "僵硬強直"
+        }
+      ]
+    },
+    {
+      "original": "諸逆衝上，皆屬於火。",
+      "baihua": "凡是氣逆上衝的病症，都屬於火。",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆行、上逆"
+        },
+        {
+          "char": "衝",
+          "jyutping": "cung1",
+          "meaning": "上衝"
+        }
+      ]
+    },
+    {
+      "original": "諸脹腹大，皆屬於熱。",
+      "baihua": "凡是腹部脹滿、腹大的病症，都屬於熱。",
+      "annotations": [
+        {
+          "char": "脹",
+          "jyutping": "zoeng3",
+          "meaning": "脹滿"
+        },
+        {
+          "char": "腹",
+          "jyutping": "fuk1",
+          "meaning": "肚腹"
+        }
+      ]
+    },
+    {
+      "original": "諸躁狂越，皆屬於火。",
+      "baihua": "凡是躁動不安、狂亂越禮的病症，都屬於火。",
+      "annotations": [
+        {
+          "char": "躁",
+          "jyutping": "cou3",
+          "meaning": "躁動不安"
+        },
+        {
+          "char": "狂",
+          "jyutping": "kwong4",
+          "meaning": "癲狂"
+        },
+        {
+          "char": "越",
+          "jyutping": "jyut6",
+          "meaning": "逾越常度"
+        }
+      ]
+    },
+    {
+      "original": "諸暴強直，皆屬於風。",
+      "baihua": "凡是突然發生的筋脈強直的病症，都屬於風。",
+      "annotations": [
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "突然、急劇"
+        },
+        {
+          "char": "直",
+          "jyutping": "zik6",
+          "meaning": "僵直"
+        }
+      ]
+    },
+    {
+      "original": "諸病有聲，鼓之如鼓，皆屬於熱。",
+      "baihua": "凡是病時腹中有響聲，叩擊起來像敲鼓一樣，都屬於熱。",
+      "annotations": [
+        {
+          "char": "聲",
+          "jyutping": "seng1",
+          "meaning": "聲響"
+        },
+        {
+          "char": "鼓",
+          "jyutping": "gu2",
+          "meaning": "叩擊；鼓聲"
+        }
+      ]
+    },
+    {
+      "original": "諸病胕腫疼酸驚駭，皆屬於火。",
+      "baihua": "凡是浮腫、疼痛痠楚、驚恐不安的病症，都屬於火。",
+      "annotations": [
+        {
+          "char": "胕",
+          "jyutping": "fu1",
+          "meaning": "浮腫"
+        },
+        {
+          "char": "酸",
+          "jyutping": "syun1",
+          "meaning": "痠楚"
+        },
+        {
+          "char": "駭",
+          "jyutping": "haai5",
+          "meaning": "驚駭恐懼"
+        }
+      ]
+    },
+    {
+      "original": "諸轉反戾，水液渾濁，皆屬於熱。",
+      "baihua": "凡是筋脈轉筋、角弓反張，排出的水液渾濁的病症，都屬於熱。",
+      "annotations": [
+        {
+          "char": "轉",
+          "jyutping": "zyun2",
+          "meaning": "轉筋"
+        },
+        {
+          "char": "戾",
+          "jyutping": "leoi6",
+          "meaning": "扭曲乖戾"
+        },
+        {
+          "char": "渾",
+          "jyutping": "wan4",
+          "meaning": "渾濁"
+        }
+      ]
+    },
+    {
+      "original": "諸病水液，澄徹清冷，皆屬於寒。",
+      "baihua": "凡是各種排出的水液澄清透明、寒涼的病症，都屬於寒。",
+      "annotations": [
+        {
+          "char": "澄",
+          "jyutping": "cing4",
+          "meaning": "清澈"
+        },
+        {
+          "char": "徹",
+          "jyutping": "cit3",
+          "meaning": "透明"
+        },
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清稀"
+        }
+      ]
+    },
+    {
+      "original": "諸嘔吐酸，暴注下迫，皆屬於熱。",
+      "baihua": "凡是嘔吐酸水、突然暴瀉、裏急後重的病症，都屬於熱。",
+      "annotations": [
+        {
+          "char": "注",
+          "jyutping": "zyu3",
+          "meaning": "瀉下如水注"
+        },
+        {
+          "char": "迫",
+          "jyutping": "bik1",
+          "meaning": "裏急後重、逼迫感"
+        }
+      ]
+    },
+    {
+      "original": "故大要曰：謹守病機，各司其屬，有者求之，無者求之，盛者責之，虛者責之，必先五勝，疏其血氣，令其調達，而致和平。此之謂也。",
+      "baihua": "所以《大要》說：謹慎地把握病機，分別辨明各自的所屬，有這種症狀的要探求其原因，沒有這種症狀的也要探求其緣由，邪氣盛的要追究病本，正氣虛的也要追究病本，一定要先辨明五氣中何者偏勝，疏通其血氣，使其調暢通達，從而達到和平。說的就是這個道理。",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "掌管、辨明"
+        },
+        {
+          "char": "責",
+          "jyutping": "zaak3",
+          "meaning": "追究、探求"
+        },
+        {
+          "char": "疏",
+          "jyutping": "so1",
+          "meaning": "疏通"
+        },
+        {
+          "char": "達",
+          "jyutping": "daat6",
+          "meaning": "通達"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。五味陰陽之用何如？",
+      "baihua": "黃帝說：講得好。五味分陰陽的功用是怎樣的呢？",
+      "annotations": [
+        {
+          "char": "味",
+          "jyutping": "mei6",
+          "meaning": "藥味"
+        },
+        {
+          "char": "用",
+          "jyutping": "jung6",
+          "meaning": "功用、作用"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：辛甘發散為陽，酸苦湧泄為陰，鹹味湧泄為陰，淡味滲泄為陽。",
+      "baihua": "岐伯說：辛味、甘味能發散，屬陽；酸味、苦味能湧吐泄下，屬陰；鹹味能湧吐泄下，屬陰；淡味能滲利泄下，屬陽。",
+      "annotations": [
+        {
+          "char": "辛",
+          "jyutping": "san1",
+          "meaning": "辛味"
+        },
+        {
+          "char": "湧",
+          "jyutping": "jung2",
+          "meaning": "湧吐"
+        },
+        {
+          "char": "滲",
+          "jyutping": "sam3",
+          "meaning": "滲利水濕"
+        }
+      ]
+    },
+    {
+      "original": "六者或收或散，或緩或急，或燥或潤，或耎或堅，以所利而行之，調其氣使其平也。",
+      "baihua": "這六種味有的能收斂，有的能發散，有的能緩和，有的能峻急，有的能燥濕，有的能潤燥，有的能軟堅，有的能堅實，要根據所適宜的作用來運用它們，調理氣機使之平和。",
+      "annotations": [
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "緩和"
+        },
+        {
+          "char": "耎",
+          "jyutping": "jyun5",
+          "meaning": "軟化、軟堅"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "堅實、堅固"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：非調氣而得者，治之奈何？有毒無毒，何先何後？願聞其道。",
+      "baihua": "黃帝說：不是由於氣機失調而引起的病，怎樣治療呢？藥物有毒與無毒，哪個先用哪個後用？希望聽聽其中的道理。",
+      "annotations": [
+        {
+          "char": "毒",
+          "jyutping": "duk6",
+          "meaning": "藥性峻猛有毒"
+        },
+        {
+          "char": "先",
+          "jyutping": "sin1",
+          "meaning": "先用"
+        },
+        {
+          "char": "後",
+          "jyutping": "hau6",
+          "meaning": "後用"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：有毒無毒，所治為主，適大小為制也。",
+      "baihua": "岐伯說：藥物有毒無毒，要以能治病為主要準則，並根據病情大小來斟酌配製。",
+      "annotations": [
+        {
+          "char": "主",
+          "jyutping": "zyu2",
+          "meaning": "主要、準則"
+        },
+        {
+          "char": "適",
+          "jyutping": "sik1",
+          "meaning": "斟酌、適合"
+        },
+        {
+          "char": "制",
+          "jyutping": "zai3",
+          "meaning": "配製、方劑"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：請言其制。岐伯曰：君一臣二，制之小也；君一臣三佐五，制之中也；君一臣三佐九，制之大也。",
+      "baihua": "黃帝說：請講講方劑的配製。岐伯說：一味君藥配兩味臣藥，是小方；一味君藥配三味臣藥、五味佐藥，是中方；一味君藥配三味臣藥、九味佐藥，是大方。",
+      "annotations": [
+        {
+          "char": "君",
+          "jyutping": "gwan1",
+          "meaning": "君藥、主藥"
+        },
+        {
+          "char": "臣",
+          "jyutping": "san4",
+          "meaning": "臣藥、輔藥"
+        },
+        {
+          "char": "佐",
+          "jyutping": "zo3",
+          "meaning": "佐藥"
+        }
+      ]
+    },
+    {
+      "original": "寒者熱之，熱者寒之，微者逆之，甚者從之，堅者削之，客者除之，勞者溫之，結者散之，留者攻之，燥者濡之，急者緩之，散者收之，損者溫之，逸者行之，驚者平之，上之下之，摩之浴之，薄之劫之，開之發之，適事為故。",
+      "baihua": "寒證用溫熱法，熱證用寒涼法，病輕淺的用逆治法，病深重的用從治法，堅硬積聚的用削消法，外邪客犯的用祛除法，勞損的用溫養法，鬱結的用消散法，停留的用攻逐法，乾燥的用滋潤法，拘急的用緩和法，耗散的用收斂法，虛損的用溫補法，安逸氣滯的用行導法，驚悸的用鎮平法，或用吐法、或用下法，或按摩、或洗浴，或迫逐、或劫奪，或宣開、或發散，總以恰合病情為原則。",
+      "annotations": [
+        {
+          "char": "削",
+          "jyutping": "soek3",
+          "meaning": "削減消除"
+        },
+        {
+          "char": "濡",
+          "jyutping": "jyu4",
+          "meaning": "滋潤"
+        },
+        {
+          "char": "劫",
+          "jyutping": "gip3",
+          "meaning": "劫奪、強行祛除"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "逼迫、削弱"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何謂逆從？岐伯曰：逆者正治，從者反治，從少從多，觀其事也。",
+      "baihua": "黃帝說：什麼叫逆治、從治？岐伯說：逆治就是正治，從治就是反治，反治藥用得少還是用得多，要根據病情來決定。",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆治、正治"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "從治、反治"
+        },
+        {
+          "char": "觀",
+          "jyutping": "gun1",
+          "meaning": "觀察、審視"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：反治何謂？岐伯曰：熱因寒用，寒因熱用，塞因塞用，通因通用，必伏其所主，而先其所因，其始則同，其終則異，可使破積，可使潰堅，可使氣和，可使必已。",
+      "baihua": "黃帝說：什麼是反治？岐伯說：熱藥要用寒的方式服用，寒藥要用熱的方式服用，補塞法用於因虛而閉塞的病，通利法用於因積滯而通泄的病，一定要制伏其病本，而先探求其病因，開始時藥性與病情相似，但最終效果卻相反，可以用來破除積聚，可以用來潰散堅硬，可以使氣機調和，可以使病必然痊癒。",
+      "annotations": [
+        {
+          "char": "塞",
+          "jyutping": "sak1",
+          "meaning": "閉塞；補塞"
+        },
+        {
+          "char": "伏",
+          "jyutping": "fuk6",
+          "meaning": "制伏"
+        },
+        {
+          "char": "潰",
+          "jyutping": "kui2",
+          "meaning": "潰散、消散"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "病癒"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。氣調而得者何如？岐伯曰：逆之從之，逆而從之，從而逆之，疏氣令調，則其道也。",
+      "baihua": "黃帝說：講得好。由於氣機失調而得的病該怎樣治？岐伯說：或用逆治、或用從治，或先逆後從、或先從後逆，疏理氣機使之調和，這就是治療的原則。",
+      "annotations": [
+        {
+          "char": "調",
+          "jyutping": "tiu4",
+          "meaning": "調和"
+        },
+        {
+          "char": "疏",
+          "jyutping": "so1",
+          "meaning": "疏理、疏通"
+        },
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "法則、原則"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。病之中外何如？岐伯曰：從內之外者，調其內；從外之內者，治其外；從內之外而盛於外者，先調其內而後治其外；從外之內而盛於內者，先治其外而後調其內；中外不相及，則治主病。",
+      "baihua": "黃帝說：講得好。病在內在外該怎麼辦？岐伯說：由內傳外的，先調治其內；由外傳內的，先治療其外；由內傳外而外邪偏盛的，先調其內再治其外；由外傳內而內證偏盛的，先治其外再調其內；內外互不相關的，就直接治療主要病症。",
+      "annotations": [
+        {
+          "char": "中",
+          "jyutping": "zung1",
+          "meaning": "內裏、體內"
+        },
+        {
+          "char": "及",
+          "jyutping": "kap6",
+          "meaning": "關聯、牽連"
+        },
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "偏盛、亢盛"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。火熱復，惡寒發熱，有如瘧狀，或一日發，或間數日發，其故何也？",
+      "baihua": "黃帝說：講得好。火熱之氣復發時，出現惡寒發熱，好像瘧疾的樣子，有的一天發作一次，有的隔幾天發作一次，這是什麼緣故呢？",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "復氣、報復之氣"
+        },
+        {
+          "char": "惡",
+          "jyutping": "wu3",
+          "meaning": "厭惡、畏懼"
+        },
+        {
+          "char": "瘧",
+          "jyutping": "joek6",
+          "meaning": "瘧疾"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：勝復之氣，會遇之時，有多少也。陰氣多而陽氣少，則其發日遠；陽氣多而陰氣少，則其發日近。此勝復相薄，盛衰之節，瘧亦同法。",
+      "baihua": "岐伯說：勝氣與復氣相遇的時候，其多少各有不同。陰氣多而陽氣少的，發作的間隔日期就長；陽氣多而陰氣少的，發作的間隔日期就短。這是勝復之氣相互搏擊、盛衰交替的規律，瘧疾的發作也是同樣的道理。",
+      "annotations": [
+        {
+          "char": "會",
+          "jyutping": "wui6",
+          "meaning": "會合、相遇"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "搏擊、相迫"
+        },
+        {
+          "char": "節",
+          "jyutping": "zit3",
+          "meaning": "節律、規律"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：論言治寒以熱，治熱以寒，而方士不能廢繩墨而更其道也。",
+      "baihua": "黃帝說：醫論上說治寒證用熱藥，治熱證用寒藥，醫者不能廢棄這個準則而改變它的法則。",
+      "annotations": [
+        {
+          "char": "繩墨",
+          "jyutping": "sing4 mak6",
+          "meaning": "準則、法度"
+        },
+        {
+          "char": "廢",
+          "jyutping": "fai3",
+          "meaning": "廢棄"
+        },
+        {
+          "char": "更",
+          "jyutping": "gang1",
+          "meaning": "改變"
+        }
+      ]
+    },
+    {
+      "original": "有病熱者寒之而熱，有病寒者熱之而寒，二者皆在，新病復起，奈何治？",
+      "baihua": "有的熱病用寒藥反而更熱，有的寒病用熱藥反而更寒，原本的寒熱都還存在，又引起新的病症，該怎麼治療呢？",
+      "annotations": [
+        {
+          "char": "在",
+          "jyutping": "zoi6",
+          "meaning": "存在、仍在"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "又、再"
+        },
+        {
+          "char": "起",
+          "jyutping": "hei2",
+          "meaning": "發生、產生"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：諸寒之而熱者取之陰，熱之而寒者取之陽，所謂求其屬也。",
+      "baihua": "岐伯說：凡是用寒藥反而發熱的，要從滋陰入手（治其陰虛）；用熱藥反而發寒的，要從補陽入手（治其陽虛），這就是所說的探求病的所屬啊。",
+      "annotations": [
+        {
+          "char": "取",
+          "jyutping": "ceoi2",
+          "meaning": "取治、著手治療"
+        },
+        {
+          "char": "陰",
+          "jyutping": "jam1",
+          "meaning": "陰分、腎陰"
+        },
+        {
+          "char": "屬",
+          "jyutping": "suk6",
+          "meaning": "歸屬、根本"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。服寒而反熱、服熱而反寒，其故何也？",
+      "baihua": "黃帝說：講得好。服用寒藥反而發熱、服用熱藥反而發寒，這是什麼緣故呢？",
+      "annotations": [
+        {
+          "char": "服",
+          "jyutping": "fuk6",
+          "meaning": "服用"
+        },
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "反而、相反"
+        },
+        {
+          "char": "故",
+          "jyutping": "gu3",
+          "meaning": "緣故"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：治其王氣，是以反也。",
+      "baihua": "岐伯說：這是因為只治了當令的旺氣，所以出現相反的結果。",
+      "annotations": [
+        {
+          "char": "王",
+          "jyutping": "wong6",
+          "meaning": "通「旺」，旺盛之氣"
+        },
+        {
+          "char": "氣",
+          "jyutping": "hei3",
+          "meaning": "氣、時令之氣"
+        },
+        {
+          "char": "以",
+          "jyutping": "ji5",
+          "meaning": "因此、所以"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：不治王而然者何也？岐伯曰：悉乎哉問也！不治五味屬也。",
+      "baihua": "黃帝說：不是治旺氣而出現這種情況的又是為什麼？岐伯說：問得真詳盡啊！那是因為沒有照顧到五味的歸屬。",
+      "annotations": [
+        {
+          "char": "然",
+          "jyutping": "jin4",
+          "meaning": "如此、這樣"
+        },
+        {
+          "char": "悉",
+          "jyutping": "sik1",
+          "meaning": "詳盡、周詳"
+        },
+        {
+          "char": "屬",
+          "jyutping": "suk6",
+          "meaning": "歸屬、所屬臟腑"
+        }
+      ]
+    },
+    {
+      "original": "夫五味入胃，各歸所喜，故酸先入肝，苦先入心，甘先入脾，辛先入肺，咸先入腎，久而增氣，物化之常也。",
+      "baihua": "五味進入胃中，各自歸向其所喜歡的臟，所以酸味先入肝，苦味先入心，甘味先入脾，辛味先入肺，鹹味先入腎，久服就會增益該臟之氣，這是藥食化生作用的常理。",
+      "annotations": [
+        {
+          "char": "胃",
+          "jyutping": "wai6",
+          "meaning": "胃腑"
+        },
+        {
+          "char": "喜",
+          "jyutping": "hei2",
+          "meaning": "所喜、相親和"
+        },
+        {
+          "char": "增",
+          "jyutping": "zang1",
+          "meaning": "增益、加強"
+        }
+      ]
+    },
+    {
+      "original": "氣增而久，夭之由也。",
+      "baihua": "某臟之氣長期偏增，就會導致臟氣偏盛失衡，這正是折損壽命的原因。",
+      "annotations": [
+        {
+          "char": "夭",
+          "jyutping": "jiu2",
+          "meaning": "夭折、短命"
+        },
+        {
+          "char": "由",
+          "jyutping": "jau4",
+          "meaning": "緣由、原因"
+        },
+        {
+          "char": "久",
+          "jyutping": "gau2",
+          "meaning": "長久"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。方制君臣何謂也？岐伯曰：主病之謂君，佐君之謂臣，應臣之謂使，非上下三品之謂也。",
+      "baihua": "黃帝說：講得好。方劑配製中的君臣是什麼意思？岐伯說：主治疾病的藥叫做君藥，輔佐君藥的叫做臣藥，配合臣藥的叫做使藥，並不是指藥物的上、中、下三品。",
+      "annotations": [
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "呼應、配合"
+        },
+        {
+          "char": "使",
+          "jyutping": "si2",
+          "meaning": "使藥"
+        },
+        {
+          "char": "品",
+          "jyutping": "ban2",
+          "meaning": "等級、品類"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：三品何謂？岐伯曰：所以明善惡之殊貫也。",
+      "baihua": "黃帝說：三品又是指什麼？岐伯說：是用來區別藥物性質好壞、毒性有無等不同類別的。",
+      "annotations": [
+        {
+          "char": "明",
+          "jyutping": "ming4",
+          "meaning": "辨明、區別"
+        },
+        {
+          "char": "殊",
+          "jyutping": "syu4",
+          "meaning": "不同、差異"
+        },
+        {
+          "char": "貫",
+          "jyutping": "gun3",
+          "meaning": "類別、系統"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：善。病之中外何如？岐伯曰：調氣之方，必別陰陽，定其中外，各守其鄉，內者內治，外者外治，微者調之，其次平之，盛者奪之，汗之下之，寒熱溫涼，衰之以屬，隨其攸利，謹道如法，萬舉萬全，氣血正平，長有天命。帝曰：善。",
+      "baihua": "黃帝說：講得好。病在內在外該怎麼辦？岐伯說：調理氣機的方法，一定要辨別陰陽，確定病位的內外，各守其所在部位，病在內的從內治，病在外的從外治，病輕的用調理法，稍重的用平治法，邪盛的用攻奪法，或用汗法、或用下法，藥的寒熱溫涼，要依據病的所屬來削減其偏盛，順隨其所宜，謹慎依循法度來治療，就能萬治萬全，使氣血歸於平和，長享天賦的壽命。黃帝說：講得好。",
+      "annotations": [
+        {
+          "char": "別",
+          "jyutping": "bit6",
+          "meaning": "辨別、區分"
+        },
+        {
+          "char": "鄉",
+          "jyutping": "hoeng1",
+          "meaning": "部位、所在"
+        },
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "攻奪、瀉除"
+        },
+        {
+          "char": "攸",
+          "jyutping": "jau4",
+          "meaning": "所、所宜"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇提出治療的總綱之一「正者正治，反者反治」，當中「反治」是甚麼意思?請舉例說明。",
+      "answer": "反治即「從治」，指順從疾病表面假象而用藥，適用於病情較重、出現真假寒熱的複雜情況。篇中舉出「熱因寒用、寒因熱用、塞因塞用、通因通用」四例。例如「通因通用」是指對某些泄瀉、下利的病症反而用通下之法去治療，因為病根在於積滯壅塞，須先制伏其真正病因(必伏其所主，而先其所因)，開始時看似順從病象，最終卻能達到破積潰堅、令氣調和的效果。"
+    },
+    {
+      "question": "「病機十九條」是本篇最著名的內容，請列舉其中至少五條，並說明其臨床意義。",
+      "answer": "病機十九條包括:諸風掉眩皆屬於肝、諸寒收引皆屬於腎、諸氣膹郁皆屬於肺、諸濕腫滿皆屬於脾、諸熱瞀瘛皆屬於火、諸痛癢瘡皆屬於心、諸厥固泄皆屬於下、諸痿喘嘔皆屬於上等。其臨床意義在於為醫者提供辨證審機的綱領:見到某類症狀，便可據此推求病位(五臟或上下)與病性(風寒濕火熱)。但須配合「有者求之，無者求之，盛者責之，虛者責之」的原則靈活運用，切勿機械套用。"
+    },
+    {
+      "question": "甚麼是六氣的「司天」與「在泉」?二者化生的特性有何不同?",
+      "answer": "司天指主管上半年、居於上位的氣，在泉指主管下半年、居於下位的氣，二者共同構成一年氣候的主導。篇中指出司天主要體現為「氣化」，如厥陰司天為風化、少陰司天為熱化;在泉則多體現為「味化」，如厥陰在泉為酸化、少陰在泉為苦化。故有「本乎天者天之氣也，本乎地者地之氣也，天地合氣，六節分而萬物化生」之說，說明上下之氣相合方能化生萬物。"
+    },
+    {
+      "question": "本篇論述方劑組成時提出「君臣佐使」的概念，岐伯是如何界定君、臣、使的?",
+      "answer": "岐伯明確指出:「主病之謂君，佐君之謂臣，應臣之謂使。」即針對主要病證起主治作用的藥物為君藥，輔助君藥加強療效的為臣藥，配合臣藥、引導協調的為使藥。並特別強調「非上下三品之謂也」，說明君臣佐使是按藥物在方中的功能地位而定，與《本經》上中下三品的藥材優劣分類是兩回事，不可混淆。"
+    },
+    {
+      "question": "篇中提到「五味入胃，各歸所喜」，長期偏食某味會有甚麼後果?",
+      "answer": "岐伯指出五味各有所歸:酸先入肝、苦先入心、甘先入脾、辛先入肺、咸先入腎，這是「物化之常」的正常規律。但若長期偏嗜某味，會令相應臟氣持續亢盛，即「久而增氣」;而「氣增而久」則會導致臟腑功能失衡、折損壽命，即「夭之由也」。這提醒人飲食五味須均衡有度，過偏反成致病之因。"
+    }
+  ]
+}

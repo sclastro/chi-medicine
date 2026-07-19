@@ -1,0 +1,307 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "刺要論",
+    "number": 50,
+    "originalVerified": true,
+    "sections": 10,
+    "usage": {
+      "completion_tokens": 3422,
+      "prompt_tokens": 997,
+      "total_tokens": 4419,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:36:35.400Z"
+  },
+  "id": "suwen-50",
+  "intro": "《刺要論》是《素問》中專門論述針刺深淺要領的篇章。本篇透過黃帝與岐伯的問答,指出人體疾病有淺有深,針刺也必須配合病位而有淺深之別:病在毫毛腠理、皮膚、肌肉、脈、筋、骨、髓等不同層次,施針就要恰到好處,既不能太深傷及內臟,也不能太淺留下外邪。文中更具體說明針刺過深傷及各層組織,會牽動相應的五臟,在特定季節引發各種疾病。學習本篇,有助初學者理解中醫「因病施刺、分層施治」的核心思想,認識針刺深淺與五臟、四時的密切關係,體會針刺並非愈深愈好,而貴在精準得當,是針灸入門的重要理論基礎。",
+  "sections": [
+    {
+      "original": "黃帝問曰：願聞刺要。岐伯對曰：病有浮沉，刺有淺深，各至其理，無過其道。",
+      "baihua": "黃帝問道:我想聽聽針刺的要領。岐伯回答說:疾病有淺(浮)有深(沉),針刺也就有淺有深,各自要刺到適當的層次,不可超過應有的分寸。",
+      "annotations": [
+        {
+          "char": "刺",
+          "jyutping": "ci3",
+          "meaning": "針刺"
+        },
+        {
+          "char": "浮沉",
+          "jyutping": "fau4 cam4",
+          "meaning": "指病位的淺與深"
+        },
+        {
+          "char": "理",
+          "jyutping": "lei5",
+          "meaning": "此指組織的層次、紋理"
+        },
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "法度、分寸"
+        }
+      ]
+    },
+    {
+      "original": "過之則內傷，不及則生外壅，壅則邪從之。",
+      "baihua": "針刺太過(太深)就會損傷內部臟腑,刺得不夠(太淺)則會在體表形成壅塞,壅塞就會使邪氣趁機侵入。",
+      "annotations": [
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "超過、太深"
+        },
+        {
+          "char": "壅",
+          "jyutping": "jung2",
+          "meaning": "阻塞、壅積"
+        },
+        {
+          "char": "邪",
+          "jyutping": "ce4",
+          "meaning": "病邪、致病之氣"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "跟隨、趁機而入"
+        }
+      ]
+    },
+    {
+      "original": "淺深不得，反為大賊，內動五藏，後生大病。",
+      "baihua": "針刺的淺深若不恰當,反而會成為大害,牽動內在的五臟,日後就會產生嚴重的疾病。",
+      "annotations": [
+        {
+          "char": "得",
+          "jyutping": "dak1",
+          "meaning": "合適、恰當"
+        },
+        {
+          "char": "賊",
+          "jyutping": "caak6",
+          "meaning": "禍害、傷害"
+        },
+        {
+          "char": "動",
+          "jyutping": "dung6",
+          "meaning": "擾動、牽動"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "同「臟」,內臟"
+        }
+      ]
+    },
+    {
+      "original": "故曰：病有在毫毛腠理者，有在皮膚者，有在肌肉者，有在脈者，有在筋者，有在骨者，有在髓者。",
+      "baihua": "所以說:疾病有的在毫毛和腠理,有的在皮膚,有的在肌肉,有的在血脈,有的在筋,有的在骨,有的在骨髓。",
+      "annotations": [
+        {
+          "char": "毫毛",
+          "jyutping": "hou4 mou4",
+          "meaning": "細小的體毛"
+        },
+        {
+          "char": "腠理",
+          "jyutping": "cau3 lei5",
+          "meaning": "皮膚肌肉之間的紋理與縫隙"
+        },
+        {
+          "char": "脈",
+          "jyutping": "mak6",
+          "meaning": "血脈、經脈"
+        },
+        {
+          "char": "髓",
+          "jyutping": "seoi5",
+          "meaning": "骨髓"
+        }
+      ]
+    },
+    {
+      "original": "是故刺毫毛腠理無傷皮，皮傷則內動肺，肺動則秋病溫瘧，溯溯然寒慄。",
+      "baihua": "因此針刺毫毛腠理時不要傷及皮膚,皮膚受傷就會向內牽動肺臟,肺臟受擾動則在秋天發生溫瘧病,出現瑟瑟發抖、寒冷戰慄的症狀。",
+      "annotations": [
+        {
+          "char": "溫瘧",
+          "jyutping": "wan1 joek6",
+          "meaning": "一種先熱後寒的瘧疾"
+        },
+        {
+          "char": "溯溯然",
+          "jyutping": "sou3 sou3 jin4",
+          "meaning": "形容惡寒瑟縮的樣子"
+        },
+        {
+          "char": "寒慄",
+          "jyutping": "hon4 leot6",
+          "meaning": "因寒冷而發抖"
+        },
+        {
+          "char": "傷",
+          "jyutping": "soeng1",
+          "meaning": "損傷"
+        }
+      ]
+    },
+    {
+      "original": "刺皮無傷肉，肉傷則內動脾，脾動則七十二日四季之月，病腹脹煩不嗜食。",
+      "baihua": "針刺皮膚時不要傷及肌肉,肌肉受傷就會向內牽動脾臟,脾臟受擾動則在每季末各十八日(合計七十二日)的時節,發生腹部脹滿、心煩、不想進食的病症。",
+      "annotations": [
+        {
+          "char": "脾",
+          "jyutping": "pei4",
+          "meaning": "脾臟,主運化"
+        },
+        {
+          "char": "四季之月",
+          "jyutping": "sei3 gwai3 zi1 jyut6",
+          "meaning": "指每季最後一個月的末段時節"
+        },
+        {
+          "char": "腹脹",
+          "jyutping": "fuk1 zoeng3",
+          "meaning": "腹部脹滿"
+        },
+        {
+          "char": "嗜",
+          "jyutping": "si3",
+          "meaning": "喜好、想要"
+        }
+      ]
+    },
+    {
+      "original": "刺肉無傷脈，脈傷則內動心，心動則夏病心痛。",
+      "baihua": "針刺肌肉時不要傷及血脈,血脈受傷就會向內牽動心臟,心臟受擾動則在夏天發生心痛的病症。",
+      "annotations": [
+        {
+          "char": "脈",
+          "jyutping": "mak6",
+          "meaning": "血脈"
+        },
+        {
+          "char": "心",
+          "jyutping": "sam1",
+          "meaning": "心臟,主血脈"
+        },
+        {
+          "char": "夏",
+          "jyutping": "haa6",
+          "meaning": "夏季"
+        },
+        {
+          "char": "痛",
+          "jyutping": "tung3",
+          "meaning": "疼痛"
+        }
+      ]
+    },
+    {
+      "original": "刺脈無傷筋，筋傷則內動肝，肝動則春病熱而筋弛。",
+      "baihua": "針刺血脈時不要傷及筋,筋受傷就會向內牽動肝臟,肝臟受擾動則在春天發生發熱而筋脈鬆弛的病症。",
+      "annotations": [
+        {
+          "char": "筋",
+          "jyutping": "gan1",
+          "meaning": "筋、肌腱"
+        },
+        {
+          "char": "肝",
+          "jyutping": "gon1",
+          "meaning": "肝臟,主筋"
+        },
+        {
+          "char": "弛",
+          "jyutping": "ci4",
+          "meaning": "鬆弛、無力"
+        },
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "發熱"
+        }
+      ]
+    },
+    {
+      "original": "刺筋無傷骨，骨傷則內動腎，腎動則冬病脹腰痛。",
+      "baihua": "針刺筋時不要傷及骨,骨受傷就會向內牽動腎臟,腎臟受擾動則在冬天發生腹脹、腰痛的病症。",
+      "annotations": [
+        {
+          "char": "骨",
+          "jyutping": "gwat1",
+          "meaning": "骨骼"
+        },
+        {
+          "char": "腎",
+          "jyutping": "san6",
+          "meaning": "腎臟,主骨"
+        },
+        {
+          "char": "冬",
+          "jyutping": "dung1",
+          "meaning": "冬季"
+        },
+        {
+          "char": "腰",
+          "jyutping": "jiu1",
+          "meaning": "腰部"
+        }
+      ]
+    },
+    {
+      "original": "刺骨無傷髓，髓傷則銷鑠胻痠，體解㑊然不去矣。",
+      "baihua": "針刺骨時不要傷及骨髓,骨髓受傷就會使髓液漸漸虧耗、小腿痠軟,身體疲憊懈怠、久久不能康復。",
+      "annotations": [
+        {
+          "char": "銷鑠",
+          "jyutping": "siu1 soek3",
+          "meaning": "消耗、逐漸虧損"
+        },
+        {
+          "char": "胻",
+          "jyutping": "hang4",
+          "meaning": "小腿脛骨部位"
+        },
+        {
+          "char": "痠",
+          "jyutping": "syun1",
+          "meaning": "痠軟無力"
+        },
+        {
+          "char": "體解㑊",
+          "jyutping": "tai2 gaai2 jik6",
+          "meaning": "身體疲乏懈怠、四肢無力的狀態"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "《刺要論》中提出針刺過深與過淺分別會造成甚麼後果?",
+      "answer": "針刺過深(太過)會損傷內部臟腑;針刺過淺(不及)則會在體表形成壅塞,壅塞會使邪氣趁機侵入。所以淺深必須恰當。"
+    },
+    {
+      "question": "本篇將人體病位由淺至深分為哪幾個層次?",
+      "answer": "依次為毫毛腠理、皮膚、肌肉、脈、筋、骨、髓七個層次,針刺時應按病位深淺施治。"
+    },
+    {
+      "question": "若針刺皮膚時傷及肌肉,會牽動哪一臟,並在何時發病?有何症狀?",
+      "answer": "會向內牽動脾臟,在每季末各十八日(合計七十二日)的時節發病,症狀為腹部脹滿、心煩、不想進食。"
+    },
+    {
+      "question": "為甚麼說「淺深不得,反為大賊」?",
+      "answer": "因為針刺的深淺若不恰當,不但不能治病,反而會成為大害,牽動內在的五臟,日後引發嚴重的疾病,所以針刺必須精準得當。"
+    },
+    {
+      "question": "針刺傷及骨髓會出現甚麼表現?",
+      "answer": "會使髓液漸漸虧耗、小腿痠軟,身體疲憊懈怠、四肢無力,病情久久不能康復。"
+    }
+  ]
+}

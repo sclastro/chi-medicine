@@ -1,0 +1,898 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "刺瘧",
+    "number": 36,
+    "originalVerified": true,
+    "sections": 36,
+    "usage": {
+      "completion_tokens": 10486,
+      "prompt_tokens": 1870,
+      "total_tokens": 12356,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:19:16.330Z"
+  },
+  "id": "suwen-36",
+  "intro": "《刺瘧》是《素問》第三十六篇,專門討論瘧疾的針刺治療。瘧疾是一種以寒熱往來、定時發作為特徵的病症。本篇先按六經(足太陽、足少陽、足陽明、足太陰、足少陰、足厥陰)和五臟(肺、心、肝、脾、腎)加胃,詳細描述各種瘧疾的症狀特點與相應的針刺穴位;再論述瘧脈的變化(滿大、小實、緩大虛)與治法選擇,以及針刺的最佳時機(發作前約一頓飯時間)、放血療法、辨明病位先後刺治的原則,並介紹風瘧、溫瘧等特殊類型的治法。學習本篇,初學者可以掌握中醫「辨經辨臟論治」的思路,體會「治未發、掌握時機」的重要性,對理解經絡辨證與針刺放血的臨床運用很有幫助。",
+  "sections": [
+    {
+      "original": "足太陽之瘧，令人腰痛頭重，寒從背起，先寒後熱，熇熇暍暍然，熱止汗出，難已，刺郄中出血。",
+      "baihua": "足太陽經所引起的瘧疾,會使人腰部疼痛、頭部沉重,寒氣從背部升起,先感到惡寒然後發熱,發熱時熱勢熾盛如烈火,熱退後出汗,這種瘧疾難以痊癒,應針刺委中穴(郄中)放血。",
+      "annotations": [
+        {
+          "char": "熇",
+          "jyutping": "hok3",
+          "meaning": "火勢熾盛的樣子"
+        },
+        {
+          "char": "暍",
+          "jyutping": "hot3",
+          "meaning": "中暑、暑熱難耐貌"
+        },
+        {
+          "char": "郄",
+          "jyutping": "kwik1",
+          "meaning": "膝後膕窩處,指委中穴"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "痊癒、停止"
+        }
+      ]
+    },
+    {
+      "original": "足少陽之瘧，令人身體解㑊，寒不甚，熱不甚，惡見人，見人心惕惕然，熱多汗出甚，刺足少陽。",
+      "baihua": "足少陽經所引起的瘧疾,會使人身體倦怠困乏,惡寒不重,發熱也不重,不願見人,見到人就心中驚慌不安,發熱較多而出汗很多,應針刺足少陽經的穴位。",
+      "annotations": [
+        {
+          "char": "解㑊",
+          "jyutping": "haai6 jik6",
+          "meaning": "身體困倦鬆散、乏力不適"
+        },
+        {
+          "char": "甚",
+          "jyutping": "sam6",
+          "meaning": "厲害、嚴重"
+        },
+        {
+          "char": "惡",
+          "jyutping": "wu3",
+          "meaning": "厭惡、不願"
+        },
+        {
+          "char": "惕",
+          "jyutping": "tik1",
+          "meaning": "驚恐不安"
+        }
+      ]
+    },
+    {
+      "original": "足陽明之瘧，令人先寒，灑淅灑淅，寒甚久乃熱，熱去汗出，喜見日月光火氣乃快然，刺足陽明跗上。",
+      "baihua": "足陽明經所引起的瘧疾,會使人先感到寒冷,如冷水灑身般發抖,寒得厲害且持續很久才發熱,熱退後出汗,喜歡見到日光、月光和火的暖氣才覺得舒暢,應針刺足陽明經足背上的穴位。",
+      "annotations": [
+        {
+          "char": "灑淅",
+          "jyutping": "saa2 sik1",
+          "meaning": "寒冷發抖的樣子"
+        },
+        {
+          "char": "乃",
+          "jyutping": "naai5",
+          "meaning": "才、於是"
+        },
+        {
+          "char": "跗",
+          "jyutping": "fu1",
+          "meaning": "腳背"
+        },
+        {
+          "char": "快",
+          "jyutping": "faai3",
+          "meaning": "舒暢、暢快"
+        }
+      ]
+    },
+    {
+      "original": "足太陰之瘧，令人不樂，好大息，不嗜食，多寒熱汗出，病至則善嘔，嘔已乃衰，即取之。",
+      "baihua": "足太陰經所引起的瘧疾,會使人心情不快樂,常常嘆氣,不想進食,多有寒熱交替並出汗,發病時容易嘔吐,吐後病勢就減退,這時就取足太陰經穴位針刺。",
+      "annotations": [
+        {
+          "char": "好",
+          "jyutping": "hou3",
+          "meaning": "喜歡、常常"
+        },
+        {
+          "char": "大息",
+          "jyutping": "daai6 sik1",
+          "meaning": "太息,深深地嘆氣"
+        },
+        {
+          "char": "嗜",
+          "jyutping": "si3",
+          "meaning": "喜好、想要"
+        },
+        {
+          "char": "衰",
+          "jyutping": "seoi1",
+          "meaning": "衰退、減弱"
+        }
+      ]
+    },
+    {
+      "original": "足少陰之瘧，令人嘔吐甚，多寒熱，熱多寒少，欲閉戶牖而處，其病難已。",
+      "baihua": "足少陰經所引起的瘧疾,會使人嘔吐得厲害,多有寒熱交替,而且發熱多、惡寒少,喜歡關閉門窗獨居,這種瘧疾難以痊癒。",
+      "annotations": [
+        {
+          "char": "牖",
+          "jyutping": "jau5",
+          "meaning": "窗戶"
+        },
+        {
+          "char": "處",
+          "jyutping": "cyu5",
+          "meaning": "居住、安身"
+        },
+        {
+          "char": "欲",
+          "jyutping": "juk6",
+          "meaning": "想要"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "痊癒"
+        }
+      ]
+    },
+    {
+      "original": "足厥陰之瘧，令人腰痛少腹滿，小便不利如癃狀，非癃也，數便，意恐懼氣不足，腹中悒悒，刺足厥陰。",
+      "baihua": "足厥陰經所引起的瘧疾,會使人腰部疼痛、小腹脹滿,小便不通暢好像癃閉的樣子,但其實不是癃閉,只是小便次數頻繁,心中恐懼、氣息不足,腹中鬱悶不舒,應針刺足厥陰經的穴位。",
+      "annotations": [
+        {
+          "char": "癃",
+          "jyutping": "lung4",
+          "meaning": "小便不通或淋漓不暢的病"
+        },
+        {
+          "char": "數",
+          "jyutping": "sok3",
+          "meaning": "屢次、頻繁"
+        },
+        {
+          "char": "悒",
+          "jyutping": "jap1",
+          "meaning": "憂鬱不舒暢"
+        },
+        {
+          "char": "少腹",
+          "jyutping": "siu2 fuk1",
+          "meaning": "小腹,下腹部"
+        }
+      ]
+    },
+    {
+      "original": "肺瘧者，令人心寒，寒甚熱，熱間善驚，如有所見者，刺手太陰陽明。",
+      "baihua": "肺瘧,會使人心中發冷,寒得厲害之後又發熱,發熱的間歇容易受驚,好像看見了甚麼東西一樣,應針刺手太陰經和手陽明經的穴位。",
+      "annotations": [
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "間歇、間隙的時候"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "受驚、驚恐"
+        },
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "容易、常常"
+        },
+        {
+          "char": "如",
+          "jyutping": "jyu4",
+          "meaning": "好像"
+        }
+      ]
+    },
+    {
+      "original": "心瘧者，令人煩心甚，欲得清水，反寒多，不甚熱，刺手少陰。",
+      "baihua": "心瘧,會使人心中煩躁得厲害,想喝清涼的水,但反而是惡寒多,發熱並不厲害,應針刺手少陰經的穴位。",
+      "annotations": [
+        {
+          "char": "煩",
+          "jyutping": "faan4",
+          "meaning": "煩躁、心中煩亂"
+        },
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "反而、卻"
+        },
+        {
+          "char": "清",
+          "jyutping": "cing1",
+          "meaning": "清涼的"
+        },
+        {
+          "char": "欲",
+          "jyutping": "juk6",
+          "meaning": "想要"
+        }
+      ]
+    },
+    {
+      "original": "肝瘧者，令人色蒼蒼然，太息，其狀若死者，刺足厥陰見血。",
+      "baihua": "肝瘧,會使人面色青灰,常常嘆氣,那樣子好像將要死去一樣,應針刺足厥陰經放血。",
+      "annotations": [
+        {
+          "char": "蒼",
+          "jyutping": "cong1",
+          "meaning": "青色、灰暗"
+        },
+        {
+          "char": "太息",
+          "jyutping": "taai3 sik1",
+          "meaning": "深深地嘆氣"
+        },
+        {
+          "char": "若",
+          "jyutping": "joek6",
+          "meaning": "好像"
+        },
+        {
+          "char": "狀",
+          "jyutping": "zong6",
+          "meaning": "樣子、狀態"
+        }
+      ]
+    },
+    {
+      "original": "脾瘧者，令人寒，腹中痛，熱則腸中鳴，鳴已汗出，刺足太陰。",
+      "baihua": "脾瘧,會使人惡寒,腹中疼痛,發熱時腸中就會發出鳴響,腸鳴之後便出汗,應針刺足太陰經的穴位。",
+      "annotations": [
+        {
+          "char": "鳴",
+          "jyutping": "ming4",
+          "meaning": "發出響聲,此指腸鳴"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "完畢、之後"
+        },
+        {
+          "char": "則",
+          "jyutping": "zak1",
+          "meaning": "就、便"
+        },
+        {
+          "char": "腹",
+          "jyutping": "fuk1",
+          "meaning": "肚子"
+        }
+      ]
+    },
+    {
+      "original": "腎瘧者，令人洒洒然，腰脊痛宛轉，大便難，目眴眴然，手足寒，刺足太陽少陰。",
+      "baihua": "腎瘧,會使人惡寒發抖,腰背疼痛難以轉動身體,大便困難,眼睛昏花不明,手腳冰冷,應針刺足太陽經和足少陰經的穴位。",
+      "annotations": [
+        {
+          "char": "洒",
+          "jyutping": "sai2",
+          "meaning": "寒冷發抖的樣子"
+        },
+        {
+          "char": "宛轉",
+          "jyutping": "jyun2 zyun2",
+          "meaning": "翻身轉動"
+        },
+        {
+          "char": "眴",
+          "jyutping": "seon6",
+          "meaning": "眼睛昏花、視物不清"
+        },
+        {
+          "char": "脊",
+          "jyutping": "zek3",
+          "meaning": "脊背、脊柱"
+        }
+      ]
+    },
+    {
+      "original": "胃瘧者，令人且病也，善飢而不能食，食而支滿腹大，刺足陽明太陰橫脈出血。",
+      "baihua": "胃瘧,會使人剛剛發病時,容易感到飢餓卻又吃不下東西,勉強吃下就覺得脹滿、肚子脹大,應針刺足陽明經和足太陰經的橫脈放血。",
+      "annotations": [
+        {
+          "char": "且",
+          "jyutping": "ce2",
+          "meaning": "將要、剛剛"
+        },
+        {
+          "char": "飢",
+          "jyutping": "gei1",
+          "meaning": "飢餓"
+        },
+        {
+          "char": "支滿",
+          "jyutping": "zi1 mun5",
+          "meaning": "撐脹滿悶"
+        },
+        {
+          "char": "橫脈",
+          "jyutping": "waang4 mak6",
+          "meaning": "橫行的絡脈"
+        }
+      ]
+    },
+    {
+      "original": "瘧發身方熱，刺跗上動脈，開其空，出其血，立寒。",
+      "baihua": "瘧疾發作、身體正在發熱的時候,針刺足背上的動脈(衝陽脈),打開它的孔穴,放出瘀血,身熱就會立刻退去而變涼。",
+      "annotations": [
+        {
+          "char": "方",
+          "jyutping": "fong1",
+          "meaning": "正在、正當"
+        },
+        {
+          "char": "跗",
+          "jyutping": "fu1",
+          "meaning": "腳背"
+        },
+        {
+          "char": "空",
+          "jyutping": "hung1",
+          "meaning": "孔穴、孔竅"
+        },
+        {
+          "char": "立",
+          "jyutping": "laap6",
+          "meaning": "立刻、馬上"
+        }
+      ]
+    },
+    {
+      "original": "瘧方欲寒，刺手陽明太陰、足陽明太陰。",
+      "baihua": "瘧疾正要發冷的時候,針刺手陽明經、手太陰經以及足陽明經、足太陰經的穴位。",
+      "annotations": [
+        {
+          "char": "方",
+          "jyutping": "fong1",
+          "meaning": "正、將要"
+        },
+        {
+          "char": "欲",
+          "jyutping": "juk6",
+          "meaning": "將要"
+        },
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "發冷、惡寒"
+        }
+      ]
+    },
+    {
+      "original": "瘧脈滿大，急刺背俞，用中針旁伍胠俞各一，適肥瘦出其血也。",
+      "baihua": "瘧疾的脈象充實洪大時,要趕快針刺背部的腧穴,用中等大小的針,在脊旁的五臟腧穴各刺一針,並根據病人的肥瘦來決定放血的多少。",
+      "annotations": [
+        {
+          "char": "俞",
+          "jyutping": "syu1",
+          "meaning": "腧穴,同「腧」"
+        },
+        {
+          "char": "胠",
+          "jyutping": "keoi1",
+          "meaning": "脅肋部;此指脊旁腧穴"
+        },
+        {
+          "char": "適",
+          "jyutping": "sik1",
+          "meaning": "斟酌、依照"
+        },
+        {
+          "char": "急",
+          "jyutping": "gap1",
+          "meaning": "趕快、急速"
+        }
+      ]
+    },
+    {
+      "original": "瘧脈小實，急灸脛少陰，刺指井。",
+      "baihua": "瘧疾的脈象細小而堅實時,要趕快艾灸小腿部的足少陰經穴位,並針刺足趾端的井穴。",
+      "annotations": [
+        {
+          "char": "灸",
+          "jyutping": "gau3",
+          "meaning": "用艾火熏灼穴位的療法"
+        },
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "井",
+          "jyutping": "zing2",
+          "meaning": "井穴,五輸穴之一,在指趾端"
+        },
+        {
+          "char": "實",
+          "jyutping": "sat6",
+          "meaning": "堅實有力"
+        }
+      ]
+    },
+    {
+      "original": "瘧脈滿大，急刺背俞，用五胠俞背俞各一，適行至於血也。",
+      "baihua": "瘧疾的脈象充實洪大時,要趕快針刺背部的腧穴,在五臟脊旁腧穴和背俞各刺一針,依情況施行,以放出瘀血為度。",
+      "annotations": [
+        {
+          "char": "胠",
+          "jyutping": "keoi1",
+          "meaning": "脅肋部;此指脊旁腧穴"
+        },
+        {
+          "char": "適",
+          "jyutping": "sik1",
+          "meaning": "斟酌、依照"
+        },
+        {
+          "char": "至",
+          "jyutping": "zi3",
+          "meaning": "達到"
+        },
+        {
+          "char": "行",
+          "jyutping": "hang4",
+          "meaning": "施行、進行"
+        }
+      ]
+    },
+    {
+      "original": "瘧脈緩大虛，便宜用藥，不宜用針。",
+      "baihua": "瘧疾的脈象緩慢、洪大而虛弱時,就適合用藥物調治,不宜再用針刺。",
+      "annotations": [
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "遲緩、和緩"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "虛弱、空虛無力"
+        },
+        {
+          "char": "宜",
+          "jyutping": "ji4",
+          "meaning": "適宜、應該"
+        },
+        {
+          "char": "便",
+          "jyutping": "bin6",
+          "meaning": "就、便"
+        }
+      ]
+    },
+    {
+      "original": "凡治瘧先發，如食頃乃可以治，過之則失時也。",
+      "baihua": "大凡治療瘧疾,要在發作之前,大約提前一頓飯的時間就可以施治,過了這個時機就會錯失治療的良機。",
+      "annotations": [
+        {
+          "char": "凡",
+          "jyutping": "faan4",
+          "meaning": "大凡、凡是"
+        },
+        {
+          "char": "食頃",
+          "jyutping": "sik6 king2",
+          "meaning": "吃一頓飯的時間,指短暫片刻"
+        },
+        {
+          "char": "乃",
+          "jyutping": "naai5",
+          "meaning": "才、就"
+        },
+        {
+          "char": "失時",
+          "jyutping": "sat1 si4",
+          "meaning": "錯失時機"
+        }
+      ]
+    },
+    {
+      "original": "諸瘧而脈不見，刺十指間出血，血去必已，先視身之赤如小豆者盡取之。",
+      "baihua": "各種瘧疾如果脈象摸不出來,可針刺十指之間放血,瘀血放出後必定痊癒;要先察看身上有像紅小豆般的紅點,全部取來針刺放血。",
+      "annotations": [
+        {
+          "char": "諸",
+          "jyutping": "zyu1",
+          "meaning": "各種、眾多"
+        },
+        {
+          "char": "見",
+          "jyutping": "jin6",
+          "meaning": "顯現、出現"
+        },
+        {
+          "char": "赤",
+          "jyutping": "cek3",
+          "meaning": "紅色"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "全部、都"
+        }
+      ]
+    },
+    {
+      "original": "十二瘧者，其發各不同時，察其病形，以知其何脈之病也。",
+      "baihua": "以上十二種瘧疾,它們發作的時間各不相同,要仔細觀察病的形態表現,從而判斷是哪一條經脈的病變。",
+      "annotations": [
+        {
+          "char": "察",
+          "jyutping": "caat3",
+          "meaning": "審察、細看"
+        },
+        {
+          "char": "形",
+          "jyutping": "jing4",
+          "meaning": "形態、表現"
+        },
+        {
+          "char": "何",
+          "jyutping": "ho4",
+          "meaning": "哪一、甚麼"
+        },
+        {
+          "char": "發",
+          "jyutping": "faat3",
+          "meaning": "發作"
+        }
+      ]
+    },
+    {
+      "original": "先其發時如食頃而刺之，一刺則衰，二刺則知，三刺則已，不已刺舌下兩脈出血，不已刺郄中盛經出血，又刺項以下俠脊者必已。",
+      "baihua": "在發作前大約一頓飯的時間就針刺,刺一次病勢就衰退,刺兩次症狀就明顯減輕,刺三次就痊癒;若還不好,就針刺舌下的兩條脈放血;若仍不好,就針刺委中(郄中)充盛的經脈放血;再針刺項部以下夾脊兩旁的穴位,必定痊癒。",
+      "annotations": [
+        {
+          "char": "衰",
+          "jyutping": "seoi1",
+          "meaning": "衰退、減弱"
+        },
+        {
+          "char": "知",
+          "jyutping": "zi1",
+          "meaning": "見效、有明顯反應"
+        },
+        {
+          "char": "俠",
+          "jyutping": "haap6",
+          "meaning": "同「夾」,夾在兩旁"
+        },
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "充盈、旺盛"
+        }
+      ]
+    },
+    {
+      "original": "舌下兩脈者，廉泉也。",
+      "baihua": "所說的舌下兩條脈,就是廉泉穴。",
+      "annotations": [
+        {
+          "char": "廉泉",
+          "jyutping": "lim4 cyun4",
+          "meaning": "穴位名,在頸前喉結上方"
+        },
+        {
+          "char": "者",
+          "jyutping": "ze2",
+          "meaning": "……的(用於解釋)"
+        }
+      ]
+    },
+    {
+      "original": "刺瘧者，必先問其病之所先發者，先刺之。",
+      "baihua": "用針刺治療瘧疾,一定要先詢問病人的症狀最先從哪裏發作,就先針刺那個部位。",
+      "annotations": [
+        {
+          "char": "必",
+          "jyutping": "bit1",
+          "meaning": "一定、必須"
+        },
+        {
+          "char": "問",
+          "jyutping": "man6",
+          "meaning": "詢問"
+        },
+        {
+          "char": "所",
+          "jyutping": "so2",
+          "meaning": "……的地方"
+        }
+      ]
+    },
+    {
+      "original": "先頭痛及重者，先刺頭上及兩額兩眉間出血。",
+      "baihua": "如果最先出現頭痛和頭部沉重,就先針刺頭頂以及兩側額角、兩眉之間放血。",
+      "annotations": [
+        {
+          "char": "及",
+          "jyutping": "kap6",
+          "meaning": "以及、和"
+        },
+        {
+          "char": "重",
+          "jyutping": "cung5",
+          "meaning": "沉重"
+        },
+        {
+          "char": "額",
+          "jyutping": "ngaak6",
+          "meaning": "額頭"
+        },
+        {
+          "char": "眉",
+          "jyutping": "mei4",
+          "meaning": "眉毛"
+        }
+      ]
+    },
+    {
+      "original": "先項背痛者，先刺之。",
+      "baihua": "如果最先出現頸項和背部疼痛,就先針刺這些部位。",
+      "annotations": [
+        {
+          "char": "項",
+          "jyutping": "hong6",
+          "meaning": "頸的後部"
+        },
+        {
+          "char": "背",
+          "jyutping": "bui3",
+          "meaning": "背部"
+        }
+      ]
+    },
+    {
+      "original": "先腰脊痛者，先刺郄中出血。",
+      "baihua": "如果最先出現腰部和脊背疼痛,就先針刺委中穴(郄中)放血。",
+      "annotations": [
+        {
+          "char": "腰",
+          "jyutping": "jiu1",
+          "meaning": "腰部"
+        },
+        {
+          "char": "脊",
+          "jyutping": "zek3",
+          "meaning": "脊背"
+        },
+        {
+          "char": "郄",
+          "jyutping": "kwik1",
+          "meaning": "指委中穴"
+        }
+      ]
+    },
+    {
+      "original": "先手臂痛者，先刺手少陰陽明十指間。",
+      "baihua": "如果最先出現手臂疼痛,就先針刺手少陰經、手陽明經以及十指之間的穴位。",
+      "annotations": [
+        {
+          "char": "臂",
+          "jyutping": "bei3",
+          "meaning": "手臂、上肢"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan1",
+          "meaning": "中間、之間"
+        }
+      ]
+    },
+    {
+      "original": "先足脛痠痛者，先刺足陽明十指間出血。",
+      "baihua": "如果最先出現足部和小腿痠痛,就先針刺足陽明經以及十趾之間的穴位放血。",
+      "annotations": [
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "痠",
+          "jyutping": "syun1",
+          "meaning": "痠軟疼痛"
+        },
+        {
+          "char": "足",
+          "jyutping": "zuk1",
+          "meaning": "腳"
+        }
+      ]
+    },
+    {
+      "original": "風瘧，瘧發則汗出惡風，刺三陽經背俞之血者。",
+      "baihua": "風瘧這種病,瘧疾發作時就出汗並且怕風,應針刺三陽經在背部腧穴的充血絡脈放血。",
+      "annotations": [
+        {
+          "char": "惡風",
+          "jyutping": "wu3 fung1",
+          "meaning": "怕風"
+        },
+        {
+          "char": "俞",
+          "jyutping": "syu1",
+          "meaning": "腧穴"
+        },
+        {
+          "char": "則",
+          "jyutping": "zak1",
+          "meaning": "就、便"
+        }
+      ]
+    },
+    {
+      "original": "䯒痠痛甚，按之不可，名曰胕髓病，以鑱針針絕骨出血，立已。",
+      "baihua": "小腿骨痠痛得厲害,按壓時痛得不能觸碰,這叫做胕髓病,用鑱針針刺絕骨穴放血,病就立刻痊癒。",
+      "annotations": [
+        {
+          "char": "䯒",
+          "jyutping": "hang6",
+          "meaning": "小腿脛骨"
+        },
+        {
+          "char": "胕",
+          "jyutping": "fu1",
+          "meaning": "同「膚」,或指深部;胕髓病即深及骨髓之病"
+        },
+        {
+          "char": "鑱",
+          "jyutping": "caam4",
+          "meaning": "鑱針,九針之一,頭大末銳"
+        },
+        {
+          "char": "絕骨",
+          "jyutping": "zyut6 gwat1",
+          "meaning": "穴位名,即懸鐘穴"
+        }
+      ]
+    },
+    {
+      "original": "身體小痛，刺至陰。",
+      "baihua": "如果身體有輕微的疼痛,就針刺至陰穴。",
+      "annotations": [
+        {
+          "char": "小",
+          "jyutping": "siu2",
+          "meaning": "輕微、稍微"
+        },
+        {
+          "char": "至陰",
+          "jyutping": "zi3 jam1",
+          "meaning": "穴位名,在足小趾外側端"
+        }
+      ]
+    },
+    {
+      "original": "諸陰之井無出血，間日一刺。",
+      "baihua": "各條陰經的井穴不要放血,可以隔一天針刺一次。",
+      "annotations": [
+        {
+          "char": "諸",
+          "jyutping": "zyu1",
+          "meaning": "各、眾"
+        },
+        {
+          "char": "井",
+          "jyutping": "zing2",
+          "meaning": "井穴"
+        },
+        {
+          "char": "間日",
+          "jyutping": "gaan3 jat6",
+          "meaning": "隔一天"
+        },
+        {
+          "char": "無",
+          "jyutping": "mou4",
+          "meaning": "不要、不可"
+        }
+      ]
+    },
+    {
+      "original": "瘧不渴，間日而作，刺足太陽。",
+      "baihua": "瘧疾如果不口渴,而且隔一天發作一次,就針刺足太陽經的穴位。",
+      "annotations": [
+        {
+          "char": "渴",
+          "jyutping": "hot3",
+          "meaning": "口渴"
+        },
+        {
+          "char": "作",
+          "jyutping": "zok3",
+          "meaning": "發作"
+        },
+        {
+          "char": "間日",
+          "jyutping": "gaan3 jat6",
+          "meaning": "隔一天"
+        }
+      ]
+    },
+    {
+      "original": "渴而間日作，刺足少陽。",
+      "baihua": "如果口渴而且隔一天發作一次,就針刺足少陽經的穴位。",
+      "annotations": [
+        {
+          "char": "渴",
+          "jyutping": "hot3",
+          "meaning": "口渴"
+        },
+        {
+          "char": "而",
+          "jyutping": "ji4",
+          "meaning": "而且、並且"
+        }
+      ]
+    },
+    {
+      "original": "溫瘧汗不出，為五十九刺。",
+      "baihua": "溫瘧如果不出汗,就採用治療熱病的五十九個穴位的針刺法來治療。",
+      "annotations": [
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫瘧,一種先熱後寒的瘧疾"
+        },
+        {
+          "char": "為",
+          "jyutping": "wai4",
+          "meaning": "施行、採用"
+        },
+        {
+          "char": "五十九刺",
+          "jyutping": "ng5 sap6 gau2 ci3",
+          "meaning": "治療熱病的五十九個腧穴的針法"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "治療瘧疾為甚麼要在發作之前針刺?最佳時機是甚麼時候?",
+      "answer": "因為在瘧疾發作之前,邪氣尚未大盛,此時針刺能截斷病勢、療效最好。最佳時機是發作前大約「一頓飯的時間」(如食頃),若錯過這個時機就會失去良機。"
+    },
+    {
+      "question": "本篇是如何對瘧疾進行分類辨治的?",
+      "answer": "本篇先按六經(足太陽、足少陽、足陽明、足太陰、足少陰、足厥陰)描述各經瘧疾的症狀與刺法,再按五臟加胃(肺、心、肝、脾、腎、胃)分述臟腑瘧的表現與治療,合為十二瘧,依症狀判斷是哪一經脈的病變而選穴施治。"
+    },
+    {
+      "question": "根據瘧脈的不同表現,應如何選擇治療方法?",
+      "answer": "脈滿大者,急刺背俞放血;脈小實者,急灸脛部足少陰、刺趾端井穴;脈緩大而虛者,則適宜用藥物調治,不宜用針。說明要根據脈象的虛實來決定針、灸、藥的取捨。"
+    },
+    {
+      "question": "刺瘧時「必先問其病之所先發者,先刺之」是甚麼意思?",
+      "answer": "意思是針刺治療瘧疾時,必須先詢問病人的症狀最初從哪個部位發作,就先針刺那個部位。例如先頭痛則刺頭部及額眉間放血,先腰脊痛則刺委中放血,體現辨明病位先後、對症取穴的原則。"
+    },
+    {
+      "question": "「瘧發身方熱」時應如何處理?其原理是甚麼?",
+      "answer": "瘧疾發作、身體正在發熱時,應針刺足背上的動脈(衝陽脈),打開孔穴放出瘀血,身熱便立刻退去。原理是通過放血瀉去亢盛的陽熱之邪,使熱勢即刻消退。"
+    }
+  ]
+}

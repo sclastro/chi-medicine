@@ -1,0 +1,708 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "陰陽類論",
+    "number": 79,
+    "originalVerified": true,
+    "sections": 31,
+    "usage": {
+      "completion_tokens": 9054,
+      "prompt_tokens": 1787,
+      "total_tokens": 10841,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T09:39:24.147Z"
+  },
+  "id": "suwen-79",
+  "intro": "本篇名為《陰陽類論》,是《素問》中專門論述陰陽分類與經脈規律的重要篇章。全篇以黃帝與雷公問答的形式展開,首先討論五臟中何者最為尊貴,進而闡明三陽(太陽、陽明、少陽)與三陰(太陰、少陰、厥陰)在經脈系統中的不同地位與作用,並說明如何透過切按手太陰寸口脈來辨別各經脈氣的盛衰虛實。篇中更深入分析各種陰陽經脈相互交合所引起的病證及其表現,最後論及依據四季不同時令來推斷疾病預後與死期的方法。對初學者而言,本篇有助於理解中醫「陰陽」不是空泛的概念,而是與具體經脈、臟腑、脈象及時令緊密結合的診斷體系,是學習中醫辨證思維與脈診理論的重要基礎。",
+  "sections": [
+    {
+      "original": "孟春始至，黃帝燕坐，臨觀八極，正八風之氣，而問雷公曰：陰陽之類，經脈之道，五中所主，何藏最貴？",
+      "baihua": "初春時節剛剛到來,黃帝安閒地坐著,居高遠望四方八極,校正八方來風的氣候,於是問雷公說:關於陰陽的分類、經脈的道理、以及五臟各自所主管的功能,哪一個臟器最為尊貴呢?",
+      "annotations": [
+        {
+          "char": "孟",
+          "jyutping": "maang6",
+          "meaning": "季節之首,孟春即初春正月"
+        },
+        {
+          "char": "燕",
+          "jyutping": "jin3",
+          "meaning": "安閒、閒適地"
+        },
+        {
+          "char": "臨",
+          "jyutping": "lam4",
+          "meaning": "居高處往下觀看"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "同「臟」,指五臟"
+        }
+      ]
+    },
+    {
+      "original": "雷公對曰：春甲乙青，中主肝，治七十二日，是脈之主時，臣以其藏最貴。",
+      "baihua": "雷公回答說:春季屬於甲乙,顏色為青,體內主管的是肝,主治七十二日,這是肝脈當令主事的時節,我認為肝臟最為尊貴。",
+      "annotations": [
+        {
+          "char": "甲乙",
+          "jyutping": "gaap3 jyut3",
+          "meaning": "天干中屬木,配屬春季與肝"
+        },
+        {
+          "char": "治",
+          "jyutping": "zi6",
+          "meaning": "主管、當令主事"
+        },
+        {
+          "char": "臣",
+          "jyutping": "san4",
+          "meaning": "臣下自稱,此為雷公自稱"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：卻念上下經陰陽從容，子所言貴，最其下也。",
+      "baihua": "黃帝說:你回去仔細研讀上下經中關於陰陽從容的道理,你所說的尊貴,其實是最下等的見解啊。",
+      "annotations": [
+        {
+          "char": "卻",
+          "jyutping": "koek3",
+          "meaning": "退回去、再"
+        },
+        {
+          "char": "從容",
+          "jyutping": "cung4 jung4",
+          "meaning": "古醫經篇名,亦指從容細審之法"
+        },
+        {
+          "char": "子",
+          "jyutping": "zi2",
+          "meaning": "對人的敬稱,指你"
+        }
+      ]
+    },
+    {
+      "original": "雷公致齋七日，旦復侍坐。",
+      "baihua": "雷公於是齋戒沐浴七天,清晨再次前來侍坐在黃帝身旁。",
+      "annotations": [
+        {
+          "char": "致齋",
+          "jyutping": "zi3 zaai1",
+          "meaning": "行齋戒之禮,以示虔敬"
+        },
+        {
+          "char": "旦",
+          "jyutping": "daan3",
+          "meaning": "早晨、清晨"
+        },
+        {
+          "char": "侍",
+          "jyutping": "si6",
+          "meaning": "在旁陪侍"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：三陽為經，二陽為維，一陽為遊部，此知五藏終始。",
+      "baihua": "黃帝說:三陽(太陽)是主幹經脈,二陽(陽明)是維繫之脈,一陽(少陽)是遊動的部分,由此可以了解五臟氣血的起始與終結。",
+      "annotations": [
+        {
+          "char": "維",
+          "jyutping": "wai4",
+          "meaning": "維繫、聯絡"
+        },
+        {
+          "char": "遊部",
+          "jyutping": "jau4 bou6",
+          "meaning": "遊行流動的部位"
+        },
+        {
+          "char": "終始",
+          "jyutping": "zung1 ci2",
+          "meaning": "終結與開始,指氣血運行"
+        }
+      ]
+    },
+    {
+      "original": "三陰為表，二陰為里，一陰至絕作朔晦，卻具合以正其理。",
+      "baihua": "三陰(太陰)為表,二陰(少陰)為裏,一陰(厥陰)之氣至於終絕,如同月初的朔和月末的晦相交替,要把這些都合起來研究,才能正確理解其中的道理。",
+      "annotations": [
+        {
+          "char": "朔",
+          "jyutping": "sok3",
+          "meaning": "農曆每月初一"
+        },
+        {
+          "char": "晦",
+          "jyutping": "fui3",
+          "meaning": "農曆每月最後一日"
+        },
+        {
+          "char": "具",
+          "jyutping": "geoi6",
+          "meaning": "全部、都"
+        }
+      ]
+    },
+    {
+      "original": "雷公曰：受業未能明。",
+      "baihua": "雷公說:我接受了教導,但還未能完全明白。",
+      "annotations": [
+        {
+          "char": "受業",
+          "jyutping": "sau6 jip6",
+          "meaning": "接受教誨、承受學業"
+        },
+        {
+          "char": "明",
+          "jyutping": "ming4",
+          "meaning": "明白、通曉"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：所謂三陽者，太陽為經，三陽脈至手太陰，弦浮而不沉，決以度，察以心，合之陰陽之論。",
+      "baihua": "黃帝說:所謂三陽,就是太陽為主幹經脈,三陽的脈氣到達手太陰寸口部位時,呈現弦浮而不沉的脈象,要用一定的法度去判斷,用心去體察,並結合陰陽的理論來分析。",
+      "annotations": [
+        {
+          "char": "弦",
+          "jyutping": "jin4",
+          "meaning": "脈象名,如按琴弦般端直而長"
+        },
+        {
+          "char": "決",
+          "jyutping": "kyut3",
+          "meaning": "判斷、決斷"
+        },
+        {
+          "char": "度",
+          "jyutping": "dou6",
+          "meaning": "法度、標準"
+        }
+      ]
+    },
+    {
+      "original": "所謂二陽者，陽明也，至手太陰，弦而沉急不鼓，炅至以病皆死。",
+      "baihua": "所謂二陽,就是陽明,其脈氣到達手太陰寸口部位,呈現弦而沉、急而不鼓動的脈象,若再出現熱邪加重的病變,就多為死證。",
+      "annotations": [
+        {
+          "char": "沉",
+          "jyutping": "cam4",
+          "meaning": "脈象沉伏,重按才得"
+        },
+        {
+          "char": "鼓",
+          "jyutping": "gu2",
+          "meaning": "脈搏鼓動有力"
+        },
+        {
+          "char": "炅",
+          "jyutping": "gwing2",
+          "meaning": "熱、發熱"
+        }
+      ]
+    },
+    {
+      "original": "一陽者，少陽也，至手太陰，上連人迎，弦急懸不絕，此少陽之病也，專陰則死。",
+      "baihua": "一陽,就是少陽,其脈氣到達手太陰寸口部位,向上連及人迎脈,呈現弦急懸而不斷絕的脈象,這是少陽的病證;若脈象純見陰而無陽,就是死證。",
+      "annotations": [
+        {
+          "char": "人迎",
+          "jyutping": "jan4 jing4",
+          "meaning": "頸部動脈搏動處,古脈診部位"
+        },
+        {
+          "char": "懸",
+          "jyutping": "jyun4",
+          "meaning": "如懸垂般細而繃緊"
+        },
+        {
+          "char": "專",
+          "jyutping": "zyun1",
+          "meaning": "純、獨"
+        }
+      ]
+    },
+    {
+      "original": "三陰者，六經之所主也，交於太陰，伏鼓不浮，上空志心。",
+      "baihua": "三陰,是六經所主的根本,其脈氣交會於手太陰,脈象沉伏而鼓動卻不浮起,向上可使人心神空虛。",
+      "annotations": [
+        {
+          "char": "伏",
+          "jyutping": "fuk6",
+          "meaning": "脈沉伏於深處"
+        },
+        {
+          "char": "空",
+          "jyutping": "hung1",
+          "meaning": "空虛"
+        },
+        {
+          "char": "志",
+          "jyutping": "zi3",
+          "meaning": "神志、心志"
+        }
+      ]
+    },
+    {
+      "original": "二陰至肺，其氣歸膀胱，外連脾胃。",
+      "baihua": "二陰(少陰)的脈氣到達肺,其氣下歸於膀胱,在外則連繫脾胃。",
+      "annotations": [
+        {
+          "char": "歸",
+          "jyutping": "gwai1",
+          "meaning": "歸屬、歸向"
+        },
+        {
+          "char": "膀胱",
+          "jyutping": "pong4 gwong1",
+          "meaning": "六腑之一,主藏津液"
+        },
+        {
+          "char": "連",
+          "jyutping": "lin4",
+          "meaning": "連繫、相連"
+        }
+      ]
+    },
+    {
+      "original": "一陰獨至，經絕，氣浮不鼓，鉤而滑。",
+      "baihua": "一陰(厥陰)之氣獨自到達,經脈之氣衰絕,脈氣浮而不鼓動,呈現如鉤而滑利的脈象。",
+      "annotations": [
+        {
+          "char": "獨",
+          "jyutping": "duk6",
+          "meaning": "單獨、孤立"
+        },
+        {
+          "char": "鉤",
+          "jyutping": "ngau1",
+          "meaning": "脈象名,來盛去衰如鉤"
+        },
+        {
+          "char": "滑",
+          "jyutping": "waat6",
+          "meaning": "脈象名,往來流利如珠"
+        }
+      ]
+    },
+    {
+      "original": "此六脈者，乍陰乍陽，交屬相併，繆通五藏，合於陰陽，先至為主，後至為客。",
+      "baihua": "這六種脈象,時而屬陰時而屬陽,相互交合連屬併合,錯綜地貫通於五臟,合於陰陽的規律;先到達的為主脈,後到達的為客脈。",
+      "annotations": [
+        {
+          "char": "乍",
+          "jyutping": "zaa3",
+          "meaning": "忽然、時而"
+        },
+        {
+          "char": "併",
+          "jyutping": "bing3",
+          "meaning": "合併、併合"
+        },
+        {
+          "char": "繆",
+          "jyutping": "mau6",
+          "meaning": "交錯、錯雜"
+        }
+      ]
+    },
+    {
+      "original": "雷公曰：臣悉盡意，受傳經脈，頌得從容之道，以合《從容》，不知陰陽，不知雌雄。",
+      "baihua": "雷公說:我已盡力領會,接受了經脈的傳授,誦習領會了從容之法,用以參合《從容》一書,但仍不明白陰陽的分別,也不明白雌雄的區分。",
+      "annotations": [
+        {
+          "char": "悉",
+          "jyutping": "sik1",
+          "meaning": "詳盡、全部"
+        },
+        {
+          "char": "頌",
+          "jyutping": "zung6",
+          "meaning": "同「誦」,誦習"
+        },
+        {
+          "char": "雌雄",
+          "jyutping": "ci1 hung4",
+          "meaning": "陰陽的比喻,分別剛柔"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：三陽為父，二陽為衛，一陽為紀。三陰為母，二陰為雌，一陰為獨使。",
+      "baihua": "黃帝說:三陽如父,二陽為護衛,一陽為綱紀;三陰如母,二陰為雌,一陰為獨行的使者。",
+      "annotations": [
+        {
+          "char": "衛",
+          "jyutping": "wai6",
+          "meaning": "護衛、保衛"
+        },
+        {
+          "char": "紀",
+          "jyutping": "gei2",
+          "meaning": "綱紀、統領"
+        },
+        {
+          "char": "使",
+          "jyutping": "si3",
+          "meaning": "使者、差遣"
+        }
+      ]
+    },
+    {
+      "original": "二陽一陰，陽明主病，不勝一陰，脈耎而動，九竅皆沉。",
+      "baihua": "二陽與一陰同病時,由陽明主導病變,陽明不能勝過一陰,脈象柔軟而躁動,九竅的功能都沉滯不利。",
+      "annotations": [
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "勝過、克制"
+        },
+        {
+          "char": "耎",
+          "jyutping": "jyun5",
+          "meaning": "同「軟」,柔軟"
+        },
+        {
+          "char": "九竅",
+          "jyutping": "gau2 hiu3",
+          "meaning": "人體九個孔竅"
+        }
+      ]
+    },
+    {
+      "original": "三陽一陰，太陽脈勝，一陰不能止，內亂五藏，外為驚駭。",
+      "baihua": "三陽與一陰同病時,太陽脈氣偏勝,一陰不能加以制止,在內擾亂五臟,在外則出現驚恐駭懼的症狀。",
+      "annotations": [
+        {
+          "char": "止",
+          "jyutping": "zi2",
+          "meaning": "制止、抑制"
+        },
+        {
+          "char": "亂",
+          "jyutping": "lyun6",
+          "meaning": "擾亂、紛亂"
+        },
+        {
+          "char": "駭",
+          "jyutping": "haai5",
+          "meaning": "驚恐、害怕"
+        }
+      ]
+    },
+    {
+      "original": "二陰二陽，病在肺，少陰脈沉，勝肺傷脾，外傷四肢。",
+      "baihua": "二陰與二陽同病時,病在肺,少陰脈沉,克勝肺又傷及脾,在外則損傷四肢。",
+      "annotations": [
+        {
+          "char": "肺",
+          "jyutping": "fai3",
+          "meaning": "五臟之一,主氣司呼吸"
+        },
+        {
+          "char": "脾",
+          "jyutping": "pei4",
+          "meaning": "五臟之一,主運化"
+        },
+        {
+          "char": "四肢",
+          "jyutping": "sei3 zi1",
+          "meaning": "兩手兩足"
+        }
+      ]
+    },
+    {
+      "original": "二陰二陽皆交至，病在腎，罵詈妄行，巔疾為狂。",
+      "baihua": "二陰與二陽的脈氣都交會到達時,病在腎,病人會罵人妄動亂走,發為頭部疾患而成癲狂。",
+      "annotations": [
+        {
+          "char": "腎",
+          "jyutping": "san5",
+          "meaning": "五臟之一,主藏精"
+        },
+        {
+          "char": "罵詈",
+          "jyutping": "maa6 lei6",
+          "meaning": "叱罵、辱罵"
+        },
+        {
+          "char": "巔",
+          "jyutping": "din1",
+          "meaning": "頭頂、頭部"
+        },
+        {
+          "char": "狂",
+          "jyutping": "kwong4",
+          "meaning": "狂亂、精神錯亂"
+        }
+      ]
+    },
+    {
+      "original": "二陰一陽，病出於腎，陰氣客遊於心，脘下空竅，堤閉塞不通，四肢別離。",
+      "baihua": "二陰與一陽同病時,病源出於腎,陰氣客居遊走於心,胃脘以下的孔竅空虛,如堤壩般閉塞不通,四肢像脫離軀體一樣不能活動。",
+      "annotations": [
+        {
+          "char": "脘",
+          "jyutping": "wun2",
+          "meaning": "胃腔、胃脘部位"
+        },
+        {
+          "char": "堤",
+          "jyutping": "tai4",
+          "meaning": "堤壩,喻閉塞阻擋"
+        },
+        {
+          "char": "別離",
+          "jyutping": "bit6 lei4",
+          "meaning": "分離、脫離"
+        }
+      ]
+    },
+    {
+      "original": "一陰一陽代絕，此陰氣至心，上下無常，出入不知，喉咽乾燥，病在土脾。",
+      "baihua": "一陰與一陽脈氣更替斷絕時,是陰氣上侵於心,病情上下不定,對氣血出入毫無知覺,咽喉乾燥,病在屬土的脾。",
+      "annotations": [
+        {
+          "char": "代",
+          "jyutping": "doi6",
+          "meaning": "脈象名,脈來更代、間歇"
+        },
+        {
+          "char": "常",
+          "jyutping": "soeng4",
+          "meaning": "常規、定準"
+        },
+        {
+          "char": "咽",
+          "jyutping": "jin4",
+          "meaning": "咽喉"
+        }
+      ]
+    },
+    {
+      "original": "二陽三陰，至陰皆在，陰不過陽，陽氣不能止陰，陰陽並絕，浮為血瘕，沉為膿胕。",
+      "baihua": "二陽與三陰同病時,至陰之氣都存在,陰氣不能超過陽氣,陽氣也不能制止陰氣,陰陽之氣一併衰絕;脈浮的形成血瘕,脈沉的形成膿腫。",
+      "annotations": [
+        {
+          "char": "瘕",
+          "jyutping": "gaa2",
+          "meaning": "腹中結塊、聚散無常之病"
+        },
+        {
+          "char": "膿",
+          "jyutping": "nung4",
+          "meaning": "瘡瘍化膿"
+        },
+        {
+          "char": "胕",
+          "jyutping": "fu1",
+          "meaning": "同「腐」,腐腫、膿腫"
+        }
+      ]
+    },
+    {
+      "original": "陰陽皆壯，下至陰陽，上合昭昭，下合冥冥，診決死生之期，遂合歲首。",
+      "baihua": "陰陽之氣都盛壯,下達於陰陽二氣,上與明朗的天象相合,下與幽深的地理相應,由此可診斷判定生死的期限,並要參合每年開始的時令。",
+      "annotations": [
+        {
+          "char": "壯",
+          "jyutping": "zong3",
+          "meaning": "強盛、旺盛"
+        },
+        {
+          "char": "昭昭",
+          "jyutping": "ciu1 ciu1",
+          "meaning": "明亮清朗,喻天象"
+        },
+        {
+          "char": "冥冥",
+          "jyutping": "ming4 ming4",
+          "meaning": "幽暗深遠,喻地理"
+        },
+        {
+          "char": "歲首",
+          "jyutping": "seoi3 sau2",
+          "meaning": "一年之始,即正月"
+        }
+      ]
+    },
+    {
+      "original": "雷公曰：請問短期。黃帝不應。雷公復問。黃帝曰。在經論中。",
+      "baihua": "雷公說:請問死期臨近之事。黃帝沒有回應。雷公再次詢問。黃帝說:這在經論之中已有記載。",
+      "annotations": [
+        {
+          "char": "短期",
+          "jyutping": "dyun2 kei4",
+          "meaning": "死期臨近、預後不良之期"
+        },
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "回應、答覆"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "再、又"
+        }
+      ]
+    },
+    {
+      "original": "雷公曰：請聞短期。黃帝曰：冬三月之病，病合於陽者，至春正月脈有死徵，皆歸出春。",
+      "baihua": "雷公說:請讓我聽聞死期的道理。黃帝說:冬季三個月的病,若病與陽氣相合,到了春季正月脈象出現死亡徵象,大多都在春天發病死亡。",
+      "annotations": [
+        {
+          "char": "聞",
+          "jyutping": "man4",
+          "meaning": "聽聞、聽取"
+        },
+        {
+          "char": "徵",
+          "jyutping": "zing1",
+          "meaning": "徵象、跡象"
+        },
+        {
+          "char": "歸",
+          "jyutping": "gwai1",
+          "meaning": "終歸、歸結"
+        }
+      ]
+    },
+    {
+      "original": "冬三月之病，在理已盡，草與柳葉皆殺，春陰陽皆絕，期在孟春。",
+      "baihua": "冬季三個月的病,若病理已到盡頭,到了草木與柳葉都凋殺之時,春季陰陽之氣都衰絕,死期就在初春正月。",
+      "annotations": [
+        {
+          "char": "理",
+          "jyutping": "lei5",
+          "meaning": "腠理、病理"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "終盡、耗竭"
+        },
+        {
+          "char": "殺",
+          "jyutping": "saat3",
+          "meaning": "凋殺、枯萎"
+        }
+      ]
+    },
+    {
+      "original": "春三月之病，曰陽殺，陰陽皆絕，期在草乾。",
+      "baihua": "春季三個月的病,叫做陽殺,若陰陽之氣都衰絕,死期就在草木枯乾之時。",
+      "annotations": [
+        {
+          "char": "曰",
+          "jyutping": "joek6",
+          "meaning": "叫做、稱為"
+        },
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "斷絕、衰竭"
+        },
+        {
+          "char": "乾",
+          "jyutping": "gon1",
+          "meaning": "乾枯、枯萎"
+        }
+      ]
+    },
+    {
+      "original": "夏三月之病，至陰不過十日，陰陽交，期在溓水。",
+      "baihua": "夏季三個月的病,若至陰之氣衰竭則不超過十日;若陰陽相交錯亂,死期就在秋季水氣清冷之時。",
+      "annotations": [
+        {
+          "char": "交",
+          "jyutping": "gaau1",
+          "meaning": "交錯、交併"
+        },
+        {
+          "char": "溓",
+          "jyutping": "lim4",
+          "meaning": "水清冷平靜貌,指秋季"
+        },
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "超過、越過"
+        }
+      ]
+    },
+    {
+      "original": "秋三月之病，三陽俱起，不治自已。",
+      "baihua": "秋季三個月的病,若三陽之氣都振奮而起,不需治療也會自行痊癒。",
+      "annotations": [
+        {
+          "char": "俱",
+          "jyutping": "keoi1",
+          "meaning": "都、全部"
+        },
+        {
+          "char": "起",
+          "jyutping": "hei2",
+          "meaning": "振奮、興起"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "痊癒、停止"
+        }
+      ]
+    },
+    {
+      "original": "陰陽交合者，立不能坐，坐不能起。三陽獨至，期在石水。二陰獨至，期在盛水。",
+      "baihua": "若陰陽交錯併合,病人站著不能坐下,坐著不能起身;若三陽之氣獨自偏盛而至,死期就在水結成冰之時;若二陰之氣獨自偏盛而至,死期就在雨水節氣冰雪融化水盛之時。",
+      "annotations": [
+        {
+          "char": "立",
+          "jyutping": "laap6",
+          "meaning": "站立"
+        },
+        {
+          "char": "石水",
+          "jyutping": "sek6 seoi2",
+          "meaning": "水凝結成冰,指冬季"
+        },
+        {
+          "char": "盛水",
+          "jyutping": "sing6 seoi2",
+          "meaning": "水盛之時,指雨水節氣"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "篇首雷公認為五臟中肝最尊貴,理由是甚麼?黃帝如何評價這個回答?",
+      "answer": "雷公認為春季屬甲乙、色青、內主肝,肝主治七十二日,是脈當令主事之時,故肝臟最貴。黃帝並不認同,指出這種見解其實是最下等的,要求雷公回去研讀上下經中陰陽從容的道理。"
+    },
+    {
+      "question": "文中「三陽」「二陽」「一陽」分別指哪三條經脈?",
+      "answer": "三陽指太陽,二陽指陽明,一陽指少陽。文中說三陽為經(主幹),二陽為維(維繫),一陽為遊部(遊行流動的部分)。"
+    },
+    {
+      "question": "本篇診脈時所說的「至手太陰」是指甚麼部位?",
+      "answer": "指手太陰肺經的寸口脈部位,即腕部橈動脈搏動處。各經脈之氣都可反映於此,故通過切按手太陰寸口,並結合人迎等處,來辨別三陽三陰脈氣的盛衰與病證。"
+    },
+    {
+      "question": "「先至為主,後至為客」是甚麼意思?",
+      "answer": "指六脈時陰時陽、交屬相併、錯綜貫通五臟時,先到達的脈氣為主脈(代表本經、本病),後到達的脈氣為客脈(代表他經、兼夾)。這是判別病之主次的方法。"
+    },
+    {
+      "question": "本篇論述四季發病與死期時,舉了哪些例子說明預後判斷?",
+      "answer": "如冬三月病合於陽,到春正月脈見死徵多在春天死亡;春三月病名陽殺,陰陽俱絕則死於草乾之時;夏三月病至陰衰竭不過十日;秋三月病若三陽俱起則不治自癒。此外三陽獨至死於石水(結冰)之時,二陰獨至死於盛水(雨水)之時,說明判斷死期須參合四時時令。"
+    }
+  ]
+}

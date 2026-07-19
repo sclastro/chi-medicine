@@ -1,0 +1,1019 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "通評虛實論",
+    "number": 28,
+    "originalVerified": true,
+    "sections": 37,
+    "usage": {
+      "completion_tokens": 14515,
+      "prompt_tokens": 2329,
+      "total_tokens": 16844,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:02:52.835Z"
+  },
+  "id": "suwen-28",
+  "intro": "《通評虛實論》是《素問》第二十八篇,主旨在於全面(通)論述人體疾病的「虛」與「實」兩大綱領。開篇即提出「邪氣盛則實,精氣奪則虛」這一中醫辨證的根本原則:凡邪氣亢盛的屬實證,凡正氣被耗損的屬虛證。全篇透過黃帝與岐伯的問答,由淺入深地討論重實、重虛、經絡虛實的各種脈象變化,並結合四時陰陽判斷病情的順逆生死。後半部分則列舉腸澼(痢疾)、癲疾、消癉(消渴)、癰疽、霍亂等多種具體病證的診斷要點與針刺治療部位,並歸納出富貴肥甘、情志暴憂、風寒濕邪等致病因素。對初學者而言,本篇是理解中醫「虛實辨證」思維和「因時制宜、辨脈定順逆」臨床原則的重要入門篇章,學習價值極高。",
+  "sections": [
+    {
+      "original": "黃帝問曰：何謂虛實？岐伯對曰：邪氣盛則實，精氣奪則虛。",
+      "baihua": "黃帝問道:什麼叫做虛和實呢?岐伯回答說:凡是邪氣亢盛的,就屬於實證;凡是人體正氣(精氣)被耗損奪走的,就屬於虛證。",
+      "annotations": [
+        {
+          "char": "邪",
+          "jyutping": "ce4",
+          "meaning": "致病的邪氣"
+        },
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "旺盛、亢盛"
+        },
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "耗損、奪去"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "正氣不足"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：虛實何如？岐伯曰：氣虛者肺虛也，氣逆者足寒也，非其時則生，當其時則死。餘藏皆如此。",
+      "baihua": "黃帝問:虛實的表現是怎樣的?岐伯說:氣虛的病人是肺氣虛弱;氣機上逆的病人會出現足部寒冷。這種病若發生在與病臟不相剋(不當令)的時節就能生存,若正逢與病臟相剋(當令)的時節就會死亡。其餘各臟的情況也都是這樣。",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "氣機上逆、不順"
+        },
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "當",
+          "jyutping": "dong1",
+          "meaning": "正逢、當令"
+        },
+        {
+          "char": "餘",
+          "jyutping": "jyu4",
+          "meaning": "其餘、剩下的"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟,指五臟"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何謂重實？岐伯曰：所謂重實者，言大熱病，氣熱脈滿，是謂重實。",
+      "baihua": "黃帝問:什麼叫做重實呢?岐伯說:所謂重實,是指患了大熱病的人,既有邪氣熾熱,脈象又充實有力,這就叫做重實(實而又實)。",
+      "annotations": [
+        {
+          "char": "重",
+          "jyutping": "cung4",
+          "meaning": "重複、加重"
+        },
+        {
+          "char": "謂",
+          "jyutping": "wai6",
+          "meaning": "叫做、稱為"
+        },
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "邪熱、發熱"
+        },
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "脈象充盈滿實"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：經絡俱實何如？何以治之？岐伯曰：經絡皆實，是寸脈急而尺緩也，皆當治之，故曰滑則從，澀則逆也。",
+      "baihua": "黃帝問:經和絡都屬實證是怎樣的?應該怎樣治療?岐伯說:經絡都實的病人,表現為寸部脈搏急而尺部脈搏緩(此指邪盛),都應當及時治療。所以說,脈象滑利的屬順證(易治),脈象澀滯的屬逆證(難治)。",
+      "annotations": [
+        {
+          "char": "俱",
+          "jyutping": "keoi1",
+          "meaning": "都、一同"
+        },
+        {
+          "char": "急",
+          "jyutping": "gap1",
+          "meaning": "脈來急促"
+        },
+        {
+          "char": "滑",
+          "jyutping": "waat6",
+          "meaning": "脈象滑利流暢"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "脈象滯澀不暢"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順、順證"
+        }
+      ]
+    },
+    {
+      "original": "夫虛實者，皆從其物類始，故五藏骨肉滑利，可以長久也。",
+      "baihua": "大凡虛實的道理,都是從萬物同類相應的規律開始推求的。所以五臟、骨骼、肌肉如果都氣血滑利通暢,人就可以長久健康地生存。",
+      "annotations": [
+        {
+          "char": "夫",
+          "jyutping": "fu4",
+          "meaning": "發語詞,大凡"
+        },
+        {
+          "char": "物",
+          "jyutping": "mat6",
+          "meaning": "事物、萬物"
+        },
+        {
+          "char": "類",
+          "jyutping": "leoi6",
+          "meaning": "同類、類別"
+        },
+        {
+          "char": "利",
+          "jyutping": "lei6",
+          "meaning": "通利、順暢"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：絡氣不足，經氣有餘，何如？岐伯曰：絡氣不足，經氣有餘者，脈口熱而尺寒也，秋冬為逆，春夏為從，治主病者。",
+      "baihua": "黃帝問:絡脈之氣不足而經脈之氣有餘,是怎樣的?岐伯說:絡氣不足、經氣有餘的病人,表現為寸口脈熱而尺部脈寒。這種病在秋冬屬逆證,在春夏屬順證,治療時要針對主病的經脈來調治。",
+      "annotations": [
+        {
+          "char": "絡",
+          "jyutping": "lok3",
+          "meaning": "絡脈"
+        },
+        {
+          "char": "餘",
+          "jyutping": "jyu4",
+          "meaning": "有餘、過盛"
+        },
+        {
+          "char": "脈口",
+          "jyutping": "mak6 hau2",
+          "meaning": "寸口,診脈部位"
+        },
+        {
+          "char": "尺",
+          "jyutping": "cek3",
+          "meaning": "尺部脈"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：經虛絡滿何如？岐伯曰：經虛絡滿者，尺熱滿脈口寒澀也，此春夏死秋冬生也。",
+      "baihua": "黃帝問:經脈虛而絡脈滿是怎樣的?岐伯說:經虛絡滿的病人,表現為尺部脈熱而滿、寸口脈寒而澀。這種病在春夏會死亡,在秋冬則能生存。",
+      "annotations": [
+        {
+          "char": "滿",
+          "jyutping": "mun5",
+          "meaning": "充盈、滿實"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "脈滯澀不暢"
+        },
+        {
+          "char": "死",
+          "jyutping": "sei2",
+          "meaning": "死亡、預後兇"
+        },
+        {
+          "char": "生",
+          "jyutping": "sang1",
+          "meaning": "生存、預後好"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：治此者奈何？岐伯曰：絡滿經虛，灸陰刺陽；經滿絡虛，刺陰灸陽。",
+      "baihua": "黃帝問:治療這種病該怎麼辦?岐伯說:絡脈滿而經脈虛的,就用艾灸陰經、針刺陽經;經脈滿而絡脈虛的,就針刺陰經、艾灸陽經。",
+      "annotations": [
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何、怎麼"
+        },
+        {
+          "char": "灸",
+          "jyutping": "gau3",
+          "meaning": "艾灸療法"
+        },
+        {
+          "char": "刺",
+          "jyutping": "ci3",
+          "meaning": "針刺"
+        },
+        {
+          "char": "陰",
+          "jyutping": "jam1",
+          "meaning": "陰經"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何謂重虛？岐伯曰：脈氣上虛尺虛，是謂重虛。",
+      "baihua": "黃帝問:什麼叫做重虛?岐伯說:脈氣虛(如寸口脈虛)、上部氣虛、尺部脈也虛,這就叫做重虛(虛而又虛)。",
+      "annotations": [
+        {
+          "char": "重",
+          "jyutping": "cung4",
+          "meaning": "重複、加重"
+        },
+        {
+          "char": "脈",
+          "jyutping": "mak6",
+          "meaning": "脈象、脈氣"
+        },
+        {
+          "char": "上",
+          "jyutping": "soeng6",
+          "meaning": "上部、寸口"
+        },
+        {
+          "char": "尺",
+          "jyutping": "cek3",
+          "meaning": "尺部脈"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何以治之？岐伯曰：所謂氣虛者，言無常也。尺虛者，行步恇然。脈虛者，不象陰也。如此者，滑則生，澀則死也。",
+      "baihua": "黃帝問:該怎樣治療?岐伯說:所謂氣虛,是指言語低微沒有力氣、無常態;所謂尺虛,是指走路虛怯無力、步履不穩;所謂脈虛,是指脈象不符合正常陰血充盈之象。像這樣的病人,脈滑利的能生存,脈澀滯的就會死亡。",
+      "annotations": [
+        {
+          "char": "常",
+          "jyutping": "soeng4",
+          "meaning": "常態、正常"
+        },
+        {
+          "char": "恇",
+          "jyutping": "hong1",
+          "meaning": "怯弱、虛怯無力"
+        },
+        {
+          "char": "象",
+          "jyutping": "zoeng6",
+          "meaning": "符合、像"
+        },
+        {
+          "char": "滑",
+          "jyutping": "waat6",
+          "meaning": "脈滑利"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：寒氣暴上，脈滿而實何如？岐伯曰：實而滑則生，實而逆則死。",
+      "baihua": "黃帝問:寒氣突然上逆,脈象充滿而堅實,情況如何?岐伯說:脈實而兼滑利的能生存,脈實而兼逆亂(不滑)的就會死亡。",
+      "annotations": [
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "突然、急劇"
+        },
+        {
+          "char": "上",
+          "jyutping": "soeng5",
+          "meaning": "上逆"
+        },
+        {
+          "char": "實",
+          "jyutping": "sat6",
+          "meaning": "脈堅實有力"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆亂、不順"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：脈實滿，手足寒，頭熱，何如？岐伯曰：春秋則生，冬夏則死。脈浮而澀，澀而身有熱者死。",
+      "baihua": "黃帝問:脈象堅實充滿,但手足發寒、頭部發熱,情況如何?岐伯說:在春秋二季能生存,在冬夏二季則會死亡。若脈象浮而澀滯,脈澀而身上又發熱的,是死候。",
+      "annotations": [
+        {
+          "char": "浮",
+          "jyutping": "fau4",
+          "meaning": "脈浮於表"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "脈澀不暢"
+        },
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "發熱"
+        },
+        {
+          "char": "死",
+          "jyutping": "sei2",
+          "meaning": "死候、預後兇"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：其形盡滿何如？岐伯曰：其形盡滿者，脈急大堅，尺澀而不應也，如是者，故從則生，逆則死。",
+      "baihua": "黃帝問:全身形體都脹滿的,情況如何?岐伯說:全身脹滿的病人,脈象急、大而堅硬,尺部脈澀而與病情不相應。像這樣的病人,脈證相順的能生存,脈證相逆的就會死亡。",
+      "annotations": [
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "全部、都"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "堅硬"
+        },
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "相應、符合"
+        },
+        {
+          "char": "如是",
+          "jyutping": "jyu4 si6",
+          "meaning": "像這樣"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何謂從則生，逆則死？岐伯曰：所謂從者，手足溫也。所謂逆者，手足寒也。",
+      "baihua": "黃帝問:什麼叫做順就能生、逆就會死?岐伯說:所謂順,就是手足溫暖(陽氣尚存);所謂逆,就是手足寒冷(陽氣衰敗)。",
+      "annotations": [
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順、相順"
+        },
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫暖"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "違逆、不順"
+        },
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒冷"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：乳子而病熱，脈懸小者何如？岐伯曰：手足溫則生，寒則死。",
+      "baihua": "黃帝問:哺乳期的嬰兒患了熱病,脈象細小如懸絲的,情況如何?岐伯說:手足溫暖的能生存,手足寒冷的就會死亡。",
+      "annotations": [
+        {
+          "char": "乳",
+          "jyutping": "jyu5",
+          "meaning": "哺乳"
+        },
+        {
+          "char": "懸",
+          "jyutping": "jyun4",
+          "meaning": "脈如懸絲、細弱欲絕"
+        },
+        {
+          "char": "小",
+          "jyutping": "siu2",
+          "meaning": "脈細小"
+        },
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫暖"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：乳子中風熱，喘鳴肩息者，脈何如？岐伯曰：喘鳴肩息者，脈實大也，緩則生，急則死。",
+      "baihua": "黃帝問:哺乳期的嬰兒感受風熱之邪,出現氣喘有聲、抬肩呼吸的,脈象會怎樣?岐伯說:氣喘有聲、抬肩呼吸的病人,脈象堅實而大。脈緩和的能生存,脈急促的就會死亡。",
+      "annotations": [
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "氣喘、呼吸急促"
+        },
+        {
+          "char": "鳴",
+          "jyutping": "ming4",
+          "meaning": "喘息有聲"
+        },
+        {
+          "char": "肩息",
+          "jyutping": "gin1 sik1",
+          "meaning": "抬肩呼吸,呼吸困難"
+        },
+        {
+          "char": "緩",
+          "jyutping": "wun6",
+          "meaning": "脈來緩和"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：腸澼便血何如？岐伯曰：身熱則死，寒則生。",
+      "baihua": "黃帝問:痢疾而大便帶血的,情況如何?岐伯說:身體發熱的會死亡,身體不熱(寒)的能生存。",
+      "annotations": [
+        {
+          "char": "腸澼",
+          "jyutping": "coeng4 pik1",
+          "meaning": "痢疾,便下膿血黏液之病"
+        },
+        {
+          "char": "便",
+          "jyutping": "bin6",
+          "meaning": "大便"
+        },
+        {
+          "char": "血",
+          "jyutping": "hyut3",
+          "meaning": "血液"
+        },
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "發熱"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：腸澼下白沫何如？岐伯曰：脈沉則生，脈浮則死。",
+      "baihua": "黃帝問:痢疾而瀉下白色黏沫的,情況如何?岐伯說:脈象沉的能生存,脈象浮的就會死亡。",
+      "annotations": [
+        {
+          "char": "沫",
+          "jyutping": "mut6",
+          "meaning": "泡沫、黏沫"
+        },
+        {
+          "char": "沉",
+          "jyutping": "cam4",
+          "meaning": "脈沉於裏"
+        },
+        {
+          "char": "浮",
+          "jyutping": "fau4",
+          "meaning": "脈浮於表"
+        },
+        {
+          "char": "白",
+          "jyutping": "baak6",
+          "meaning": "白色"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：腸澼下膿血何如？岐伯曰：脈懸絕則死，滑大則生。",
+      "baihua": "黃帝問:痢疾而瀉下膿血的,情況如何?岐伯說:脈象細弱欲絕的會死亡,脈象滑利而大的能生存。",
+      "annotations": [
+        {
+          "char": "膿",
+          "jyutping": "nung4",
+          "meaning": "膿液"
+        },
+        {
+          "char": "懸",
+          "jyutping": "jyun4",
+          "meaning": "細弱如懸絲"
+        },
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "脈氣將絕"
+        },
+        {
+          "char": "滑",
+          "jyutping": "waat6",
+          "meaning": "脈滑利"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：腸澼之屬，身不熱，脈不懸絕何如？岐伯曰：滑大者曰生，懸澀者曰死，以藏期之。",
+      "baihua": "黃帝問:凡屬痢疾一類的病,若身體不發熱、脈象也沒有細弱欲絕,情況如何?岐伯說:脈滑利而大的稱為能生存,脈細弱而澀滯的稱為會死亡;可以根據五臟相應的時日來推算死期。",
+      "annotations": [
+        {
+          "char": "屬",
+          "jyutping": "suk6",
+          "meaning": "類別、一類"
+        },
+        {
+          "char": "期",
+          "jyutping": "kei4",
+          "meaning": "推算、預定期限"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟,五臟"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "脈澀滯"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：癲疾何如？岐伯曰：脈搏大滑，久自已；脈小堅急，死不治。",
+      "baihua": "黃帝問:癲癇一類的疾病情況如何?岐伯說:脈象搏動有力、大而滑利的,時間久了會自行痊愈;脈象細小、堅硬而急促的,是死候,無法治療。",
+      "annotations": [
+        {
+          "char": "癲",
+          "jyutping": "din1",
+          "meaning": "癲癇、精神錯亂之疾"
+        },
+        {
+          "char": "搏",
+          "jyutping": "bok3",
+          "meaning": "脈搏動有力"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "痊愈、停止"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "脈堅硬"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：癲疾之脈，虛實何如？岐伯曰：虛則可治，實則死，",
+      "baihua": "黃帝問:癲疾的脈象,虛與實各主什麼?岐伯說:脈虛的還可以治療,脈實的就會死亡。",
+      "annotations": [
+        {
+          "char": "疾",
+          "jyutping": "zat6",
+          "meaning": "疾病"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "脈虛弱"
+        },
+        {
+          "char": "實",
+          "jyutping": "sat6",
+          "meaning": "脈堅實"
+        },
+        {
+          "char": "治",
+          "jyutping": "zi6",
+          "meaning": "醫治"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：消癉虛實何如？岐伯曰：脈實大，病久可治；脈懸小堅，病久不可治。",
+      "baihua": "黃帝問:消渴病(消癉)的虛實情況如何?岐伯說:脈象堅實而大的,即使病久也可以治療;脈象細弱、細小而堅硬的,病久了就無法治療了。",
+      "annotations": [
+        {
+          "char": "消癉",
+          "jyutping": "siu1 daan1",
+          "meaning": "消渴病,類似糖尿病一類"
+        },
+        {
+          "char": "久",
+          "jyutping": "gau2",
+          "meaning": "長久、日久"
+        },
+        {
+          "char": "懸",
+          "jyutping": "jyun4",
+          "meaning": "脈細弱如懸絲"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "脈堅硬"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：形度骨度脈度筋度，何以知其度也？",
+      "baihua": "黃帝問:形體之度、骨骼之度、脈絡之度、筋肉之度,要怎樣才能知道它們的尺度呢?",
+      "annotations": [
+        {
+          "char": "形",
+          "jyutping": "jing4",
+          "meaning": "形體"
+        },
+        {
+          "char": "度",
+          "jyutping": "dou6",
+          "meaning": "尺度、度量"
+        },
+        {
+          "char": "骨",
+          "jyutping": "gwat1",
+          "meaning": "骨骼"
+        },
+        {
+          "char": "筋",
+          "jyutping": "gan1",
+          "meaning": "筋肉、經筋"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：春亟治經絡，夏亟治經俞，秋亟治六腑，冬則閉塞。閉塞者，用藥而少針石也。",
+      "baihua": "(帝曰:)春季治病應急取經絡,夏季應急取經脈的腧穴,秋季應急取與六腑相應的腧穴,冬季因陽氣閉藏,則以封閉為宜。所謂閉塞,是指多用藥物而少用針刺砭石。",
+      "annotations": [
+        {
+          "char": "亟",
+          "jyutping": "gik1",
+          "meaning": "急、趕快"
+        },
+        {
+          "char": "俞",
+          "jyutping": "syu6",
+          "meaning": "腧穴"
+        },
+        {
+          "char": "閉塞",
+          "jyutping": "bai3 sak1",
+          "meaning": "封閉、閉藏"
+        },
+        {
+          "char": "石",
+          "jyutping": "sek6",
+          "meaning": "砭石,古代治病石針"
+        }
+      ]
+    },
+    {
+      "original": "所謂少針石者，非癰疽之謂也，癰疽不得頃時回。",
+      "baihua": "所謂少用針石,並不是指癰疽這類病也要少用。因為癰疽發病急重,片刻也不能耽誤,必須立即治療。",
+      "annotations": [
+        {
+          "char": "癰",
+          "jyutping": "jung1",
+          "meaning": "癰,體表化膿性大瘡"
+        },
+        {
+          "char": "疽",
+          "jyutping": "zeoi1",
+          "meaning": "疽,深部化膿性瘡瘍"
+        },
+        {
+          "char": "頃",
+          "jyutping": "king2",
+          "meaning": "片刻、短時間"
+        },
+        {
+          "char": "回",
+          "jyutping": "wui4",
+          "meaning": "遲延、回避、耽擱"
+        }
+      ]
+    },
+    {
+      "original": "癰不知所，按之不應手，乍來乍已，刺手太陰旁三痏與纓脈各二。",
+      "baihua": "癰腫不知具體在何處,按壓時應手不明顯,疼痛時來時止的,應針刺手太陰經旁邊,取三個針孔(針三針),再刺頸旁的纓脈各二針。",
+      "annotations": [
+        {
+          "char": "乍",
+          "jyutping": "zaa6",
+          "meaning": "忽然、時而"
+        },
+        {
+          "char": "痏",
+          "jyutping": "wai5",
+          "meaning": "針刺的針孔、針次"
+        },
+        {
+          "char": "纓",
+          "jyutping": "jing1",
+          "meaning": "頸旁繫冠帶處,指纓脈"
+        },
+        {
+          "char": "應",
+          "jyutping": "jing3",
+          "meaning": "應手、有反應"
+        }
+      ]
+    },
+    {
+      "original": "掖癰大熱，刺足少陽五，刺而熱不止，刺手心主三，刺手太陰經絡者大骨之會各三。",
+      "baihua": "腋下生癰而發高熱的,針刺足少陽經五針;若刺後熱仍不退,再刺手厥陰心包經三針,並針刺手太陰經絡在大骨會合處各三針。",
+      "annotations": [
+        {
+          "char": "掖",
+          "jyutping": "jik6",
+          "meaning": "同「腋」,腋窩"
+        },
+        {
+          "char": "心主",
+          "jyutping": "sam1 zyu2",
+          "meaning": "手厥陰心包經"
+        },
+        {
+          "char": "會",
+          "jyutping": "wui6",
+          "meaning": "會合、交會處"
+        },
+        {
+          "char": "止",
+          "jyutping": "zi2",
+          "meaning": "停止、退"
+        }
+      ]
+    },
+    {
+      "original": "暴癰筋緛，隨分而痛，魄汗不盡，胞氣不足，治在經俞。",
+      "baihua": "急發的癰腫伴筋脈拘攣收縮,沿著肌肉分肉之間疼痛,汗出淋漓不止,膀胱(胞)之氣不足,治療應取相應經脈的腧穴。",
+      "annotations": [
+        {
+          "char": "緛",
+          "jyutping": "jyun5",
+          "meaning": "筋脈拘攣收縮"
+        },
+        {
+          "char": "分",
+          "jyutping": "fan1",
+          "meaning": "分肉,肌肉之間"
+        },
+        {
+          "char": "魄汗",
+          "jyutping": "paak3 hon6",
+          "meaning": "自汗、汗出淋漓"
+        },
+        {
+          "char": "胞",
+          "jyutping": "baau1",
+          "meaning": "膀胱、胞宮之氣"
+        }
+      ]
+    },
+    {
+      "original": "腹暴滿，按之不下，取手太陽經絡者，胃之募也，少陰俞去脊椎三寸旁五，用員利針。",
+      "baihua": "腹部突然脹滿,按壓也不見消減的,可取手太陽經的絡穴,以及胃的募穴,再取足少陰腎俞穴,在距脊椎旁開三寸的地方各刺五針,使用員利針。",
+      "annotations": [
+        {
+          "char": "募",
+          "jyutping": "mou6",
+          "meaning": "募穴,臟腑經氣結聚之處"
+        },
+        {
+          "char": "脊",
+          "jyutping": "zek3",
+          "meaning": "脊柱"
+        },
+        {
+          "char": "椎",
+          "jyutping": "zeoi1",
+          "meaning": "椎骨"
+        },
+        {
+          "char": "員利針",
+          "jyutping": "jyun4 lei6 zam1",
+          "meaning": "九針之一,針尖圓利"
+        }
+      ]
+    },
+    {
+      "original": "霍亂，刺俞旁五，足陽明及上旁三。",
+      "baihua": "患霍亂(上吐下瀉)的,可針刺背俞穴旁各五針,以及足陽明胃經與其上方旁側各三針。",
+      "annotations": [
+        {
+          "char": "霍亂",
+          "jyutping": "fok3 lyun6",
+          "meaning": "上吐下瀉、揮霍撩亂之急病"
+        },
+        {
+          "char": "俞",
+          "jyutping": "syu6",
+          "meaning": "背俞穴"
+        },
+        {
+          "char": "旁",
+          "jyutping": "pong4",
+          "meaning": "旁邊、旁側"
+        },
+        {
+          "char": "陽明",
+          "jyutping": "joeng4 ming4",
+          "meaning": "足陽明胃經"
+        }
+      ]
+    },
+    {
+      "original": "刺癇驚脈五，針手太陰各五，刺經太陽五，刺手少陰經絡旁者一，足陽明一，上踝五寸刺三針。",
+      "baihua": "治療癇證與驚風,可刺相關的脈絡五針,針手太陰經各五針,刺足太陽經五針,刺手少陰經絡旁一針,足陽明經一針,並在內踝上五寸處刺三針。",
+      "annotations": [
+        {
+          "char": "癇",
+          "jyutping": "haan4",
+          "meaning": "癇證、抽搐昏仆之病"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚風、驚厥"
+        },
+        {
+          "char": "踝",
+          "jyutping": "waa5",
+          "meaning": "腳踝"
+        },
+        {
+          "char": "寸",
+          "jyutping": "cyun3",
+          "meaning": "長度單位,同身寸"
+        }
+      ]
+    },
+    {
+      "original": "凡治消癉僕擊，偏枯痿厥，氣滿發逆，甘肥貴人，則高梁之疾也。",
+      "baihua": "凡是治療消渴、突然昏仆中風、半身不遂、痿弱厥冷、氣機壅滿而上逆等病,如果發生在嗜食甘美肥膩的富貴人身上,那就是過食膏粱厚味所引起的疾病。",
+      "annotations": [
+        {
+          "char": "僕擊",
+          "jyutping": "buk6 gik1",
+          "meaning": "突然昏仆倒地,如中風"
+        },
+        {
+          "char": "偏枯",
+          "jyutping": "pin1 fu1",
+          "meaning": "半身不遂、偏癱"
+        },
+        {
+          "char": "痿",
+          "jyutping": "wai2",
+          "meaning": "肢體痿弱無力"
+        },
+        {
+          "char": "高梁",
+          "jyutping": "gou1 loeng4",
+          "meaning": "同「膏粱」,肥美厚味"
+        }
+      ]
+    },
+    {
+      "original": "隔塞閉絕，上下不通，則暴憂之病也。暴厥而聾，偏塞閉不通，內氣暴薄也。",
+      "baihua": "胸膈阻塞、氣機閉絕,上下不能通暢,這是突然過度憂愁所引起的病。突然昏厥而耳聾,身體一側閉塞不通的,是體內之氣突然逆亂相迫所造成的。",
+      "annotations": [
+        {
+          "char": "隔",
+          "jyutping": "gaak3",
+          "meaning": "胸膈、阻隔"
+        },
+        {
+          "char": "憂",
+          "jyutping": "jau1",
+          "meaning": "憂愁、憂鬱"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "昏厥、氣血逆亂"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "迫近、相搏"
+        }
+      ]
+    },
+    {
+      "original": "不從內外中風之病，故瘦留著也。蹠跛，寒風濕之病也。",
+      "baihua": "有些不是由內傷,也不是由外感風邪所引起的病,而是因濕邪等留滯著於體內,使人消瘦。至於足底疼痛、跛行一類,則是感受寒、風、濕邪所引起的病。",
+      "annotations": [
+        {
+          "char": "瘦",
+          "jyutping": "sau3",
+          "meaning": "消瘦"
+        },
+        {
+          "char": "留著",
+          "jyutping": "lau4 zoek6",
+          "meaning": "邪氣停留附著"
+        },
+        {
+          "char": "蹠",
+          "jyutping": "zek3",
+          "meaning": "腳掌、足底"
+        },
+        {
+          "char": "跛",
+          "jyutping": "bo2",
+          "meaning": "跛行、瘸腿"
+        }
+      ]
+    },
+    {
+      "original": "黃帝曰：黃疸暴痛，癲疾厥狂，久逆之所生也。",
+      "baihua": "黃帝說:黃疸病、突發劇痛、癲癇以及厥逆狂亂等病,都是氣機長久逆亂所產生的。",
+      "annotations": [
+        {
+          "char": "疸",
+          "jyutping": "daan2",
+          "meaning": "黃疸,身目發黃之病"
+        },
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "突然、急劇"
+        },
+        {
+          "char": "狂",
+          "jyutping": "kwong4",
+          "meaning": "狂亂、狂躁"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "氣機逆亂"
+        }
+      ]
+    },
+    {
+      "original": "五藏不平，六腑閉塞之所生也。頭痛耳鳴，九竅不利，腸胃之所生也。",
+      "baihua": "五臟功能失調不和,是六腑閉塞不通所引起的。頭痛、耳鳴以及九竅不通利等病,則是腸胃功能失常所引起的。",
+      "annotations": [
+        {
+          "char": "平",
+          "jyutping": "ping4",
+          "meaning": "平和、協調"
+        },
+        {
+          "char": "腑",
+          "jyutping": "fu2",
+          "meaning": "六腑"
+        },
+        {
+          "char": "竅",
+          "jyutping": "hiu3",
+          "meaning": "孔竅,九竅指七竅加二陰"
+        },
+        {
+          "char": "利",
+          "jyutping": "lei6",
+          "meaning": "通利、通暢"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇提出判斷虛實的總綱是什麼?",
+      "answer": "「邪氣盛則實,精氣奪則虛」。即凡邪氣亢盛的屬實證,凡人體正氣(精氣)被耗損的屬虛證,這是中醫辨別虛實的根本原則。"
+    },
+    {
+      "question": "文中反覆提到的「從則生,逆則死」中,如何判斷「從」與「逆」?",
+      "answer": "以手足的溫寒為準:手足溫暖表示陽氣尚存,屬「從」(順),預後好能生存;手足寒冷表示陽氣衰敗,屬「逆」,預後兇易死亡。"
+    },
+    {
+      "question": "岐伯如何論述四時針刺治療的原則?",
+      "answer": "春季急取經絡,夏季急取經脈腧穴,秋季急取六腑相應腧穴,冬季陽氣閉藏宜「閉塞」,多用藥物而少用針石。"
+    },
+    {
+      "question": "對於痢疾(腸澼)便血、下白沫、下膿血三種情況,判斷生死的要點分別是什麼?",
+      "answer": "便血者身熱則死、身寒則生;下白沫者脈沉則生、脈浮則死;下膿血者脈懸絕則死、脈滑大則生。"
+    },
+    {
+      "question": "本篇末段歸納了哪些病與飲食情志及臟腑的關係?",
+      "answer": "消癉、僕擊、偏枯、痿厥、氣滿發逆等發於富貴之人,是過食膏粱厚味所致;胸膈閉塞上下不通是暴憂所致;黃疸、暴痛、癲厥狂是久逆所生;五臟不和由六腑閉塞所生;頭痛耳鳴、九竅不利由腸胃失常所生。"
+    }
+  ]
+}

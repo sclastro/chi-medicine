@@ -1,0 +1,1105 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "骨空論",
+    "number": 60,
+    "originalVerified": true,
+    "sections": 48,
+    "usage": {
+      "completion_tokens": 14978,
+      "prompt_tokens": 2186,
+      "total_tokens": 17164,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:53:48.968Z"
+  },
+  "id": "suwen-60",
+  "intro": "《骨空論》是《素問》第六十篇,「骨空」即骨骼上供針灸取穴的孔穴縫隙。本篇主要講述兩大內容:一是風邪從外侵入人體所引起的多種病證,以及針對頭痛、頸項痛、腰痛、膝痛等各類痛症的針灸取穴方法;二是奇經八脈中任脈、衝脈、督脈的循行路線與所主病證,並詳細記載全身骨空的部位。篇末還介紹了灸治寒熱病的具體穴位與方法。對初學者而言,本篇是認識奇經循行、掌握骨度取穴與灸法的重要古典文獻,可幫助理解經絡與骨骼定位的密切關係。",
+  "sections": [
+    {
+      "original": "黃帝問曰：余聞風者百病之始也，以針治之奈何？",
+      "baihua": "黃帝問道:我聽說風邪是各種疾病的開端,用針刺來治療應該怎麼做呢?",
+      "annotations": [
+        {
+          "char": "始",
+          "jyutping": "ci2",
+          "meaning": "開端、起始"
+        },
+        {
+          "char": "針",
+          "jyutping": "zam1",
+          "meaning": "針刺、針灸"
+        },
+        {
+          "char": "奈何",
+          "jyutping": "noi6 ho4",
+          "meaning": "怎麼辦、如何"
+        }
+      ]
+    },
+    {
+      "original": "岐伯對曰：風從外入，令人振寒，汗出頭痛，身重惡寒，治在風府，調其陰陽，不足則補，有餘則瀉，",
+      "baihua": "岐伯回答說:風邪從體外侵入,使人發冷戰慄,出汗頭痛,身體沉重怕冷,治療取風府穴,調和人體的陰陽,正氣不足就用補法,邪氣有餘就用瀉法。",
+      "annotations": [
+        {
+          "char": "振寒",
+          "jyutping": "zan3 hon4",
+          "meaning": "發冷戰慄"
+        },
+        {
+          "char": "惡寒",
+          "jyutping": "wu3 hon4",
+          "meaning": "怕冷"
+        },
+        {
+          "char": "風府",
+          "jyutping": "fung1 fu2",
+          "meaning": "穴位名,位於後頸正中"
+        },
+        {
+          "char": "瀉",
+          "jyutping": "se3",
+          "meaning": "瀉法,疏泄邪氣"
+        }
+      ]
+    },
+    {
+      "original": "大風頸項痛，刺風府，風府在上椎。",
+      "baihua": "感受嚴重風邪而頸項疼痛,針刺風府穴,風府穴位於第一椎骨的上方。",
+      "annotations": [
+        {
+          "char": "頸項",
+          "jyutping": "geng2 hong6",
+          "meaning": "脖子後部"
+        },
+        {
+          "char": "刺",
+          "jyutping": "ci3",
+          "meaning": "針刺"
+        },
+        {
+          "char": "椎",
+          "jyutping": "zeoi1",
+          "meaning": "脊椎骨"
+        }
+      ]
+    },
+    {
+      "original": "大風汗出，灸譩譆，譩譆在背下挾脊旁三寸所，厭之令病者呼譩譆，譩譆應手。",
+      "baihua": "感受嚴重風邪而出汗,可灸譩譆穴,譩譆穴在背部下方脊柱兩旁各三寸左右的地方,按壓時讓病人發出「譩譆」的聲音,穴位便會在手下應動。",
+      "annotations": [
+        {
+          "char": "灸",
+          "jyutping": "gau3",
+          "meaning": "艾灸,以艾火熏灼穴位"
+        },
+        {
+          "char": "譩譆",
+          "jyutping": "ji1 hei1",
+          "meaning": "穴位名,在背部"
+        },
+        {
+          "char": "挾",
+          "jyutping": "gaap3",
+          "meaning": "夾在兩旁"
+        },
+        {
+          "char": "厭",
+          "jyutping": "aat3",
+          "meaning": "同「壓」,按壓"
+        }
+      ]
+    },
+    {
+      "original": "從風憎風，刺眉頭。",
+      "baihua": "感受風邪而厭惡風吹,針刺眉頭處的攢竹穴。",
+      "annotations": [
+        {
+          "char": "憎",
+          "jyutping": "zang1",
+          "meaning": "厭惡、討厭"
+        },
+        {
+          "char": "眉頭",
+          "jyutping": "mei4 tau4",
+          "meaning": "眉毛內端,指攢竹穴"
+        }
+      ]
+    },
+    {
+      "original": "失枕在肩上橫骨間，折使揄臂齊肘正，灸脊中。",
+      "baihua": "落枕的取穴在肩上橫骨之間,可屈折身體使手臂伸出、與肘平齊而端正,再灸脊中之處。",
+      "annotations": [
+        {
+          "char": "失枕",
+          "jyutping": "sat1 zam2",
+          "meaning": "落枕,頸部扭傷"
+        },
+        {
+          "char": "揄",
+          "jyutping": "jyu4",
+          "meaning": "牽引、伸出"
+        },
+        {
+          "char": "肘",
+          "jyutping": "zaau2",
+          "meaning": "手肘"
+        }
+      ]
+    },
+    {
+      "original": "䏚絡季脅引少腹而痛脹，刺譩譆。",
+      "baihua": "脅下軟肉與季脅部位牽引到小腹而疼痛脹滿,針刺譩譆穴。",
+      "annotations": [
+        {
+          "char": "䏚",
+          "jyutping": "miu5",
+          "meaning": "季脅下方的軟肉部位"
+        },
+        {
+          "char": "季脅",
+          "jyutping": "gwai3 hip3",
+          "meaning": "側胸下部肋骨處"
+        },
+        {
+          "char": "少腹",
+          "jyutping": "siu2 fuk1",
+          "meaning": "小腹、下腹部"
+        }
+      ]
+    },
+    {
+      "original": "腰痛不可以轉搖，急引陰卵，刺八髎與痛上，八髎在腰尻分間。",
+      "baihua": "腰痛得不能轉動搖擺,並牽引到陰囊拘急,針刺八髎穴及疼痛的部位,八髎穴在腰部與尾骶交界之間。",
+      "annotations": [
+        {
+          "char": "轉搖",
+          "jyutping": "zyun2 jiu4",
+          "meaning": "轉動搖擺"
+        },
+        {
+          "char": "陰卵",
+          "jyutping": "jam1 leon5",
+          "meaning": "陰囊、睪丸"
+        },
+        {
+          "char": "八髎",
+          "jyutping": "baat3 liu4",
+          "meaning": "骶部的八個穴位"
+        },
+        {
+          "char": "尻",
+          "jyutping": "haau1",
+          "meaning": "尾骶部、臀部"
+        }
+      ]
+    },
+    {
+      "original": "鼠瘻寒熱，還刺寒府，寒府在附膝外解營。",
+      "baihua": "患鼠瘻並見寒熱交作,可針刺寒府穴,寒府穴在靠近膝外側骨縫的凹陷處。",
+      "annotations": [
+        {
+          "char": "鼠瘻",
+          "jyutping": "syu2 lau6",
+          "meaning": "頸腋淋巴結核,即瘰癧"
+        },
+        {
+          "char": "寒府",
+          "jyutping": "hon4 fu2",
+          "meaning": "穴位名,在膝外側,即陽關穴"
+        },
+        {
+          "char": "解營",
+          "jyutping": "gaai2 jing4",
+          "meaning": "骨縫凹陷處"
+        }
+      ]
+    },
+    {
+      "original": "取膝上外者使之拜，取足心者使之跪。",
+      "baihua": "取膝上外側的穴位要讓病人作跪拜的姿勢,取足心的穴位要讓病人跪下。",
+      "annotations": [
+        {
+          "char": "拜",
+          "jyutping": "baai3",
+          "meaning": "跪拜、俯身"
+        },
+        {
+          "char": "跪",
+          "jyutping": "gwai6",
+          "meaning": "跪下"
+        },
+        {
+          "char": "足心",
+          "jyutping": "zuk1 sam1",
+          "meaning": "腳掌中心,指湧泉穴"
+        }
+      ]
+    },
+    {
+      "original": "任脈者，起於中極之下，以上毛際，循腹裡上關元，至咽喉，上頤循面入目。",
+      "baihua": "任脈起於中極穴的下方,向上到陰毛邊際,沿著腹內上行至關元穴,到達咽喉,再上行到下巴、沿面部而進入眼睛。",
+      "annotations": [
+        {
+          "char": "任脈",
+          "jyutping": "jam4 mak6",
+          "meaning": "奇經之一,行於身前正中"
+        },
+        {
+          "char": "毛際",
+          "jyutping": "mou4 zai3",
+          "meaning": "陰毛邊緣"
+        },
+        {
+          "char": "頤",
+          "jyutping": "ji4",
+          "meaning": "下巴、面頰下部"
+        }
+      ]
+    },
+    {
+      "original": "衝脈者，起於氣街，並少陰之經，挾臍上行，至胸中而散。",
+      "baihua": "衝脈起於氣街(氣衝穴),與足少陰腎經並行,夾著肚臍上行,到達胸中而分散開來。",
+      "annotations": [
+        {
+          "char": "衝脈",
+          "jyutping": "cung1 mak6",
+          "meaning": "奇經之一"
+        },
+        {
+          "char": "氣街",
+          "jyutping": "hei3 gaai1",
+          "meaning": "氣衝穴部位,在腹股溝處"
+        },
+        {
+          "char": "臍",
+          "jyutping": "ci4",
+          "meaning": "肚臍"
+        }
+      ]
+    },
+    {
+      "original": "任脈為病，男子內結七疝，女子帶下瘕聚。",
+      "baihua": "任脈發生病變,在男子會內結成七種疝病,在女子則會出現帶下和腹中結塊。",
+      "annotations": [
+        {
+          "char": "疝",
+          "jyutping": "saan3",
+          "meaning": "疝氣,少腹或陰部的痛症"
+        },
+        {
+          "char": "帶下",
+          "jyutping": "daai3 haa6",
+          "meaning": "婦女陰道分泌異常"
+        },
+        {
+          "char": "瘕聚",
+          "jyutping": "gaa2 zeoi6",
+          "meaning": "腹中聚散無定的結塊"
+        }
+      ]
+    },
+    {
+      "original": "衝脈為病，逆氣裡急。督脈為病，脊強反折。",
+      "baihua": "衝脈發生病變,會有氣上逆、腹內拘急;督脈發生病變,會有脊背僵硬、身體向後反折。",
+      "annotations": [
+        {
+          "char": "逆氣",
+          "jyutping": "jik6 hei3",
+          "meaning": "氣上逆"
+        },
+        {
+          "char": "裡急",
+          "jyutping": "leoi5 gap1",
+          "meaning": "腹內拘急不適"
+        },
+        {
+          "char": "脊強",
+          "jyutping": "zek3 koeng5",
+          "meaning": "脊背僵硬"
+        },
+        {
+          "char": "反折",
+          "jyutping": "faan2 zit3",
+          "meaning": "身體向後彎折"
+        }
+      ]
+    },
+    {
+      "original": "督脈者，起於少腹以下骨中央，女子入系廷孔，其孔，溺孔之端也，其絡循陰器合篡間，繞篡後，別繞臀，至少陰與巨陽中絡者，合少陰上股內後廉，貫脊屬腎，",
+      "baihua": "督脈起於小腹以下的恥骨中央,在女子則入絡於廷孔,這個孔就是尿道口的末端,它的分絡沿著陰部到會陰處,再繞到會陰之後,分別繞行臀部,到達足少陰與足太陽相會的絡脈,會合足少陰經上行大腿內側後緣,貫穿脊柱而聯屬於腎。",
+      "annotations": [
+        {
+          "char": "督脈",
+          "jyutping": "duk1 mak6",
+          "meaning": "奇經之一,行於背部正中"
+        },
+        {
+          "char": "廷孔",
+          "jyutping": "ting4 hung2",
+          "meaning": "指尿道外口"
+        },
+        {
+          "char": "溺孔",
+          "jyutping": "niu6 hung2",
+          "meaning": "尿道口"
+        },
+        {
+          "char": "篡",
+          "jyutping": "saan3",
+          "meaning": "會陰部,前後陰之間"
+        },
+        {
+          "char": "後廉",
+          "jyutping": "hau6 lim4",
+          "meaning": "後緣、後邊"
+        }
+      ]
+    },
+    {
+      "original": "與太陽起於目內眥，上額交巔上，入絡腦，還出別下項，循肩髆內，挾脊抵腰中，入循膂絡腎；",
+      "baihua": "督脈又與足太陽膀胱經一同起於眼內角,上行前額而在頭頂交會,深入聯絡腦部,再返出而分別下行到後頸,沿肩胛骨內側,夾著脊柱到達腰部,深入沿脊旁肌肉而聯絡腎臟。",
+      "annotations": [
+        {
+          "char": "目內眥",
+          "jyutping": "muk6 noi6 zi6",
+          "meaning": "眼內角"
+        },
+        {
+          "char": "巔",
+          "jyutping": "din1",
+          "meaning": "頭頂"
+        },
+        {
+          "char": "肩髆",
+          "jyutping": "gin1 bok3",
+          "meaning": "肩胛骨"
+        },
+        {
+          "char": "膂",
+          "jyutping": "leoi5",
+          "meaning": "脊柱兩旁的肌肉"
+        }
+      ]
+    },
+    {
+      "original": "其男子循莖下至篡，與女子等；",
+      "baihua": "在男子,督脈沿陰莖下行到會陰,與女子的循行路線相同。",
+      "annotations": [
+        {
+          "char": "莖",
+          "jyutping": "ging1",
+          "meaning": "陰莖"
+        },
+        {
+          "char": "篡",
+          "jyutping": "saan3",
+          "meaning": "會陰部"
+        },
+        {
+          "char": "等",
+          "jyutping": "dang2",
+          "meaning": "相同、一樣"
+        }
+      ]
+    },
+    {
+      "original": "其少腹直上者，貫臍中央，上貫心入喉，上頤環唇，上系兩目之下中央。",
+      "baihua": "督脈從小腹直行向上的一支,貫穿肚臍中央,上行貫穿心臟進入咽喉,再上行至下巴、環繞嘴唇,向上聯繫於兩眼下方的正中處。",
+      "annotations": [
+        {
+          "char": "貫",
+          "jyutping": "gun3",
+          "meaning": "貫穿、穿過"
+        },
+        {
+          "char": "環唇",
+          "jyutping": "waan4 seon4",
+          "meaning": "環繞嘴唇"
+        },
+        {
+          "char": "系",
+          "jyutping": "hai6",
+          "meaning": "聯繫、繫連"
+        }
+      ]
+    },
+    {
+      "original": "此生病，從少腹上衝心而痛，不得前後，為沖疝。",
+      "baihua": "督脈發病時,會從小腹向上衝擊心胸而作痛,大小便不通,這就叫做沖疝。",
+      "annotations": [
+        {
+          "char": "上衝",
+          "jyutping": "soeng5 cung1",
+          "meaning": "向上衝擊"
+        },
+        {
+          "char": "前後",
+          "jyutping": "cin4 hau6",
+          "meaning": "指大小便"
+        },
+        {
+          "char": "沖疝",
+          "jyutping": "cung1 saan3",
+          "meaning": "氣上衝心的疝病"
+        }
+      ]
+    },
+    {
+      "original": "其女子不孕，癃痔遺溺嗌乾。",
+      "baihua": "在女子則會不孕,並見小便不利、痔瘡、遺尿、咽喉乾燥等症狀。",
+      "annotations": [
+        {
+          "char": "不孕",
+          "jyutping": "bat1 jan6",
+          "meaning": "不能懷孕"
+        },
+        {
+          "char": "癃",
+          "jyutping": "lung4",
+          "meaning": "小便不通或淋瀝不暢"
+        },
+        {
+          "char": "遺溺",
+          "jyutping": "wai4 niu6",
+          "meaning": "遺尿、小便失禁"
+        },
+        {
+          "char": "嗌乾",
+          "jyutping": "aai3 gon1",
+          "meaning": "咽喉乾燥"
+        }
+      ]
+    },
+    {
+      "original": "督脈生病治督脈，治在骨上，甚者在臍下營。",
+      "baihua": "督脈發生的病就治督脈,取穴在恥骨上方,病重的則取臍下的穴位。",
+      "annotations": [
+        {
+          "char": "骨上",
+          "jyutping": "gwat1 soeng6",
+          "meaning": "恥骨上方,指曲骨穴處"
+        },
+        {
+          "char": "甚",
+          "jyutping": "sam6",
+          "meaning": "嚴重"
+        },
+        {
+          "char": "營",
+          "jyutping": "jing4",
+          "meaning": "此指穴位、腧穴"
+        }
+      ]
+    },
+    {
+      "original": "其上氣有音者治其喉中央，在缺盆中者。",
+      "baihua": "如果氣上逆而喉間有喘鳴聲的,就治療喉部正中的穴位,即在缺盆之中的天突穴。",
+      "annotations": [
+        {
+          "char": "上氣",
+          "jyutping": "soeng5 hei3",
+          "meaning": "氣逆而喘"
+        },
+        {
+          "char": "有音",
+          "jyutping": "jau5 jam1",
+          "meaning": "有喘鳴聲"
+        },
+        {
+          "char": "缺盆",
+          "jyutping": "kyut3 pun4",
+          "meaning": "鎖骨上窩處"
+        }
+      ]
+    },
+    {
+      "original": "其病上衝喉者治其漸，漸者上挾頤也。",
+      "baihua": "如果病氣向上衝到咽喉的,就治療漸穴,漸穴在上方夾著下巴兩旁的地方。",
+      "annotations": [
+        {
+          "char": "上衝喉",
+          "jyutping": "soeng5 cung1 hau4",
+          "meaning": "病氣上衝咽喉"
+        },
+        {
+          "char": "漸",
+          "jyutping": "zim6",
+          "meaning": "指大迎穴等頷旁部位"
+        },
+        {
+          "char": "挾頤",
+          "jyutping": "gaap3 ji4",
+          "meaning": "夾在下巴兩旁"
+        }
+      ]
+    },
+    {
+      "original": "蹇膝伸不屈治其楗。",
+      "baihua": "膝關節僵直只能伸而不能屈的,治療其楗(大腿股骨)部位。",
+      "annotations": [
+        {
+          "char": "蹇",
+          "jyutping": "gin2",
+          "meaning": "行動不便、屈伸困難"
+        },
+        {
+          "char": "屈",
+          "jyutping": "wat1",
+          "meaning": "彎曲"
+        },
+        {
+          "char": "楗",
+          "jyutping": "gin6",
+          "meaning": "大腿股骨部位"
+        }
+      ]
+    },
+    {
+      "original": "坐而膝痛治其機。",
+      "baihua": "坐著時膝部疼痛的,治療其機(髖關節的環跳穴部位)。",
+      "annotations": [
+        {
+          "char": "坐",
+          "jyutping": "co5",
+          "meaning": "坐著"
+        },
+        {
+          "char": "機",
+          "jyutping": "gei1",
+          "meaning": "髖關節部位,指環跳穴處"
+        }
+      ]
+    },
+    {
+      "original": "立而暑解，治其骸關。",
+      "baihua": "站立時膝部鬆軟無力如要解散的,治療其骸關(膝關節縫處)。",
+      "annotations": [
+        {
+          "char": "立",
+          "jyutping": "laap6",
+          "meaning": "站立"
+        },
+        {
+          "char": "暑解",
+          "jyutping": "syu2 gaai2",
+          "meaning": "指膝軟弛緩如要散開"
+        },
+        {
+          "char": "骸關",
+          "jyutping": "haai4 gwaan1",
+          "meaning": "膝關節縫隙處"
+        }
+      ]
+    },
+    {
+      "original": "膝痛，痛及拇指治其膕。",
+      "baihua": "膝部疼痛,並牽連到大腳趾的,治療其膕(膝窩處委中穴)。",
+      "annotations": [
+        {
+          "char": "拇指",
+          "jyutping": "mou5 zi2",
+          "meaning": "此指足大趾"
+        },
+        {
+          "char": "膕",
+          "jyutping": "gwik1",
+          "meaning": "膝彎後窩,即委中穴處"
+        }
+      ]
+    },
+    {
+      "original": "坐而膝痛如物隱者，治其關。",
+      "baihua": "坐著時膝痛好像有東西隱藏在裏面的,治療其關(膝上部位)。",
+      "annotations": [
+        {
+          "char": "隱",
+          "jyutping": "jan2",
+          "meaning": "隱藏、隱伏"
+        },
+        {
+          "char": "關",
+          "jyutping": "gwaan1",
+          "meaning": "此指膝上關節部位"
+        }
+      ]
+    },
+    {
+      "original": "膝痛不可屈伸，治其背內。",
+      "baihua": "膝痛得不能屈伸的,治療其背部內側的穴位。",
+      "annotations": [
+        {
+          "char": "屈伸",
+          "jyutping": "wat1 san1",
+          "meaning": "彎曲與伸直"
+        },
+        {
+          "char": "背內",
+          "jyutping": "bui3 noi6",
+          "meaning": "背部靠脊柱的穴位"
+        }
+      ]
+    },
+    {
+      "original": "連䯒若折，治陽明中俞髎。",
+      "baihua": "牽連小腿脛骨疼痛好像要折斷的,治療足陽明經中間的腧穴。",
+      "annotations": [
+        {
+          "char": "連",
+          "jyutping": "lin4",
+          "meaning": "牽連、連及"
+        },
+        {
+          "char": "䯒",
+          "jyutping": "hang4",
+          "meaning": "小腿脛骨"
+        },
+        {
+          "char": "俞髎",
+          "jyutping": "syu6 liu4",
+          "meaning": "腧穴、孔穴"
+        }
+      ]
+    },
+    {
+      "original": "若別，治巨陽少陰滎。",
+      "baihua": "如果病邪別走他經,就治療足太陽和足少陰經的滎穴。",
+      "annotations": [
+        {
+          "char": "別",
+          "jyutping": "bit6",
+          "meaning": "分別、別走他處"
+        },
+        {
+          "char": "巨陽",
+          "jyutping": "geoi6 joeng4",
+          "meaning": "即足太陽膀胱經"
+        },
+        {
+          "char": "滎",
+          "jyutping": "jing4",
+          "meaning": "五輸穴之一的滎穴"
+        }
+      ]
+    },
+    {
+      "original": "淫濼脛痠，不能久立，治少陽之維，在外上五寸。",
+      "baihua": "身體酸軟無力、小腿痠痛,不能久站的,治療足少陽經的絡穴,在外踝上五寸處。",
+      "annotations": [
+        {
+          "char": "淫濼",
+          "jyutping": "jam4 lok6",
+          "meaning": "肢體痠軟乏力"
+        },
+        {
+          "char": "脛",
+          "jyutping": "geng3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "痠",
+          "jyutping": "syun1",
+          "meaning": "痠痛"
+        },
+        {
+          "char": "維",
+          "jyutping": "wai4",
+          "meaning": "此指絡穴,即光明穴"
+        }
+      ]
+    },
+    {
+      "original": "輔骨上橫骨下為楗，挾髖為機，膝解為骸關，挾膝之骨為連骸，骸下為輔，輔上為膕，膕上為關，頭橫骨為枕。",
+      "baihua": "輔骨之上、橫骨之下的部位叫做楗,夾在髖骨旁的叫做機,膝關節的縫隙叫做骸關,夾著膝部的骨叫做連骸,連骸之下叫做輔,輔骨之上叫做膕,膕之上叫做關,頭後的橫骨叫做枕。",
+      "annotations": [
+        {
+          "char": "輔骨",
+          "jyutping": "fu6 gwat1",
+          "meaning": "膝旁的骨,指腓骨"
+        },
+        {
+          "char": "髖",
+          "jyutping": "fun1",
+          "meaning": "髖骨、胯骨"
+        },
+        {
+          "char": "連骸",
+          "jyutping": "lin4 haai4",
+          "meaning": "夾膝之骨"
+        },
+        {
+          "char": "枕",
+          "jyutping": "zam2",
+          "meaning": "頭後的橫骨,即枕骨"
+        }
+      ]
+    },
+    {
+      "original": "水俞五十七穴者，尻上五行，行五，伏兔上兩行，行五，左右各一行，行五，踝上各一行，行六穴。",
+      "baihua": "治療水病的腧穴共五十七個:尾骶部以上有五行,每行五穴;伏兔穴上方有兩行,每行五穴;左右各有一行,每行五穴;內踝上方左右各一行,每行六穴。",
+      "annotations": [
+        {
+          "char": "水俞",
+          "jyutping": "seoi2 syu6",
+          "meaning": "治療水腫病的腧穴"
+        },
+        {
+          "char": "尻",
+          "jyutping": "haau1",
+          "meaning": "尾骶部"
+        },
+        {
+          "char": "伏兔",
+          "jyutping": "fuk6 tou3",
+          "meaning": "穴位名,在大腿前方"
+        },
+        {
+          "char": "踝",
+          "jyutping": "waa5",
+          "meaning": "腳踝"
+        }
+      ]
+    },
+    {
+      "original": "髓空在腦後三分，在顱際銳骨之下，一在齦基下，一在項後中復骨下，一在脊骨上空在風府上。",
+      "baihua": "髓空的孔穴,一個在腦後三分之處,在頭顱邊際尖骨的下方;一個在牙齦根部之下;一個在後頸正中重疊骨之下;一個在脊骨上端的孔穴,即在風府穴上方。",
+      "annotations": [
+        {
+          "char": "髓空",
+          "jyutping": "seoi5 hung1",
+          "meaning": "骨中通髓的孔穴"
+        },
+        {
+          "char": "顱",
+          "jyutping": "lou4",
+          "meaning": "頭顱、頭骨"
+        },
+        {
+          "char": "銳骨",
+          "jyutping": "jeoi6 gwat1",
+          "meaning": "尖突的骨"
+        },
+        {
+          "char": "齦基",
+          "jyutping": "ngan4 gei1",
+          "meaning": "牙齦根部"
+        }
+      ]
+    },
+    {
+      "original": "脊骨下空，在尻骨下空。",
+      "baihua": "脊骨下端的孔穴,在尾骶骨下方的孔穴處。",
+      "annotations": [
+        {
+          "char": "脊骨",
+          "jyutping": "zek3 gwat1",
+          "meaning": "脊椎骨"
+        },
+        {
+          "char": "空",
+          "jyutping": "hung1",
+          "meaning": "孔穴、空隙"
+        },
+        {
+          "char": "尻骨",
+          "jyutping": "haau1 gwat1",
+          "meaning": "尾骶骨"
+        }
+      ]
+    },
+    {
+      "original": "數髓空在面挾鼻，或骨空在口下當兩肩。",
+      "baihua": "有幾個髓空在面部夾著鼻子的兩旁,又有骨空在口下正對兩肩的部位。",
+      "annotations": [
+        {
+          "char": "數",
+          "jyutping": "sou3",
+          "meaning": "幾個、若干"
+        },
+        {
+          "char": "挾鼻",
+          "jyutping": "gaap3 bei6",
+          "meaning": "夾在鼻子兩旁"
+        },
+        {
+          "char": "當",
+          "jyutping": "dong1",
+          "meaning": "正對、對著"
+        }
+      ]
+    },
+    {
+      "original": "兩髆骨空，在髆中之陽。臂骨空在臂陽，去踝四寸兩骨空之間。",
+      "baihua": "兩肩胛骨的骨空,在肩胛正中偏外側的部位;臂骨的骨空在手臂外側,距離腕踝四寸、兩骨之間的孔穴處。",
+      "annotations": [
+        {
+          "char": "髆",
+          "jyutping": "bok3",
+          "meaning": "肩胛骨"
+        },
+        {
+          "char": "陽",
+          "jyutping": "joeng4",
+          "meaning": "此指外側"
+        },
+        {
+          "char": "臂",
+          "jyutping": "bei3",
+          "meaning": "手臂"
+        }
+      ]
+    },
+    {
+      "original": "股骨上空在股陽，出上膝四寸。䯒骨空在輔骨之上端。",
+      "baihua": "股骨上端的骨空在大腿外側,在膝上四寸的地方;脛骨的骨空在輔骨的上端。",
+      "annotations": [
+        {
+          "char": "股骨",
+          "jyutping": "gu2 gwat1",
+          "meaning": "大腿骨"
+        },
+        {
+          "char": "股陽",
+          "jyutping": "gu2 joeng4",
+          "meaning": "大腿外側"
+        },
+        {
+          "char": "上端",
+          "jyutping": "soeng6 dyun1",
+          "meaning": "上方的末端"
+        }
+      ]
+    },
+    {
+      "original": "股際骨空在毛中動下。尻骨空在髀骨之後，相去四寸。",
+      "baihua": "大腿內側交會處的骨空,在陰毛中動脈之下;尾骶骨的骨空在髀骨的後方,左右相距四寸。",
+      "annotations": [
+        {
+          "char": "股際",
+          "jyutping": "gu2 zai3",
+          "meaning": "大腿根部交界處"
+        },
+        {
+          "char": "動",
+          "jyutping": "dung6",
+          "meaning": "指動脈搏動處"
+        },
+        {
+          "char": "髀骨",
+          "jyutping": "bei2 gwat1",
+          "meaning": "大腿骨、股骨"
+        },
+        {
+          "char": "相去",
+          "jyutping": "soeng1 heoi3",
+          "meaning": "彼此相距"
+        }
+      ]
+    },
+    {
+      "original": "扁骨有滲理湊，無髓孔，易髓無空。",
+      "baihua": "扁平的骨頭有滲透的紋理和空隙,沒有通髓的孔道,是以髓氣互相滲注而沒有明顯的骨空。",
+      "annotations": [
+        {
+          "char": "扁骨",
+          "jyutping": "bin2 gwat1",
+          "meaning": "扁平的骨,如肩胛、肋骨"
+        },
+        {
+          "char": "滲理",
+          "jyutping": "sam3 lei5",
+          "meaning": "滲透的紋理"
+        },
+        {
+          "char": "湊",
+          "jyutping": "cau3",
+          "meaning": "會聚的空隙、腠理"
+        },
+        {
+          "char": "易",
+          "jyutping": "jik6",
+          "meaning": "交換、互相滲注"
+        }
+      ]
+    },
+    {
+      "original": "灸寒熱之法，先灸項大椎，以年為壯數，次灸橛骨，以年為壯數，",
+      "baihua": "灸治寒熱病的方法:先灸後頸的大椎穴,以病人的年歲數作為艾灸的壯數;其次灸尾骶部的橛骨,同樣以年歲數作為壯數。",
+      "annotations": [
+        {
+          "char": "大椎",
+          "jyutping": "daai6 zeoi1",
+          "meaning": "穴位名,在第七頸椎下"
+        },
+        {
+          "char": "壯",
+          "jyutping": "zong3",
+          "meaning": "艾灸的計量單位,一炷為一壯"
+        },
+        {
+          "char": "橛骨",
+          "jyutping": "kyut3 gwat1",
+          "meaning": "尾骶骨末端,即尾閭"
+        }
+      ]
+    },
+    {
+      "original": "視背俞陷者灸之，舉臂肩上陷者灸之，兩季脅之間灸之，",
+      "baihua": "察看背部腧穴凹陷之處而灸它,舉起手臂時肩上凹陷之處灸它,兩側季脅之間灸它。",
+      "annotations": [
+        {
+          "char": "背俞",
+          "jyutping": "bui3 syu6",
+          "meaning": "背部的腧穴"
+        },
+        {
+          "char": "陷",
+          "jyutping": "haam6",
+          "meaning": "凹陷"
+        },
+        {
+          "char": "舉臂",
+          "jyutping": "geoi2 bei3",
+          "meaning": "舉起手臂"
+        }
+      ]
+    },
+    {
+      "original": "外踝上絕骨之端灸之，足小指次指間灸之，腨下陷脈灸之，外踝後灸之，",
+      "baihua": "外踝上方絕骨的末端灸它,足小趾與第四趾之間灸它,小腿肚下方脈氣凹陷處灸它,外踝的後方灸它。",
+      "annotations": [
+        {
+          "char": "外踝",
+          "jyutping": "ngoi6 waa5",
+          "meaning": "腳外側踝骨"
+        },
+        {
+          "char": "絕骨",
+          "jyutping": "zyut6 gwat1",
+          "meaning": "腓骨下端,即懸鐘穴處"
+        },
+        {
+          "char": "腨",
+          "jyutping": "syun2",
+          "meaning": "小腿肚、腓腸肌"
+        }
+      ]
+    },
+    {
+      "original": "缺盆骨上切之堅痛如筋者灸之，膺中陷骨間灸之。",
+      "baihua": "缺盆骨上方按壓時堅硬疼痛如筋的地方灸它,胸膺正中骨間凹陷處灸它。",
+      "annotations": [
+        {
+          "char": "缺盆",
+          "jyutping": "kyut3 pun4",
+          "meaning": "鎖骨上窩"
+        },
+        {
+          "char": "切",
+          "jyutping": "cit3",
+          "meaning": "按壓、切按"
+        },
+        {
+          "char": "膺",
+          "jyutping": "jing1",
+          "meaning": "胸前部"
+        }
+      ]
+    },
+    {
+      "original": "掌束骨下灸之，臍下關元三寸灸之，毛際動脈灸之，膝下三寸分間灸之，足陽明跗上動脈灸之，",
+      "baihua": "手掌後腕骨下方灸它,肚臍下三寸的關元穴灸它,陰毛邊際動脈搏動處灸它,膝下三寸兩筋之間灸它,足陽明經足背上動脈搏動處灸它。",
+      "annotations": [
+        {
+          "char": "束骨",
+          "jyutping": "cuk1 gwat1",
+          "meaning": "腕後的骨,指腕骨處"
+        },
+        {
+          "char": "關元",
+          "jyutping": "gwaan1 jyun4",
+          "meaning": "穴位名,在臍下三寸"
+        },
+        {
+          "char": "跗",
+          "jyutping": "fu1",
+          "meaning": "足背"
+        }
+      ]
+    },
+    {
+      "original": "巔上一灸之，犬所齧之處灸之三壯，即以犬傷病法灸之，凡當灸二十九處。",
+      "baihua": "頭頂正中一處灸它,被狗咬傷的地方灸三壯,即用治犬傷病的方法來灸;以上總共應當灸二十九處。",
+      "annotations": [
+        {
+          "char": "巔",
+          "jyutping": "din1",
+          "meaning": "頭頂"
+        },
+        {
+          "char": "齧",
+          "jyutping": "jit6",
+          "meaning": "咬"
+        },
+        {
+          "char": "凡",
+          "jyutping": "faan4",
+          "meaning": "總共、大凡"
+        }
+      ]
+    },
+    {
+      "original": "傷食灸之，不已者，必視其經之過於陽者，數刺其俞而藥之。",
+      "baihua": "飲食所傷可用灸法治療,如果灸後仍未痊癒,必須察看邪氣過盛而偏於陽經的經脈,多次針刺其腧穴並配合藥物治療。",
+      "annotations": [
+        {
+          "char": "傷食",
+          "jyutping": "soeng1 sik6",
+          "meaning": "飲食過度所致的損傷"
+        },
+        {
+          "char": "不已",
+          "jyutping": "bat1 ji5",
+          "meaning": "沒有痊癒、不停止"
+        },
+        {
+          "char": "數",
+          "jyutping": "sok3",
+          "meaning": "多次、屢次"
+        },
+        {
+          "char": "藥",
+          "jyutping": "joek6",
+          "meaning": "用藥物治療"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "風邪從外入侵人體,岐伯指出會出現哪些症狀?治療取哪個穴位?",
+      "answer": "風邪從外侵入,會令人發冷戰慄、出汗、頭痛、身體沉重、怕冷。治療取風府穴,並調和陰陽,正氣不足用補法,邪氣有餘用瀉法。"
+    },
+    {
+      "question": "本篇提到任脈、衝脈、督脈三條奇經的起始部位分別在哪裏?",
+      "answer": "任脈起於中極穴之下、上行至陰毛邊際;衝脈起於氣街(氣衝穴),與足少陰經並行夾臍上行;督脈起於小腹以下的恥骨中央。"
+    },
+    {
+      "question": "督脈發生病變會出現甚麼主要症狀?男女各有何不同表現?",
+      "answer": "督脈發病主要見脊背僵硬、身體反折;發病時氣從小腹上衝心胸而痛、大小便不通,稱為沖疝。女子則見不孕、小便不利、痔瘡、遺尿、咽喉乾燥。"
+    },
+    {
+      "question": "灸治寒熱病時,為何要「以年為壯數」?最先灸的兩個部位是甚麼?",
+      "answer": "「以年為壯數」即按病人的年歲數決定艾灸的壯數。灸寒熱病最先灸後頸的大椎穴,其次灸尾骶部的橛骨。"
+    },
+    {
+      "question": "「扁骨有滲理湊,無髓孔,易髓無空」說明了甚麼骨的特點?",
+      "answer": "說明扁平的骨(如肩胛骨、肋骨等)只有滲透的紋理和腠理空隙,沒有貫通骨髓的孔道,是靠髓氣互相滲注,因而沒有明顯的骨空。"
+    }
+  ]
+}

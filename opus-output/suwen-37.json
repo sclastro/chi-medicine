@@ -1,0 +1,374 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "氣厥論",
+    "number": 37,
+    "originalVerified": true,
+    "sections": 17,
+    "usage": {
+      "completion_tokens": 4421,
+      "prompt_tokens": 1036,
+      "total_tokens": 5457,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:20:22.299Z"
+  },
+  "id": "suwen-37",
+  "intro": "《氣厥論》是《素問》第三十七篇,「氣厥」指人體臟腑之氣逆亂、失於協調而互相傳移的病理狀態。本篇專門討論五臟六腑之間寒邪與熱邪相互轉移(「寒熱相移」)所引起的各種疾病,例如癰腫、肺消、湧水、膈消、鼻淵等。透過黃帝與岐伯的問答,系統地說明臟腑之間病邪傳變的規律,揭示中醫「整體觀」與「臟腑相關」的核心思想:一個臟腑的病變往往會影響到其他臟腑。對初學者而言,本篇有助理解臟腑相互聯繫的觀念,以及疾病如何在體內傳變,是學習中醫病機理論的重要基礎。",
+  "sections": [
+    {
+      "original": "黃帝問曰：五藏六腑，寒熱相移者何？",
+      "baihua": "黃帝問道:五臟六腑之間,寒邪與熱邪互相傳移,會產生怎樣的疾病呢?",
+      "annotations": [
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "同「臟」,指內臟"
+        },
+        {
+          "char": "腑",
+          "jyutping": "fu2",
+          "meaning": "六腑,即膽、胃、大腸、小腸、膀胱、三焦"
+        },
+        {
+          "char": "移",
+          "jyutping": "ji4",
+          "meaning": "傳移、轉移"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：腎移寒於肝，癰腫少氣。",
+      "baihua": "岐伯回答:腎把寒邪傳給脾(此處肝當作脾),就會出現癰腫和氣短乏力的症狀。",
+      "annotations": [
+        {
+          "char": "癰",
+          "jyutping": "jung1",
+          "meaning": "癰瘡,一種紅腫化膿的瘡瘍"
+        },
+        {
+          "char": "腫",
+          "jyutping": "zung2",
+          "meaning": "腫脹"
+        },
+        {
+          "char": "少氣",
+          "jyutping": "siu2 hei3",
+          "meaning": "氣不足,呼吸短促無力"
+        }
+      ]
+    },
+    {
+      "original": "脾移寒於肝，癰腫筋攣。",
+      "baihua": "脾把寒邪傳給肝,就會出現癰腫和筋脈拘攣的症狀。",
+      "annotations": [
+        {
+          "char": "攣",
+          "jyutping": "lyun4",
+          "meaning": "拘攣、抽緊、屈伸不利"
+        },
+        {
+          "char": "筋",
+          "jyutping": "gan1",
+          "meaning": "筋脈,連接關節與肌肉的組織"
+        }
+      ]
+    },
+    {
+      "original": "肝移寒於心，狂隔中。",
+      "baihua": "肝把寒邪傳給心,就會出現神志狂亂、胸膈間阻塞不通的病症。",
+      "annotations": [
+        {
+          "char": "狂",
+          "jyutping": "kong4",
+          "meaning": "神志狂亂"
+        },
+        {
+          "char": "隔",
+          "jyutping": "gaak3",
+          "meaning": "同「膈」,指胸膈阻塞不通"
+        }
+      ]
+    },
+    {
+      "original": "心移寒於肺，肺消，肺消者飲一溲二，死不治。",
+      "baihua": "心把寒邪傳給肺,就會形成「肺消」病;患肺消的人,喝下一分水而排出二分尿,屬於難治的死症。",
+      "annotations": [
+        {
+          "char": "消",
+          "jyutping": "siu1",
+          "meaning": "消耗、消渴,指津液大量流失"
+        },
+        {
+          "char": "溲",
+          "jyutping": "sau1",
+          "meaning": "小便、排尿"
+        },
+        {
+          "char": "飲一溲二",
+          "jyutping": "jam2 jat1 sau1 ji6",
+          "meaning": "喝一分水卻排出二分尿,形容津液嚴重流失"
+        }
+      ]
+    },
+    {
+      "original": "肺移寒於腎，為湧水，湧水者，按腹不堅，水氣客於大腸，疾行則鳴濯濯如囊裹漿，水之病也。",
+      "baihua": "肺把寒邪傳給腎,就會形成「湧水」病;患湧水的人,按壓腹部並不堅硬,這是水氣停留在大腸,快步行走時腹中發出「濯濯」的聲響,好像袋子裝著漿液一樣晃動,這是水氣所致的疾病。",
+      "annotations": [
+        {
+          "char": "湧",
+          "jyutping": "jung2",
+          "meaning": "水氣上湧、泛溢"
+        },
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "停留、寄居(指邪氣停滯)"
+        },
+        {
+          "char": "濯濯",
+          "jyutping": "zok6 zok6",
+          "meaning": "形容腹中水聲的擬聲詞"
+        },
+        {
+          "char": "囊裹漿",
+          "jyutping": "nong4 gwo2 zoeng1",
+          "meaning": "袋子包著漿液,形容腹中水液晃動之狀"
+        }
+      ]
+    },
+    {
+      "original": "脾移熱於肝，則為驚衄。",
+      "baihua": "脾把熱邪傳給肝,就會出現驚恐不安和鼻出血的症狀。",
+      "annotations": [
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚恐、驚悸不安"
+        },
+        {
+          "char": "衄",
+          "jyutping": "nuk6",
+          "meaning": "鼻出血"
+        }
+      ]
+    },
+    {
+      "original": "肝移熱於心，則死。",
+      "baihua": "肝把熱邪傳給心,由於心火過盛,病情危重可致死亡。",
+      "annotations": [
+        {
+          "char": "熱",
+          "jyutping": "jit6",
+          "meaning": "熱邪、火熱之氣"
+        },
+        {
+          "char": "死",
+          "jyutping": "sei2",
+          "meaning": "死亡,病情危重之意"
+        }
+      ]
+    },
+    {
+      "original": "心移熱於肺，傳為膈消。",
+      "baihua": "心把熱邪傳給肺,便會傳變為「膈消」,即上焦煩熱口渴、多飲的消渴病。",
+      "annotations": [
+        {
+          "char": "膈",
+          "jyutping": "gaak3",
+          "meaning": "胸膈,指上焦部位"
+        },
+        {
+          "char": "膈消",
+          "jyutping": "gaak3 siu1",
+          "meaning": "上焦熱盛、口渴多飲的消渴病"
+        }
+      ]
+    },
+    {
+      "original": "肺移熱於腎，傳為柔痓。",
+      "baihua": "肺把熱邪傳給腎,便會傳變為「柔痓」,即身體發熱、汗出而筋脈拘急的病症。",
+      "annotations": [
+        {
+          "char": "柔",
+          "jyutping": "jau4",
+          "meaning": "柔痓中指有汗出的一類"
+        },
+        {
+          "char": "痓",
+          "jyutping": "ci3",
+          "meaning": "同「痙」,指筋脈拘急、角弓反張的病症"
+        }
+      ]
+    },
+    {
+      "original": "腎移熱於脾，傳為虛，腸澼死，不可治。",
+      "baihua": "腎把熱邪傳給脾,便會傳變為虛損之證,若進一步出現痢下膿血的「腸澼」,則屬難治的死症。",
+      "annotations": [
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "虛損、正氣不足"
+        },
+        {
+          "char": "澼",
+          "jyutping": "pik1",
+          "meaning": "腸澼,指下痢膿血的疾病"
+        }
+      ]
+    },
+    {
+      "original": "胞移熱於膀胱，則癃溺血。",
+      "baihua": "胞(此指胞宮或胞絡)把熱邪傳給膀胱,就會出現小便不通暢和尿中帶血的症狀。",
+      "annotations": [
+        {
+          "char": "胞",
+          "jyutping": "baau1",
+          "meaning": "胞宮或膀胱之胞,指下焦生殖與泌尿相關的部位"
+        },
+        {
+          "char": "癃",
+          "jyutping": "lung4",
+          "meaning": "小便不通或滴瀝不暢"
+        },
+        {
+          "char": "溺血",
+          "jyutping": "niu6 hyut3",
+          "meaning": "尿中帶血"
+        }
+      ]
+    },
+    {
+      "original": "膀胱移熱於小腸，膈腸不便，上為口麋。",
+      "baihua": "膀胱把熱邪傳給小腸,就會使腸道阻隔、大便不通,並使熱氣上行,導致口舌生瘡糜爛。",
+      "annotations": [
+        {
+          "char": "便",
+          "jyutping": "bin6",
+          "meaning": "通暢、順利(此指大便通利)"
+        },
+        {
+          "char": "麋",
+          "jyutping": "mei4",
+          "meaning": "同「糜」,糜爛、潰爛"
+        }
+      ]
+    },
+    {
+      "original": "小腸移熱於大腸，為虙瘕，為沉。",
+      "baihua": "小腸把熱邪傳給大腸,就會形成「虙瘕」(腸道熱結成塊)的病症,並使病邪深伏於裡。",
+      "annotations": [
+        {
+          "char": "虙",
+          "jyutping": "fuk6",
+          "meaning": "通「伏」,潛伏、隱伏"
+        },
+        {
+          "char": "瘕",
+          "jyutping": "gaa2",
+          "meaning": "腹中結聚成塊的病症"
+        },
+        {
+          "char": "沉",
+          "jyutping": "cam4",
+          "meaning": "病位深沉、邪氣潛伏於裡"
+        }
+      ]
+    },
+    {
+      "original": "大腸移熱於胃，善食而瘦入，謂之食亦。",
+      "baihua": "大腸把熱邪傳給胃,病人雖然能吃且食量大卻仍然消瘦,這種病叫做「食亦」。",
+      "annotations": [
+        {
+          "char": "善食",
+          "jyutping": "sin6 sik6",
+          "meaning": "食慾旺盛、容易餓、進食多"
+        },
+        {
+          "char": "瘦",
+          "jyutping": "sau3",
+          "meaning": "消瘦、身體瘦削"
+        },
+        {
+          "char": "食亦",
+          "jyutping": "sik6 jik6",
+          "meaning": "病名,能吃卻消瘦,因中焦熱盛消耗所致"
+        }
+      ]
+    },
+    {
+      "original": "胃移熱於膽，亦曰食亦。",
+      "baihua": "胃把熱邪傳給膽,所引起的病症也稱作「食亦」。",
+      "annotations": [
+        {
+          "char": "膽",
+          "jyutping": "daam2",
+          "meaning": "六腑之一,附於肝,主決斷、貯藏膽汁"
+        },
+        {
+          "char": "亦",
+          "jyutping": "jik6",
+          "meaning": "也、同樣"
+        }
+      ]
+    },
+    {
+      "original": "膽移熱於腦，則辛頞鼻淵，鼻淵者，濁涕下不止也，傳為衄蔑瞑目，故得之氣厥也。",
+      "baihua": "膽把熱邪傳給腦,就會出現鼻樑內辛辣酸痛的「鼻淵」病;所謂鼻淵,就是混濁的鼻涕不停流下;若病情進一步發展,便會出現鼻中出血、目暗視物不清,這些病都是因為臟腑之氣逆亂傳移(氣厥)而引起的。",
+      "annotations": [
+        {
+          "char": "頞",
+          "jyutping": "aat3",
+          "meaning": "鼻樑、鼻根部"
+        },
+        {
+          "char": "淵",
+          "jyutping": "jyun1",
+          "meaning": "深潭,此指鼻涕如泉深流不止"
+        },
+        {
+          "char": "蔑",
+          "jyutping": "mit6",
+          "meaning": "此指鼻中少量出血"
+        },
+        {
+          "char": "瞑",
+          "jyutping": "ming4",
+          "meaning": "閉目、眼目昏花視物不清"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "逆亂、氣機上逆"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇「氣厥」二字的含義是什麼?",
+      "answer": "「氣厥」指人體臟腑之氣逆亂、失於協調,以致寒邪或熱邪在臟腑之間互相傳移,從而引發各種疾病。本篇正是論述這種寒熱相移的病理規律。"
+    },
+    {
+      "question": "「肺消」的主要症狀和預後如何?",
+      "answer": "肺消是由心把寒邪傳給肺所致,主要症狀是「飲一溲二」,即喝下一分水卻排出二分尿,津液大量流失。此病預後很差,屬於難治的死症。"
+    },
+    {
+      "question": "「食亦」是怎樣的病?由哪些臟腑傳熱引起?",
+      "answer": "食亦的特點是病人食慾旺盛、進食很多,卻仍然日漸消瘦,這是因中焦熱盛過度消耗所致。它可由大腸移熱於胃,或由胃移熱於膽而引起。"
+    },
+    {
+      "question": "「鼻淵」的表現是什麼?它與哪個臟腑傳熱有關?",
+      "answer": "鼻淵表現為混濁的鼻涕不停流下,並伴有鼻樑辛辣酸痛;嚴重時可發展為鼻中出血、目暗視物不清。它是由膽把熱邪傳給腦所引起的。"
+    },
+    {
+      "question": "本篇對學習中醫理論有何啟示?",
+      "answer": "本篇透過臟腑之間寒熱相移引發疾病的例子,說明五臟六腑相互聯繫、彼此影響,一個臟腑的病變會傳變到其他臟腑,體現了中醫的整體觀和臟腑相關思想,是理解疾病傳變病機的重要基礎。"
+    }
+  ]
+}

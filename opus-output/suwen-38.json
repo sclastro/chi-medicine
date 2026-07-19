@@ -1,0 +1,426 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "欬論",
+    "number": 38,
+    "originalVerified": true,
+    "sections": 19,
+    "usage": {
+      "completion_tokens": 5670,
+      "prompt_tokens": 1394,
+      "total_tokens": 7064,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T08:21:34.663Z"
+  },
+  "id": "suwen-38",
+  "intro": "《欬論》是《素問》專門討論咳嗽(欬即咳)的篇章。本篇的核心觀點是：咳嗽並非只是肺的問題,而是五臟六腑功能失調都可能引起咳嗽。黃帝與岐伯以問答形式,闡明咳嗽的成因(外感寒邪與飲食寒涼由肺脈上傳)、五臟六腑各自不同的咳嗽症狀特點,以及咳嗽由臟傳腑的病理演變,最後點出治療的取穴原則。對初學者而言,本篇最寶貴的啟示是中醫「整體觀」的思維——看病要從全身臟腑聯繫著眼,而不是頭痛醫頭。同時,篇中「聚於胃,關於肺」一句,更點出脾胃與肺在咳嗽中的關鍵地位,至今仍是臨床辨治咳嗽的重要指導。",
+  "sections": [
+    {
+      "original": "黃帝問曰：肺之令人咳何也？岐伯對曰：五藏六腑皆令人咳，非獨肺也。",
+      "baihua": "黃帝問道:肺會使人咳嗽,是甚麼道理呢?岐伯回答說:其實五臟六腑都會使人咳嗽,並不是只有肺才會引起咳嗽。",
+      "annotations": [
+        {
+          "char": "咳",
+          "jyutping": "kat1",
+          "meaning": "咳嗽"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟,指五臟"
+        },
+        {
+          "char": "腑",
+          "jyutping": "fu2",
+          "meaning": "六腑,如胃、膽等"
+        },
+        {
+          "char": "獨",
+          "jyutping": "duk6",
+          "meaning": "單單、只有"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願聞其狀。岐伯曰：皮毛者肺之合也，皮毛先受邪氣，邪氣以從其合也。",
+      "baihua": "黃帝說:我想聽聽其中的具體情況。岐伯說:皮毛與肺相配合(是肺在體表的對應),皮毛最先感受外來的邪氣,邪氣便會順著這種相合關係傳入肺。",
+      "annotations": [
+        {
+          "char": "狀",
+          "jyutping": "zong6",
+          "meaning": "情況、症狀"
+        },
+        {
+          "char": "合",
+          "jyutping": "hap6",
+          "meaning": "相配應的部位"
+        },
+        {
+          "char": "邪",
+          "jyutping": "ce4",
+          "meaning": "致病的外邪之氣"
+        }
+      ]
+    },
+    {
+      "original": "其寒飲食入胃，從肺脈上至於肺則肺寒，肺寒則外內合邪因而客之，則為肺咳。",
+      "baihua": "如果寒涼的飲食進入胃中,寒氣便會沿著肺脈上行到達肺,使肺受寒;肺一旦受寒,體外的邪氣和體內的寒氣內外相合、乘虛侵犯,於是就形成肺咳。",
+      "annotations": [
+        {
+          "char": "脈",
+          "jyutping": "mak6",
+          "meaning": "經脈"
+        },
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "邪氣停留侵犯"
+        },
+        {
+          "char": "因",
+          "jyutping": "jan1",
+          "meaning": "順勢、趁機"
+        }
+      ]
+    },
+    {
+      "original": "五藏各以其時受病，非其時各傳以與之。",
+      "baihua": "五臟各在其所主的時令受到邪氣侵犯而發病;若不是在其所主的時令發病,則是由其他臟腑傳來所致。",
+      "annotations": [
+        {
+          "char": "時",
+          "jyutping": "si4",
+          "meaning": "所主的季節時令"
+        },
+        {
+          "char": "傳",
+          "jyutping": "cyun4",
+          "meaning": "病邪傳遞"
+        }
+      ]
+    },
+    {
+      "original": "人與天地相參，故五藏各以治時感於寒則受病，微則為咳，甚者為泄為痛。",
+      "baihua": "人與天地自然相互對應,所以五臟各在其所主的時令若感受寒邪就會生病:病邪輕微就表現為咳嗽,嚴重就會出現泄瀉或疼痛。",
+      "annotations": [
+        {
+          "char": "參",
+          "jyutping": "caam1",
+          "meaning": "相應、參合"
+        },
+        {
+          "char": "治時",
+          "jyutping": "zi6 si4",
+          "meaning": "所主的時令"
+        },
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "泄瀉、腹瀉"
+        }
+      ]
+    },
+    {
+      "original": "乘秋則肺先受邪，乘春則肝先受之，乘夏則心先受之，乘至陰則脾先受之，乘冬則腎先受之。",
+      "baihua": "在秋天感邪,肺會最先受病;在春天感邪,肝會最先受病;在夏天感邪,心會最先受病;在長夏(至陰)感邪,脾會最先受病;在冬天感邪,腎會最先受病。",
+      "annotations": [
+        {
+          "char": "乘",
+          "jyutping": "sing4",
+          "meaning": "值、當某時令"
+        },
+        {
+          "char": "至陰",
+          "jyutping": "zi3 jam1",
+          "meaning": "長夏時節,脾所主"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：何以異之？岐伯曰：肺咳之狀，咳而喘息有音，甚則唾血。",
+      "baihua": "黃帝問:怎樣區別它們呢?岐伯說:肺咳的症狀,是咳嗽時喘息並帶有聲響,嚴重時會咳出血來。",
+      "annotations": [
+        {
+          "char": "異",
+          "jyutping": "ji6",
+          "meaning": "區別、分辨"
+        },
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "氣急、呼吸困難"
+        },
+        {
+          "char": "唾",
+          "jyutping": "to3",
+          "meaning": "吐出"
+        }
+      ]
+    },
+    {
+      "original": "心咳之狀，咳則心痛，喉中介介如梗狀，甚則咽腫喉痹。",
+      "baihua": "心咳的症狀,是咳嗽時心口疼痛,喉嚨裏有異物梗塞般的感覺,嚴重時會咽喉腫脹、喉部閉塞不通。",
+      "annotations": [
+        {
+          "char": "介介",
+          "jyutping": "gaai3 gaai3",
+          "meaning": "梗塞不適之感"
+        },
+        {
+          "char": "梗",
+          "jyutping": "gang2",
+          "meaning": "阻塞的東西"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "閉塞不通"
+        }
+      ]
+    },
+    {
+      "original": "肝咳之狀，咳則兩脅下痛，甚則不可以轉，轉則兩胠下滿。",
+      "baihua": "肝咳的症狀,是咳嗽時兩側脅肋下疼痛,嚴重時不能轉動身體,一轉動就覺得兩腋下脹滿。",
+      "annotations": [
+        {
+          "char": "脅",
+          "jyutping": "hip3",
+          "meaning": "胸部兩側肋骨處"
+        },
+        {
+          "char": "轉",
+          "jyutping": "zyun2",
+          "meaning": "轉動身體"
+        },
+        {
+          "char": "胠",
+          "jyutping": "keoi1",
+          "meaning": "腋下脅上部位"
+        }
+      ]
+    },
+    {
+      "original": "脾咳之狀，咳則右脅下痛陰陰引肩背，甚則不可以動，動則咳劇。",
+      "baihua": "脾咳的症狀,是咳嗽時右脅下隱隱作痛,並牽引到肩背,嚴重時不能活動,一動咳嗽就加劇。",
+      "annotations": [
+        {
+          "char": "陰陰",
+          "jyutping": "jam1 jam1",
+          "meaning": "隱隱、隱約"
+        },
+        {
+          "char": "引",
+          "jyutping": "jan5",
+          "meaning": "牽引、牽連"
+        },
+        {
+          "char": "劇",
+          "jyutping": "kek6",
+          "meaning": "劇烈、加重"
+        }
+      ]
+    },
+    {
+      "original": "腎咳之狀，咳則腰背相引而痛，甚則咳涎。",
+      "baihua": "腎咳的症狀,是咳嗽時腰部與背部互相牽引而疼痛,嚴重時會咳出稀薄的唾涎。",
+      "annotations": [
+        {
+          "char": "腰",
+          "jyutping": "jiu1",
+          "meaning": "腰部"
+        },
+        {
+          "char": "涎",
+          "jyutping": "jin4",
+          "meaning": "口水、稀痰涎"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：六腑之咳奈何？安所受病？岐伯曰：五藏之久咳，乃移於六腑。",
+      "baihua": "黃帝問:六腑的咳嗽又是怎樣的?它們從哪裏受病呢?岐伯說:五臟長久咳嗽不癒,病邪就會轉移到六腑。",
+      "annotations": [
+        {
+          "char": "奈何",
+          "jyutping": "noi6 ho4",
+          "meaning": "怎麼樣"
+        },
+        {
+          "char": "安",
+          "jyutping": "on1",
+          "meaning": "何處、哪裏"
+        },
+        {
+          "char": "移",
+          "jyutping": "ji4",
+          "meaning": "轉移"
+        }
+      ]
+    },
+    {
+      "original": "脾咳不已，則胃受之，胃咳之狀，咳而嘔，嘔甚則長蟲出。",
+      "baihua": "脾咳久久不癒,胃就會受病;胃咳的症狀,是咳嗽時伴有嘔吐,嘔吐嚴重時甚至會吐出蛔蟲。",
+      "annotations": [
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "停止、痊癒"
+        },
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        },
+        {
+          "char": "長蟲",
+          "jyutping": "coeng4 cung4",
+          "meaning": "蛔蟲"
+        }
+      ]
+    },
+    {
+      "original": "肝咳不已，則膽受之、膽咳之狀、咳嘔膽汁。",
+      "baihua": "肝咳久久不癒,膽就會受病;膽咳的症狀,是咳嗽時嘔吐出膽汁。",
+      "annotations": [
+        {
+          "char": "膽",
+          "jyutping": "daam2",
+          "meaning": "膽腑"
+        },
+        {
+          "char": "汁",
+          "jyutping": "zap1",
+          "meaning": "液汁"
+        }
+      ]
+    },
+    {
+      "original": "肺咳不已，則大腸受之，大腸咳狀，咳而遺失。",
+      "baihua": "肺咳久久不癒,大腸就會受病;大腸咳的症狀,是咳嗽時大便失禁而漏出。",
+      "annotations": [
+        {
+          "char": "腸",
+          "jyutping": "coeng4",
+          "meaning": "腸道"
+        },
+        {
+          "char": "遺失",
+          "jyutping": "wai4 sat1",
+          "meaning": "大便不自主漏出"
+        }
+      ]
+    },
+    {
+      "original": "心咳不已，則小腸受之，小腸咳狀，咳而失氣，氣與咳俱失。",
+      "baihua": "心咳久久不癒,小腸就會受病;小腸咳的症狀,是咳嗽時放屁,屁氣與咳嗽同時出現。",
+      "annotations": [
+        {
+          "char": "失氣",
+          "jyutping": "sat1 hei3",
+          "meaning": "放屁、排出腸氣"
+        },
+        {
+          "char": "俱",
+          "jyutping": "keoi1",
+          "meaning": "一同、同時"
+        }
+      ]
+    },
+    {
+      "original": "腎咳不已，則膀胱受之，膀胱咳狀，咳而遺溺。",
+      "baihua": "腎咳久久不癒,膀胱就會受病;膀胱咳的症狀,是咳嗽時小便不由自主地流出。",
+      "annotations": [
+        {
+          "char": "膀胱",
+          "jyutping": "pong4 gwong1",
+          "meaning": "貯存排泄小便的器官"
+        },
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便"
+        }
+      ]
+    },
+    {
+      "original": "久咳不已，則三焦受之，三焦咳狀，咳而腹滿，不欲食飲，此皆聚於胃，關於肺，使人多涕唾而面浮腫氣逆也。",
+      "baihua": "咳嗽長久不癒,三焦就會受病;三焦咳的症狀,是咳嗽時腹部脹滿,不想飲食。這些咳嗽的病邪都聚集在胃中,又與肺密切相關,使人多鼻涕唾液、面部浮腫、氣機上逆。",
+      "annotations": [
+        {
+          "char": "三焦",
+          "jyutping": "saam1 ziu1",
+          "meaning": "六腑之一,主水液氣機通道"
+        },
+        {
+          "char": "聚",
+          "jyutping": "zeoi6",
+          "meaning": "聚集"
+        },
+        {
+          "char": "涕",
+          "jyutping": "tai3",
+          "meaning": "鼻涕"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "上逆、不順"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：治之奈何？岐伯曰：治藏者治其俞，治腑者治其合，浮腫者治其經。帝曰：善。",
+      "baihua": "黃帝問:那應該怎樣治療呢?岐伯說:治療五臟的咳嗽,取相應的俞穴;治療六腑的咳嗽,取相應的合穴;有浮腫的,取相應的經穴。黃帝說:講得好。",
+      "annotations": [
+        {
+          "char": "俞",
+          "jyutping": "syu6",
+          "meaning": "俞穴,經絡上的腧穴"
+        },
+        {
+          "char": "合",
+          "jyutping": "hap6",
+          "meaning": "合穴,五輸穴之一"
+        },
+        {
+          "char": "經",
+          "jyutping": "ging1",
+          "meaning": "經穴,五輸穴之一"
+        },
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "好、對"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇提出咳嗽是否只由肺引起?其核心觀點是甚麼?",
+      "answer": "不是。岐伯明確指出「五藏六腑皆令人咳,非獨肺也」,即五臟六腑功能失調都可引起咳嗽,體現了中醫的整體觀。"
+    },
+    {
+      "question": "根據原文,五臟在不同時令感邪咳嗽的規律是怎樣的?",
+      "answer": "秋天肺先受邪,春天肝先受之,夏天心先受之,長夏(至陰)脾先受之,冬天腎先受之。因為人與天地相參,五臟各在其所主的時令易感受寒邪而病。"
+    },
+    {
+      "question": "肝咳與腎咳的症狀特點分別是甚麼?",
+      "answer": "肝咳表現為咳時兩脅下痛,嚴重時不能轉身,一轉動就兩腋下脹滿;腎咳表現為咳時腰背互相牽引而痛,嚴重時會咳出唾涎。"
+    },
+    {
+      "question": "六腑咳嗽是如何形成的?各腑咳嗽有何代表症狀?",
+      "answer": "五臟久咳不癒,病邪便轉移到六腑。例如胃咳咳而嘔、甚則吐蛔蟲;膽咳咳吐膽汁;大腸咳咳而大便失禁;小腸咳咳而放屁;膀胱咳咳而遺尿;三焦咳咳而腹滿、不欲飲食。"
+    },
+    {
+      "question": "本篇提出治療咳嗽的取穴原則是甚麼?",
+      "answer": "治療五臟咳取其俞穴,治療六腑咳取其合穴,有浮腫的取其經穴。"
+    }
+  ]
+}
