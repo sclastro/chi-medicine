@@ -1,0 +1,472 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "玉版論要",
+    "number": 15,
+    "originalVerified": true,
+    "sections": 20,
+    "usage": {
+      "completion_tokens": 5399,
+      "prompt_tokens": 1052,
+      "total_tokens": 6451,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T07:33:46.138Z"
+  },
+  "id": "suwen-15",
+  "intro": "《玉版論要》是《素問》第十五篇。「玉版」是古代刻寫重要文獻的玉制版片，象徵此篇內容珍貴,值得永久保存;「論要」即論述要旨。本篇承接前文,重點討論「揆度」與「奇恆」兩種診法。所謂「揆度」是衡量病情的淺深輕重,「奇恆」是辨別異常反常的疾病。全篇教導初學者如何綜合面色與脈象的變化來判斷疾病的深淺、順逆、生死,並根據病情淺深選擇湯液、藥劑或醪酒等不同治療手段及大致的療程。文中還提出「神轉不回」的重要原則,強調生命氣機當順向運轉,一旦逆亂便失去生機。學習本篇有助初學者建立「望色、切脈、分淺深、判順逆」的整體診病思維,理解中醫「治病求本、順應陰陽」的基本精神。",
+  "sections": [
+    {
+      "original": "黃帝問曰：余聞揆度奇恆，所指不同，用之奈何？",
+      "baihua": "黃帝問道:我聽說「揆度」和「奇恆」這兩種診法,所指的內容各不相同,究竟該怎樣運用它們呢?",
+      "annotations": [
+        {
+          "char": "揆",
+          "jyutping": "kwai4",
+          "meaning": "衡量、揣度"
+        },
+        {
+          "char": "度",
+          "jyutping": "dok6",
+          "meaning": "測量、估量"
+        },
+        {
+          "char": "恆",
+          "jyutping": "hang4",
+          "meaning": "常、恆常"
+        },
+        {
+          "char": "奈",
+          "jyutping": "noi6",
+          "meaning": "如何、怎樣"
+        }
+      ]
+    },
+    {
+      "original": "岐伯對曰：揆度者，度病之淺深也。奇恆者，言奇病也。",
+      "baihua": "岐伯回答說:所謂「揆度」,就是衡量疾病的淺深輕重;所謂「奇恆」,就是辨別那些異常反常的疾病。",
+      "annotations": [
+        {
+          "char": "淺",
+          "jyutping": "cin2",
+          "meaning": "程度輕、病位表淺"
+        },
+        {
+          "char": "深",
+          "jyutping": "sam1",
+          "meaning": "程度重、病位深"
+        },
+        {
+          "char": "奇",
+          "jyutping": "kei4",
+          "meaning": "異常、不尋常"
+        }
+      ]
+    },
+    {
+      "original": "請言道之至數，五色脈變，揆度奇恆，道在於一。",
+      "baihua": "請讓我談談醫道最精要的道理:面上五色的變化和脈象的變化,以及揆度、奇恆這些診法,其根本道理都歸於同一個原則。",
+      "annotations": [
+        {
+          "char": "至",
+          "jyutping": "zi3",
+          "meaning": "最、極致"
+        },
+        {
+          "char": "數",
+          "jyutping": "sou3",
+          "meaning": "道理、規律"
+        },
+        {
+          "char": "色",
+          "jyutping": "sik1",
+          "meaning": "面色、氣色"
+        }
+      ]
+    },
+    {
+      "original": "神轉不回，回則不轉，乃失其機，至數之要，迫近以微，著之玉版，命曰合玉機。",
+      "baihua": "生命的神氣應當順向運轉而不逆行,一旦逆行倒轉便不能正常運轉,於是就會喪失生機。這最精要的道理,切近而又細微,把它刻寫在玉版上,稱作與《玉機真藏論》相合。",
+      "annotations": [
+        {
+          "char": "轉",
+          "jyutping": "zyun2",
+          "meaning": "運轉、運行"
+        },
+        {
+          "char": "回",
+          "jyutping": "wui4",
+          "meaning": "逆行、倒轉"
+        },
+        {
+          "char": "機",
+          "jyutping": "gei1",
+          "meaning": "生機、關鍵"
+        },
+        {
+          "char": "著",
+          "jyutping": "zoek3",
+          "meaning": "書寫、記載"
+        }
+      ]
+    },
+    {
+      "original": "容色見上下左右，各在其要。",
+      "baihua": "面部氣色出現在上、下、左、右各個部位,都各有它所反映的要領和意義。",
+      "annotations": [
+        {
+          "char": "容",
+          "jyutping": "jung4",
+          "meaning": "面容、容貌"
+        },
+        {
+          "char": "見",
+          "jyutping": "jin6",
+          "meaning": "顯現、出現"
+        },
+        {
+          "char": "要",
+          "jyutping": "jiu3",
+          "meaning": "要領、關鍵"
+        }
+      ]
+    },
+    {
+      "original": "其色見淺者，湯液主治，十日已。",
+      "baihua": "如果病色顯現得淺,說明病輕,用湯液來治療為主,大約十天就會痊癒。",
+      "annotations": [
+        {
+          "char": "湯",
+          "jyutping": "tong1",
+          "meaning": "湯藥、湯劑"
+        },
+        {
+          "char": "液",
+          "jyutping": "jik6",
+          "meaning": "汁液、湯水類藥劑"
+        },
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "痊癒、病止"
+        }
+      ]
+    },
+    {
+      "original": "其見深者，必齊主治，二十一日已。",
+      "baihua": "如果病色顯現得深,說明病較重,必須用藥劑來治療為主,大約二十一天就會痊癒。",
+      "annotations": [
+        {
+          "char": "齊",
+          "jyutping": "zai1",
+          "meaning": "同「劑」,藥劑"
+        },
+        {
+          "char": "主",
+          "jyutping": "zyu2",
+          "meaning": "為主、主要"
+        }
+      ]
+    },
+    {
+      "original": "其見大深者，醪酒主治，百日已。",
+      "baihua": "如果病色顯現得很深,說明病更重,要用醪酒(藥酒)來治療為主,大約一百天才會痊癒。",
+      "annotations": [
+        {
+          "char": "醪",
+          "jyutping": "lou4",
+          "meaning": "濁酒、藥酒"
+        },
+        {
+          "char": "酒",
+          "jyutping": "zau2",
+          "meaning": "酒、酒劑"
+        }
+      ]
+    },
+    {
+      "original": "色夭面脫，不治，百日盡已。",
+      "baihua": "如果面色晦暗枯槁、面部肌肉消瘦脫形,便屬於不可治的死候,大約一百天內就會生命終結。",
+      "annotations": [
+        {
+          "char": "夭",
+          "jyutping": "jiu2",
+          "meaning": "晦暗枯槁,無光澤"
+        },
+        {
+          "char": "脫",
+          "jyutping": "tyut3",
+          "meaning": "消瘦脫形、肌肉脫失"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "終了、耗盡"
+        }
+      ]
+    },
+    {
+      "original": "脈短氣絕死，病溫虛甚死。",
+      "baihua": "脈象短促而真氣斷絕的,是死候;溫熱病而正氣極度虛弱的,也是死候。",
+      "annotations": [
+        {
+          "char": "絕",
+          "jyutping": "zyut6",
+          "meaning": "斷絕、衰竭"
+        },
+        {
+          "char": "溫",
+          "jyutping": "wan1",
+          "meaning": "溫熱病、發熱之病"
+        },
+        {
+          "char": "甚",
+          "jyutping": "sam6",
+          "meaning": "極、非常"
+        }
+      ]
+    },
+    {
+      "original": "色見上下左右，各在其要。上為逆，下為從。",
+      "baihua": "病色出現在上、下、左、右各個部位,都各有其要領。病色由下往上蔓延的為逆(病進),由上往下退散的為順(病退)。",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆行、病勢惡化"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順、病勢向好"
+        }
+      ]
+    },
+    {
+      "original": "女子右為逆，左為從；男子左為逆，右為從。",
+      "baihua": "就女子而言,病色出現在右側為逆,在左側為順;就男子而言,病色出現在左側為逆,在右側為順。",
+      "annotations": [
+        {
+          "char": "女",
+          "jyutping": "neoi5",
+          "meaning": "女性"
+        },
+        {
+          "char": "左",
+          "jyutping": "zo2",
+          "meaning": "左邊"
+        },
+        {
+          "char": "右",
+          "jyutping": "jau6",
+          "meaning": "右邊"
+        }
+      ]
+    },
+    {
+      "original": "易，重陽死，重陰死。",
+      "baihua": "如果病色與順逆規律相反(逆順互易),又出現陽極盛的「重陽」或陰極盛的「重陰」情況,都屬於死候。",
+      "annotations": [
+        {
+          "char": "易",
+          "jyutping": "jik6",
+          "meaning": "轉換、變易(此指順逆相反)"
+        },
+        {
+          "char": "重",
+          "jyutping": "cung4",
+          "meaning": "重疊、極盛"
+        },
+        {
+          "char": "陽",
+          "jyutping": "joeng4",
+          "meaning": "陽氣"
+        }
+      ]
+    },
+    {
+      "original": "陰陽反他，治在權衡相奪，奇恆事也，揆度事也。",
+      "baihua": "當陰陽相互違反常態時,治療的關鍵在於權衡輕重、彼此制約調節,這正屬於奇恆診法的範疇,也是揆度診法的範疇。",
+      "annotations": [
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "違反、相反"
+        },
+        {
+          "char": "權",
+          "jyutping": "kyun4",
+          "meaning": "秤錘,引申為衡量"
+        },
+        {
+          "char": "衡",
+          "jyutping": "hang4",
+          "meaning": "秤桿,引申為權衡"
+        },
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "制約、削減"
+        }
+      ]
+    },
+    {
+      "original": "搏脈痹躄，寒熱之交。",
+      "baihua": "脈象搏擊有力而見痹症、下肢痿弱不能行走,這是寒與熱交爭的表現。",
+      "annotations": [
+        {
+          "char": "搏",
+          "jyutping": "bok3",
+          "meaning": "搏擊有力(指脈象)"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "痹症,氣血閉阻"
+        },
+        {
+          "char": "躄",
+          "jyutping": "bik1",
+          "meaning": "下肢痿弱不能行走"
+        },
+        {
+          "char": "交",
+          "jyutping": "gaau1",
+          "meaning": "交爭、交錯"
+        }
+      ]
+    },
+    {
+      "original": "脈孤為消氣，虛泄為奪血。",
+      "baihua": "脈象孤絕無胃氣的,是正氣消耗;脈象虛而伴有泄瀉的,是血液耗損。",
+      "annotations": [
+        {
+          "char": "孤",
+          "jyutping": "gu1",
+          "meaning": "孤絕、無胃氣"
+        },
+        {
+          "char": "消",
+          "jyutping": "siu1",
+          "meaning": "消耗、耗散"
+        },
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "泄瀉、下泄"
+        }
+      ]
+    },
+    {
+      "original": "孤為逆，虛為從。",
+      "baihua": "脈象孤絕的屬於逆候(病重難治),脈象單純虛弱的屬於順候(病輕可治)。",
+      "annotations": [
+        {
+          "char": "孤",
+          "jyutping": "gu1",
+          "meaning": "孤絕、無胃氣"
+        },
+        {
+          "char": "虛",
+          "jyutping": "heoi1",
+          "meaning": "虛弱、不足"
+        }
+      ]
+    },
+    {
+      "original": "行奇恆之法，以太陰始。",
+      "baihua": "運用奇恆這種診法,要從診察手太陰肺經的寸口脈開始。",
+      "annotations": [
+        {
+          "char": "行",
+          "jyutping": "hang4",
+          "meaning": "施行、運用"
+        },
+        {
+          "char": "太",
+          "jyutping": "taai3",
+          "meaning": "太陰,指手太陰肺經"
+        },
+        {
+          "char": "始",
+          "jyutping": "ci2",
+          "meaning": "開始、起始"
+        }
+      ]
+    },
+    {
+      "original": "行所不勝曰逆，逆則死；行所勝曰從，從則活。",
+      "baihua": "病邪循著我所不能克制的方向傳變(相剋逆傳)叫做逆,逆的多主死亡;病邪循著我所能克制的方向傳變叫做順,順的多能存活。",
+      "annotations": [
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "克制、勝過"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆傳、不順"
+        },
+        {
+          "char": "活",
+          "jyutping": "wut6",
+          "meaning": "存活、生還"
+        }
+      ]
+    },
+    {
+      "original": "八風四時之勝，終而復始，逆行一過，不復可數，論要畢矣。",
+      "baihua": "八方之風與四季之氣相互制勝,循環往復、終而又始;但如果反常逆行而有一次過失,便無法再依常規推算了。診病的要旨到此就講完了。",
+      "annotations": [
+        {
+          "char": "八",
+          "jyutping": "baat3",
+          "meaning": "八方,指八風"
+        },
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "過失、差錯"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "再、又"
+        },
+        {
+          "char": "畢",
+          "jyutping": "bat1",
+          "meaning": "完結、終了"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "「揆度」與「奇恆」這兩種診法分別是甚麼意思?",
+      "answer": "「揆度」是衡量疾病的淺深輕重,用以判斷病情的程度;「奇恆」是辨別那些異常反常的疾病。兩者都是診斷時衡量與辨別病情的方法。"
+    },
+    {
+      "question": "根據病色的淺深,本篇提出了哪三種主要治療方式和大致療程?",
+      "answer": "病色淺(病輕)用湯液治療,約十日痊癒;病色深(病重)用藥劑治療,約二十一日痊癒;病色很深(病更重)用醪酒治療,約一百日痊癒。"
+    },
+    {
+      "question": "「神轉不回，回則不轉」說明了甚麼道理?",
+      "answer": "說明生命的神氣應當順向運轉而不逆行,一旦逆行倒轉就不能正常運轉,於是喪失生機。這強調人體氣機貴在順暢流行,不可逆亂。"
+    },
+    {
+      "question": "文中如何以「上下」和男女「左右」來判斷病色的順逆?",
+      "answer": "病色由下往上蔓延為逆(病進),由上往下退散為順(病退)。就男女而言:女子病色見於右為逆、見於左為順;男子病色見於左為逆、見於右為順。"
+    },
+    {
+      "question": "「行所不勝曰逆」「行所勝曰從」是甚麼含義?其預後如何?",
+      "answer": "指病邪傳變的方向:若循我所不能克制的方向(被剋)傳變叫做逆,多主死亡;若循我所能克制的方向傳變叫做順,多能存活。這是以五行相剋關係判斷病情順逆與生死。"
+    }
+  ]
+}

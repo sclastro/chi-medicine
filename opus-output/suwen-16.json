@@ -1,0 +1,721 @@
+{
+  "_meta": {
+    "mode": "new",
+    "model": "Claude-Opus-4.8",
+    "title": "診要經終論",
+    "number": 16,
+    "originalVerified": true,
+    "sections": 34,
+    "usage": {
+      "completion_tokens": 10445,
+      "prompt_tokens": 1727,
+      "total_tokens": 12172,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "at": "2026-07-19T07:36:08.150Z"
+  },
+  "id": "suwen-16",
+  "intro": "本篇名為《診要經終論》，主要討論兩大主題:一是「診要」,即針刺治療必須順應四時。人體之氣隨着一年十二個月、四季陰陽的變化而分別聚集於肝、脾、頭、肺、心、腎等不同部位,所以春夏秋冬各有相應的針刺深淺與手法。文中詳細列舉了違反時令、錯刺其他季節部位所導致的種種病變,說明「因時制宜」的重要。其次是刺胸腹時必須避開五臟等要害,以及誤傷心、脾、腎、肺、膈的嚴重後果與大致死期,提醒醫者施針必須謹慎莊重。篇末的「經終」部分,論述十二經脈之氣衰竭將盡時所表現的臨終危候,如太陽經的戴眼反折、少陰經的面黑齒長等,是古代判斷死候的重要依據。對初學者而言,本篇既可建立「天人相應、順時而治」的整體觀念,又能認識針刺安全與危重徵象,是理解中醫時間醫學與診斷學的重要一篇。",
+  "sections": [
+    {
+      "original": "黃帝問曰：診要何如？岐伯對曰：正月二月，天氣始方，地氣始發，人氣在肝。",
+      "baihua": "黃帝問道:診治的關鍵是甚麼呢?岐伯回答說:正月和二月,天之陽氣開始舒展,地之陽氣開始生發,人體之氣此時聚集在肝。",
+      "annotations": [
+        {
+          "char": "岐",
+          "jyutping": "kei4",
+          "meaning": "岐伯,黃帝的醫學臣子"
+        },
+        {
+          "char": "方",
+          "jyutping": "fong1",
+          "meaning": "此處指氣開始舒展、方張"
+        },
+        {
+          "char": "發",
+          "jyutping": "faat3",
+          "meaning": "生發、萌動"
+        }
+      ]
+    },
+    {
+      "original": "三月四月，天氣正方，地氣定發，人氣在脾。",
+      "baihua": "三月和四月,天之陽氣正當旺盛舒張,地之陽氣穩定地生發,人體之氣此時聚集在脾。",
+      "annotations": [
+        {
+          "char": "正",
+          "jyutping": "zing3",
+          "meaning": "正當、恰好"
+        },
+        {
+          "char": "定",
+          "jyutping": "ding6",
+          "meaning": "穩定、確定"
+        },
+        {
+          "char": "脾",
+          "jyutping": "pei4",
+          "meaning": "脾臟"
+        }
+      ]
+    },
+    {
+      "original": "五月六月，天氣盛，地氣高，人氣在頭。",
+      "baihua": "五月和六月,天之陽氣最為旺盛,地之陽氣上升到最高處,人體之氣此時上聚於頭部。",
+      "annotations": [
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "旺盛、充盛"
+        },
+        {
+          "char": "高",
+          "jyutping": "gou1",
+          "meaning": "此處指地氣上升至高處"
+        }
+      ]
+    },
+    {
+      "original": "七月八月，陰氣始殺，人氣在肺。",
+      "baihua": "七月和八月,陰氣開始肅殺收斂,人體之氣此時聚集在肺。",
+      "annotations": [
+        {
+          "char": "殺",
+          "jyutping": "saat3",
+          "meaning": "肅殺、收斂衰減"
+        },
+        {
+          "char": "肺",
+          "jyutping": "fai3",
+          "meaning": "肺臟"
+        }
+      ]
+    },
+    {
+      "original": "九月十月，陰氣始冰，地氣始閉，人氣在心。",
+      "baihua": "九月和十月,陰寒之氣開始凝結如冰,地之陽氣開始閉藏,人體之氣此時聚集在心。",
+      "annotations": [
+        {
+          "char": "冰",
+          "jyutping": "bing1",
+          "meaning": "此處指寒氣凝結"
+        },
+        {
+          "char": "閉",
+          "jyutping": "bai3",
+          "meaning": "閉藏、收斂潛藏"
+        }
+      ]
+    },
+    {
+      "original": "十一月十二月，冰復，地氣合，人氣在腎。",
+      "baihua": "十一月和十二月,寒冰重重凝結,地之陽氣完全閉合收藏,人體之氣此時聚集在腎。",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "重複、加重"
+        },
+        {
+          "char": "合",
+          "jyutping": "hap6",
+          "meaning": "閉合、收藏"
+        },
+        {
+          "char": "腎",
+          "jyutping": "san6",
+          "meaning": "腎臟"
+        }
+      ]
+    },
+    {
+      "original": "故春刺散俞，及與分理，血出而止，甚者傳氣，間者環也。",
+      "baihua": "所以春天針刺,應淺刺分散的腧穴,以及肌肉的紋理間隙,見到出血就停止;病重的要導引其邪氣,病輕的稍待氣至便止針。",
+      "annotations": [
+        {
+          "char": "俞",
+          "jyutping": "syu6",
+          "meaning": "同「腧」,腧穴"
+        },
+        {
+          "char": "分理",
+          "jyutping": "fan1 lei5",
+          "meaning": "肌肉的紋理間隙"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "此指病情輕淺"
+        }
+      ]
+    },
+    {
+      "original": "夏刺絡俞，見血而止，盡氣閉環，痛病必下。",
+      "baihua": "夏天針刺,應刺淺表的絡脈腧穴,見血就停止,待邪氣泄盡、閉針候氣,疼痛之病必能減退。",
+      "annotations": [
+        {
+          "char": "絡",
+          "jyutping": "lok3",
+          "meaning": "絡脈,淺表細小的脈絡"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "泄盡、竭盡"
+        },
+        {
+          "char": "下",
+          "jyutping": "haa6",
+          "meaning": "此指病退、減輕"
+        }
+      ]
+    },
+    {
+      "original": "秋刺皮膚，循理，上下同法，神變而止。",
+      "baihua": "秋天針刺,應刺於皮膚,順着紋理進針,身體上下部位都用同樣的方法,待病人神氣有所轉變便止針。",
+      "annotations": [
+        {
+          "char": "循",
+          "jyutping": "ceon4",
+          "meaning": "順着、沿着"
+        },
+        {
+          "char": "理",
+          "jyutping": "lei5",
+          "meaning": "皮膚肌肉的紋理"
+        },
+        {
+          "char": "神",
+          "jyutping": "san4",
+          "meaning": "神氣、精神狀態"
+        }
+      ]
+    },
+    {
+      "original": "冬刺俞竅於分理，甚者直下，間者散下。",
+      "baihua": "冬天針刺,應在肌肉紋理間深刺腧穴孔竅;病重的可直入深刺,病輕的則分散淺刺。",
+      "annotations": [
+        {
+          "char": "竅",
+          "jyutping": "hiu3",
+          "meaning": "孔竅、穴位孔道"
+        },
+        {
+          "char": "直",
+          "jyutping": "zik6",
+          "meaning": "直接、徑直"
+        },
+        {
+          "char": "散",
+          "jyutping": "saan3",
+          "meaning": "分散"
+        }
+      ]
+    },
+    {
+      "original": "春夏秋冬，各有所刺，法其所在。",
+      "baihua": "春夏秋冬四季,各有相應的針刺方法,應依照人體之氣當時所在的部位來施治。",
+      "annotations": [
+        {
+          "char": "法",
+          "jyutping": "faat3",
+          "meaning": "取法、依照"
+        },
+        {
+          "char": "所在",
+          "jyutping": "so2 zoi6",
+          "meaning": "所處的部位"
+        }
+      ]
+    },
+    {
+      "original": "春刺夏分，脈亂氣微，入淫骨髓，病不能愈，令人不嗜食，又且少氣。",
+      "baihua": "春天卻誤用夏季的針法,會使脈氣紊亂、正氣衰微,邪氣浸淫深入骨髓,疾病不能痊癒,還使人不想進食,並且氣息短少。",
+      "annotations": [
+        {
+          "char": "淫",
+          "jyutping": "jam4",
+          "meaning": "浸淫、蔓延"
+        },
+        {
+          "char": "嗜",
+          "jyutping": "si3",
+          "meaning": "喜好、想要"
+        },
+        {
+          "char": "髓",
+          "jyutping": "seoi5",
+          "meaning": "骨髓"
+        }
+      ]
+    },
+    {
+      "original": "春刺秋分，筋攣，逆氣環為咳嗽，病不愈，令人時驚，又且哭。",
+      "baihua": "春天卻誤用秋季的針法,會使筋脈拘攣,氣機上逆而成咳嗽,疾病不能痊癒,還使人時常驚恐,並且悲傷欲哭。",
+      "annotations": [
+        {
+          "char": "攣",
+          "jyutping": "lyun4",
+          "meaning": "拘攣、抽搐"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "氣機上逆"
+        },
+        {
+          "char": "驚",
+          "jyutping": "ging1",
+          "meaning": "驚恐、驚嚇"
+        }
+      ]
+    },
+    {
+      "original": "春刺冬分，邪氣著藏，令人脹，病不愈，又且欲言語。",
+      "baihua": "春天卻誤用冬季的針法,會使邪氣附着內臟,令人腹脹,疾病不能痊癒,並且時常想說話不停。",
+      "annotations": [
+        {
+          "char": "著",
+          "jyutping": "zoek6",
+          "meaning": "附着、停留"
+        },
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "同「臟」,內臟"
+        },
+        {
+          "char": "脹",
+          "jyutping": "zoeng3",
+          "meaning": "脹滿"
+        }
+      ]
+    },
+    {
+      "original": "夏刺春分，病不愈，令人解惰。",
+      "baihua": "夏天卻誤用春季的針法,疾病不能痊癒,還使人倦怠懶散、四肢無力。",
+      "annotations": [
+        {
+          "char": "解",
+          "jyutping": "gaai2",
+          "meaning": "此指懈怠、鬆懈"
+        },
+        {
+          "char": "惰",
+          "jyutping": "do6",
+          "meaning": "懶散、無力"
+        }
+      ]
+    },
+    {
+      "original": "夏刺秋分，病不愈，令人心中欲無言，惕惕如人將捕之。",
+      "baihua": "夏天卻誤用秋季的針法,疾病不能痊癒,還使人心中不想說話,惶恐不安,好像有人要來抓捕自己一樣。",
+      "annotations": [
+        {
+          "char": "惕",
+          "jyutping": "tik1",
+          "meaning": "戒懼、恐懼不安"
+        },
+        {
+          "char": "捕",
+          "jyutping": "bou6",
+          "meaning": "捉拿、抓捕"
+        }
+      ]
+    },
+    {
+      "original": "夏刺冬分，病不愈，令人少氣，時欲怒。",
+      "baihua": "夏天卻誤用冬季的針法,疾病不能痊癒,還使人氣息短少,時常想要發怒。",
+      "annotations": [
+        {
+          "char": "少",
+          "jyutping": "siu2",
+          "meaning": "缺少、不足"
+        },
+        {
+          "char": "怒",
+          "jyutping": "nou6",
+          "meaning": "發怒、憤怒"
+        }
+      ]
+    },
+    {
+      "original": "秋刺春分，病不已，令人惕然欲有所為，起而忘之。",
+      "baihua": "秋天卻誤用春季的針法,疾病不能停止,還使人心神不安、老想做些甚麼,可是起身後又忘記要做的事。",
+      "annotations": [
+        {
+          "char": "已",
+          "jyutping": "ji5",
+          "meaning": "止、停止痊癒"
+        },
+        {
+          "char": "惕然",
+          "jyutping": "tik1 jin4",
+          "meaning": "心神不安的樣子"
+        }
+      ]
+    },
+    {
+      "original": "秋刺夏分，病不已，令人益嗜臥，又且善夢。",
+      "baihua": "秋天卻誤用夏季的針法,疾病不能停止,還使人更加嗜睡,並且多夢。",
+      "annotations": [
+        {
+          "char": "益",
+          "jyutping": "jik1",
+          "meaning": "更加、愈發"
+        },
+        {
+          "char": "臥",
+          "jyutping": "ngo6",
+          "meaning": "躺臥、睡覺"
+        },
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "此指易於、經常"
+        }
+      ]
+    },
+    {
+      "original": "秋刺冬分，病不已，令人洒洒時寒。",
+      "baihua": "秋天卻誤用冬季的針法,疾病不能停止,還使人時常感到寒冷、發冷顫抖。",
+      "annotations": [
+        {
+          "char": "洒",
+          "jyutping": "sai2",
+          "meaning": "洒洒,寒冷發抖的樣子"
+        },
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒冷"
+        }
+      ]
+    },
+    {
+      "original": "冬刺春分，病不已，令人慾臥不能眠，眠而有見。",
+      "baihua": "冬天卻誤用春季的針法,疾病不能停止,還使人想睡卻不能入眠,即使睡着也常見異象幻景。",
+      "annotations": [
+        {
+          "char": "慾",
+          "jyutping": "juk6",
+          "meaning": "想要、欲望"
+        },
+        {
+          "char": "眠",
+          "jyutping": "min4",
+          "meaning": "睡眠、入睡"
+        },
+        {
+          "char": "見",
+          "jyutping": "gin3",
+          "meaning": "此指睡中見到異象"
+        }
+      ]
+    },
+    {
+      "original": "冬刺夏分，病不愈，氣上，發為諸痹。",
+      "baihua": "冬天卻誤用夏季的針法,疾病不能痊癒,還使氣機上逆,發生各種痹阻不通的病症。",
+      "annotations": [
+        {
+          "char": "上",
+          "jyutping": "soeng5",
+          "meaning": "此指氣機上逆"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "痹症,氣血閉阻不通之病"
+        }
+      ]
+    },
+    {
+      "original": "冬刺秋分，病不已，令人善渴。",
+      "baihua": "冬天卻誤用秋季的針法,疾病不能停止,還使人經常口渴。",
+      "annotations": [
+        {
+          "char": "渴",
+          "jyutping": "hot3",
+          "meaning": "口渴"
+        },
+        {
+          "char": "善",
+          "jyutping": "sin6",
+          "meaning": "此指經常、容易"
+        }
+      ]
+    },
+    {
+      "original": "凡刺胸腹者，必避五藏。",
+      "baihua": "凡是針刺胸部和腹部的時候,一定要避開五臟等要害。",
+      "annotations": [
+        {
+          "char": "凡",
+          "jyutping": "faan4",
+          "meaning": "凡是、大凡"
+        },
+        {
+          "char": "避",
+          "jyutping": "bei6",
+          "meaning": "躲避、避開"
+        },
+        {
+          "char": "五藏",
+          "jyutping": "ng5 zong6",
+          "meaning": "五臟,即心肝脾肺腎"
+        }
+      ]
+    },
+    {
+      "original": "中心者環死，中脾者五日死，中腎者七日死，中肺者五日死，中膈者，皆為傷中，其病雖愈，不過一歲必死。",
+      "baihua": "誤刺傷到心,很快就會死亡;傷到脾,五天內死;傷到腎,七天內死;傷到肺,五天內死;傷到橫膈,都屬於損傷內臟,即使當時的病好了,也不過一年之內必定死亡。",
+      "annotations": [
+        {
+          "char": "中",
+          "jyutping": "zung3",
+          "meaning": "刺中、傷及"
+        },
+        {
+          "char": "膈",
+          "jyutping": "gaak3",
+          "meaning": "橫膈膜"
+        },
+        {
+          "char": "歲",
+          "jyutping": "seoi3",
+          "meaning": "年"
+        }
+      ]
+    },
+    {
+      "original": "刺避五藏者，知逆從也。所謂從者，膈與脾腎之處，不知者反之。",
+      "baihua": "針刺要避開五臟,必須懂得順逆的道理。所謂順,就是要清楚橫膈與脾腎所在的位置而加以避開;不懂這道理的人,就會反其道而行,誤傷內臟。",
+      "annotations": [
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "違逆、錯誤"
+        },
+        {
+          "char": "從",
+          "jyutping": "cung4",
+          "meaning": "順從、正確"
+        },
+        {
+          "char": "反",
+          "jyutping": "faan2",
+          "meaning": "相反、違背"
+        }
+      ]
+    },
+    {
+      "original": "刺胸腹者，必以布憿著之，乃從單布上刺，刺之不愈復刺。",
+      "baihua": "針刺胸腹的時候,一定要先用布巾覆蓋着刺處,隔着單層布巾進針;如果一次針刺沒好,可以再次施刺。",
+      "annotations": [
+        {
+          "char": "憿",
+          "jyutping": "giu2",
+          "meaning": "此指布巾、覆蓋物"
+        },
+        {
+          "char": "著",
+          "jyutping": "zoek6",
+          "meaning": "覆蓋、附着"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "再次、又"
+        }
+      ]
+    },
+    {
+      "original": "刺針必肅，刺腫搖針，經刺勿搖，此刺之道也。",
+      "baihua": "進針施刺時態度必須嚴肅專注;針刺腫脹之處可以搖動針身以泄邪,而針刺經脈時則不可搖動;這就是針刺的法則。",
+      "annotations": [
+        {
+          "char": "肅",
+          "jyutping": "suk1",
+          "meaning": "嚴肅、謹慎專注"
+        },
+        {
+          "char": "搖",
+          "jyutping": "jiu4",
+          "meaning": "搖動針身"
+        },
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "法則、道理"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：願聞十二經脈之終奈何？岐伯曰：太陽之脈，其終也戴眼反折瘛瘲，其色白，絕汗乃出，出則死矣。",
+      "baihua": "黃帝說:我想聽聽十二經脈之氣衰竭將盡時的表現是怎樣的?岐伯說:太陽經脈之氣將絕時,病人兩眼上翻直視、身體向後反張、筋脈抽搐,面色蒼白,冒出如珠不流的絕汗,絕汗一出就會死亡。",
+      "annotations": [
+        {
+          "char": "戴眼",
+          "jyutping": "daai3 ngaan5",
+          "meaning": "兩眼上翻直視不能轉動"
+        },
+        {
+          "char": "反折",
+          "jyutping": "faan2 zit3",
+          "meaning": "身體向後反張彎曲"
+        },
+        {
+          "char": "瘛瘲",
+          "jyutping": "cai3 zung3",
+          "meaning": "筋脈抽搐、手足痙攣"
+        },
+        {
+          "char": "絕汗",
+          "jyutping": "zyut6 hon6",
+          "meaning": "臨終時如珠不流的冷汗"
+        }
+      ]
+    },
+    {
+      "original": "少陽終者，耳聾百節皆縱，目睘絕系，絕系一日半死，其死也色先青白，乃死矣。",
+      "baihua": "少陽經脈之氣將絕時,病人耳聾、全身關節都鬆弛無力,兩眼直瞪、目系斷絕;目系斷絕後約一日半便會死亡,臨死時面色先變青後轉白,便告死亡。",
+      "annotations": [
+        {
+          "char": "縱",
+          "jyutping": "zung3",
+          "meaning": "鬆弛、弛緩無力"
+        },
+        {
+          "char": "睘",
+          "jyutping": "king4",
+          "meaning": "兩眼直瞪、驚視"
+        },
+        {
+          "char": "系",
+          "jyutping": "hai6",
+          "meaning": "目系,連目繫腦的脈絡"
+        }
+      ]
+    },
+    {
+      "original": "陽明終者，口目動作，善驚妄言，色黃，其上下經盛，不仁，則終矣。",
+      "baihua": "陽明經脈之氣將絕時,病人口眼牽動抽掣,容易驚恐、胡言亂語,面色發黃,上下的經脈之氣暴盛而肌膚麻木不知痛癢,便會死亡。",
+      "annotations": [
+        {
+          "char": "妄",
+          "jyutping": "mong5",
+          "meaning": "胡亂、荒謬"
+        },
+        {
+          "char": "盛",
+          "jyutping": "sing6",
+          "meaning": "亢盛、暴盛"
+        },
+        {
+          "char": "不仁",
+          "jyutping": "bat1 jan4",
+          "meaning": "肌膚麻木、失去知覺"
+        }
+      ]
+    },
+    {
+      "original": "少陰終者，面黑齒長而垢，腹脹閉，上下不通而終矣。",
+      "baihua": "少陰經脈之氣將絕時,病人面色發黑,牙齦萎縮使牙齒顯得變長並積滿污垢,腹部脹滿閉塞,上下氣機不能通達,便會死亡。",
+      "annotations": [
+        {
+          "char": "齒長",
+          "jyutping": "ci2 coeng4",
+          "meaning": "牙齦萎縮致牙齒顯長"
+        },
+        {
+          "char": "垢",
+          "jyutping": "gau3",
+          "meaning": "污垢、污穢"
+        },
+        {
+          "char": "閉",
+          "jyutping": "bai3",
+          "meaning": "閉塞不通"
+        }
+      ]
+    },
+    {
+      "original": "太陰終者，腹脹閉不得息，善噫善嘔，嘔則逆，逆則面赤，不逆則上下不通，不通則面黑皮毛焦而終矣。",
+      "baihua": "太陰經脈之氣將絕時,病人腹部脹滿閉塞、呼吸不暢,常打嗝、常嘔吐;嘔吐則氣上逆,氣上逆則面色發紅;若不上逆則上下氣機不通,不通則面色發黑、皮膚毛髮枯焦,便會死亡。",
+      "annotations": [
+        {
+          "char": "息",
+          "jyutping": "sik1",
+          "meaning": "呼吸"
+        },
+        {
+          "char": "噫",
+          "jyutping": "aai3",
+          "meaning": "打嗝、噯氣"
+        },
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        },
+        {
+          "char": "焦",
+          "jyutping": "ziu1",
+          "meaning": "枯焦、乾枯"
+        }
+      ]
+    },
+    {
+      "original": "厥陰終者，中熱嗌乾，善溺心煩，甚則舌卷卵上縮而終矣。此十二經之所敗也。",
+      "baihua": "厥陰經脈之氣將絕時,病人胸腹內發熱、咽喉乾燥,常小便、心中煩躁,嚴重時舌頭捲縮、睾丸向上收縮,便會死亡。以上就是十二經脈之氣衰敗將絕的表現。",
+      "annotations": [
+        {
+          "char": "嗌",
+          "jyutping": "aai3",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便"
+        },
+        {
+          "char": "卵",
+          "jyutping": "leon5",
+          "meaning": "此指睾丸"
+        },
+        {
+          "char": "敗",
+          "jyutping": "baai6",
+          "meaning": "衰敗、敗絕"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "根據本篇,人體之氣隨月份四時而變化,那麼五月六月和十一月十二月,人氣分別聚集在甚麼部位?",
+      "answer": "五月六月天氣盛、地氣高,人氣上聚在頭部;十一月十二月冰重地氣閉合,人氣聚集在腎。這體現了人體之氣隨四時陰陽升降而轉移的規律。"
+    },
+    {
+      "question": "為甚麼針刺要順應四季而各有深淺手法?若違反時令會有甚麼後果?",
+      "answer": "因為人體之氣隨四時分佈於不同部位,故春刺散俞及分理、夏刺絡俞、秋刺皮膚、冬深刺分理,以順應氣的所在。若違反時令,如春刺夏分會脈亂氣微、邪入骨髓、病不能愈,並導致不嗜食、少氣等各種變證。"
+    },
+    {
+      "question": "針刺胸腹時應注意甚麼?誤傷心、脾、腎、肺、膈分別會有甚麼後果?",
+      "answer": "針刺胸腹必須避開五臟等要害,並隔着單層布巾進針、態度嚴肅。誤傷心者很快便死,傷脾者五日死,傷腎者七日死,傷肺者五日死,傷膈者屬傷中,病雖愈也不過一年必死。"
+    },
+    {
+      "question": "太陽經與少陰經之氣將絕時,各有甚麼典型的臨終徵象?",
+      "answer": "太陽經將絕時,病人兩眼上翻(戴眼)、身體反張、筋脈抽搐(瘛瘲),面色蒼白,絕汗一出即死;少陰經將絕時,面色發黑,牙齦萎縮致齒長而垢,腹脹閉塞、上下不通而死。"
+    },
+    {
+      "question": "「刺腫搖針,經刺勿搖」說明了甚麼針刺原則?",
+      "answer": "說明針刺手法要因治療對象而異:針刺腫脹之處可搖動針身以助泄邪,而針刺經脈時則不可搖動針身,以免傷及經氣。這體現了針刺須辨部位、審慎施行的道理。"
+    }
+  ]
+}

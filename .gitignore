@@ -5,3 +5,5 @@ dist/
 *.log
 .env
 .env.*
+
+# Opus 翻譯輸出(暫存,未套用網頁)
