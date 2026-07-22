@@ -1,0 +1,2835 @@
+{
+  "_meta": {
+    "mode": "new-chunked",
+    "model": "Claude-Opus-4.8",
+    "title": "本病論（遺篇）",
+    "number": 73,
+    "originalVerified": true,
+    "iqOk": true,
+    "sections": 134,
+    "chunks": 3,
+    "totalTokens": 45776,
+    "at": "2026-07-22T00:27:11.442Z"
+  },
+  "id": "suwen-73",
+  "intro": "《本病論》是《素問》七篇「運氣遺篇」之一，與《刺法論》同屬後世補入，專門補充運氣學說中「氣交失守」所引致的疾病與疫情道理。本篇的核心，是探討天地之氣在「升降遷正退位」過程中一旦「失守其位」，即會導致四時失序、萬物不安、民生疫病。全篇以黃帝與岐伯問答形式展開，內容大致可分幾部分：一是說明「升之不前」與「降之不下」的道理，逐一列舉辰戌、巳亥、子午等十二年份中六氣升降受抑所生的物候異常與民病；二是論述「遷正」與「退位」不及所帶來的氣候反常和疾病；三是以天干地支的「二甲子」推演「三年化疫」的規律，闡明大疫由來;四是提出「三虛」（天虛、人虛、神虛）致病之說，指出人若五臟不足、又逢天氣虛損、加上情志或勞倦耗傷神氣，便會「神失守位」而遭邪氣所犯，甚至暴亡，此即所謂「屍厥」。\n對香港零基礎的初學者而言，本篇文字艱深、專名繁多，不必強記每個年份的細節，重點應把握三個觀念：第一，天地之氣的運行有升有降、有進有退，一旦失序便會影響氣候與健康，體現中醫「天人相應」的整體觀；第二，疫病的發生與氣運失常密切相關，本篇是中醫探討「疫癘」成因的重要文獻，對理解傳染病防治思想有啟發;第三，全篇最後歸結於「得守者生，失守者死，得神者昌，失神者亡」，強調養護正氣與精神安定的重要，這正是中醫養生防病的根本精神，值得細味。",
+  "sections": [
+    {
+      "original": "黃帝問曰：天元九窒，余已知之，願聞氣交，何名失守？",
+      "baihua": "黃帝問道：關於天元的九窒，我已經明白了，希望能聽聽氣交的道理，什麼叫做失守呢？",
+      "annotations": [
+        {
+          "char": "窒",
+          "jyutping": "zat1",
+          "meaning": "阻塞、閉塞"
+        },
+        {
+          "char": "交",
+          "jyutping": "gaau1",
+          "meaning": "交會"
+        },
+        {
+          "char": "守",
+          "jyutping": "sau2",
+          "meaning": "守持、守位"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：謂其上下升降，遷正退位，各有經論，上下各有不前，故名失守也。",
+      "baihua": "岐伯說：所謂失守，是指司天在泉之氣的上升下降、遷至正位或退居舊位，各有一定的常理法則；若上下之氣各自不能正常運行、無法前進，就稱為失守。",
+      "annotations": [
+        {
+          "char": "遷",
+          "jyutping": "cin1",
+          "meaning": "遷移"
+        },
+        {
+          "char": "退",
+          "jyutping": "teoi3",
+          "meaning": "退離"
+        },
+        {
+          "char": "經",
+          "jyutping": "ging1",
+          "meaning": "常法、法則"
+        }
+      ]
+    },
+    {
+      "original": "是故氣交失易位，氣交乃變，變易非常，即四時失序，萬化不安，變民病也。",
+      "baihua": "因此當氣交錯亂而改變其應有的位置，氣交就會發生變化，變化反常，於是四時失去正常的次序，萬物的生化不得安定，就會使百姓生病。",
+      "annotations": [
+        {
+          "char": "易",
+          "jyutping": "jik6",
+          "meaning": "改變、更換"
+        },
+        {
+          "char": "序",
+          "jyutping": "zeoi6",
+          "meaning": "次序"
+        },
+        {
+          "char": "化",
+          "jyutping": "faa3",
+          "meaning": "生化、變化"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：升降不前，願聞其故，氣交有變，何以明知？",
+      "baihua": "黃帝說：升降之氣不能前進，希望聽聽其中的緣故；氣交發生變化，要怎樣才能清楚地了解呢？",
+      "annotations": [
+        {
+          "char": "故",
+          "jyutping": "gu3",
+          "meaning": "緣故、原因"
+        },
+        {
+          "char": "明",
+          "jyutping": "ming4",
+          "meaning": "明白、清楚"
+        },
+        {
+          "char": "知",
+          "jyutping": "zi1",
+          "meaning": "知曉"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：昭乎問哉！明乎道矣。",
+      "baihua": "岐伯說：問得真明白啊！這已通曉了其中的道理了。",
+      "annotations": [
+        {
+          "char": "昭",
+          "jyutping": "ziu1",
+          "meaning": "明白、清楚"
+        },
+        {
+          "char": "哉",
+          "jyutping": "zoi1",
+          "meaning": "語氣詞，表感嘆"
+        },
+        {
+          "char": "道",
+          "jyutping": "dou6",
+          "meaning": "道理"
+        }
+      ]
+    },
+    {
+      "original": "氣交有變，是為天地機，但欲降而不得降者，地窒刑之。",
+      "baihua": "氣交發生變化，這是天地之氣運行的關鍵所在；凡是想下降卻不能下降的，是因為在泉之氣被地窒所克制。",
+      "annotations": [
+        {
+          "char": "機",
+          "jyutping": "gei1",
+          "meaning": "關鍵、樞機"
+        },
+        {
+          "char": "刑",
+          "jyutping": "jing4",
+          "meaning": "克制、傷害"
+        },
+        {
+          "char": "降",
+          "jyutping": "gong3",
+          "meaning": "下降"
+        }
+      ]
+    },
+    {
+      "original": "又有五運太過，而先天而至者，即交不前，但欲升而不得其升，中運抑之，但欲降而不得其降，中運抑之。",
+      "baihua": "又有五運太過，其氣先於天時而至，就使氣交不能前進；凡是想上升卻不能上升的，是中運壓抑了它；凡是想下降卻不能下降的，也是中運壓抑了它。",
+      "annotations": [
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "超過、太過"
+        },
+        {
+          "char": "抑",
+          "jyutping": "jik1",
+          "meaning": "壓抑、抑制"
+        },
+        {
+          "char": "升",
+          "jyutping": "sing1",
+          "meaning": "上升"
+        }
+      ]
+    },
+    {
+      "original": "於是有升之不前，降之不下者，有降之不下，升而至天者，有升降俱不前，作如此之分別，即氣交之變，變之有異，常各各不同，災有微甚者也。",
+      "baihua": "於是有的氣上升不能前進、下降不能到達地下，有的下降不能到地下、上升卻能到達天位，有的升降都不能前進；作出這樣的分別，就是氣交的變化，各種變化互有差異，經常各不相同，其所造成的災害也有輕微和嚴重的分別。",
+      "annotations": [
+        {
+          "char": "俱",
+          "jyutping": "keoi1",
+          "meaning": "都、全"
+        },
+        {
+          "char": "異",
+          "jyutping": "ji6",
+          "meaning": "不同、差異"
+        },
+        {
+          "char": "微",
+          "jyutping": "mei4",
+          "meaning": "輕微"
+        }
+      ]
+    },
+    {
+      "original": "帝曰，願聞氣交遇會勝抑之由，變成民病，輕重何如？",
+      "baihua": "黃帝說：希望聽聽氣交相遇會合而發生勝抑的緣由，以及由此變化而成的百姓疾病，其輕重情況如何？",
+      "annotations": [
+        {
+          "char": "會",
+          "jyutping": "wui6",
+          "meaning": "會合、相遇"
+        },
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "克勝、相勝"
+        },
+        {
+          "char": "由",
+          "jyutping": "jau4",
+          "meaning": "緣由"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：勝相會，抑伏使然。",
+      "baihua": "岐伯說：這是由於相勝之氣彼此會合、互相抑伏所造成的。",
+      "annotations": [
+        {
+          "char": "伏",
+          "jyutping": "fuk6",
+          "meaning": "潛伏、壓伏"
+        },
+        {
+          "char": "然",
+          "jyutping": "jin4",
+          "meaning": "如此、這樣"
+        },
+        {
+          "char": "使",
+          "jyutping": "si2",
+          "meaning": "致使"
+        }
+      ]
+    },
+    {
+      "original": "是故辰戌之歲，木氣升之，主逢天柱，勝而不前。",
+      "baihua": "因此在辰年、戌年，厥陰木氣本應上升，卻正遇上天柱之氣主事，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "辰",
+          "jyutping": "san4",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "戌",
+          "jyutping": "seot1",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "逢",
+          "jyutping": "fung4",
+          "meaning": "遇到"
+        }
+      ]
+    },
+    {
+      "original": "又遇庚戌，金運先天，中運勝之，忽然不前。",
+      "baihua": "又遇上庚戌年，金運先於天時而至，中運克勝木氣，於是木氣忽然不能前進。",
+      "annotations": [
+        {
+          "char": "庚",
+          "jyutping": "gang1",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "忽",
+          "jyutping": "fat1",
+          "meaning": "忽然、突然"
+        },
+        {
+          "char": "運",
+          "jyutping": "wan6",
+          "meaning": "五運之氣"
+        }
+      ]
+    },
+    {
+      "original": "木運昇天，金乃抑之，升而不前，即清生風少，肅殺於春，露霜復降，草木乃萎。",
+      "baihua": "木氣本要上升於天，金氣卻壓抑它，使它上升而不能前進，於是清涼之氣生而風氣減少，肅殺之氣出現於春季，霜露再度降下，草木因而枯萎。",
+      "annotations": [
+        {
+          "char": "肅",
+          "jyutping": "suk1",
+          "meaning": "肅殺、清冷"
+        },
+        {
+          "char": "萎",
+          "jyutping": "wai1",
+          "meaning": "枯萎"
+        },
+        {
+          "char": "露",
+          "jyutping": "lou6",
+          "meaning": "露水"
+        }
+      ]
+    },
+    {
+      "original": "民病溫疫早發，咽嗌乃干，四肢滿，肢節皆痛。",
+      "baihua": "百姓多患溫疫而提早發病，咽喉乾燥，四肢脹滿，肢體關節都疼痛。",
+      "annotations": [
+        {
+          "char": "疫",
+          "jyutping": "jik6",
+          "meaning": "瘟疫"
+        },
+        {
+          "char": "嗌",
+          "jyutping": " aai3",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "干",
+          "jyutping": "gon1",
+          "meaning": "乾燥"
+        }
+      ]
+    },
+    {
+      "original": "久而化郁，即大風摧拉，折隕鳴紊。",
+      "baihua": "時間久了鬱結成災，就會有狂風摧折草木，折斷墜落、聲響雜亂。",
+      "annotations": [
+        {
+          "char": "郁",
+          "jyutping": "wat1",
+          "meaning": "鬱結"
+        },
+        {
+          "char": "摧",
+          "jyutping": "ceoi1",
+          "meaning": "摧折"
+        },
+        {
+          "char": "隕",
+          "jyutping": "wan5",
+          "meaning": "墜落"
+        }
+      ]
+    },
+    {
+      "original": "民病卒中偏痹，手足不仁。",
+      "baihua": "百姓多患突然中風、半身痹痛，手足麻木失去知覺。",
+      "annotations": [
+        {
+          "char": "卒",
+          "jyutping": "cyut3",
+          "meaning": "突然"
+        },
+        {
+          "char": "痹",
+          "jyutping": "bei3",
+          "meaning": "痹病、麻痹"
+        },
+        {
+          "char": "仁",
+          "jyutping": "jan4",
+          "meaning": "知覺（不仁即麻木）"
+        }
+      ]
+    },
+    {
+      "original": "是故巳亥之歲，君火昇天，主窒天蓬，勝之不前。",
+      "baihua": "因此在巳年、亥年，少陰君火本應上升於天，卻被天蓬之氣所窒塞，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "巳",
+          "jyutping": "zi6",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "亥",
+          "jyutping": "hoi6",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "蓬",
+          "jyutping": "pung4",
+          "meaning": "天蓬，星宿名"
+        }
+      ]
+    },
+    {
+      "original": "又厥陰木遷正，則少陰未得昇天，水運以至其中者。",
+      "baihua": "又若厥陰木氣已遷到正位，那麼少陰君火就未能上升於天，此時正逢水運到來主中運。",
+      "annotations": [
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥陰"
+        },
+        {
+          "char": "陰",
+          "jyutping": "jam1",
+          "meaning": "陰經之氣"
+        },
+        {
+          "char": "至",
+          "jyutping": "zi3",
+          "meaning": "到來"
+        }
+      ]
+    },
+    {
+      "original": "君火欲升，而中水運抑之，升之不前，即清寒復作，冷生旦暮。",
+      "baihua": "君火想上升，而中運的水氣壓抑它，使它上升不能前進，於是清冷寒氣再次興起，早晚都生寒冷。",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "再次、又"
+        },
+        {
+          "char": "旦",
+          "jyutping": "daan3",
+          "meaning": "早晨"
+        },
+        {
+          "char": "暮",
+          "jyutping": "mou6",
+          "meaning": "傍晚"
+        }
+      ]
+    },
+    {
+      "original": "民病伏陽，而內生煩熱，心神驚悸，寒熱間作。",
+      "baihua": "百姓多患陽氣內伏之病，體內生出煩熱，心神驚恐悸動，寒與熱交替發作。",
+      "annotations": [
+        {
+          "char": "悸",
+          "jyutping": "gwai3",
+          "meaning": "心跳、驚悸"
+        },
+        {
+          "char": "煩",
+          "jyutping": "faan4",
+          "meaning": "煩躁、煩熱"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "交替、間隔"
+        }
+      ]
+    },
+    {
+      "original": "日久成郁，即暴熱乃至，赤風腫翳，化疫，溫癘暖作，赤氣彰而化火疫，皆煩而躁渴，渴甚治之以泄之可止。",
+      "baihua": "時間久了鬱結成災，就有暴烈的熱氣到來，赤色之風使人生腫、目生翳障，化為疫病，溫熱的癘氣隨暖而起，赤氣顯露而化成火疫，患者都煩躁口渴，口渴嚴重時用瀉法治療便可止住。",
+      "annotations": [
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "猛烈、突然"
+        },
+        {
+          "char": "翳",
+          "jyutping": "ai3",
+          "meaning": "眼中翳障"
+        },
+        {
+          "char": "彰",
+          "jyutping": "zoeng1",
+          "meaning": "顯露、明顯"
+        }
+      ]
+    },
+    {
+      "original": "是故子午之歲，太陰昇天，主窒天衝，勝之不前。",
+      "baihua": "因此在子年、午年，太陰之氣本應上升於天，卻被天衝之氣所窒塞，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "子",
+          "jyutping": "zi2",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "午",
+          "jyutping": "ng5",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "衝",
+          "jyutping": "cung1",
+          "meaning": "天衝，星宿名"
+        }
+      ]
+    },
+    {
+      "original": "又或遇壬子，木運先天而至者，中木遇抑之也。",
+      "baihua": "又或遇上壬子年，木運先於天時而至，太陰之氣就會被中運的木氣壓抑。",
+      "annotations": [
+        {
+          "char": "壬",
+          "jyutping": "jam4",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "或",
+          "jyutping": "waak6",
+          "meaning": "或者"
+        },
+        {
+          "char": "遇",
+          "jyutping": "jyu6",
+          "meaning": "遇到"
+        }
+      ]
+    },
+    {
+      "original": "昇天不前，即風埃四起，時舉埃昏，雨濕不化。",
+      "baihua": "太陰之氣上升於天不能前進，於是風沙四處揚起，時時飛揚塵土使天色昏暗，雨濕之氣不能正常運化。",
+      "annotations": [
+        {
+          "char": "埃",
+          "jyutping": "oi1",
+          "meaning": "塵土"
+        },
+        {
+          "char": "昏",
+          "jyutping": "fan1",
+          "meaning": "昏暗"
+        },
+        {
+          "char": "舉",
+          "jyutping": "geoi2",
+          "meaning": "揚起"
+        }
+      ]
+    },
+    {
+      "original": "民病風厥涎潮，偏痹不隨，脹滿。",
+      "baihua": "百姓多患風厥、涎液上湧如潮，半身痹痛不能隨意活動，腹部脹滿。",
+      "annotations": [
+        {
+          "char": "涎",
+          "jyutping": "jin4",
+          "meaning": "口水、唾液"
+        },
+        {
+          "char": "潮",
+          "jyutping": "ciu4",
+          "meaning": "如潮般湧起"
+        },
+        {
+          "char": "隨",
+          "jyutping": "ceoi4",
+          "meaning": "隨意活動"
+        }
+      ]
+    },
+    {
+      "original": "久而伏郁，即黃埃化疫也，民病夭亡，臉肢府黃疸滿閉，濕令弗布，雨化乃微。",
+      "baihua": "時間久了潛伏鬱結，黃色塵埃便化為疫病，百姓多有夭折死亡，臉部、四肢及臟腑發黃疸、脹滿閉塞，濕氣的時令不能布散，雨水的生化就微弱了。",
+      "annotations": [
+        {
+          "char": "夭",
+          "jyutping": "jiu2",
+          "meaning": "短命、早死"
+        },
+        {
+          "char": "疸",
+          "jyutping": "daan2",
+          "meaning": "黃疸"
+        },
+        {
+          "char": "弗",
+          "jyutping": "fat1",
+          "meaning": "不"
+        }
+      ]
+    },
+    {
+      "original": "是故丑未之年，少陽昇天，主窒天蓬，勝之不前。",
+      "baihua": "因此在丑年、未年，少陽之氣本應上升於天，卻被天蓬之氣所窒塞，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "丑",
+          "jyutping": "cau2",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "未",
+          "jyutping": "mei6",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "陽",
+          "jyutping": "joeng4",
+          "meaning": "陽經之氣"
+        }
+      ]
+    },
+    {
+      "original": "又或遇太陰未遷正者，即少陽未昇天也，水運以至者。",
+      "baihua": "又或遇上太陰之氣尚未遷到正位，那麼少陽就未能上升於天，此時正逢水運到來。",
+      "annotations": [
+        {
+          "char": "遷",
+          "jyutping": "cin1",
+          "meaning": "遷移"
+        },
+        {
+          "char": "正",
+          "jyutping": "zing3",
+          "meaning": "正位"
+        },
+        {
+          "char": "太",
+          "jyutping": "taai3",
+          "meaning": "太陰"
+        }
+      ]
+    },
+    {
+      "original": "昇天不前，即寒雰反布，凜冽如冬，水復涸，冰再結，暄暖乍作，冷復布之，寒暄不時。",
+      "baihua": "少陽之氣上升於天不能前進，於是寒霧反而瀰漫，寒冷凜冽如同冬天，水又乾涸，冰再度凝結，溫暖忽然出現，寒冷又隨之布散，寒暖交替不合時令。",
+      "annotations": [
+        {
+          "char": "雰",
+          "jyutping": "fan1",
+          "meaning": "霧氣"
+        },
+        {
+          "char": "凜",
+          "jyutping": "lam5",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "涸",
+          "jyutping": "kok3",
+          "meaning": "乾涸"
+        }
+      ]
+    },
+    {
+      "original": "民病伏陽在內，煩熱生中，心神驚駭，寒熱間爭。",
+      "baihua": "百姓多患陽氣內伏之病，體內生出煩熱，心神驚恐,寒與熱交替相爭。",
+      "annotations": [
+        {
+          "char": "駭",
+          "jyutping": "haai5",
+          "meaning": "驚恐"
+        },
+        {
+          "char": "爭",
+          "jyutping": "zang1",
+          "meaning": "相爭、交爭"
+        },
+        {
+          "char": "中",
+          "jyutping": "zung1",
+          "meaning": "體內"
+        }
+      ]
+    },
+    {
+      "original": "以成久郁，即暴熱乃生，赤風氣瞳翳，化成郁癘，乃化作伏熱內煩，痹而生厥，甚則血溢。",
+      "baihua": "這樣鬱結日久，就會生出暴烈的熱氣，赤色風氣使眼瞳生翳障，化成鬱結的癘疫，於是變為熱氣內伏而心中煩悶，痹阻而生厥逆，嚴重時則出血。",
+      "annotations": [
+        {
+          "char": "瞳",
+          "jyutping": "tung4",
+          "meaning": "瞳孔、眼睛"
+        },
+        {
+          "char": "癘",
+          "jyutping": "lai6",
+          "meaning": "瘟疫、癘氣"
+        },
+        {
+          "char": "溢",
+          "jyutping": "jat6",
+          "meaning": "外溢、出血"
+        }
+      ]
+    },
+    {
+      "original": "是故寅申之年，陽明昇天，主窒天英，勝之不前。",
+      "baihua": "因此在寅年、申年，陽明之氣本應上升於天，卻被天英之氣所窒塞，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "寅",
+          "jyutping": "jan4",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "申",
+          "jyutping": "san1",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "英",
+          "jyutping": "jing1",
+          "meaning": "天英，星宿名"
+        }
+      ]
+    },
+    {
+      "original": "又或遇戊申戊寅，火運先天而至。",
+      "baihua": "又或遇上戊申年、戊寅年，火運先於天時而至。",
+      "annotations": [
+        {
+          "char": "戊",
+          "jyutping": "mou6",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "火",
+          "jyutping": "fo2",
+          "meaning": "火運"
+        },
+        {
+          "char": "先",
+          "jyutping": "sin1",
+          "meaning": "先於、提前"
+        }
+      ]
+    },
+    {
+      "original": "金欲昇天，火運抑之，升之不前，即時雨不降，西風數舉，鹹鹵燥生。",
+      "baihua": "金氣想上升於天，火運壓抑它，使它上升不能前進，於是應時的雨水不降，西風屢屢揚起，鹹鹵燥氣產生。",
+      "annotations": [
+        {
+          "char": "鹵",
+          "jyutping": "lou5",
+          "meaning": "鹽鹼地、鹽鹵"
+        },
+        {
+          "char": "數",
+          "jyutping": "sok3",
+          "meaning": "屢次、頻繁"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "乾燥"
+        }
+      ]
+    },
+    {
+      "original": "民病上熱，喘嗽血溢。",
+      "baihua": "百姓多患上部熱證，喘息咳嗽並出血。",
+      "annotations": [
+        {
+          "char": "喘",
+          "jyutping": "cyun2",
+          "meaning": "氣喘"
+        },
+        {
+          "char": "嗽",
+          "jyutping": "sau3",
+          "meaning": "咳嗽"
+        },
+        {
+          "char": "上",
+          "jyutping": "soeng6",
+          "meaning": "上部、上焦"
+        }
+      ]
+    },
+    {
+      "original": "久而化郁，即白埃翳霧，清生殺氣，民病脅滿悲傷，寒鼽嚏嗌乾，手拆皮膚燥。",
+      "baihua": "時間久了鬱結成災，就有白色塵埃、遮蔽的霧氣，清冷之氣生出肅殺，百姓多患脅部脹滿、悲傷，受寒鼻塞打噴嚏、咽喉乾燥，手部皸裂、皮膚乾燥。",
+      "annotations": [
+        {
+          "char": "鼽",
+          "jyutping": "kau4",
+          "meaning": "鼻塞、流清涕"
+        },
+        {
+          "char": "嚏",
+          "jyutping": "tai3",
+          "meaning": "打噴嚏"
+        },
+        {
+          "char": "拆",
+          "jyutping": "caak3",
+          "meaning": "皸裂"
+        }
+      ]
+    },
+    {
+      "original": "是故卯酉之年，太陽昇天，主窒天芮，勝之不前。",
+      "baihua": "因此在卯年、酉年，太陽之氣本應上升於天，卻被天芮之氣所窒塞，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "卯",
+          "jyutping": "maau5",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "酉",
+          "jyutping": "jau5",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "芮",
+          "jyutping": "jeoi6",
+          "meaning": "天芮，星宿名"
+        }
+      ]
+    },
+    {
+      "original": "又遇陽明未遷正者，即太陽未昇天也，土運以至。",
+      "baihua": "又遇上陽明之氣尚未遷到正位，那麼太陽就未能上升於天，此時正逢土運到來。",
+      "annotations": [
+        {
+          "char": "土",
+          "jyutping": "tou2",
+          "meaning": "土運"
+        },
+        {
+          "char": "明",
+          "jyutping": "ming4",
+          "meaning": "陽明"
+        },
+        {
+          "char": "以",
+          "jyutping": "ji5",
+          "meaning": "因而、於是"
+        }
+      ]
+    },
+    {
+      "original": "水欲昇天，土運抑之，升之不前，即濕而熱蒸，寒生兩間。",
+      "baihua": "水氣想上升於天，土運壓抑它，使它上升不能前進，於是濕氣夾熱蒸騰，寒氣生於天地之間。",
+      "annotations": [
+        {
+          "char": "蒸",
+          "jyutping": "zing1",
+          "meaning": "蒸騰、蒸鬱"
+        },
+        {
+          "char": "兩",
+          "jyutping": "loeng5",
+          "meaning": "兩者（天地）"
+        },
+        {
+          "char": "濕",
+          "jyutping": "sap1",
+          "meaning": "濕氣"
+        }
+      ]
+    },
+    {
+      "original": "民病注下，食不及化。",
+      "baihua": "百姓多患腹瀉如注，飲食來不及消化。",
+      "annotations": [
+        {
+          "char": "注",
+          "jyutping": "zyu3",
+          "meaning": "傾瀉（注下即泄瀉）"
+        },
+        {
+          "char": "及",
+          "jyutping": "kap6",
+          "meaning": "來得及"
+        },
+        {
+          "char": "化",
+          "jyutping": "faa3",
+          "meaning": "消化"
+        }
+      ]
+    },
+    {
+      "original": "久而成郁，冷來客熱，冰雹卒至。",
+      "baihua": "時間久了鬱結成災，寒冷侵犯熱氣，冰雹突然到來。",
+      "annotations": [
+        {
+          "char": "客",
+          "jyutping": "haak3",
+          "meaning": "侵犯、客居"
+        },
+        {
+          "char": "雹",
+          "jyutping": "bok6",
+          "meaning": "冰雹"
+        },
+        {
+          "char": "卒",
+          "jyutping": "cyut3",
+          "meaning": "突然"
+        }
+      ]
+    },
+    {
+      "original": "民病厥逆而噦，熱生於內，氣痹於外，足脛痠疼，反生心悸懊熱，暴煩而復厥。",
+      "baihua": "百姓多患厥逆而呃逆，熱氣生於體內，氣痹阻於體表，足脛痠疼，反而生出心悸、懊惱煩熱，突然煩躁而又厥逆。",
+      "annotations": [
+        {
+          "char": "噦",
+          "jyutping": "jyut3",
+          "meaning": "呃逆、乾嘔"
+        },
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "懊",
+          "jyutping": "ou3",
+          "meaning": "懊惱、煩悶"
+        }
+      ]
+    },
+    {
+      "original": "黃帝曰：升之不前，余已盡知其旨。願聞降之不下，可得明乎？",
+      "baihua": "黃帝說：關於氣升而不能前進，我已完全明白其中的要旨了。希望聽聽氣降而不能下達的道理，能夠說清楚嗎？",
+      "annotations": [
+        {
+          "char": "旨",
+          "jyutping": "zi2",
+          "meaning": "要旨、意義"
+        },
+        {
+          "char": "盡",
+          "jyutping": "zeon6",
+          "meaning": "完全、全部"
+        },
+        {
+          "char": "得",
+          "jyutping": "dak1",
+          "meaning": "能夠"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：悉乎哉問！是之謂天地微旨，可以盡陳斯道，所謂升已必降也。",
+      "baihua": "岐伯說：問得真詳盡啊！這就是天地間精微的要旨，可以把這道理全部陳述出來，所謂上升到極點必然下降。",
+      "annotations": [
+        {
+          "char": "悉",
+          "jyutping": "sik1",
+          "meaning": "詳盡、周詳"
+        },
+        {
+          "char": "陳",
+          "jyutping": "can4",
+          "meaning": "陳述"
+        },
+        {
+          "char": "斯",
+          "jyutping": "si1",
+          "meaning": "這、此"
+        }
+      ]
+    },
+    {
+      "original": "至天三年，次歲必降，降而入地，始為左間也。",
+      "baihua": "氣升至天位歷經三年，到第二年便必定下降，下降而進入地位，開始成為在泉的左間之氣。",
+      "annotations": [
+        {
+          "char": "次",
+          "jyutping": "ci3",
+          "meaning": "下一個、其次"
+        },
+        {
+          "char": "歲",
+          "jyutping": "seoi3",
+          "meaning": "年"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan1",
+          "meaning": "間氣（左右間）"
+        }
+      ]
+    },
+    {
+      "original": "如此升降往來，命之六紀者矣。",
+      "baihua": "像這樣上升下降、往來循環，就把它稱為六紀。",
+      "annotations": [
+        {
+          "char": "命",
+          "jyutping": "ming6",
+          "meaning": "稱作、命名"
+        },
+        {
+          "char": "紀",
+          "jyutping": "gei2",
+          "meaning": "綱紀、周期"
+        },
+        {
+          "char": "往",
+          "jyutping": "wong5",
+          "meaning": "來往、循環"
+        }
+      ]
+    },
+    {
+      "original": "是故丑未之歲，厥陰降地，主窒地皛，勝而不前。",
+      "baihua": "因此在丑年、未年，厥陰之氣本應下降於地，卻被地皛之氣所窒塞，被克勝而不能前進。",
+      "annotations": [
+        {
+          "char": "皛",
+          "jyutping": "hiu2",
+          "meaning": "地皛，星位名"
+        },
+        {
+          "char": "地",
+          "jyutping": "dei6",
+          "meaning": "地位、在泉"
+        },
+        {
+          "char": "窒",
+          "jyutping": "zat1",
+          "meaning": "阻塞"
+        }
+      ]
+    },
+    {
+      "original": "又或遇少陰未退位，即厥陰未降下，金運以至中。",
+      "baihua": "又或遇上少陰之氣尚未退位，那麼厥陰就未能下降，此時正逢金運到來主中運。",
+      "annotations": [
+        {
+          "char": "退",
+          "jyutping": "teoi3",
+          "meaning": "退離、退位"
+        },
+        {
+          "char": "金",
+          "jyutping": "gam1",
+          "meaning": "金運"
+        },
+        {
+          "char": "位",
+          "jyutping": "wai6",
+          "meaning": "位置、職位"
+        }
+      ]
+    },
+    {
+      "original": "金運承之，降之未下，抑之變郁，木欲降下，金承之，降而不下，蒼埃遠見，白氣承之，風舉埃昏，清躁行殺，霜露覆下，肅殺布令。",
+      "baihua": "金運承接於它，使它下降而未能到地下，被壓抑而變成鬱結；木氣想下降，金氣承接壓制它，使它下降而不能到達，遠處可見青蒼色塵埃，白色之氣承接於上，風揚塵土使天色昏暗，清燥之氣施行肅殺，霜露自上覆蓋降下，肅殺之氣布施其時令。",
+      "annotations": [
+        {
+          "char": "承",
+          "jyutping": "sing4",
+          "meaning": "承接、承制"
+        },
+        {
+          "char": "蒼",
+          "jyutping": "cong1",
+          "meaning": "青色"
+        },
+        {
+          "char": "覆",
+          "jyutping": "fuk1",
+          "meaning": "覆蓋"
+        }
+      ]
+    },
+    {
+      "original": "久而不降，抑之化郁，即作風躁相伏，暄而反清，草木萌動，殺霜乃下，蟄蟲未見，懼清傷藏。",
+      "baihua": "時間久了不下降，被壓抑而化為鬱結，就會有風氣與燥氣相互潛伏，本應溫暖卻反而清冷，草木剛剛萌發，肅殺之霜就降下，蟄伏的蟲子還未出現，畏懼清冷之氣傷及潛藏之物。",
+      "annotations": [
+        {
+          "char": "暄",
+          "jyutping": "hyun1",
+          "meaning": "溫暖"
+        },
+        {
+          "char": "萌",
+          "jyutping": "mang4",
+          "meaning": "萌發"
+        },
+        {
+          "char": "蟄",
+          "jyutping": "zaap6",
+          "meaning": "蟄伏、冬眠"
+        }
+      ]
+    },
+    {
+      "original": "是故寅申之歲，少陰降地，主窒地玄，勝之不入。",
+      "baihua": "因此在寅年、申年，少陰之氣本應下降於地，卻被地玄之氣所窒塞，被克勝而不能進入。",
+      "annotations": [
+        {
+          "char": "玄",
+          "jyutping": "jyun4",
+          "meaning": "地玄，星位名"
+        },
+        {
+          "char": "入",
+          "jyutping": "jap6",
+          "meaning": "進入"
+        },
+        {
+          "char": "降",
+          "jyutping": "gong3",
+          "meaning": "下降"
+        }
+      ]
+    },
+    {
+      "original": "又或遇丙申丙寅，水運太過，先天而至。",
+      "baihua": "又或遇上丙申年、丙寅年，水運太過，先於天時而至。",
+      "annotations": [
+        {
+          "char": "丙",
+          "jyutping": "bing2",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "水",
+          "jyutping": "seoi2",
+          "meaning": "水運"
+        },
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "太過"
+        }
+      ]
+    },
+    {
+      "original": "君火欲降，水運承之，降而不下，即彤雲才見，黑氣反生，暄暖如舒，寒常布雪，凜冽復作，天云慘淒。",
+      "baihua": "君火想下降，水運承接壓制它，使它下降而不能到達，於是紅雲剛剛出現，黑氣反而生起，溫暖似乎舒展開來，寒冷卻常常布下雪來，凜冽之氣再度興起，天上雲色淒慘。",
+      "annotations": [
+        {
+          "char": "彤",
+          "jyutping": "tung4",
+          "meaning": "紅色"
+        },
+        {
+          "char": "舒",
+          "jyutping": "syu1",
+          "meaning": "舒展"
+        },
+        {
+          "char": "淒",
+          "jyutping": "cai1",
+          "meaning": "淒涼、慘淡"
+        }
+      ]
+    },
+    {
+      "original": "久而不降，伏之化郁，寒勝復熱，赤風化疫，民病面赤心煩，頭痛目眩也，赤氣彰而溫病欲作也。",
+      "baihua": "時間久了不下降，潛伏而化為鬱結，寒氣過盛之後又轉為熱，赤色之風化為疫病，百姓多患面色發紅、心中煩躁、頭痛目眩，赤氣顯露而溫病將要發作。",
+      "annotations": [
+        {
+          "char": "眩",
+          "jyutping": "jyun4",
+          "meaning": "眩暈、目花"
+        },
+        {
+          "char": "赤",
+          "jyutping": "cek3",
+          "meaning": "紅色"
+        },
+        {
+          "char": "欲",
+          "jyutping": "juk6",
+          "meaning": "將要"
+        }
+      ]
+    },
+    {
+      "original": "是故卯酉之歲，太陰降地，主窒地蒼，勝之不入。",
+      "baihua": "因此在卯年、酉年，太陰之氣本應下降於地，卻被地蒼之氣所窒塞，被克勝而不能進入。",
+      "annotations": [
+        {
+          "char": "蒼",
+          "jyutping": "cong1",
+          "meaning": "地蒼，星位名"
+        },
+        {
+          "char": "太",
+          "jyutping": "taai3",
+          "meaning": "太陰"
+        },
+        {
+          "char": "勝",
+          "jyutping": "sing1",
+          "meaning": "克勝"
+        }
+      ]
+    },
+    {
+      "original": "又或少陽未退位者，即太陰未得降也，或木運以至。",
+      "baihua": "又或少陽之氣尚未退位，那麼太陰就未能下降，此時或逢木運到來。",
+      "annotations": [
+        {
+          "char": "陽",
+          "jyutping": "joeng4",
+          "meaning": "少陽"
+        },
+        {
+          "char": "木",
+          "jyutping": "muk6",
+          "meaning": "木運"
+        },
+        {
+          "char": "得",
+          "jyutping": "dak1",
+          "meaning": "能夠"
+        }
+      ]
+    },
+    {
+      "original": "木運承之，降而不下，即黃云見而青霞彰，鬱蒸作而大風，霧翳埃勝，折損乃作。",
+      "baihua": "木運承接壓制它，使它下降而不能到達，於是黃雲出現而青色霞光顯現，鬱悶蒸熱之氣興起而颳大風，霧氣翳障、塵埃盛行，草木被摧折損傷。",
+      "annotations": [
+        {
+          "char": "霞",
+          "jyutping": "haa4",
+          "meaning": "雲霞、霞光"
+        },
+        {
+          "char": "翳",
+          "jyutping": "ai3",
+          "meaning": "遮蔽、翳障"
+        },
+        {
+          "char": "損",
+          "jyutping": "syun2",
+          "meaning": "損傷"
+        }
+      ]
+    },
+    {
+      "original": "久而不降也，伏之化郁，天埃黃氣，地布濕蒸，民病四肢不舉，昏眩肢節痛，腹滿填臆。",
+      "baihua": "時間久了不下降，潛伏而化為鬱結，天上塵埃現黃氣，地上布散濕熱蒸騰，百姓多患四肢不能舉動、頭昏目眩、肢體關節疼痛、腹部脹滿、胸膈填塞。",
+      "annotations": [
+        {
+          "char": "臆",
+          "jyutping": "jik1",
+          "meaning": "胸膛、胸膈"
+        },
+        {
+          "char": "舉",
+          "jyutping": "geoi2",
+          "meaning": "舉動、抬起"
+        },
+        {
+          "char": "填",
+          "jyutping": "tin4",
+          "meaning": "填塞、脹滿"
+        }
+      ]
+    },
+    {
+      "original": "是故辰戌之歲，少陽降地，主窒地玄，勝之不入。",
+      "baihua": "因此在辰年、戌年，少陽之氣本應下降於地，卻被地玄之氣所窒塞，被克勝而不能進入。",
+      "annotations": [
+        {
+          "char": "辰",
+          "jyutping": "san4",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "戌",
+          "jyutping": "seot1",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "玄",
+          "jyutping": "jyun4",
+          "meaning": "地玄，星位名"
+        }
+      ]
+    },
+    {
+      "original": "又或遇水運太過，先天而至也。",
+      "baihua": "又或遇上水運太過，先於天時而至。",
+      "annotations": [
+        {
+          "char": "水",
+          "jyutping": "seoi2",
+          "meaning": "水運"
+        },
+        {
+          "char": "太",
+          "jyutping": "taai3",
+          "meaning": "太過"
+        },
+        {
+          "char": "至",
+          "jyutping": "zi3",
+          "meaning": "到來"
+        }
+      ]
+    },
+    {
+      "original": "水運承之，水降不下，即彤雲才見，黑氣反生，暄暖欲生，冷氣卒至，甚即冰雹也。",
+      "baihua": "水運承接壓制它，使少陽之氣下降而不能到達，於是紅雲剛剛出現，黑氣反而生起，溫暖將要產生，冷氣突然到來，嚴重時就降冰雹。",
+      "annotations": [
+        {
+          "char": "彤",
+          "jyutping": "tung4",
+          "meaning": "紅色"
+        },
+        {
+          "char": "卒",
+          "jyutping": "cyut3",
+          "meaning": "突然"
+        },
+        {
+          "char": "雹",
+          "jyutping": "bok6",
+          "meaning": "冰雹"
+        }
+      ]
+    },
+    {
+      "original": "久而不降，伏之化郁，冷氣復熱，赤風化疫，民病面赤心煩，頭痛目眩也，赤氣彰而熱病欲作也。",
+      "baihua": "時間久了不下降，潛伏而化為鬱結，冷氣之後又轉為熱，赤色之風化為疫病，百姓多患面色發紅、心中煩躁、頭痛目眩，赤氣顯露而熱病將要發作。",
+      "annotations": [
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "又、再"
+        },
+        {
+          "char": "眩",
+          "jyutping": "jyun4",
+          "meaning": "眩暈"
+        },
+        {
+          "char": "彰",
+          "jyutping": "zoeng1",
+          "meaning": "顯露"
+        }
+      ]
+    },
+    {
+      "original": "是故巳亥之歲，陽明降地，主窒地彤，勝而不入。",
+      "baihua": "因此在巳年、亥年，陽明之氣本應下降於地，但被主氣所阻窒，地氣呈現赤紅之象，主氣勝過客氣而客氣不能降入。",
+      "annotations": [
+        {
+          "char": "巳",
+          "jyutping": "zi6",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "窒",
+          "jyutping": "zat6",
+          "meaning": "阻塞、窒礙"
+        },
+        {
+          "char": "彤",
+          "jyutping": "tung4",
+          "meaning": "赤紅色"
+        }
+      ]
+    },
+    {
+      "original": "又或遇太陰未退位，即少陽未得降，即火運以至之。",
+      "baihua": "又或者遇上太陰之氣尚未退位，那麼少陽之氣就無法下降，於是火運便隨之而來。",
+      "annotations": [
+        {
+          "char": "退",
+          "jyutping": "teoi3",
+          "meaning": "退讓、離開"
+        },
+        {
+          "char": "降",
+          "jyutping": "gong3",
+          "meaning": "下降"
+        }
+      ]
+    },
+    {
+      "original": "火運承之不下，即天清而肅，赤氣乃彰，暄熱反作。",
+      "baihua": "火運承接於此而不能下降，於是天氣清冷而肅殺，赤色之氣顯現，溫熱反而發作。",
+      "annotations": [
+        {
+          "char": "肅",
+          "jyutping": "suk1",
+          "meaning": "肅殺、清冷"
+        },
+        {
+          "char": "彰",
+          "jyutping": "zoeng1",
+          "meaning": "顯現"
+        },
+        {
+          "char": "暄",
+          "jyutping": "hyun1",
+          "meaning": "溫暖"
+        }
+      ]
+    },
+    {
+      "original": "民皆昏倦，夜臥不安，咽乾引飲，懊熱內煩，天清朝暮，暄還復作。",
+      "baihua": "人們都昏沉倦怠，夜間睡臥不安，咽喉乾燥而想喝水，煩熱鬱悶於內，天氣早晚清冷，溫熱又再度發作。",
+      "annotations": [
+        {
+          "char": "倦",
+          "jyutping": "gyun6",
+          "meaning": "疲倦"
+        },
+        {
+          "char": "咽",
+          "jyutping": "jin1",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "懊",
+          "jyutping": "ou3",
+          "meaning": "煩悶"
+        }
+      ]
+    },
+    {
+      "original": "久而不降，伏之化郁，天清薄寒，遠生白氣。",
+      "baihua": "長久不能下降，潛伏之氣化為鬱結，天氣清冷而略帶寒意，遠處生出白色之氣。",
+      "annotations": [
+        {
+          "char": "伏",
+          "jyutping": "fuk6",
+          "meaning": "潛藏"
+        },
+        {
+          "char": "郁",
+          "jyutping": "wat1",
+          "meaning": "鬱結"
+        },
+        {
+          "char": "薄",
+          "jyutping": "bok6",
+          "meaning": "稍微、輕微"
+        }
+      ]
+    },
+    {
+      "original": "民病掉眩，手足直而不仁，兩脅作痛，滿目䀮䀮。",
+      "baihua": "人們患病則見頭暈目眩，手足僵直而麻木不仁，兩脅疼痛，滿眼視物昏花模糊。",
+      "annotations": [
+        {
+          "char": "掉",
+          "jyutping": "diu6",
+          "meaning": "搖動、暈眩"
+        },
+        {
+          "char": "脅",
+          "jyutping": "hip3",
+          "meaning": "胸側肋部"
+        },
+        {
+          "char": "䀮",
+          "jyutping": "mong4",
+          "meaning": "視物不清"
+        }
+      ]
+    },
+    {
+      "original": "是故子午之年，太陽降地，主窒地阜勝之，降而不入。",
+      "baihua": "因此在子年、午年，太陽之氣下降於地，被主氣所阻窒，地氣如土阜般勝過它，使其下降而不能降入。",
+      "annotations": [
+        {
+          "char": "阜",
+          "jyutping": "fau6",
+          "meaning": "土山、土堆"
+        },
+        {
+          "char": "窒",
+          "jyutping": "zat6",
+          "meaning": "阻塞"
+        }
+      ]
+    },
+    {
+      "original": "又或遇土運太過，先天而至。",
+      "baihua": "又或者遇上土運太過，比天時提前而至。",
+      "annotations": [
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "超過"
+        }
+      ]
+    },
+    {
+      "original": "土運承之，降而不入，即天彰黑氣，暝暗悽慘，才施黃埃而布濕，寒化令氣，蒸濕復令。",
+      "baihua": "土運承接於此，使太陽之氣下降而不能降入，於是天空顯現黑氣，昏暗淒慘，剛施放黃色塵埃而散布濕氣，寒氣主令，蒸鬱濕氣又再當令。",
+      "annotations": [
+        {
+          "char": "暝",
+          "jyutping": "ming4",
+          "meaning": "昏暗"
+        },
+        {
+          "char": "悽",
+          "jyutping": "cai1",
+          "meaning": "淒涼"
+        },
+        {
+          "char": "埃",
+          "jyutping": "oi1",
+          "meaning": "塵土"
+        }
+      ]
+    },
+    {
+      "original": "久而不降，伏之化郁，民病大厥，四肢重怠，陰萎少力，天布沉陰，蒸濕間作。",
+      "baihua": "長久不能下降，潛伏之氣化為鬱結，人們患病則見突然昏厥，四肢沉重倦怠，陽痿而少氣力，天空布滿陰沉之氣，蒸濕之氣間歇發作。",
+      "annotations": [
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "昏厥、氣逆"
+        },
+        {
+          "char": "怠",
+          "jyutping": "toi5",
+          "meaning": "懈怠、疲乏"
+        },
+        {
+          "char": "萎",
+          "jyutping": "wai1",
+          "meaning": "萎弱、痿軟"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：升降不前，晰知其宗，願聞遷正，可得明乎？",
+      "baihua": "黃帝說：升降不能前進的道理，我已清楚知曉其要旨，希望聽聽關於遷正的道理，可以講明白嗎？",
+      "annotations": [
+        {
+          "char": "晰",
+          "jyutping": "sik1",
+          "meaning": "清楚、明白"
+        },
+        {
+          "char": "宗",
+          "jyutping": "zung1",
+          "meaning": "要旨、根本"
+        },
+        {
+          "char": "遷",
+          "jyutping": "cin1",
+          "meaning": "遷移、變遷"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：正司中位，是謂遷正位，司天不得其遷正者，即前司天以過交司之日。",
+      "baihua": "岐伯說：當令之氣正處於中位，這就叫做遷正之位；司天之氣不能遷正的，就是前一年的司天之氣已經超過了交接司職的日子。",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "主管、掌管"
+        },
+        {
+          "char": "交",
+          "jyutping": "gaau1",
+          "meaning": "交接"
+        }
+      ]
+    },
+    {
+      "original": "即遇司天太過有餘日也，即仍舊治天數，新司天未得遷正也。",
+      "baihua": "就是遇上司天之氣太過而尚有餘日，於是仍舊掌管天數，新的司天之氣未能遷正。",
+      "annotations": [
+        {
+          "char": "餘",
+          "jyutping": "jyu4",
+          "meaning": "剩餘"
+        },
+        {
+          "char": "舊",
+          "jyutping": "gau6",
+          "meaning": "原來、從前"
+        }
+      ]
+    },
+    {
+      "original": "厥陰不遷正，即風暄不時，花卉萎瘁，民病淋溲，目系轉，轉筋喜怒，小便赤。",
+      "baihua": "厥陰之氣不能遷正，則風與溫熱不合時令，花草萎謝枯瘁，人們患淋病、小便不利，眼球轉動異常，抽筋、易於喜怒，小便色赤。",
+      "annotations": [
+        {
+          "char": "卉",
+          "jyutping": "wai2",
+          "meaning": "草的總稱"
+        },
+        {
+          "char": "瘁",
+          "jyutping": "seoi6",
+          "meaning": "憔悴、枯萎"
+        },
+        {
+          "char": "溲",
+          "jyutping": "sau1",
+          "meaning": "小便"
+        }
+      ]
+    },
+    {
+      "original": "風欲令而寒由不去，溫暄不正，春正失時。",
+      "baihua": "風氣將要當令而寒氣仍不退去，溫熱之氣不能正常主令，春天的正氣失去時序。",
+      "annotations": [
+        {
+          "char": "欲",
+          "jyutping": "juk6",
+          "meaning": "將要"
+        },
+        {
+          "char": "暄",
+          "jyutping": "hyun1",
+          "meaning": "溫暖"
+        }
+      ]
+    },
+    {
+      "original": "少陰不遷正，即冷氣不退，春冷後寒，暄暖不時。",
+      "baihua": "少陰之氣不能遷正，則冷氣不退，春天寒冷之後又有寒氣，溫暖之氣不合時令。",
+      "annotations": [
+        {
+          "char": "退",
+          "jyutping": "teoi3",
+          "meaning": "退去"
+        },
+        {
+          "char": "暖",
+          "jyutping": "nyun5",
+          "meaning": "溫暖"
+        }
+      ]
+    },
+    {
+      "original": "民病寒熱，四肢煩痛，腰脊強直。",
+      "baihua": "人們患寒熱病，四肢煩躁疼痛，腰背僵硬強直。",
+      "annotations": [
+        {
+          "char": "脊",
+          "jyutping": "zek3",
+          "meaning": "脊背"
+        },
+        {
+          "char": "強",
+          "jyutping": "koeng4",
+          "meaning": "僵硬"
+        }
+      ]
+    },
+    {
+      "original": "木氣雖有餘，位不過於君火也。",
+      "baihua": "木氣雖然有餘，但其位置不會超越君火（少陰）。",
+      "annotations": [
+        {
+          "char": "餘",
+          "jyutping": "jyu4",
+          "meaning": "剩餘"
+        },
+        {
+          "char": "過",
+          "jyutping": "gwo3",
+          "meaning": "超過"
+        }
+      ]
+    },
+    {
+      "original": "太陰不遷正，即雲雨失令，萬物枯焦，當生不發。",
+      "baihua": "太陰之氣不能遷正，則雲雨失去時令，萬物枯萎焦乾，該生長時卻不能生發。",
+      "annotations": [
+        {
+          "char": "焦",
+          "jyutping": "ziu1",
+          "meaning": "燒焦、乾枯"
+        },
+        {
+          "char": "發",
+          "jyutping": "faat3",
+          "meaning": "生發"
+        }
+      ]
+    },
+    {
+      "original": "民病手足肢節腫滿，大腹水腫，填臆不食，飧泄脅滿，四肢不舉。",
+      "baihua": "人們患手足關節腫脹，腹部水腫，胸膈脹滿而不能進食，完穀不化的泄瀉、脅部脹滿，四肢不能舉動。",
+      "annotations": [
+        {
+          "char": "臆",
+          "jyutping": "jik1",
+          "meaning": "胸膈、胸口"
+        },
+        {
+          "char": "飧",
+          "jyutping": "syun1",
+          "meaning": "飧泄，完穀不化之瀉"
+        },
+        {
+          "char": "舉",
+          "jyutping": "geoi2",
+          "meaning": "抬起、舉動"
+        }
+      ]
+    },
+    {
+      "original": "雨化欲令，熱猶治之，溫煦於氣，亢而不澤。",
+      "baihua": "雨化之氣將要當令，而熱氣仍在主事，以溫熱之氣加於其上，過亢而不能潤澤。",
+      "annotations": [
+        {
+          "char": "煦",
+          "jyutping": "heoi2",
+          "meaning": "溫暖"
+        },
+        {
+          "char": "亢",
+          "jyutping": "kong3",
+          "meaning": "過度、亢盛"
+        },
+        {
+          "char": "澤",
+          "jyutping": "zaak6",
+          "meaning": "潤澤"
+        }
+      ]
+    },
+    {
+      "original": "少陽不遷正，即炎灼弗令，苗莠不榮，酷暑於秋，肅殺晚至，霜露不時。",
+      "baihua": "少陽之氣不能遷正，則炎熱之氣不能當令，禾苗雜草不能繁茂，酷暑延至秋天，肅殺之氣遲到，霜露不合時令。",
+      "annotations": [
+        {
+          "char": "灼",
+          "jyutping": "zoek3",
+          "meaning": "燒灼、炎熱"
+        },
+        {
+          "char": "莠",
+          "jyutping": "jau5",
+          "meaning": "雜草"
+        },
+        {
+          "char": "酷",
+          "jyutping": "huk6",
+          "meaning": "極、甚"
+        }
+      ]
+    },
+    {
+      "original": "民病㾬瘧骨熱，心悸驚駭，甚時血溢。",
+      "baihua": "人們患瘧疾、骨中發熱，心悸驚恐，嚴重時會出血。",
+      "annotations": [
+        {
+          "char": "㾬",
+          "jyutping": "kaai1",
+          "meaning": "瘧疾之類"
+        },
+        {
+          "char": "瘧",
+          "jyutping": "joek6",
+          "meaning": "瘧疾"
+        },
+        {
+          "char": "駭",
+          "jyutping": "haai5",
+          "meaning": "驚恐"
+        }
+      ]
+    },
+    {
+      "original": "陽明不遷正，則暑化於前，肅殺於後，草木反榮。",
+      "baihua": "陽明之氣不能遷正，則暑熱之氣行於前，肅殺之氣行於後，草木反常地繁茂。",
+      "annotations": [
+        {
+          "char": "肅",
+          "jyutping": "suk1",
+          "meaning": "肅殺"
+        },
+        {
+          "char": "榮",
+          "jyutping": "wing4",
+          "meaning": "繁茂"
+        }
+      ]
+    },
+    {
+      "original": "民病寒熱鼽嚏，皮毛折，爪甲枯焦，甚則喘嗽息高，悲傷不樂。",
+      "baihua": "人們患寒熱、鼻塞流涕、打噴嚏，皮毛枯折，指甲乾枯，嚴重則氣喘咳嗽、呼吸急促抬肩，悲傷而不快樂。",
+      "annotations": [
+        {
+          "char": "鼽",
+          "jyutping": "kau4",
+          "meaning": "鼻塞流涕"
+        },
+        {
+          "char": "嚏",
+          "jyutping": "tai3",
+          "meaning": "打噴嚏"
+        },
+        {
+          "char": "嗽",
+          "jyutping": "sau3",
+          "meaning": "咳嗽"
+        }
+      ]
+    },
+    {
+      "original": "熱化乃布，燥化未令，即清勁未行，肺金復病。",
+      "baihua": "熱化之氣散布，燥化之氣未能當令，於是清涼勁急之氣未能運行，肺金反而發病。",
+      "annotations": [
+        {
+          "char": "布",
+          "jyutping": "bou3",
+          "meaning": "散布"
+        },
+        {
+          "char": "勁",
+          "jyutping": "ging6",
+          "meaning": "強勁、勁急"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "反、又"
+        }
+      ]
+    },
+    {
+      "original": "太陽不遷正，即冬清反寒，易令於春，殺霜在前，寒冰於後，陽光復治，凜冽不作，雰云待時。",
+      "baihua": "太陽之氣不能遷正，則冬天清冷反而寒冷，把時令推移到春天，肅殺之霜在前，寒冰在後，陽氣又來主事，凜冽之氣不發作，霜雪陰雲等待時機。",
+      "annotations": [
+        {
+          "char": "凜",
+          "jyutping": "lam5",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "冽",
+          "jyutping": "lit6",
+          "meaning": "寒冷"
+        },
+        {
+          "char": "雰",
+          "jyutping": "fan1",
+          "meaning": "霜雪之氣"
+        }
+      ]
+    },
+    {
+      "original": "民病溫癘至，喉閉溢干，煩燥而渴，喘息而有音也。",
+      "baihua": "人們患溫疫來臨，咽喉閉塞、乾燥，煩躁而口渴，喘息而發出聲音。",
+      "annotations": [
+        {
+          "char": "癘",
+          "jyutping": "lai6",
+          "meaning": "疫病、瘟疫"
+        },
+        {
+          "char": "喉",
+          "jyutping": "hau4",
+          "meaning": "咽喉"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "煩躁"
+        }
+      ]
+    },
+    {
+      "original": "寒化待燥，猶治天氣，過失序，與民作災。",
+      "baihua": "寒化之氣等待燥氣，仍主管天氣，因超過而失去時序，給人們造成災害。",
+      "annotations": [
+        {
+          "char": "序",
+          "jyutping": "zeoi6",
+          "meaning": "次序、時序"
+        },
+        {
+          "char": "災",
+          "jyutping": "zoi1",
+          "meaning": "災害"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：遷正早晚，以命其旨，願聞退位，可得明哉？",
+      "baihua": "黃帝說：遷正的早晚，已闡明其要旨，希望聽聽關於退位的道理，可以講明白嗎？",
+      "annotations": [
+        {
+          "char": "命",
+          "jyutping": "ming6",
+          "meaning": "闡明、說明"
+        },
+        {
+          "char": "旨",
+          "jyutping": "zi2",
+          "meaning": "要旨、宗旨"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：所謂不退者，即天數未終，即天數有餘，名曰復布政，故名曰再治天也，即天令如故而不退位也。",
+      "baihua": "岐伯說：所謂不退位，就是天數未盡，天數尚有餘，叫做再次施行政令，所以稱為再度掌管天氣，就是天的時令如舊而不退位。",
+      "annotations": [
+        {
+          "char": "終",
+          "jyutping": "zung1",
+          "meaning": "終結、盡"
+        },
+        {
+          "char": "政",
+          "jyutping": "zing3",
+          "meaning": "政令"
+        },
+        {
+          "char": "故",
+          "jyutping": "gu3",
+          "meaning": "如故、依舊"
+        }
+      ]
+    },
+    {
+      "original": "厥陰不退位，即大風早舉，時雨不降，濕令不化，民病溫疫，疵廢風生，民病皆肢節痛，頭目痛，伏熱內煩，咽喉干引飲。",
+      "baihua": "厥陰之氣不退位，則大風提早興起，應時之雨不下降，濕氣的時令不能化生，人們患溫疫，殘疾與風病叢生，人們發病都見肢體關節疼痛、頭目疼痛，潛伏之熱在內煩擾，咽喉乾燥而想喝水。",
+      "annotations": [
+        {
+          "char": "疵",
+          "jyutping": "ci1",
+          "meaning": "毛病、殘疾"
+        },
+        {
+          "char": "廢",
+          "jyutping": "fai3",
+          "meaning": "殘廢"
+        },
+        {
+          "char": "舉",
+          "jyutping": "geoi2",
+          "meaning": "興起"
+        }
+      ]
+    },
+    {
+      "original": "少陰不退位，即溫生春冬，蟄蟲早至，草木發生，民病膈熱咽乾，血溢驚駭，小便赤澀，丹瘤𤺋瘡瘍留毒。",
+      "baihua": "少陰之氣不退位，則春冬之時生溫熱，蟄伏的蟲類提早出現，草木生發，人們患膈中發熱、咽喉乾燥，出血、驚恐，小便赤澀，丹毒、瘤腫、疹子、瘡瘍等留有餘毒。",
+      "annotations": [
+        {
+          "char": "蟄",
+          "jyutping": "zat6",
+          "meaning": "蟄伏之蟲"
+        },
+        {
+          "char": "澀",
+          "jyutping": "sap1",
+          "meaning": "滯澀不暢"
+        },
+        {
+          "char": "瘍",
+          "jyutping": "joeng4",
+          "meaning": "瘡瘍"
+        }
+      ]
+    },
+    {
+      "original": "太陰不退位，而取寒暑不時，埃昏布作，濕令不去，民病四肢少力，食飲不下，泄注淋滿，足脛寒，陰萎閉塞，失溺小便數。",
+      "baihua": "太陰之氣不退位，則寒暑不合時令，塵霧昏暗遍布發作，濕氣的時令不退去，人們患四肢乏力，飲食不能下嚥，瀉痢淋滿，小腿寒冷，陽痿、二便閉塞，遺尿而小便頻數。",
+      "annotations": [
+        {
+          "char": "埃",
+          "jyutping": "oi1",
+          "meaning": "塵土"
+        },
+        {
+          "char": "脛",
+          "jyutping": "ging3",
+          "meaning": "小腿"
+        },
+        {
+          "char": "溺",
+          "jyutping": "niu6",
+          "meaning": "小便"
+        }
+      ]
+    },
+    {
+      "original": "少陽不退位，即熱生於春，暑乃後化，冬溫不凍，流水不冰，蟄蟲出見，民病少氣，寒熱更作，便血上熱，小腹堅滿，小便赤沃，甚則血溢。",
+      "baihua": "少陽之氣不退位，則春天生熱，暑氣延後化生，冬天溫暖而不結凍，流水不結冰，蟄伏的蟲類出現，人們患少氣，寒熱交替發作，便血、上部發熱，小腹堅硬脹滿，小便赤色而多，嚴重則出血。",
+      "annotations": [
+        {
+          "char": "更",
+          "jyutping": "gang1",
+          "meaning": "交替、輪流"
+        },
+        {
+          "char": "堅",
+          "jyutping": "gin1",
+          "meaning": "堅硬"
+        },
+        {
+          "char": "沃",
+          "jyutping": "juk1",
+          "meaning": "多、盛"
+        }
+      ]
+    },
+    {
+      "original": "陽明不退位，即春生清冷，草木晚榮，寒熱間作，民病嘔吐暴注，食飲不下，大便乾燥，四肢不舉，目瞑掉眩。",
+      "baihua": "陽明之氣不退位，則春天生出清冷之氣，草木遲遲繁茂，寒熱間歇發作，人們患嘔吐、暴瀉，飲食不能下嚥，大便乾燥，四肢不能舉動，眼睛昏花、頭暈目眩。",
+      "annotations": [
+        {
+          "char": "嘔",
+          "jyutping": "au2",
+          "meaning": "嘔吐"
+        },
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "急劇、突然"
+        },
+        {
+          "char": "瞑",
+          "jyutping": "ming4",
+          "meaning": "閉目、目昏"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：天歲早晚，余以知之，願聞地數，可得聞乎？",
+      "baihua": "黃帝說：天氣時令的早晚，我已經知曉了，希望聽聽地數的道理，可以聽聽嗎？",
+      "annotations": [
+        {
+          "char": "歲",
+          "jyutping": "seoi3",
+          "meaning": "年、歲時"
+        },
+        {
+          "char": "聞",
+          "jyutping": "man4",
+          "meaning": "聽聞"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：地下遷正昇天及退位不前之法，即地土產化，萬物失時之化也。",
+      "baihua": "岐伯說：地氣遷正、升天以及退位不前的規律，就是地土生產化育，導致萬物失去時令之化的道理。",
+      "annotations": [
+        {
+          "char": "昇",
+          "jyutping": "sing1",
+          "meaning": "上升"
+        },
+        {
+          "char": "產",
+          "jyutping": "caan2",
+          "meaning": "生產、化育"
+        }
+      ]
+    },
+    {
+      "original": "帝曰：余聞天地二甲子，十干十二支。上下經緯天地，數有迭移，失守其位，可得昭乎？",
+      "baihua": "黃帝說：我聽聞天地有兩個甲子，即十天干與十二地支。上下縱橫經緯於天地之間，其數有更替移動，如失守其位置，可以講明白嗎？",
+      "annotations": [
+        {
+          "char": "迭",
+          "jyutping": "dit6",
+          "meaning": "更替、交替"
+        },
+        {
+          "char": "緯",
+          "jyutping": "wai5",
+          "meaning": "橫向、緯線"
+        },
+        {
+          "char": "昭",
+          "jyutping": "ziu1",
+          "meaning": "明白、清楚"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：失之迭位者，謂雖得歲正，未得正位之司，即四時不節，即生大疫。",
+      "baihua": "岐伯說：所謂失於更替之位，是指雖然得到年份的正氣，卻未能得到正位的司職，於是四時不合節令，就會產生大疫。",
+      "annotations": [
+        {
+          "char": "節",
+          "jyutping": "zit3",
+          "meaning": "節令、合時"
+        },
+        {
+          "char": "疫",
+          "jyutping": "jik6",
+          "meaning": "疫病"
+        }
+      ]
+    },
+    {
+      "original": "注《玄珠密語》云：陽年三十年，除六年天刑，計有太過二十四年，除此六年，皆作太過之用，令不然之旨。",
+      "baihua": "註解《玄珠密語》說：陽年共三十年，除去六年天刑之年，計有太過之年二十四年，除去這六年，都作太過來運用，令其不當如此的意旨。",
+      "annotations": [
+        {
+          "char": "刑",
+          "jyutping": "jing4",
+          "meaning": "刑罰、剋制"
+        },
+        {
+          "char": "計",
+          "jyutping": "gai3",
+          "meaning": "計算、共計"
+        }
+      ]
+    },
+    {
+      "original": "今言迭支迭位，皆可作其不及也。",
+      "baihua": "如今所說的干支更替、位置更替，都可以看作是不及的情況。",
+      "annotations": [
+        {
+          "char": "迭",
+          "jyutping": "dit6",
+          "meaning": "更替"
+        },
+        {
+          "char": "及",
+          "jyutping": "kap6",
+          "meaning": "達到、及"
+        }
+      ]
+    },
+    {
+      "original": "假令甲子陽年，土運太窒，如癸亥天數有餘者，年雖交得甲子，厥陰猶尚治天，地已遷正，陽明在泉，去歲少陽以作右間，即厥陰之地陽明，故不相和奉者也。",
+      "baihua": "假設甲子陽年，土運太過而阻窒，如果癸亥年天數尚有餘，那麼年份雖然交接到了甲子，厥陰仍然掌管天氣，地氣已經遷正，陽明處於在泉之位，去年的少陽已作為右間之氣，即厥陰在天而陽明在地，所以彼此不能和諧奉承。",
+      "annotations": [
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "在泉之位"
+        },
+        {
+          "char": "奉",
+          "jyutping": "fung6",
+          "meaning": "奉承、順應"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "間氣之位"
+        }
+      ]
+    },
+    {
+      "original": "癸巳相會，土運太過，虛反受木勝，故非太過也，何以言土運太過，況黃鐘不應太窒，木既勝而金還復，金既復而少陰如至，即木勝如火而金復微，如此則甲己失守，後三年化成土疫，晚至丁卯，早至丙寅，土疫至也，大小善惡，推其天地，詳乎太一。",
+      "baihua": "癸與巳相會，土運雖太過，虛弱反受木氣所勝，所以並非真正的太過，為何說土運太過呢；況且黃鐘之律不應太過阻窒，木氣既然勝過土後金氣又來報復，金氣既來報復而少陰隨之而至，即木氣所勝如同火而金氣報復微弱，如此則甲己失守，此後三年化成土疫，遲則至丁卯年，早則至丙寅年，土疫就會來臨，其病輕重善惡，要推算天地之數，詳審於太一之運。",
+      "annotations": [
+        {
+          "char": "鐘",
+          "jyutping": "zung1",
+          "meaning": "黃鐘，樂律名"
+        },
+        {
+          "char": "疫",
+          "jyutping": "jik6",
+          "meaning": "疫病"
+        },
+        {
+          "char": "詳",
+          "jyutping": "coeng4",
+          "meaning": "詳審、審察"
+        }
+      ]
+    },
+    {
+      "original": "又只如甲子年，如甲至子而合，應交司而治天，即下己卯未遷正，而戊寅少陽未退位者，亦甲己下有合也，即土運非太過，而木乃乘虛而勝土也，金次又行復勝之，即反邪化也。",
+      "baihua": "再如甲子年，如果甲與子相合，本應交接司職而掌管天氣，但下方己卯未能遷正，而戊寅的少陽尚未退位，這也是甲己在下方有相合的情況，於是土運並非太過，而木氣便乘虛而勝過土，金氣接著又運行來報復戰勝它，這就成為反常的邪化。",
+      "annotations": [
+        {
+          "char": "乘",
+          "jyutping": "sing4",
+          "meaning": "趁、乘機"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "報復、反剋"
+        },
+        {
+          "char": "邪",
+          "jyutping": "ce4",
+          "meaning": "邪氣、不正"
+        }
+      ]
+    },
+    {
+      "original": "陰陽天地殊異爾，故其大小善惡，一如天地之法旨也。",
+      "baihua": "陰陽與天地各有不同罷了，所以人身脈象的大小、善惡，完全依照天地運行的法則與宗旨。",
+      "annotations": [
+        {
+          "char": "殊",
+          "jyutping": "syu4",
+          "meaning": "不同、差異"
+        },
+        {
+          "char": "爾",
+          "jyutping": "ji5",
+          "meaning": "語末助詞，相當於「罷了」"
+        },
+        {
+          "char": "旨",
+          "jyutping": "zi2",
+          "meaning": "宗旨、要義"
+        }
+      ],
+      "contentStatus": "draft"
+    },
+    {
+      "original": "假令丙寅陽年太過，如乙丑天數有餘者，雖交得丙寅，太陰尚治天也，地已遷正，厥陰司地，去歲太陽以作右間，即天太陰而地厥陰，故地不奉天化也。",
+      "baihua": "假設丙寅陽年太過，如果乙丑年天數尚有餘，那麼雖然交接到了丙寅，太陰仍掌管天氣，地氣已經遷正，厥陰主管地氣，去年的太陽已作為右間之氣，即天為太陰而地為厥陰，所以地氣不能奉承天氣之化。",
+      "annotations": [
+        {
+          "char": "奉",
+          "jyutping": "fung6",
+          "meaning": "奉承、順應"
+        },
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "主管"
+        },
+        {
+          "char": "歲",
+          "jyutping": "seoi3",
+          "meaning": "年"
+        }
+      ]
+    },
+    {
+      "original": "乙辛相會，水運太虛，反受土勝，故非太過，即太簇之管，太羽不應，土勝而雨化，水復即風，此者丙辛失守其會，後三年化成水疫，晚至己巳，早至戊辰，甚即速，微即徐，水疫至也，大小善惡推其天地數，乃太乙遊宮。",
+      "baihua": "乙與辛相會，水運太虛弱，反而受土氣所勝，所以並非太過，於是太簇之律管，太羽之音不應，土氣勝則化雨，水氣報復則起風，這是丙辛失守其會合，此後三年化成水疫，遲則至己巳年，早則至戊辰年，病重則來得快，病輕則來得慢，水疫就會來臨，其輕重善惡要推算天地之數，即依太乙遊行於九宮而定。",
+      "annotations": [
+        {
+          "char": "簇",
+          "jyutping": "cuk1",
+          "meaning": "太簇，樂律名"
+        },
+        {
+          "char": "徐",
+          "jyutping": "ceoi4",
+          "meaning": "緩慢"
+        },
+        {
+          "char": "遊",
+          "jyutping": "jau4",
+          "meaning": "遊行、運行"
+        }
+      ]
+    },
+    {
+      "original": "又只如丙寅年，丙至寅且合，應交司而治天，即辛巳未得遷正，而庚辰太陽未退位者，亦丙辛不合德也，即水運亦小虛而小勝，或有復，後三年化癘，名曰水癘，其狀如水疫，治法如前。",
+      "baihua": "再如丙寅年，丙與寅相合，本應交接司職而掌管天氣，但辛巳未能遷正，而庚辰的太陽尚未退位，這也是丙辛不能合德，於是水運也稍微虛弱而稍有勝氣，或有報復之氣，此後三年化成癘病，稱為水癘，其症狀如同水疫，治療方法如前所述。",
+      "annotations": [
+        {
+          "char": "德",
+          "jyutping": "dak1",
+          "meaning": "德性、和合"
+        },
+        {
+          "char": "癘",
+          "jyutping": "lai6",
+          "meaning": "疫癘、瘟病"
+        },
+        {
+          "char": "狀",
+          "jyutping": "zong6",
+          "meaning": "症狀、形狀"
+        }
+      ]
+    },
+    {
+      "original": "假令庚辰陽年太過，如己卯天數有餘者，雖交得庚辰年也，陽明猶尚治天，地已遷正，太陰司地，去歲少陰以作右間，即天陽明而地太陰也，故地下奉天也。",
+      "baihua": "假設庚辰是陽年而氣運太過，如果前一年己卯的天數尚有餘留，那麼雖然已交入庚辰年，陽明之氣仍舊主治於天，而地氣已經遷移歸正，太陰之氣主治於地，去年的少陰之氣退作右間位，這就是天為陽明而地為太陰，所以在下的地氣能奉承在上的天氣。",
+      "annotations": [
+        {
+          "char": "辰",
+          "jyutping": "san4",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "猶",
+          "jyutping": "jau4",
+          "meaning": "仍然、還"
+        },
+        {
+          "char": "遷",
+          "jyutping": "cin1",
+          "meaning": "遷移、轉正"
+        },
+        {
+          "char": "奉",
+          "jyutping": "fung6",
+          "meaning": "奉承、承接"
+        }
+      ]
+    },
+    {
+      "original": "乙巳相會，金運太虛，反受火勝，故非太過也，即姑洗之管，太商不應，火勝熱化，水復寒刑，此乙庚失守，其後三年化成金疫也，速至壬午，徐至癸未，金疫至也，大小善惡，推本年天數及太一也。",
+      "baihua": "乙與巳相會合，金運變得極度虛弱，反而受到火氣的克勝，所以並非太過，此時姑洗律管的太商之音不能相應，火氣勝而化為熱，水氣來複而施行寒刑，這是乙庚二氣失守，其後三年會化生金疫，快則到壬午年，慢則到癸未年，金疫便會來到，其規模大小與吉凶善惡，可依當年的天數和太一運行來推算。",
+      "annotations": [
+        {
+          "char": "姑洗",
+          "jyutping": "gu1 sin2",
+          "meaning": "古十二律之一"
+        },
+        {
+          "char": "商",
+          "jyutping": "soeng1",
+          "meaning": "五音之一，屬金"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "報復、來複"
+        },
+        {
+          "char": "刑",
+          "jyutping": "jing4",
+          "meaning": "克制、刑罰"
+        },
+        {
+          "char": "疫",
+          "jyutping": "jik6",
+          "meaning": "瘟疫、傳染病"
+        }
+      ]
+    },
+    {
+      "original": "又只如庚辰，如庚至辰，且應交司而治天，即下乙未未得遷正者，即地甲午少陰未退位者，且乙庚不合德也，即下乙未，干失剛，亦金運小虛也，有小勝或無復，後三年化癘，名曰金癘，其狀如金疫也，治法如前。",
+      "baihua": "又只如庚辰之年，庚運交至辰位，本應交接主司而主治於天，若在下的乙未之氣未能遷移歸正，就是地上甲午的少陰之氣尚未退位，這樣乙庚二者便不能合德，因此在下的乙未，天干失去剛強之性，也使金運稍微虛弱，會有小的克勝或者沒有報復，其後三年化生疫癘，名叫金癘，其症狀如同金疫一般，治療方法如前所述。",
+      "annotations": [
+        {
+          "char": "司",
+          "jyutping": "si1",
+          "meaning": "主管、主司"
+        },
+        {
+          "char": "干",
+          "jyutping": "gon1",
+          "meaning": "天干"
+        },
+        {
+          "char": "剛",
+          "jyutping": "gong1",
+          "meaning": "剛強，指陽干"
+        },
+        {
+          "char": "癘",
+          "jyutping": "lai6",
+          "meaning": "疫病、惡病"
+        }
+      ]
+    },
+    {
+      "original": "假令壬午陽年太過，如辛巳天數有餘者，雖交後壬午年也，厥陰猶尚治天，地已遷正，陽明在泉，去歲丙申少陽以作右間，即天厥陰而地陽明，故地不奉天者也。",
+      "baihua": "假設壬午是陽年而氣運太過，如果前一年辛巳的天數尚有餘留，那麼雖然已交入壬午年，厥陰之氣仍舊主治於天，而地氣已經遷移歸正，陽明之氣在泉，去年的少陽之氣退作右間位，這就是天為厥陰而地為陽明，所以地氣不能奉承天氣。",
+      "annotations": [
+        {
+          "char": "壬",
+          "jyutping": "jam4",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥陰，六氣之一"
+        },
+        {
+          "char": "泉",
+          "jyutping": "cyun4",
+          "meaning": "在泉，指地氣之位"
+        },
+        {
+          "char": "申",
+          "jyutping": "san1",
+          "meaning": "地支之一"
+        }
+      ]
+    },
+    {
+      "original": "丁辛相合會，木運太虛，反受金勝，故非太過也，即蕤賓之管，太角不應，金行燥勝，火化熱復，甚即速，微即徐，疫至大小善惡，推疫至之年天數及太一。",
+      "baihua": "丁與辛相會合，木運變得極度虛弱，反而受到金氣的克勝，所以並非太過，此時蕤賓律管的太角之音不能相應，金氣行使燥令而克勝，火氣化為熱而來複，燥火勢盛則疫至快速，勢微則疫至緩慢，疫病來到時的規模大小與吉凶善惡，可依疫至那年的天數和太一運行來推算。",
+      "annotations": [
+        {
+          "char": "蕤賓",
+          "jyutping": "jeoi4 ban1",
+          "meaning": "古十二律之一"
+        },
+        {
+          "char": "角",
+          "jyutping": "gok3",
+          "meaning": "五音之一，屬木"
+        },
+        {
+          "char": "燥",
+          "jyutping": "cou3",
+          "meaning": "乾燥，屬金之氣"
+        },
+        {
+          "char": "徐",
+          "jyutping": "ceoi4",
+          "meaning": "緩慢"
+        }
+      ]
+    },
+    {
+      "original": "又只如壬至午，且應交司而治之，即下丁酉未得遷正者，即地下丙申少陽未得退位者，見丁壬不合德也，即丁柔干失剛，亦木運小虛也，有小勝小復。",
+      "baihua": "又只如壬運交至午位，本應交接主司而主治天氣，若在下的丁酉之氣未能遷移歸正，就是地下丙申的少陽之氣尚未退位，可見丁壬二者不能合德，這丁是柔弱的天干失去剛強之配，也使木運稍微虛弱，會有小的克勝與小的報復。",
+      "annotations": [
+        {
+          "char": "酉",
+          "jyutping": "jau5",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "柔",
+          "jyutping": "jau4",
+          "meaning": "柔弱，指陰干"
+        },
+        {
+          "char": "退",
+          "jyutping": "teoi3",
+          "meaning": "退位、退讓"
+        },
+        {
+          "char": "復",
+          "jyutping": "fuk6",
+          "meaning": "報復、來複"
+        }
+      ]
+    },
+    {
+      "original": "後三年化癘，名曰木癘，其狀如風疫，法治如前。",
+      "baihua": "其後三年化生疫癘，名叫木癘，其症狀如同風疫一般，治療方法如前所述。",
+      "annotations": [
+        {
+          "char": "癘",
+          "jyutping": "lai6",
+          "meaning": "疫病、惡病"
+        },
+        {
+          "char": "狀",
+          "jyutping": "zong6",
+          "meaning": "症狀、形狀"
+        },
+        {
+          "char": "風",
+          "jyutping": "fung1",
+          "meaning": "風邪、屬木之氣"
+        }
+      ]
+    },
+    {
+      "original": "假令戊申陽年太過，如丁未天數太過者，雖交得戊申年也，太陰猶尚治天，地已遷正，厥陰在泉，去歲壬戌太陽以退位作右間，即天丁未，地癸亥，故地不奉天化也。",
+      "baihua": "假設戊申是陽年而氣運太過，如果前一年丁未的天數也太過，那麼雖然已交入戊申年，太陰之氣仍舊主治於天，而地氣已經遷移歸正，厥陰之氣在泉，去年的壬戌太陽之氣已退位作右間，這就是天為丁未、地為癸亥，所以地氣不能奉承天氣的變化。",
+      "annotations": [
+        {
+          "char": "戊",
+          "jyutping": "mou6",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "戌",
+          "jyutping": "seot1",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "亥",
+          "jyutping": "hoi6",
+          "meaning": "地支之一"
+        },
+        {
+          "char": "化",
+          "jyutping": "faa3",
+          "meaning": "氣化、變化"
+        }
+      ]
+    },
+    {
+      "original": "丁癸相會，火運太虛，反受水勝，故非太過也，即夷則之管，上太徵不應，此戊癸失守其會，後三年化疫也，速至庚戌，大小善惡，推疫至之年天數及太一。",
+      "baihua": "丁與癸相會合，火運變得極度虛弱，反而受到水氣的克勝，所以並非太過，此時夷則律管在上的太徵之音不能相應，這是戊癸二氣失守其會合，其後三年化生疫病，快則到庚戌年，其規模大小與吉凶善惡，可依疫至那年的天數和太一運行來推算。",
+      "annotations": [
+        {
+          "char": "夷則",
+          "jyutping": "ji4 zak1",
+          "meaning": "古十二律之一"
+        },
+        {
+          "char": "徵",
+          "jyutping": "zi2",
+          "meaning": "五音之一，屬火"
+        },
+        {
+          "char": "癸",
+          "jyutping": "gwai3",
+          "meaning": "天干之一"
+        },
+        {
+          "char": "疫",
+          "jyutping": "jik6",
+          "meaning": "瘟疫、傳染病"
+        }
+      ]
+    },
+    {
+      "original": "又只如戊申，如戊至申，且應交司而治天，即下癸亥未得遷正者，即地下壬戌太陽未退位者，見戊癸未合德也，即下癸柔干失剛，見火運小虛也，有小勝或無復也，後三年化癘，名曰火癘也，治法如前，治之法可寒之泄之。",
+      "baihua": "又只如戊申之年，戊運交至申位，本應交接主司而主治於天，若在下的癸亥之氣未能遷移歸正，就是地下壬戌的太陽之氣尚未退位，可見戊癸二者不能合德，這在下的癸是柔弱天干失去剛強之配，可見火運稍微虛弱，會有小的克勝或者沒有報復，其後三年化生疫癘，名叫火癘，治療方法如前所述，治療之法可用寒涼藥物來清瀉。",
+      "annotations": [
+        {
+          "char": "泄",
+          "jyutping": "sit3",
+          "meaning": "瀉、清瀉"
+        },
+        {
+          "char": "寒",
+          "jyutping": "hon4",
+          "meaning": "寒涼，指用寒藥"
+        },
+        {
+          "char": "合德",
+          "jyutping": "hap6 dak1",
+          "meaning": "陰陽相配相合"
+        }
+      ]
+    },
+    {
+      "original": "黃帝曰：人氣不足，天氣如虛，人神失守，神光不聚，邪鬼幹人，致有夭亡，可得聞乎？",
+      "baihua": "黃帝說：人體之氣不足，天氣又逢虛弱，人的神志失守，神明之光不能凝聚，邪氣鬼祟侵犯人身，導致有夭折死亡的情況，這些道理可以講給我聽聽嗎？",
+      "annotations": [
+        {
+          "char": "幹",
+          "jyutping": "gon3",
+          "meaning": "侵犯、干犯"
+        },
+        {
+          "char": "夭",
+          "jyutping": "jiu2",
+          "meaning": "短命、早死"
+        },
+        {
+          "char": "聚",
+          "jyutping": "zeoi6",
+          "meaning": "聚集、凝聚"
+        },
+        {
+          "char": "聞",
+          "jyutping": "man4",
+          "meaning": "聽聞、聽取"
+        }
+      ]
+    },
+    {
+      "original": "岐伯曰：人之五藏，一藏不足，又會天虛，感邪之至也。",
+      "baihua": "岐伯說：人的五臟之中，若有一臟不足，又適逢天氣虛弱，就會招致邪氣的侵入。",
+      "annotations": [
+        {
+          "char": "藏",
+          "jyutping": "zong6",
+          "meaning": "臟，指五臟"
+        },
+        {
+          "char": "會",
+          "jyutping": "wui6",
+          "meaning": "適逢、遇到"
+        },
+        {
+          "char": "感",
+          "jyutping": "gam2",
+          "meaning": "感受、招致"
+        }
+      ]
+    },
+    {
+      "original": "人憂愁思慮即傷心，又或遇少陰司天，天數不及，太陰作接間至，即謂天虛也，此即人氣天氣同虛也。",
+      "baihua": "人若憂愁思慮就會損傷心臟，若又遇到少陰主治於天，天數不及，太陰之氣作為承接間氣而至，這就叫做天虛，這樣便是人氣和天氣同時虛弱。",
+      "annotations": [
+        {
+          "char": "憂",
+          "jyutping": "jau1",
+          "meaning": "憂愁、擔憂"
+        },
+        {
+          "char": "慮",
+          "jyutping": "leoi6",
+          "meaning": "思慮、考慮"
+        },
+        {
+          "char": "接",
+          "jyutping": "zip3",
+          "meaning": "承接、接續"
+        },
+        {
+          "char": "間",
+          "jyutping": "gaan3",
+          "meaning": "間氣"
+        }
+      ]
+    },
+    {
+      "original": "又遇驚而奪精，汗出於心，因而三虛，神明失守，心為君主之官，神明出焉，神失守位，即神遊上丹田，在帝太一帝君泥丸宮下，神既失守，神光不聚，卻遇火不及之歲，有黑屍鬼見之，令人暴亡。",
+      "baihua": "若又遇到受驚而耗奪精氣，汗液從心而出，因而形成三虛，神明失守，心是君主之官，神明由此而出，神既失守其位，便游離到上丹田，位於帝太一帝君泥丸宮之下，神既失守，神光不能凝聚，又遇上火運不及之年，就有黑屍鬼出現，使人突然死亡。",
+      "annotations": [
+        {
+          "char": "奪",
+          "jyutping": "dyut6",
+          "meaning": "奪取、耗損"
+        },
+        {
+          "char": "泥丸",
+          "jyutping": "nai4 jyun2",
+          "meaning": "腦中之宮，道家稱謂"
+        },
+        {
+          "char": "屍",
+          "jyutping": "si1",
+          "meaning": "屍體、屍鬼"
+        },
+        {
+          "char": "暴",
+          "jyutping": "bou6",
+          "meaning": "突然、猛然"
+        }
+      ]
+    },
+    {
+      "original": "人飲食勞倦即傷脾，又或遇太陰司天，天數不及，即少陽作接間至，即謂之虛也，此即人氣虛而天氣虛也。",
+      "baihua": "人若飲食不節、勞累疲倦就會損傷脾臟，若又遇到太陰主治於天，天數不及，少陽之氣作為承接間氣而至，這就叫做虛，這樣便是人氣虛弱而天氣也虛弱。",
+      "annotations": [
+        {
+          "char": "倦",
+          "jyutping": "gyun6",
+          "meaning": "疲倦、勞累"
+        },
+        {
+          "char": "脾",
+          "jyutping": "pei4",
+          "meaning": "脾臟"
+        },
+        {
+          "char": "接",
+          "jyutping": "zip3",
+          "meaning": "承接、接續"
+        }
+      ]
+    },
+    {
+      "original": "又遇飲食飽甚，汗出於胃，醉飽行房，汗出於脾，因而三虛，脾神失守，脾為諫議之官，智周出焉，神既失守，神光失位而不聚也，卻遇土不及之年，或己年或甲年失守，或太陰天虛，青屍鬼見之，令人卒亡。",
+      "baihua": "若又遇到飲食過飽，汗液從胃而出，酒醉飽食後行房事，汗液從脾而出，因而形成三虛，脾神失守，脾是諫議之官，智慧周密由此而出，神既失守，神光失位而不能凝聚，又遇上土運不及之年，或己年、或甲年失守，或太陰天氣虛弱，就有青屍鬼出現，使人猝然死亡。",
+      "annotations": [
+        {
+          "char": "諫",
+          "jyutping": "gaan3",
+          "meaning": "諫議、勸諫"
+        },
+        {
+          "char": "智",
+          "jyutping": "zi3",
+          "meaning": "智慧"
+        },
+        {
+          "char": "卒",
+          "jyutping": "zeot1",
+          "meaning": "猝然、突然"
+        },
+        {
+          "char": "甲",
+          "jyutping": "gaap3",
+          "meaning": "天干之一"
+        }
+      ]
+    },
+    {
+      "original": "人久坐濕地，強力入水即傷腎，腎為作強之官，伎巧出焉，因而三虛，腎神失守，神志失位，神光不聚，卻遇水不及之年，或辛不會符，或丙年失守，或太陽司天虛，有黃屍鬼至，見之令人暴亡。",
+      "baihua": "人若久坐潮濕之地，勉強用力入水就會損傷腎臟，腎是作強之官，技巧由此而出，因而形成三虛，腎神失守，神志失位，神光不能凝聚，又遇上水運不及之年，或辛年不能會合符運，或丙年失守，或太陽主治於天而天氣虛弱，就有黃屍鬼到來，見之使人突然死亡。",
+      "annotations": [
+        {
+          "char": "濕",
+          "jyutping": "sap1",
+          "meaning": "潮濕"
+        },
+        {
+          "char": "伎",
+          "jyutping": "gei6",
+          "meaning": "技藝、技巧"
+        },
+        {
+          "char": "符",
+          "jyutping": "fu4",
+          "meaning": "符合、相應"
+        },
+        {
+          "char": "丙",
+          "jyutping": "bing2",
+          "meaning": "天干之一"
+        }
+      ]
+    },
+    {
+      "original": "人或恚怒，氣逆上而不下，即傷肝也。",
+      "baihua": "人若發怒憤恨，氣逆行向上而不能下降，就會損傷肝臟。",
+      "annotations": [
+        {
+          "char": "恚",
+          "jyutping": "wai3",
+          "meaning": "憤恨、發怒"
+        },
+        {
+          "char": "怒",
+          "jyutping": "nou6",
+          "meaning": "憤怒"
+        },
+        {
+          "char": "逆",
+          "jyutping": "jik6",
+          "meaning": "逆行、上逆"
+        }
+      ]
+    },
+    {
+      "original": "又遇厥陰司天，天數不及，即少陰作接間至，是謂天虛也，此謂天虛人虛也。",
+      "baihua": "若又遇到厥陰主治於天，天數不及，少陰之氣作為承接間氣而至，這就叫做天虛，這便是天氣虛弱而人氣也虛弱。",
+      "annotations": [
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "厥陰，六氣之一"
+        },
+        {
+          "char": "及",
+          "jyutping": "kap6",
+          "meaning": "達到、及格"
+        },
+        {
+          "char": "接",
+          "jyutping": "zip3",
+          "meaning": "承接、接續"
+        }
+      ]
+    },
+    {
+      "original": "又遇疾走恐懼，汗出於肝，肝為將軍之官，謀慮出焉，神位失守，神光不聚，又遇木不及年，或丁年不符，或壬年失守，或厥陰司天虛也，有白屍鬼見之，令人暴亡也。",
+      "baihua": "若又遇到疾速奔走、驚恐畏懼，汗液從肝而出，肝是將軍之官，謀略思慮由此而出，神位失守，神光不能凝聚，又遇上木運不及之年，或丁年不能相符，或壬年失守，或厥陰主治於天而天氣虛弱，就有白屍鬼出現，使人突然死亡。",
+      "annotations": [
+        {
+          "char": "疾",
+          "jyutping": "zat6",
+          "meaning": "疾速、快"
+        },
+        {
+          "char": "懼",
+          "jyutping": "geoi6",
+          "meaning": "畏懼、恐懼"
+        },
+        {
+          "char": "謀",
+          "jyutping": "mau4",
+          "meaning": "謀略、計謀"
+        },
+        {
+          "char": "將",
+          "jyutping": "zoeng3",
+          "meaning": "將軍"
+        }
+      ]
+    },
+    {
+      "original": "以上五失守者，天虛而人虛也，神遊失守其位，即有五屍鬼幹人，令人暴亡也，謂之曰屍厥。",
+      "baihua": "以上五種失守的情況，都是天氣虛弱而人氣也虛弱，神志游離而失守其位，就會有五種屍鬼侵犯人身，使人突然死亡，這就叫做屍厥。",
+      "annotations": [
+        {
+          "char": "遊",
+          "jyutping": "jau4",
+          "meaning": "游離、遊蕩"
+        },
+        {
+          "char": "幹",
+          "jyutping": "gon3",
+          "meaning": "侵犯、干犯"
+        },
+        {
+          "char": "厥",
+          "jyutping": "kyut3",
+          "meaning": "昏厥、氣閉"
+        }
+      ]
+    },
+    {
+      "original": "人犯五神易位，即神光不圓也，非但屍鬼，即一切邪犯者，皆是神失守位故也。",
+      "baihua": "人若使五神移易其位，神光就不能圓滿，不僅是屍鬼侵犯，凡是一切邪氣侵犯人身，都是因為神失守其位的緣故。",
+      "annotations": [
+        {
+          "char": "犯",
+          "jyutping": "faan6",
+          "meaning": "觸犯、侵犯"
+        },
+        {
+          "char": "易",
+          "jyutping": "jik6",
+          "meaning": "變易、更換"
+        },
+        {
+          "char": "圓",
+          "jyutping": "jyun4",
+          "meaning": "圓滿、完滿"
+        }
+      ]
+    },
+    {
+      "original": "此謂得守者生，失守者死，得神者昌，失神者亡。",
+      "baihua": "這就是所謂能守住神志的人可以生存，失守神志的人便會死亡，得神明的人昌盛安康，失神明的人便會滅亡。",
+      "annotations": [
+        {
+          "char": "守",
+          "jyutping": "sau2",
+          "meaning": "守住、保持"
+        },
+        {
+          "char": "昌",
+          "jyutping": "coeng1",
+          "meaning": "昌盛、興旺"
+        },
+        {
+          "char": "亡",
+          "jyutping": "mong4",
+          "meaning": "死亡、滅亡"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "本篇所說的「氣交失守」是指甚麼？它會帶來甚麼後果？",
+      "answer": "「氣交失守」是指天地之氣在上下升降、遷正退位的過程中，未能依時前進或退讓，各自失去了應處的位置。由於升降遷退各有常規，一旦「上下各有不前」而失位，便稱為失守。其後果是氣交發生異常變化、四時失去正常次序、萬物生化不得安定，從而引發百姓罹患疾病與疫癘。"
+    },
+    {
+      "question": "本篇提出的「三虛」是指哪三方面？為何三虛會令人暴亡？",
+      "answer": "「三虛」指天虛、人虛、神虛三者相合。天虛是指司天之氣不及、天數不足；人虛是指人的五臟本已有一臟不足；神虛（神失守）則是因憂思、驚恐、勞倦、飲食醉飽行房或恚怒等傷及臟腑，使精神耗散、神遊失位、神光不聚。當三者同時虛損，正氣無以護身，邪氣（篇中稱五屍鬼）便乘虛而入，導致神明失守而突然死亡，稱為「屍厥」。"
+    },
+    {
+      "question": "本篇如何運用天干地支來推論大疫的發生？請以其規律作簡要說明。",
+      "answer": "本篇以「天地二甲子」即十天干與十二地支的上下配合來推演運氣。當某陽年本應運氣太過，但因上一年司天之氣仍有餘、未及退位，新歲的司天與在泉便未能遷正歸位，出現「失守其位」的迭移現象，使本應太過之運反而受克制而變虛。這種天地失守之後，往往「後三年化成疫」，如甲己失守後三年化成土疫、丙辛失守後化水疫等，並可據年份天數及太一之數推斷疫情的早晚、大小與善惡。"
+    },
+    {
+      "question": "「升之不前」與「降之不下」分別是甚麼意思？",
+      "answer": "「升之不前」是指某氣本應上升遷正而不能順利上升，多因中運或地氣勝而抑制之，使其升而不前；「降之不下」則是指某氣升至天上經歷三年後，本應下降入地成為左間，卻因中運承之或前氣未退位而不能順利下降。兩者都是氣交升降受阻的異常情況，會分別引起相應的氣候反常與民病。"
+    },
+    {
+      "question": "本篇末尾「得守者生，失守者死，得神者昌，失神者亡」一句有何養生防病的意義？",
+      "answer": "這句話總結全篇宗旨，強調人體正氣與精神安守其位的重要性。「守」指五臟精氣與神志能各安其位、不外散耗損；能守則邪不能犯而生機昌盛，失守則神光不聚、邪氣易犯而致病甚至死亡。它提醒人要調攝情志、節制勞倦飲食、避免憂思驚恐過度，以固護正氣、安定神明，這正是中醫「正氣存內，邪不可干」的養生防病根本精神。"
+    }
+  ]
+}
