@@ -49,7 +49,7 @@ src/
 public/images/
   home-hero.webp          首頁橫幅(16:9)
   foundations/            基礎理論:<id>.webp(3:2 banner)+<id>-thumb.webp(1:1 縮圖)
-  classics/               素問:suwen.webp(書目頁)+<chapter-id>.webp(篇首,精選 18 篇)
+  classics/               素問:suwen.webp(書目頁)+<chapter-id>.webp(篇首,81 篇全數有圖)
 opus-output/              Opus 翻譯輸出 JSON(已套用網頁;18 篇 A 審校版留檔未採用)
 ```
 
@@ -85,7 +85,9 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
   頁面統一 `w-full max-w-lg mx-auto rounded-lg mb-5`，擺喺標題**之上**（基礎理論、素問書目頁、素問篇首一致）。
   生成見下「POE 生圖」；壓縮腳本 `scratchpad/optimize_images.cjs`。
 - **精選 18 篇**：`featured: true`（批一 8＋批二 10）＝ 建議入門先讀，目錄與章節頁以琥珀細標「基礎」標示；
-  精選名單改動只需改 JSON，template 唔寫死。篇首圖亦只做呢 18 篇。
+  精選名單改動只需改 JSON，template 唔寫死。（篇首圖現時 81 篇全有，唔再只做呢 18 篇。）
+- **反留白**：生圖 prompt 必須有「主體必須佔滿整個畫面、由邊到邊，絕對不要出現大片空白區域」。
+  冇呢句會出到大幅留白嘅疏圖（實測 17KB vs 平均 129KB，擺埋一齊好突兀）。呢句係品質分水嶺。
 - **Tailwind 色系**：主色 amber-800/900、淺底 amber-50；中性 gray-*；卡片
   `rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50`；容器 `max-w-3xl mx-auto px-4`；分段 `mb-8`。
 - **導覽次序**：路線圖(首頁) → 基礎 → 經典 → 辭典 → 資源 → 進度（先明理、後讀經、隨時查）。
@@ -108,6 +110,21 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
   下載後即以 sharp 縮尺寸＋轉 WebP 先入庫；已存在檔案自動 skip（斷咗可續跑）。
 - **點數**：翻譯／生圖都燒點。跑爆會回 `insufficient_quota`；腳本見此即乾淨停低（唔重試白燒），
   已生成部分保住，補返點數後再跑會跳過已完成項。
+
+## Gemini Canvas 生圖工作流（唔使 API key，用戶 Pro 訂閱）
+
+素問 81 篇篇首圖有 61 幅係行呢條路，值得記低（將來補靈樞等新書可重用）。
+
+- **點解唔用 Gemini API**：實測 AI Studio 免費層**生圖額度係 0**（文字有額度，圖一律 429
+  `RESOURCE_EXHAUSTED`，`location:global` 唔關地區事，等幾耐都冇用）。要用 API 必須開 billing。
+  ⚠ **Gemini Pro 訂閱只覆蓋 gemini.google.com（含 Canvas），唔覆蓋 API** —— 兩者唔互通。
+- **流程**：用戶喺 Canvas 貼一個 prompt（要求寫一個 App：逐幅生成→縮 1024px→
+  `toDataURL('image/webp',0.82)`→「複製 Base64」掣＋textarea 後備），逐批複製成文字檔傳入本 session，
+  以 `scratchpad/apply_b64.cjs` 解碼入庫（**base64 全程腳本處理，唔經對話 context**）。
+- **格式**：`{"suwen-13":"<純 base64,冇 data: 前綴>", ...}`；apply 腳本會驗 3:2、已係 1024px WebP 就直接入庫免二次壓縮。
+- ⚠ **1MB 剪貼簿上限**：每批 5 幅（~1MB）會被硬切斷，JSON 尾段唔完整。**每批 4 幅**先穩陣。
+  萬一被切，apply 前用 regex 抽完整嘅 `"id":"base64"` 對救返（實測救到 4/5 幅），淨低嗰幅重生即可。
+- **prompt 檔**留檔喺 scratchpad `gemini/gemini-canvas-prompt.md`；63 篇逐篇畫面內容喺 `scratchpad/scenes.json`。
 
 ## Git 工作流
 
@@ -151,6 +168,10 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
   ⚠ **18 篇 A 審校改善版用戶決定唔採用**,保留原有白話;檔案留喺 `opus-output/` 備查。
 - **批次 10 完成**（圖片）:精選 18 篇加篇首 3:2 意境圖 + 素問書目頁 1 幅(共 19 幅,經 POE nano-banana-pro);
   目錄/章節頁加「基礎」細標(featured);全站圖片轉 WebP 並按版面縮尺寸(25.2MB → 0.77MB,減 97%)。
-- **十批全部完成**。日後方向:靈樞/傷寒論選讀、臟腑辨證加入基礎理論、辭典隨篇章增補、
-  其餘 63 篇篇首圖(如需)、暗黑模式/PWA(用戶未選)
+- **批次 11 完成**（全書配圖）:其餘 63 篇篇首圖補齊,**81/81 篇全數有圖**。
+  頭 2 幅(6/7)用舊 prompt 出咗大幅留白,加「反留白」句後重生,由 17KB→88KB;
+  61 幅經 Gemini Canvas(用戶 Pro 訂閱)生成、逐批複製 base64 傳入,見上「Gemini Canvas 生圖工作流」。
+  全部 1024×683 準確 3:2 WebP,55–215KB,平均約 129KB。
+- **十一批全部完成**。日後方向:靈樞/傷寒論選讀、臟腑辨證加入基礎理論、辭典隨篇章增補、
+  暗黑模式/PWA(用戶未選)
 - 白話/難字註全部 `contentStatus:'draft'`,人審後改 reviewed;UI 不顯示標示
