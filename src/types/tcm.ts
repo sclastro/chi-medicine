@@ -38,6 +38,7 @@ export interface ClassicChapter {
   title: string     // 上古天真論
   intro?: string    // 白話導讀:本篇宗旨、點解重要
   image?: string    // 篇首 3:2 意境圖,如 /images/classics/suwen-01.webp
+  featured?: boolean // 精選 18 篇(批一+批二):建議入門先讀,UI 標「基礎」
   sections: Section[]
   quiz?: QuizItem[]
 }
@@ -58,7 +59,7 @@ export interface FoundationTopic {
   order: number
   courseRef: string // 對應科目,如「中醫基礎理論(Year 1)」
   intro: string
-  image?: string    // 詳情頁橫向 banner,如 /images/foundations/yinyang.png
+  image?: string    // 詳情頁橫向 banner,如 /images/foundations/yinyang.webp
   thumb?: string    // 總覽頁卡片方圖(縮圖)
   sections: {
     heading: string

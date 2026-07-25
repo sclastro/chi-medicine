@@ -78,8 +78,8 @@
         "answer": "表、熱、實屬陽;裏、寒、虛屬陰。陰陽是八綱的總綱。"
       }
     ],
-    "image": "/images/foundations/yinyang.png",
-    "thumb": "/images/foundations/yinyang-thumb.png"
+    "image": "/images/foundations/yinyang.webp",
+    "thumb": "/images/foundations/yinyang-thumb.webp"
   },
   {
     "id": "wuxing",
@@ -141,8 +141,8 @@
         "answer": "預測疾病傳變、治未病:根據木剋土的關係,預計肝病會乘脾,在脾未病時先行鞏固。"
       }
     ],
-    "image": "/images/foundations/wuxing.png",
-    "thumb": "/images/foundations/wuxing-thumb.png"
+    "image": "/images/foundations/wuxing.webp",
+    "thumb": "/images/foundations/wuxing-thumb.webp"
   },
   {
     "id": "zangfu",
@@ -220,8 +220,8 @@
         "answer": "如心與小腸相表裏:心火亢盛可下移小腸,出現小便短赤澀痛;又如肺與大腸相表裏,肺氣不降可致便秘。"
       }
     ],
-    "image": "/images/foundations/zangfu.png",
-    "thumb": "/images/foundations/zangfu-thumb.png"
+    "image": "/images/foundations/zangfu.webp",
+    "thumb": "/images/foundations/zangfu-thumb.webp"
   },
   {
     "id": "qixuejinye",
@@ -283,8 +283,8 @@
         "answer": "津液代謝依賴脾的運化、肺的宣降、腎的蒸騰氣化;三臟任何一環失職都可致水液停聚,故治法有宣肺、健脾、溫腎之分。"
       }
     ],
-    "image": "/images/foundations/qixuejinye.png",
-    "thumb": "/images/foundations/qixuejinye-thumb.png"
+    "image": "/images/foundations/qixuejinye.webp",
+    "thumb": "/images/foundations/qixuejinye-thumb.webp"
   },
   {
     "id": "jingluo",
@@ -332,8 +332,8 @@
         "answer": "兩側屬少陽經(膽經循行部位);前額屬陽明,後枕屬太陽,巔頂屬厥陰。"
       }
     ],
-    "image": "/images/foundations/jingluo.png",
-    "thumb": "/images/foundations/jingluo-thumb.png"
+    "image": "/images/foundations/jingluo.webp",
+    "thumb": "/images/foundations/jingluo-thumb.webp"
   },
   {
     "id": "bingyinbingji",
@@ -406,8 +406,8 @@
         "answer": "瘀血之痛固定不移、痛如針刺、夜間加重,常伴舌有瘀斑;氣滯之痛則多為脹痛、走竄不定、隨情緒起伏。"
       }
     ],
-    "image": "/images/foundations/bingyinbingji.png",
-    "thumb": "/images/foundations/bingyinbingji-thumb.png"
+    "image": "/images/foundations/bingyinbingji.webp",
+    "thumb": "/images/foundations/bingyinbingji-thumb.webp"
   },
   {
     "id": "zhenfa",
@@ -470,8 +470,8 @@
         "answer": "辨證論治:治療針對「證」而非「病」。同一病不同證則治法不同;不同病若證相同,治法可以相同。"
       }
     ],
-    "image": "/images/foundations/zhenfa.png",
-    "thumb": "/images/foundations/zhenfa-thumb.png"
+    "image": "/images/foundations/zhenfa.webp",
+    "thumb": "/images/foundations/zhenfa-thumb.webp"
   },
   {
     "id": "yangsheng",
@@ -540,7 +540,7 @@
         "answer": "因時、因地、因人制宜:治療須按季節氣候、地域水土、患者年齡體質靈活調整,不執一方以應萬變。"
       }
     ],
-    "image": "/images/foundations/yangsheng.png",
-    "thumb": "/images/foundations/yangsheng-thumb.png"
+    "image": "/images/foundations/yangsheng.webp",
+    "thumb": "/images/foundations/yangsheng-thumb.webp"
   }
 ]
