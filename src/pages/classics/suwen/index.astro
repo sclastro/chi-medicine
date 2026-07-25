@@ -10,6 +10,16 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
 ---
 
 <Base title={suwen.title} description={suwen.intro}>
+  {
+    suwen.image ? (
+      <img
+        src={suwen.image}
+        alt={`${suwen.title}意境圖`}
+        loading="eager"
+        class="w-full max-w-lg mx-auto rounded-lg mb-5"
+      />
+    ) : null
+  }
   <h1 class="text-2xl font-bold text-amber-900 mb-3">{suwen.title}</h1>
   <p class="text-gray-600 text-sm leading-relaxed mb-2">{suwen.intro}</p>
   <p class="text-xs text-gray-400 mb-6">已收錄 {ready}／81 篇；其餘篇章逐批補充。</p>

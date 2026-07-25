@@ -37,6 +37,7 @@ export interface ClassicChapter {
   number: number    // 篇次 1–81
   title: string     // 上古天真論
   intro?: string    // 白話導讀:本篇宗旨、點解重要
+  image?: string    // 篇首 3:2 意境圖,如 /images/classics/suwen-01.webp
   sections: Section[]
   quiz?: QuizItem[]
 }
@@ -46,6 +47,7 @@ export interface ClassicBook {
   title: string     // 黃帝內經·素問
   order: number
   intro: string
+  image?: string    // 書目頁 3:2 意境圖,如 /images/classics/suwen.webp
   chapters: ClassicChapter[]
 }
 

@@ -23,6 +23,16 @@ const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
 ---
 
 <Base title={`${chapter.title}｜素問`} description={chapter.intro}>
+  {
+    chapter.image ? (
+      <img
+        src={chapter.image}
+        alt={`${chapter.title}意境圖`}
+        loading="eager"
+        class="w-full max-w-lg mx-auto rounded-lg mb-5"
+      />
+    ) : null
+  }
   <p class="text-xs text-gray-400 mb-1">
     <a href="/classics/suwen" class="hover:text-amber-700">素問</a> · 第{chapter.number}篇
   </p>
