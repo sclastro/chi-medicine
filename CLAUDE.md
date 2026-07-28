@@ -88,6 +88,13 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
   精選名單改動只需改 JSON，template 唔寫死。（篇首圖現時 81 篇全有，唔再只做呢 18 篇。）
 - **反留白**：生圖 prompt 必須有「主體必須佔滿整個畫面、由邊到邊，絕對不要出現大片空白區域」。
   冇呢句會出到大幅留白嘅疏圖（實測 17KB vs 平均 129KB，擺埋一齊好突兀）。呢句係品質分水嶺。
+- **段落互動用事件代理，唔用 per-section island**：`SectionReader.astro` 全靜態 HTML，
+  朗讀／書籤／難字點讀由 `lib/sectionControls.ts` 一個 document 層 listener 處理。
+  原因：每段 3 個 island 的話，71 篇（327 段）單頁會有約 2000 個 island、HTML 1.5MB。
+  **原文只可渲染一次**——`ChapterPlayer` 收 `count` 而唔收 `texts`，播放時由 DOM `.section-original` 讀取
+  （以前渲染＋SpeakButton props＋ChapterPlayer props＝重複三份）。新增段落級功能請沿用此模式。
+  `ChapterPlayer` 用 **`client:idle`**（唔用 `client:visible`）——由書籤錨點跳入長篇深處會略過播放器，
+  未 hydrate 就收唔到「由此段朗讀到尾」事件。
 - **Tailwind 色系**：主色 amber-800/900、淺底 amber-50；中性 gray-*；卡片
   `rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50`；容器 `max-w-3xl mx-auto px-4`；分段 `mb-8`。
 - **導覽次序**：路線圖(首頁) → 基礎 → 經典 → 辭典 → 資源 → 進度（先明理、後讀經、隨時查）。

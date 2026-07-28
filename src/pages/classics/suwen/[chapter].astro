@@ -52,8 +52,19 @@ const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
     ) : null
   }
 
+  {/* 圖示只定義一次,各段以 <use> 引用 —— 327 段嘅長篇可省數百 KB 重複 SVG markup */}
+  <svg width="0" height="0" class="hidden" aria-hidden="true">
+    <defs>
+      <path id="ico-bookmark" d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <g id="ico-playfrom"><path d="M4 5v14l8-7z" /><path d="M13 5v14l8-7z" /></g>
+      <path id="ico-chevron" d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </defs>
+  </svg>
+
   <div class="mb-6">
-    <ChapterPlayer client:visible chapterId={chapter.id} texts={chapter.sections.map(s => s.original)} />
+    {/* client:idle(唔用 visible):由書籤錨點跳入長篇深處時會略過播放器,
+        未 hydrate 就收唔到「由此段朗讀到尾」嘅事件。只此一個 island,成本極低。 */}
+    <ChapterPlayer client:idle chapterId={chapter.id} count={chapter.sections.length} />
   </div>
 
   <div class="mb-8">
@@ -92,6 +103,10 @@ const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
 
   <script>
     import { setLastRead } from '../../../lib/progress'
+    import { initSectionControls } from '../../../lib/sectionControls'
+
+    // 段落朗讀/書籤/難字點讀:一個事件代理取代每段 3 個 island
+    initSectionControls()
 
     // 「繼續閱讀」:記低本篇為最後閱讀
     const m = location.pathname.match(/suwen-\d+/)

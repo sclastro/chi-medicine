@@ -2,9 +2,11 @@
 // 文白對讀嘅一個閱讀段:原文(+朗讀掣+書籤掣) → 難字註(可點讀) → 白話(淺色左邊線)。
 // 直排對讀為本站核心版式 —— 手機優先,唔用雙欄左右對照。
 // 原文自測模式(html.hide-baihua)下白話摺埋,「顯示白話」逐段展開(delegation 喺 [chapter].astro)。
-import { AnnotationChips } from './react/AnnotationChips'
-import { BookmarkButton } from './react/BookmarkButton'
-import { SpeakButton } from './react/SpeakButton'
+//
+// ⚠ 效能:呢個組件**全部靜態 HTML、零 island**。互動(朗讀/書籤/難字點讀)由
+// `lib/sectionControls.ts` 一個事件代理控制器統一處理。若每段起 3 個 island,
+// 長篇(71 篇 327 段)單頁會去到約 2000 個 island、HTML 1.5MB。
+// 原文亦唔再落 props(以前渲染一次 + SpeakButton props + ChapterPlayer props = 重複三份)。
 import type { Section } from '../types/tcm'
 
 interface Props {
@@ -17,25 +19,50 @@ interface Props {
 
 const { section, chapterId, index } = Astro.props
 const speakId = chapterId != null && index != null ? `${chapterId}-s${index}` : `s-${section.original.slice(0, 8)}`
+const hasMeta = chapterId != null && index != null
 ---
 
-<div class="mb-8 scroll-mt-20" id={index != null ? `s${index}` : undefined}>
+<div class="mb-8 scroll-mt-20" id={index != null ? `s${index}` : undefined} data-section>
   <div class="flex items-start gap-1.5">
-    <p class="flex-1 text-xl leading-loose text-gray-900">{section.original}</p>
+    <p class="section-original flex-1 text-xl leading-loose text-gray-900">{section.original}</p>
     <div class="flex flex-col gap-1 items-center">
-      <SpeakButton client:visible id={speakId} text={section.original} />
+      <button
+        type="button"
+        class="speak-btn inline-flex items-center justify-center w-7 h-7 rounded-full shrink-0 transition-colors text-amber-700 hover:bg-amber-100"
+        data-speak-id={speakId}
+        aria-label="粵語朗讀"
+        aria-pressed="false"
+        title="粵語朗讀"
+      >
+        {/* 朗讀掣要逐個切換聲波動畫,<use> 嘅 shadow tree 觸唔到,所以保留 inline */}
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M11 5 6 9H2v6h4l5 4z" fill="currentColor" stroke="none" />
+          <path class="wave-1" d="M15.5 8.5a5 5 0 0 1 0 7" />
+          <path class="wave-2" d="M18.5 6a9 9 0 0 1 0 12" />
+        </svg>
+      </button>
       {
-        chapterId != null && index != null ? (
+        hasMeta ? (
           <>
-            <BookmarkButton client:visible chapterId={chapterId} sectionIndex={index} />
+            <button
+              type="button"
+              class="bookmark-btn inline-flex items-center justify-center w-7 h-7 rounded-full shrink-0 transition-colors text-gray-300 hover:text-amber-600 hover:bg-amber-50"
+              data-chapter={chapterId}
+              data-index={index}
+              aria-label="加入書籤"
+              aria-pressed="false"
+              title="加入書籤"
+            >
+              <svg class="ico-bookmark" width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="#ico-bookmark" /></svg>
+            </button>
             <button
               type="button"
               class="play-from inline-flex items-center justify-center w-7 h-7 rounded-full shrink-0 text-gray-300 hover:text-amber-700 hover:bg-amber-50 transition-colors"
               data-index={index}
-              aria-label={`由第 ${index + 1} 段朗讀到尾`}
+              aria-label={`由第 ${index! + 1} 段朗讀到尾`}
               title="由此段朗讀到尾"
             >
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 5v14l8-7z" /><path d="M13 5v14l8-7z" /></svg>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#ico-playfrom" /></svg>
             </button>
           </>
         ) : null
@@ -45,7 +72,24 @@ const speakId = chapterId != null && index != null ? `${chapterId}-s${index}` : 
 
   {
     section.annotations?.length ? (
-      <AnnotationChips client:visible annotations={section.annotations} idPrefix={speakId} />
+      <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500">
+        {section.annotations.map((a, j) => (
+          <span class="inline-flex items-baseline gap-1">
+            <button
+              type="button"
+              class="ann-speak text-amber-800 font-semibold text-sm hover:bg-amber-100 rounded px-0.5 -mx-0.5 border-b border-dotted border-amber-300"
+              data-speak-id={`${speakId}-a${j}`}
+              data-char={a.char}
+              title={`朗讀「${a.char}」`}
+              aria-label={`朗讀「${a.char}」`}
+            >
+              {a.char}
+            </button>
+            <span class="text-gray-400">{a.jyutping}</span>
+            <span>{a.meaning}</span>
+          </span>
+        ))}
+      </div>
     ) : null
   }
 
@@ -53,7 +97,7 @@ const speakId = chapterId != null && index != null ? `${chapterId}-s${index}` : 
     section.baihua ? (
       <div class="baihua-wrap mt-3">
         <button type="button" class="baihua-reveal items-center gap-1 text-xs text-amber-700 hover:underline">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="#ico-chevron" /></svg>
           顯示白話
         </button>
         <p class="baihua-block pl-3 border-l-2 border-amber-100 text-gray-600 leading-relaxed">

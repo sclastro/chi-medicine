@@ -3,8 +3,13 @@ import { speakItem, stop } from '../../lib/tts/speak'
 
 interface Props {
   chapterId: string
-  /** 各段原文(依段序) */
-  texts: string[]
+  /** 段數。原文唔經 props 傳 —— 由 DOM 攞,避免同渲染內容重複序列化(長篇差別以 MB 計)。 */
+  count: number
+}
+
+/** 由 DOM 讀各段原文(SectionReader 渲染嘅 .section-original,依文件次序即段序)。 */
+function readTexts(): string[] {
+  return Array.from(document.querySelectorAll('.section-original')).map(el => el.textContent ?? '')
 }
 
 type Mode = 'idle' | 'playing' | 'paused'
@@ -14,12 +19,14 @@ type Mode = 'idle' | 'playing' | 'paused'
  * 支援暫停/續播(記住段序,繼續時由該段開頭讀起);
  * 播放中屏幕底部有浮動控制列,唔使捲返上頂先停到。
  */
-export function ChapterPlayer({ chapterId, texts }: Props) {
+export function ChapterPlayer({ chapterId, count }: Props) {
   const [mode, setMode] = useState<Mode>('idle')
   const [current, setCurrent] = useState(-1)
   const [pausedAt, setPausedAt] = useState<number | null>(null)
   const runToken = useRef(0)
   const currentRef = useRef(-1)
+  const textsRef = useRef<string[] | null>(null)
+  const getTexts = () => (textsRef.current ??= readTexts())
 
   // 離開頁面時停止
   useEffect(
@@ -35,13 +42,13 @@ export function ChapterPlayer({ chapterId, texts }: Props) {
   useEffect(() => {
     const onPlayFrom = (e: Event) => {
       const index = (e as CustomEvent<{ index: number }>).detail?.index
-      if (Number.isInteger(index) && index >= 0 && index < texts.length) {
+      if (Number.isInteger(index) && index >= 0 && index < count) {
         void playRef.current(index)
       }
     }
     document.addEventListener('tcm:play-from', onPlayFrom)
     return () => document.removeEventListener('tcm:play-from', onPlayFrom)
-  }, [texts.length])
+  }, [count])
 
   const highlight = (idx: number | null) => {
     document.querySelectorAll('.reading-now').forEach(el => el.classList.remove('reading-now'))
@@ -67,6 +74,7 @@ export function ChapterPlayer({ chapterId, texts }: Props) {
     stop() // 搶佔任何進行中嘅播放(含個別段朗讀)
     setMode('playing')
     setPausedAt(null)
+    const texts = getTexts()
     for (let i = from; i < texts.length; i++) {
       if (runToken.current !== token) return
       setCurrent(i)
@@ -100,10 +108,10 @@ export function ChapterPlayer({ chapterId, texts }: Props) {
     reset()
   }
 
-  if (!texts.length) return null
+  if (!count) return null
 
   const progressText = mode === 'playing'
-    ? `第 ${current + 1}／${texts.length} 段`
+    ? `第 ${current + 1}／${count} 段`
     : pausedAt != null
       ? `暫停於第 ${pausedAt + 1} 段`
       : ''
