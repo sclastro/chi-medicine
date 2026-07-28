@@ -93,11 +93,11 @@ export function ProgressView({ chapters, reviewItems = [] }: Props) {
                   onClick={() => onToggleRead(c.id)}
                   aria-label={read ? `取消 ${c.title} 已讀` : `標記 ${c.title} 已讀`}
                   aria-pressed={read}
-                  className={`inline-flex items-center justify-center w-6 h-6 rounded-full shrink-0 transition-colors ${
-                    read ? 'text-amber-700' : 'text-gray-300 hover:text-amber-600'
+                  className={`inline-flex items-center justify-center w-11 h-11 -my-2 rounded-full shrink-0 transition-colors ${
+                    read ? 'text-amber-700' : 'text-gray-400 hover:text-amber-600 hover:bg-amber-50'
                   }`}
                 >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
                 </button>
                 <a
                   href={`/classics/suwen/${c.id}`}

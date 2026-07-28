@@ -29,10 +29,8 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
     ) : null
   }
   <h1 class="text-2xl font-bold text-amber-900 mb-3">{suwen.title}</h1>
-  <p class="text-gray-600 text-sm leading-relaxed mb-2">{suwen.intro}</p>
-  <p class="text-xs text-gray-400 mb-6">
-    全書 {ready} 篇已全數收錄；標示「基礎」的 {featuredCount} 篇建議入門先讀。
-  </p>
+  {/* 篇數同「基礎」嘅說明由 intro 尾句 + 下面篩選掣帶出,唔使再重複一行 */}
+  <p class="text-gray-600 text-sm leading-relaxed mb-6">{suwen.intro}</p>
 
   <ContinueReading client:load chapters={chapterInfos} />
 
@@ -40,11 +38,20 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
     <span>✦</span> 金句背誦（{quoteChapters} 篇精選 · 共 {quoteCount} 句）
   </a>
 
-  <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+  {/* 81 篇太多,平鋪好難揾:提供篩選 + 已讀標示(狀態由 localStorage 客戶端填,唔起 island) */}
+  <div class="flex items-center gap-1.5 mb-4" role="group" aria-label="篇章篩選">
+    <button type="button" class="ch-filter" data-filter="all" aria-pressed="true">全部 {ready}</button>
+    <button type="button" class="ch-filter" data-filter="featured" aria-pressed="false">基礎 {featuredCount}</button>
+    <button type="button" class="ch-filter" data-filter="unread" aria-pressed="false">未讀</button>
+  </div>
+
+  <p id="ch-empty" class="hidden text-sm text-gray-400 py-6 text-center">呢個分類暫時冇篇章。</p>
+
+  <ol id="ch-list" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
     {
       suwen.chapters.map(c =>
         isChapterReady(c) ? (
-          <li>
+          <li data-chapter={c.id} data-featured={c.featured ? 'true' : 'false'}>
             <a
               href={`/classics/suwen/${c.id}`}
               class="flex items-baseline gap-2 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors px-3 py-2.5"
@@ -56,6 +63,9 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
                   基礎
                 </span>
               ) : null}
+              <span class="read-tick hidden ml-auto shrink-0 text-amber-600" title="已讀" aria-label="已讀">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+              </span>
             </a>
           </li>
         ) : (
@@ -70,4 +80,65 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
       )
     }
   </ol>
+
+  <style>
+    .ch-filter {
+      font-size: 0.8125rem;
+      padding: 0.5rem 0.875rem;
+      min-height: 2.5rem;
+      border-radius: 9999px;
+      border: 1px solid var(--color-gray-200, #e5e7eb);
+      color: var(--color-gray-600, #4b5563);
+      transition: all 0.15s;
+    }
+    .ch-filter:hover {
+      border-color: var(--color-amber-300, #fcd34d);
+      color: var(--color-amber-800, #92400e);
+    }
+    .ch-filter[aria-pressed='true'] {
+      background: var(--color-amber-800, #92400e);
+      border-color: var(--color-amber-800, #92400e);
+      color: #fff;
+    }
+  </style>
+
+  <script>
+    import { getProgress } from '../../../lib/progress'
+
+    const list = document.getElementById('ch-list')
+    const empty = document.getElementById('ch-empty')
+    if (list && empty) {
+      // 已讀標示:由 localStorage 回填(靜態 HTML + 客戶端狀態,唔起 island)
+      const read = getProgress().read || {}
+      const items = Array.from(list.querySelectorAll<HTMLElement>('li[data-chapter]'))
+      for (const li of items) {
+        if (li.dataset.chapter && li.dataset.chapter in read) {
+          li.dataset.read = 'true'
+          li.querySelector('.read-tick')?.classList.remove('hidden')
+        }
+      }
+
+      const apply = (mode: string) => {
+        let shown = 0
+        for (const li of items) {
+          const ok =
+            mode === 'all' ||
+            (mode === 'featured' && li.dataset.featured === 'true') ||
+            (mode === 'unread' && li.dataset.read !== 'true')
+          li.classList.toggle('hidden', !ok)
+          if (ok) shown++
+        }
+        // 「待補」灰卡(冇 data-chapter)喺篩選時一律收起
+        list.querySelectorAll('li:not([data-chapter])').forEach(el => el.classList.toggle('hidden', mode !== 'all'))
+        empty.classList.toggle('hidden', shown > 0)
+      }
+
+      document.querySelectorAll<HTMLElement>('.ch-filter').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.ch-filter').forEach(b => b.setAttribute('aria-pressed', String(b === btn)))
+          apply(btn.dataset.filter || 'all')
+        })
+      })
+    }
+  </script>
 </Base>
