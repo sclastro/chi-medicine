@@ -11,12 +11,14 @@ const items: ReciteItem[] = (quotesData as { chapterId: string; text: string }[]
     return { chapterId: q.chapterId, number: ch.number, title: ch.title, text: q.text }
   })
   .sort((a, b) => a.number - b.number)
+
+const coveredChapters = new Set(items.map(i => i.chapterId)).size
 ---
 
 <Base title="金句背誦" description="《素問》必背金句:遮蔽默背、點卡對照、粵語朗讀。">
   <h1 class="text-2xl font-bold text-amber-900 mb-3">金句背誦</h1>
   <p class="text-gray-600 text-sm leading-relaxed mb-8">
-    每篇精選必背金句,共 {items.length} 句。先憑首四字提示默背,點卡對照原文,再聽朗讀鞏固;篇名可跳回全文對讀。
+    精選 {coveredChapters} 篇入門篇章的必背金句,共 {items.length} 句。先憑首四字提示默背,點卡對照原文,再聽朗讀鞏固;篇名可跳回全文對讀。
   </p>
   <ReciteCards client:load items={items} />
 </Base>

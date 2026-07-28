@@ -13,12 +13,14 @@ const prev = idx > 0 ? foundations[idx - 1] : null
 const next = idx < foundations.length - 1 ? foundations[idx + 1] : null
 ---
 
-<Base title={topic.title} description={topic.intro}>
+<Base title={topic.title} description={topic.intro} image={topic.image}>
   {
     topic.image ? (
       <img
         src={topic.image}
         alt={`${topic.title}示意圖`}
+        width="1024"
+        height="683"
         loading="eager"
         class="w-full max-w-lg mx-auto rounded-lg mb-5"
       />

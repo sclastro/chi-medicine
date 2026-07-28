@@ -22,12 +22,14 @@ const prev = idx > 0 ? readyChapters[idx - 1] : null
 const next = idx < readyChapters.length - 1 ? readyChapters[idx + 1] : null
 ---
 
-<Base title={`${chapter.title}｜素問`} description={chapter.intro}>
+<Base title={`${chapter.title}｜素問`} description={chapter.intro} image={chapter.image}>
   {
     chapter.image ? (
       <img
         src={chapter.image}
         alt={`${chapter.title}意境圖`}
+        width="1024"
+        height="683"
         loading="eager"
         class="w-full max-w-lg mx-auto rounded-lg mb-5"
       />

@@ -5,13 +5,18 @@ import { TtsSettings } from '../components/react/TtsSettings'
 interface Props {
   title?: string
   description?: string
+  /** 分享預覽圖(站內絕對路徑,如 /images/classics/suwen-01.webp);未指定則用首頁橫幅。 */
+  image?: string
 }
 
-const { title, description } = Astro.props
+const { title, description, image } = Astro.props
 const fullTitle = title ? `${title}｜岐黃入門` : '岐黃入門｜中醫經典學習'
 const desc =
   description ??
   '為準備入讀中醫課程的初學者而設：中醫基礎理論導覽、《黃帝內經》文白對讀、難字註與粵語朗讀。'
+// OG 需要絕對網址;Astro.site 由 astro.config 嘅 site 提供
+const canonical = new URL(Astro.url.pathname, Astro.site)
+const ogImage = new URL(image ?? '/images/home-hero.webp', Astro.site)
 
 const nav = [
   { href: '/foundations', label: '基礎' },
@@ -30,7 +35,21 @@ const path = Astro.url.pathname
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={desc} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonical.href} />
     <title>{fullTitle}</title>
+
+    {/* 分享預覽(WhatsApp/FB/Telegram 等) */}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="岐黃入門" />
+    <meta property="og:locale" content="zh_HK" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical.href} />
+    <meta property="og:image" content={ogImage.href} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImage.href} />
     <script is:inline>
       // 閱讀偏好防 FOUC:同 lib/reader.ts 嘅 class 名必須一致
       try {

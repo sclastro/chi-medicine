@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro'
+
+const links = [
+  { href: '/', label: '返回首頁', desc: '入學前學習路線圖' },
+  { href: '/foundations', label: '中醫基礎理論', desc: '陰陽五行、藏象、經絡等 8 個主題' },
+  { href: '/classics/suwen', label: '《素問》81 篇', desc: '文白對讀、難字註、粵語朗讀' },
+  { href: '/glossary', label: '術語辭典', desc: '114 條核心名詞' },
+  { href: '/search', label: '全文搜尋', desc: '搵唔到就直接搜' },
+]
+---
+
+<Base title="找不到頁面" description="這個網址不存在,請由以下入口繼續。">
+  <p class="text-6xl font-bold text-amber-200 mb-2">404</p>
+  <h1 class="text-2xl font-bold text-amber-900 mb-3">找不到這個頁面</h1>
+  <p class="text-gray-600 leading-relaxed mb-8">
+    網址可能輸入有誤,或該頁面已經調整。可以由以下入口繼續。
+  </p>
+
+  <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+    {
+      links.map(l => (
+        <li>
+          <a
+            href={l.href}
+            class="block rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 transition-colors px-4 py-3"
+          >
+            <span class="block text-sm font-medium text-amber-900">{l.label}</span>
+            <span class="block text-xs text-gray-500 mt-0.5">{l.desc}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

@@ -37,6 +37,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-05",
         "label": "素問·陰陽應象大論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-35",
+        "label": "素問·瘧論"
       }
     ]
   },
@@ -255,6 +260,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-08",
         "label": "素問·靈蘭秘典論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-38",
+        "label": "素問·欬論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-72",
+        "label": "素問·刺法論（遺篇）"
       }
     ]
   },
@@ -267,6 +282,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-08",
         "label": "素問·靈蘭秘典論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-17",
+        "label": "素問·脈要精微論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-72",
+        "label": "素問·刺法論（遺篇）"
       }
     ]
   },
@@ -279,6 +304,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-44",
         "label": "素問·痿論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-45",
+        "label": "素問·厥論"
       }
     ]
   },
@@ -291,6 +321,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-08",
         "label": "素問·靈蘭秘典論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-72",
+        "label": "素問·刺法論（遺篇）"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-73",
+        "label": "素問·本病論（遺篇）"
       }
     ]
   },
@@ -303,6 +343,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-08",
         "label": "素問·靈蘭秘典論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-72",
+        "label": "素問·刺法論（遺篇）"
       }
     ]
   },
@@ -360,13 +405,25 @@
   {
     "term": "宗氣",
     "category": "氣血津液",
-    "definition": "積於胸中之氣,由清氣與水穀精氣結合而成;走息道以司呼吸,貫心脈以行氣血。"
+    "definition": "積於胸中之氣,由清氣與水穀精氣結合而成;走息道以司呼吸,貫心脈以行氣血。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-18",
+        "label": "素問·平人氣象論"
+      }
+    ]
   },
   {
     "term": "營氣",
     "category": "氣血津液",
     "definition": "行於脈中的水穀精氣,化生血液、營養全身;「營者,水穀之精氣也」。",
     "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      },
       {
         "bookId": "suwen",
         "chapterId": "suwen-43",
@@ -379,6 +436,16 @@
     "category": "氣血津液",
     "definition": "行於脈外的水穀悍氣,慓疾滑利;溫養肌表、抵禦外邪、司汗孔開合。",
     "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-26",
+        "label": "素問·八正神明論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-35",
+        "label": "素問·瘧論"
+      },
       {
         "bookId": "suwen",
         "chapterId": "suwen-43",
@@ -398,15 +465,42 @@
     "refs": [
       {
         "bookId": "suwen",
+        "chapterId": "suwen-03",
+        "label": "素問·生氣通天論"
+      },
+      {
+        "bookId": "suwen",
         "chapterId": "suwen-08",
         "label": "素問·靈蘭秘典論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-71",
+        "label": "素問·六元正紀大論"
       }
     ]
   },
   {
     "term": "津液",
     "category": "氣血津液",
-    "definition": "人體一切正常水液的總稱:清稀者為津,濡潤肌表孔竅;稠厚者為液,滋養骨節臟腑腦髓。"
+    "definition": "人體一切正常水液的總稱:清稀者為津,濡潤肌表孔竅;稠厚者為液,滋養骨節臟腑腦髓。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-08",
+        "label": "素問·靈蘭秘典論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-29",
+        "label": "素問·太陰陽明論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-34",
+        "label": "素問·逆調論"
+      }
+    ]
   },
   {
     "term": "氣為血之帥",
@@ -438,12 +532,46 @@
   {
     "term": "經絡",
     "category": "經絡",
-    "definition": "氣血運行的通路系統:經是縱行主幹,絡是網狀分支,內屬臟腑、外絡肢節。"
+    "definition": "氣血運行的通路系統:經是縱行主幹,絡是網狀分支,內屬臟腑、外絡肢節。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-20",
+        "label": "素問·三部九候論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-28",
+        "label": "素問·通評虛實論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-62",
+        "label": "素問·調經論"
+      }
+    ]
   },
   {
     "term": "十二經脈",
     "category": "經絡",
-    "definition": "手足三陰三陽十二條正經,名稱由「手足+陰陽+臟腑」組成;陰經行內側屬臟,陽經行外側屬腑。"
+    "definition": "手足三陰三陽十二條正經,名稱由「手足+陰陽+臟腑」組成;陰經行內側屬臟,陽經行外側屬腑。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-16",
+        "label": "素問·診要經終論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-31",
+        "label": "素問·熱論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-62",
+        "label": "素問·調經論"
+      }
+    ]
   },
   {
     "term": "奇經八脈",
@@ -459,6 +587,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-01",
         "label": "素問·上古天真論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-59",
+        "label": "素問·氣府論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-60",
+        "label": "素問·骨空論"
       }
     ]
   },
@@ -471,6 +609,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-44",
         "label": "素問·痿論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-59",
+        "label": "素問·氣府論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-60",
+        "label": "素問·骨空論"
       }
     ]
   },
@@ -479,6 +627,11 @@
     "category": "經絡",
     "definition": "起於胞中(關元),挾臍上行;為「十二經之海」「血海」,主滲灌溪谷。",
     "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-01",
+        "label": "素問·上古天真論"
+      },
       {
         "bookId": "suwen",
         "chapterId": "suwen-39",
@@ -529,6 +682,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-44",
         "label": "素問·痿論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-52",
+        "label": "素問·刺禁論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-59",
+        "label": "素問·氣府論"
       }
     ]
   },
@@ -539,8 +702,18 @@
     "refs": [
       {
         "bookId": "suwen",
+        "chapterId": "suwen-35",
+        "label": "素問·瘧論"
+      },
+      {
+        "bookId": "suwen",
         "chapterId": "suwen-42",
         "label": "素問·風論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-60",
+        "label": "素問·骨空論"
       }
     ]
   },
@@ -581,12 +754,46 @@
   {
     "term": "正氣",
     "category": "病因病機",
-    "definition": "人體的抗病與自我修復能力;「正氣存內,邪不可干;邪之所湊,其氣必虛」。"
+    "definition": "人體的抗病與自我修復能力;「正氣存內,邪不可干;邪之所湊,其氣必虛」。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-27",
+        "label": "素問·離合真邪論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-64",
+        "label": "素問·四時刺逆從論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-72",
+        "label": "素問·刺法論（遺篇）"
+      }
+    ]
   },
   {
     "term": "邪氣",
     "category": "病因病機",
-    "definition": "一切致病因素的統稱;「邪氣盛則實,精氣奪則虛」是虛實辨證的總綱。"
+    "definition": "一切致病因素的統稱;「邪氣盛則實,精氣奪則虛」是虛實辨證的總綱。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-35",
+        "label": "素問·瘧論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-62",
+        "label": "素問·調經論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-71",
+        "label": "素問·六元正紀大論"
+      }
+    ]
   },
   {
     "term": "痰飲",
@@ -617,6 +824,16 @@
     "refs": [
       {
         "bookId": "suwen",
+        "chapterId": "suwen-18",
+        "label": "素問·平人氣象論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-40",
+        "label": "素問·腹中論"
+      },
+      {
+        "bookId": "suwen",
         "chapterId": "suwen-42",
         "label": "素問·風論"
       }
@@ -629,8 +846,18 @@
     "refs": [
       {
         "bookId": "suwen",
+        "chapterId": "suwen-04",
+        "label": "素問·金匱真言論"
+      },
+      {
+        "bookId": "suwen",
         "chapterId": "suwen-42",
         "label": "素問·風論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-69",
+        "label": "素問·氣交變大論"
       }
     ]
   },
@@ -643,6 +870,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-03",
         "label": "素問·生氣通天論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-49",
+        "label": "素問·脈解"
       }
     ]
   },
@@ -672,6 +904,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-42",
         "label": "素問·風論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-48",
+        "label": "素問·大奇論"
       }
     ]
   },
@@ -720,6 +957,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-44",
         "label": "素問·痿論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-77",
+        "label": "素問·疏五過論"
       }
     ]
   },
@@ -744,6 +986,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-02",
         "label": "素問·四氣調神大論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-05",
+        "label": "素問·陰陽應象大論"
       },
       {
         "bookId": "suwen",
@@ -778,6 +1025,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-17",
         "label": "素問·脈要精微論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-40",
+        "label": "素問·腹中論"
       }
     ]
   },
@@ -798,6 +1050,11 @@
     "category": "病因病機",
     "definition": "肌膚麻木、感覺遲鈍;衛氣凝滯或營衛行澀、皮膚失養所致。",
     "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-34",
+        "label": "素問·逆調論"
+      },
       {
         "bookId": "suwen",
         "chapterId": "suwen-42",
@@ -882,6 +1139,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-09",
         "label": "素問·六節藏象論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-40",
+        "label": "素問·腹中論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-46",
+        "label": "素問·病能論"
       }
     ]
   },
@@ -906,6 +1173,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-25",
         "label": "素問·寶命全形論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-26",
+        "label": "素問·八正神明論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-27",
+        "label": "素問·離合真邪論"
       }
     ]
   },
@@ -981,7 +1258,19 @@
   {
     "term": "同病異治",
     "category": "診法辨證",
-    "definition": "同一疾病因證不同而治法不同,如風寒感冒辛溫解表、風熱感冒辛涼解表。"
+    "definition": "同一疾病因證不同而治法不同,如風寒感冒辛溫解表、風熱感冒辛涼解表。",
+    "refs": [
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-46",
+        "label": "素問·病能論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-70",
+        "label": "素問·五常政大論"
+      }
+    ]
   },
   {
     "term": "異病同治",
@@ -997,6 +1286,11 @@
         "bookId": "suwen",
         "chapterId": "suwen-02",
         "label": "素問·四氣調神大論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-32",
+        "label": "素問·刺熱"
       }
     ]
   },
@@ -1038,6 +1332,16 @@
         "bookId": "suwen",
         "chapterId": "suwen-14",
         "label": "素問·湯液醪醴論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-65",
+        "label": "素問·標本病傳論"
+      },
+      {
+        "bookId": "suwen",
+        "chapterId": "suwen-74",
+        "label": "素問·至真要大論"
       }
     ]
   },

@@ -2,19 +2,26 @@
 import Base from '../../../layouts/Base.astro'
 import { ContinueReading } from '../../../components/react/ContinueReading'
 import { getBook, isChapterReady } from '../../../data'
+import quotesData from '../../../data/quotes.json'
 
 const suwen = getBook('suwen')!
 const readyChapters = suwen.chapters.filter(isChapterReady)
 const ready = readyChapters.length
+// 金句現時只覆蓋部分篇章,標籤以實際資料為準(唔可以用 ready 冒充)
+const quotes = quotesData as { chapterId: string }[]
+const quoteCount = quotes.length
+const quoteChapters = new Set(quotes.map(q => q.chapterId)).size
 const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title: c.title }))
 ---
 
-<Base title={suwen.title} description={suwen.intro}>
+<Base title={suwen.title} description={suwen.intro} image={suwen.image}>
   {
     suwen.image ? (
       <img
         src={suwen.image}
         alt={`${suwen.title}意境圖`}
+        width="1024"
+        height="683"
         loading="eager"
         class="w-full max-w-lg mx-auto rounded-lg mb-5"
       />
@@ -27,7 +34,7 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
   <ContinueReading client:load chapters={chapterInfos} />
 
   <a href="/recite" class="inline-flex items-center gap-1.5 text-sm text-amber-700 hover:underline mb-6">
-    <span>✦</span> 金句背誦（{ready} 篇精選名句）
+    <span>✦</span> 金句背誦（{quoteChapters} 篇精選 · 共 {quoteCount} 句）
   </a>
 
   <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
