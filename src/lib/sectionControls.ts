@@ -26,7 +26,7 @@ function setSpeakActive(btn: HTMLElement, active: boolean) {
 
 function setBookmarked(btn: HTMLElement, marked: boolean) {
   btn.classList.toggle('text-amber-700', marked)
-  btn.classList.toggle('text-gray-300', !marked)
+  btn.classList.toggle('text-gray-400', !marked)   // 同 SectionReader 嘅 idle 色一致
   btn.classList.toggle('hover:text-amber-600', !marked)
   btn.classList.toggle('hover:bg-amber-50', !marked)
   btn.setAttribute('aria-pressed', String(marked))

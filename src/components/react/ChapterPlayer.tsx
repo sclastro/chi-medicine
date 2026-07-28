@@ -137,7 +137,8 @@ export function ChapterPlayer({ chapterId, count }: Props) {
         </button>
       </span>
     ) : (
-      <button type="button" onClick={() => void play(0)} className="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-gray-300 text-gray-700 hover:border-amber-400 hover:text-amber-800 transition-colors">
+      // 本站最有特色嘅功能,用主色實心掣(舊版同次要掣冇分別,睇唔出係主要動作)
+      <button type="button" onClick={() => void play(0)} className="inline-flex items-center gap-2 text-sm font-medium px-5 py-2.5 rounded-md bg-amber-800 text-white shadow-sm hover:bg-amber-700 transition-colors">
         <PlayIcon />
         朗讀全篇
       </button>

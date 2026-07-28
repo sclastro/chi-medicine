@@ -95,6 +95,10 @@ speak(id,text) → ①Poe 高質朗讀(經 /api/tts) → ②失敗即 markPoeDeg
   （以前渲染＋SpeakButton props＋ChapterPlayer props＝重複三份）。新增段落級功能請沿用此模式。
   `ChapterPlayer` 用 **`client:idle`**（唔用 `client:visible`）——由書籤錨點跳入長篇深處會略過播放器，
   未 hydrate 就收唔到「由此段朗讀到尾」事件。
+- **觸控目標**：手機優先，可撳嘅掣最少 **44×44px**（Tailwind `w-11 h-11`，本站基準字體 17.5px 實際約 48px）。
+  段落控制掣（朗讀／書籤／由此讀起）**橫排一行貼右、放喺原文之下**——舊版擠喺右邊 28px 窄欄，
+  手指撳唔中，仲搶走正文闊度（實測改版後正文由 327px 增至 355px）。
+  主要動作用實心主色掣（如「朗讀全篇」`bg-amber-800 text-white`），唔好同次要掣同一個樣。
 - **Tailwind 色系**：主色 amber-800/900、淺底 amber-50；中性 gray-*；卡片
   `rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50`；容器 `max-w-3xl mx-auto px-4`；分段 `mb-8`。
 - **導覽次序**：路線圖(首頁) → 基礎 → 經典 → 辭典 → 資源 → 進度（先明理、後讀經、隨時查）。

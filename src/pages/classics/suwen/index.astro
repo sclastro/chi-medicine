@@ -7,6 +7,7 @@ import quotesData from '../../../data/quotes.json'
 const suwen = getBook('suwen')!
 const readyChapters = suwen.chapters.filter(isChapterReady)
 const ready = readyChapters.length
+const featuredCount = suwen.chapters.filter(c => c.featured).length
 // 金句現時只覆蓋部分篇章,標籤以實際資料為準(唔可以用 ready 冒充)
 const quotes = quotesData as { chapterId: string }[]
 const quoteCount = quotes.length
@@ -29,7 +30,9 @@ const chapterInfos = readyChapters.map(c => ({ id: c.id, number: c.number, title
   }
   <h1 class="text-2xl font-bold text-amber-900 mb-3">{suwen.title}</h1>
   <p class="text-gray-600 text-sm leading-relaxed mb-2">{suwen.intro}</p>
-  <p class="text-xs text-gray-400 mb-6">已收錄 {ready}／81 篇；其餘篇章逐批補充。</p>
+  <p class="text-xs text-gray-400 mb-6">
+    全書 {ready} 篇已全數收錄；標示「基礎」的 {featuredCount} 篇建議入門先讀。
+  </p>
 
   <ContinueReading client:load chapters={chapterInfos} />
 
