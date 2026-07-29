@@ -24,6 +24,9 @@ export function GlossarySearch({ terms }: Props) {
     })
   }, [terms, query, category])
 
+  // 未搜尋、未揀分類先分組;一篩選就攤平(分組反而阻住睇結果)
+  const grouped = !query.trim() && !category
+
   if (!terms.length) {
     return (
       <p className="text-gray-400 text-sm">
@@ -56,9 +59,40 @@ export function GlossarySearch({ terms }: Props) {
         </select>
       </div>
 
+      <p className="text-xs text-gray-400 mb-3">
+        {query.trim() || category ? `${filtered.length} 條符合` : `共 ${terms.length} 條，分 ${categories.length} 類`}
+      </p>
+
       {filtered.length ? (
-        <ul className="space-y-4">
-          {filtered.map(t => (
+        grouped ? (
+          // 未篩選時按分類分組,114 條先至揾得到路
+          <div className="space-y-8">
+            {categories.map(cat => {
+              const items = filtered.filter(t => t.category === cat)
+              if (!items.length) return null
+              return (
+                <section key={cat}>
+                  <h2 className="text-sm font-semibold text-amber-900 border-b border-amber-100 pb-1.5 mb-3">
+                    {cat}
+                    <span className="text-xs font-normal text-gray-400 ml-2">{items.length}</span>
+                  </h2>
+                  <ul className="space-y-4">{items.map(renderTerm)}</ul>
+                </section>
+              )
+            })}
+          </div>
+        ) : (
+          <ul className="space-y-4">{filtered.map(renderTerm)}</ul>
+        )
+      ) : (
+        <p className="text-gray-400 text-sm">沒有符合的條目。</p>
+      )}
+    </div>
+  )
+}
+
+function renderTerm(t: GlossaryTerm) {
+  return (
             <li key={t.term} className="rounded-lg border border-gray-200 p-4">
               <div className="flex items-baseline gap-2 mb-1">
                 <h3 className="font-semibold text-amber-900">{t.term}</h3>
@@ -79,11 +113,5 @@ export function GlossarySearch({ terms }: Props) {
                 </p>
               ) : null}
             </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="text-gray-400 text-sm">沒有符合的條目。</p>
-      )}
-    </div>
   )
 }
